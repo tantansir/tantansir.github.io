@@ -16,7 +16,7 @@ import getorg
 from geopy import Nominatim
 
 g = glob.glob("*.md")
-
+g = glob.glob("*.md")
 
 geocoder = Nominatim()
 location_dict = {}
