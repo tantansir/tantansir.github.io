@@ -1,3 +1,7 @@
+Upcoming News
+======
+In September of this year, I will be joining the Institute for Infocomm Research (I2R), A*STAR in Singapore and collaborating with a research team focused on Intelligent Transportation Solutions. I will be deeply involved in a project focused on Air Traffic Management, leveraging data modeling and operational optimization.
+
 ---
 permalink: /
 title: "Biography"
@@ -19,13 +23,9 @@ You can find my CV here: [Kaizhen Tan's Curriculum Vitae](../assets/CV_Kaizhen T
 
 [Email](mailto:tkz@tongji.edu.cn) / [Github](https://github.com/tantansir) / [Wechat](../images/Wechat.jpg) / [LinkedIn](https://www.linkedin.com/in/kaizhen-tan-b020232b3/)
 
-Upcoming News
-======
-In September of this year, I will be joining the Institute for Infocomm Research (I2R), A*STAR in Singapore and collaborating with a research team focused on Intelligent Transportation Solutions. I will be deeply involved in a project focused on Air Traffic Management, leveraging data modeling and operational optimization.
-
 Education
 ======
-2021-2025, Bachelor's Degree, Information Management and Information System, Tongji University
+2021-2025, Bachelor, Information Management and Information System, Tongji University
 
 Research Interests
 ======
