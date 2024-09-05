@@ -3,7 +3,6 @@ title: "An elegant map matching algorithm: How can we distinguish GPS trajectory
 collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4
-excerpt:
-date: 2024-12-31
+date: 2025-12-31
 venue: 'ICLR 2025 Tiny Papers'
 ---
