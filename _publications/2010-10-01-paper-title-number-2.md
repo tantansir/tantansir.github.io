@@ -4,6 +4,6 @@ collection: publications
 category: manuscripts
 permalink: /publication/2010-10-01-paper-title-number-2
 date: 2025-12-31
-venue: 'ISPRS International Journal of Geo-Information'
+venue: 'Computers, Environment and Urban Systems'
 slidesurl: '/files/汇报.pdf'
 ---
