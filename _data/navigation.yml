@@ -6,7 +6,7 @@
 
 main:
   - title: "Publications"
-    url: #/publications/
+    url: /publications/
 
   - title: "CV"
     url: /assets/CV_Kaizhen TAN.pdf
