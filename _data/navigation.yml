@@ -9,16 +9,4 @@ main:
     url: #/publications/
 
   - title: "CV"
-    url: #/cv/
-
-  - title: "Talks"
-    url: #/talks/
-
-  - title: "Teaching"
-    url: #/teaching/
-    
-  - title: "Portfolio"
-    url: #/portfolio/
-        
-  - title: "Blog Posts"
-    url: #/year-archive/
+    url: /assets/CV_Kaizhen TAN.pdf/
