@@ -21,7 +21,7 @@ You can find my CV here: [Kaizhen Tan's Curriculum Vitae](../assets/CV_Kaizhen T
 
 Upcoming News
 ======
-In September of this year, I will be joining the Institute for Infocomm Research (I2R), [A*STAR](https://www.a-star.edu.sg/) in Singapore and collaborating with a research team focused on [Intelligent Transportation Solutions](https://www.a-star.edu.sg/i2r/research-capabilities/intelligent-transportation-systems). I will be deeply involved in a project focused on Air Traffic Management, leveraging data modeling and operational optimization, supervised by [Dr. Yicheng Zhang](https://zinczhang.github.io/).
+In September of this year, I will be joining the Institute for Infocomm Research (I2R), [A*STAR](https://www.a-star.edu.sg/) in Singapore and collaborating with a research team focused on [Intelligent Transportation Solutions](https://www.a-star.edu.sg/i2r/research-capabilities/intelligent-transportation-systems). I will be deeply involved in a project focused on Air Traffic Management, leveraging data modeling and operational optimization, supervised by [Dr. Yicheng Zhang](https://zinczhang.github.io/) and [Dr.Sheng Zhang](https://ieeexplore.ieee.org/author/37086165610).
 
 Education
 ======
