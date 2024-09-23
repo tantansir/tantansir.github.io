@@ -43,7 +43,7 @@
         {% elsif post.collection == 'publications' %}
           <p>
             {% if post.venue contains 'in preparation' %}
-              Manuscript in preparation, Planned to submit to <i>{{ post.venue | replace: 'in preparation for ', '' }}</i>
+              Manuscript in preparation, Plan to submit to <i>{{ post.venue | replace: 'in preparation for ', '' }}</i>
             {% else %}
               Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
             {% endif %}
