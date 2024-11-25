@@ -1,5 +1,5 @@
 ---
-title: "Trajectory-Based Prediction of Air Traffic Control Commands in Terminal Operations"
+title: "Trajectory-Based Prediction of Air Traffic Control Commands Lifecycles in Terminal Airspace"
 collection: publications
 category: manuscripts
 permalink: /publication/2024-11-25-paper-title-number-1

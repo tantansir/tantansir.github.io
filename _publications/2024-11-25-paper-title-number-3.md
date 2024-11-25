@@ -1,5 +1,5 @@
 ---
-title: "Adaptive Modularity-based Method for Tracking Congestion Propagation in Dynamic Traffic Networks"
+title: "An Adaptive Modularity-based Method for Tracking Congestion Propagation in Dynamic Traffic Networks"
 collection: publications
 category: manuscripts
 permalink: /publication/2024-11-25-paper-title-number-3
