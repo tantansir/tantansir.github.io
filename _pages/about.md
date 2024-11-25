@@ -33,10 +33,10 @@ Research Interests
 
 · Urban Data Science
 
-· Geospatial-temporal Data Mining
+· Spatio-temporal Data Mining
 
 · Machine Learning
 
-· Human Mobility
+· Urban Mobility
 
-· Human Geography
+· Urban Perception
