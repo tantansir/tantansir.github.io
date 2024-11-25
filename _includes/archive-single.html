@@ -42,9 +42,7 @@
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
           <p>
-            {% if post.venue == 'Initial draft completed' %}
-              Initial draft completed
-            {% else if post.venue == 'Manuscript in preparation' %}
+            {% if post.venue == 'Manuscript in preparation' %}
               Manuscript in preparation
             {% else if post.venue contains 'Initial draft completed' %}
               Initial draft completed, Plan to submit to <i>{{ post.venue | replace: 'Initial draft completed, ', '' }}</i>
