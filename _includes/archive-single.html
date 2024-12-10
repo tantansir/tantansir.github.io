@@ -52,7 +52,7 @@
           <p>
             {% if post.venue contains 'hehe' %}
               Manuscript in preparation
-            {% if post.venue contains 'haha' %}
+            {% elsif post.venue contains 'haha' %}
               Initial draft completed
             {% elsif post.venue contains 'Initial draft completed' %}
               Initial draft completed, Plan to submit to <i>{{ post.venue | replace: 'Initial draft completed, ', '' }}</i>
