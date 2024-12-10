@@ -6,5 +6,5 @@ permalink: /publication/2024-11-25-paper-title-number-3
 date: 2025-12-31
 venue: 'Initial draft completed, Computers, Environment and Urban Systems'
 slidesurl: '/files/汇报.pdf'
-paperurl: '/files/manuscript1.pdf'
+# paperurl: '/files/manuscript1.pdf'
 ---
