@@ -23,7 +23,7 @@ Recent Updates
 ======
 In September of this year, I joined the Institute for Infocomm Research (I2R), [A*STAR](https://www.a-star.edu.sg/) in Singapore and collaborating with a research team focused on [Intelligent Transportation Solutions](https://www.a-star.edu.sg/i2r/research-capabilities/intelligent-transportation-systems). My work primarily centered on a project for Air Traffic Management, involving data modeling, deep learning, and operational optimization under the supervision of [Dr. Yicheng Zhang](https://zinczhang.github.io/) and [Dr.Sheng Zhang](https://ieeexplore.ieee.org/author/37086165610).
 
-As of December, I have completed the on-site work in Singapore. After returning to China, I will continue collaborating remotely and, under the guidance of [Dr. Kejie Wei](https://kejiwei.github.io/), Assistant Professor of Operations at Tongji University, develop this work into my graduation thesis.
+As of December, I have completed the on-site work in Singapore. After returning to China, I will continue collaborating remotely and develop this work into my graduation thesis under the guidance of [Dr. Kejie Wei](https://kejiwei.github.io/), Assistant Professor of Operations at Tongji University.
 
 Education
 ======
