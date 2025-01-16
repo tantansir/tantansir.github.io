@@ -25,7 +25,7 @@ In September 2024, I joined the Institute for Infocomm Research (I2R) at [A*STAR
 
 By December 2024, I wrapped up my on-site work in Singapore and returned to China, where I continue to collaborate remotely. This project has since evolved into my graduation thesis, guided by [Dr. Kejie Wei](https://kejiwei.github.io/), Assistant Professor of Operations at Tongji University.
 
-In February 2025, I will begin an AI product manager internship at the [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/), focusing on advancing AI applications across diverse scenarios and driving innovative solutions.
+In January 2025, I will begin an AI product manager internship at the [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/), focusing on advancing AI applications across diverse scenarios and driving innovative solutions.
 
 Education
 ======
