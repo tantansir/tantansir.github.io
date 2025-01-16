@@ -21,9 +21,11 @@ You can find my CV here: [Kaizhen Tan's Curriculum Vitae](../assets/CV_Kaizhen T
 
 Recent Updates
 ======
-In September of this year, I joined the Institute for Infocomm Research (I2R), [A*STAR](https://www.a-star.edu.sg/) in Singapore and collaborating with a research team focused on [Intelligent Transportation Solutions](https://www.a-star.edu.sg/i2r/research-capabilities/intelligent-transportation-systems). My work primarily centered on a project for Air Traffic Management, involving data modeling, deep learning, and operational optimization under the supervision of [Dr. Yicheng Zhang](https://zinczhang.github.io/) and [Dr.Sheng Zhang](https://ieeexplore.ieee.org/author/37086165610).
+In September 2024, I joined the Institute for Infocomm Research (I2R) at [A*STAR](https://www.a-star.edu.sg/) in Singapore, collaborating with a research team specializing in [Intelligent Transportation Solutions](https://www.a-star.edu.sg/i2r/research-capabilities/intelligent-transportation-systems). My work focused on an Air Traffic Management project, involving data modeling, deep learning, and operational optimization, under the supervision of [Dr. Yicheng Zhang](https://zinczhang.github.io/) and [Dr.Sheng Zhang](https://ieeexplore.ieee.org/author/37086165610).
 
-As of December, I have completed the on-site work in Singapore. After returning to China, I will continue collaborating remotely and develop this work into my graduation thesis under the guidance of [Dr. Kejie Wei](https://kejiwei.github.io/), Assistant Professor of Operations at Tongji University.
+In December 2024, I completed my on-site work in Singapore. Upon returning to China, I continue to collaborate remotely, further developing this research into my graduation thesis under the guidance of [Dr. Kejie Wei](https://kejiwei.github.io/), Assistant Professor of Operations at Tongji University.
+
+Starting in February 2025, I will join the Shanghai Artificial Intelligence Laboratory as a product manager intern, where I aim to explore practical applications of AI and contribute to cutting-edge innovations.
 
 Education
 ======
