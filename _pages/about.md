@@ -30,17 +30,14 @@ In January 2025, I will begin an AI product manager internship at the [Shanghai 
 Education
 ======
 2021-2025, Bachelor, Information Management and Information System, Tongji University
+2025-2026, Master, Artificial Intelligence Systems Management, Carnegie Mellon University
 
 Research Interests
 ======
-· GeoAI
-
-· Urban Data Science
+· UrbanAI & GeoAI
 
 · Spatio-temporal Data Mining
 
-· Machine Learning
+· Urban Computing
 
-· Urban Mobility
-
-· Urban Perception
+· Social Computing
