@@ -30,6 +30,7 @@ In January 2025, I will begin an AI product manager internship at the [Shanghai 
 Education
 ======
 2021-2025, Bachelor, Information Management and Information System, Tongji University
+
 2025-2026, Master, Artificial Intelligence Systems Management, Carnegie Mellon University
 
 Research Interests
