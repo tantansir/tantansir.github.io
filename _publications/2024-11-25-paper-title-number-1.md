@@ -1,5 +1,5 @@
 ---
-title: "Trajectory-Based Prediction of Air Traffic Control Commands Lifecycles in Terminal Airspace"
+title: "Multimodal Deep Learning for Modeling ATCO Command Lifecycle and Workload Prediction in Terminal Airspace"
 collection: publications
 category: manuscripts
 permalink: /publication/2024-11-25-paper-title-number-1
