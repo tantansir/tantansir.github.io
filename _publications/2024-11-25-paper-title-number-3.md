@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2024-11-25-paper-title-number-3
 date: 2025-12-31
-venue: 'Submitted, International Journal of Geographical Information Science'
+venue: 'Under Review, GIScience & Remote Sensing'
 paperurl: '/files/manuscript1.pdf'
 slidesurl: '/files/汇报.pdf'
 ---
