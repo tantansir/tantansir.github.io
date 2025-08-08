@@ -6,14 +6,16 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 Hi! I’m Kaizhen Tan (谭楷蓁), a master’s student in Artificial Intelligence Systems Management at Heinz College, Carnegie Mellon University.
 
-With a background in Information Management and Information System from Tongji University, I’ve developed strong technical skills in programming, data analysis, and machine learning, alongside a solid understanding of business and organizational systems.
+I hold a bachelor’s degree in Information Management and Information System from Tongji University, where I built a strong foundation in programming, data analysis, and machine learning, complemented by interdisciplinary training in business and organizational systems.
 
-My academic and research interests lie at the intersection of AI, urban data science, and geospatial analytics. I’m particularly passionate about exploring how data-driven methods and intelligent systems can improve urban life and inform human-centered planning and decision-making.
+Over the past few years, my academic trajectory has increasingly focused on the convergence of AI and spatial thinking. I am particularly interested in the emerging field of Spatial Intelligence, and how it can be applied to understand and enhance urban environments through computational means. My research interests form an evolving chain that spans:
+Urban Computing, Spatio-temporal Data Mining → UrbanAI, GeoAI → Embodied AI in Urban Scenes, Low-Altitude → Spatial Intelligence, World Model → Neural and Brain Science
 
-Ultimately, I aspire to become a data scientist who harnesses the power of AI to address complex urban and social challenges—with the broader goal of enhancing people's well-being through meaningful, real-world impact.
+At the core of my work is a desire to integrate intelligent systems with urban dynamics, building AI models that are not only technically powerful but also spatially and socially aware. I believe that the future of AI lies in its ability to perceive, reason, and interact with the real world—not just through data, but through space, behavior, and cognition.
+
+Ultimately, I aim to become a data scientist and spatial AI researcher who leverages computational tools to solve complex urban and societal challenges, making cities more adaptive, inclusive, and human-centric.
 
 [View My CV](../assets/CV_Kaizhen TAN.pdf)
 
