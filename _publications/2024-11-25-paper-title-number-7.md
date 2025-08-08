@@ -6,5 +6,5 @@ permalink: /publication/2024-11-25-paper-title-number-7
 date: 2025-12-31
 venue: 'Accepted, 7th Asia Conference on Machine Learning and Computing (ACMLC 2025)'
 paperurl: '/files/manuscript3.pdf'
-slidesurl: '/files/ACMLC2025.pdf'
+slidesurl: '/files/ACMLC2025.pptx'
 ---
