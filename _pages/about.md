@@ -6,12 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi! I’m Kaizhen Tan (谭楷蓁), a master’s student in Artificial Intelligence Systems Management at Carnegie Mellon University.
+Hi! I’m Kaizhen Tan (谭楷蓁), a master’s student in Artificial Intelligence Systems Management at Carnegie Mellon University. I hold a bachelor’s degree in Information Management and Information System from Tongji University, where I built a strong foundation in programming, data analysis, and machine learning, complemented by interdisciplinary training in business and organizational systems.
 
-I hold a bachelor’s degree in Information Management and Information System from Tongji University, where I built a strong foundation in programming, data analysis, and machine learning, complemented by interdisciplinary training in business and organizational systems.
-
-Over the past few years, my academic trajectory has increasingly focused on the convergence of AI and spatial thinking. I am particularly interested in the emerging field of Spatial Intelligence, and how it can be applied to understand and enhance urban environments through computational means. My research interests form an evolving chain that spans:
-Urban Computing, Spatio-temporal Data Mining → UrbanAI, GeoAI → Embodied AI in Urban Scenes, Low-Altitude → Spatial Intelligence, World Model → Neural and Brain Science.
+Over the past few years, my academic trajectory has increasingly focused on the convergence of AI and spatial thinking. I am particularly interested in the emerging field of Spatial Intelligence, and how it can be applied to understand and enhance urban environments through computational means. 
 
 At the core of my work is a desire to integrate intelligent systems with urban dynamics, building AI models that are not only technically powerful but also spatially and socially aware. I believe that the future of AI lies in its ability to perceive, reason, and interact with the real world—not just through data, but through space, behavior, and cognition.
 
@@ -57,10 +54,13 @@ B.S., Information Management and Information System
 
 Research Interests
 ======
+
+My research interests form an evolving chain that spans:
+
+Urban Computing, Spatio-temporal Data Mining → UrbanAI, GeoAI → Embodied AI in Urban Scenes → Spatial Intelligence, World Model → Neural and Brain Science
+
+Current Focus Keywords:
+
 · UrbanAI & GeoAI
 
 · Spatial Intelligence
-
-· Embodied AI
-
-· Social Computing
