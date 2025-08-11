@@ -66,6 +66,6 @@ Urban Computing, Spatio-temporal Data Mining → UrbanAI, GeoAI → Embodied AI 
 
 Current Focus Keywords:
 
-· UrbanAI & GeoAI
+**· UrbanAI & GeoAI**
 
-· Spatial Intelligence
+**· Spatial Intelligence**
