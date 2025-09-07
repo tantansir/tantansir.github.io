@@ -16,7 +16,7 @@ Ultimately, I aim to become a data scientist and spatial AI researcher who lever
 
 [View My CV](../assets/CV_Kaizhen TAN.pdf)
 
-[Email](mailto:wflps20140311@gmail.com) / [Github](https://github.com/tantansir) / [Wechat](../images/Wechat.jpg) / [LinkedIn](https://www.linkedin.com/in/kaizhen-tan-b020232b3/)
+[Email](mailto:wflps20140311@gmail.com) / [Github](https://github.com/tantansir) / [Wechat](../images/Wechat.jpg) / [LinkedIn](https://www.linkedin.com/in/kaizhen-t-b020232b3/)
 
 Work / Research Experience
 ======
