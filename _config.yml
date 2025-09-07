@@ -26,15 +26,15 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "A Pragmatic Idealist"
   location         : "Shanghai, China"
-  employer         : "Tongji University"
+  employer         : #
   uri              : # URL
-  email            : "tkz@tongji.edu.cn"
+  email            : "kaizhent@cmu.edu"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # URL
+  googlescholar    : https://scholar.google.com/citations?user=JtyjnWYAAAAJ&hl=zh-CN
   impactstory      : # URL
-  orcid            : # URL
+  orcid            : https://orcid.org/my-orcid?orcid=0009-0002-6459-578X
   semantic         : # URL
   pubmed           : # URL
   researchgate     : # URL
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : kaizhen-tan-b020232b3
+  linkedin         : kaizhen-t-b020232b3
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
