@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I’m Kaizhen Tan (谭楷蓁). I am currently a master’s student in **Artificial Intelligence Systems Management** at **Carnegie Mellon University**. I received my bachelor’s degree in **Information Management and Information System** from **Tongji University**, where I built a solid foundation in programming, data analysis, and machine learning, complemented by interdisciplinary training in business and organizational systems.
+Hi! I’m Kaizhen Tan (谭楷蓁). I am currently a master’s student in Artificial Intelligence Systems Management at **Carnegie Mellon University**. I received my bachelor’s degree in Information Management and Information System from **Tongji University**, where I built a solid foundation in programming, data analysis, and machine learning, complemented by interdisciplinary training in business and organizational systems.
 
 My research interests focus on **Urban AI, Spatial Intelligence, and embodied AI in urban scenes**. In particular, I am interested in how AI systems can perceive, reason, and interact with the world not only through data but also through space, behavior, and cognition.
 
@@ -35,15 +35,15 @@ Currently, I am focusing on:
 
 My research aims to build intelligent systems that are spatially and socially aware, providing computational solutions that make cities more adaptive, inclusive, and human-centric, while addressing complex societal challenges.
 
-<div align="center">
-
-[View My CV](../assets/CV_Kaizhen TAN.pdf) / 
-[Email](mailto:wflps20140311@gmail.com) / 
-[Github](https://github.com/tantansir) / 
-[Wechat](../images/Wechat.jpg) / 
-[LinkedIn](https://www.linkedin.com/in/kaizhen-t-b020232b3/)
-
+<div style="text-align: center;">
+  <a href="/assets/CV_Kaizhen TAN.pdf">View My CV</a> /
+  <a href="mailto:wflps20140311@gmail.com">Email</a> /
+  <a href="https://github.com/tantansir">Github</a> /
+  <a href="/images/Wechat.jpg">Wechat</a> /
+  <a href="https://www.linkedin.com/in/kaizhen-t-b020232b3/">LinkedIn</a>
 </div>
+
+
 
 
 # 🔥 News
@@ -66,7 +66,7 @@ My research aims to build intelligent systems that are spatially and socially aw
 
 **Kaizhen Tan**, Yufan Wu, Yuxuan Liu, Haoran Zeng
 
-[[Slides]](/assets/ICUI2025.pptx) [[arXiv]](https://arxiv.org/abs/2509.03830)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[[arXiv]](https://arxiv.org/abs/2509.03830) [[slides]](/assets/ICUI2025.pptx)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - *Accepted at the Global Smart Cities Summit cum The 4th International Conference on Urban Informatics [(GSCS & ICUI 2025)](https://www.isocui.org/icui2025)*
 - Developed an AI-powered multimodal framework to analyze tourist perception in historic Shanghai quarters, integrating image segmentation, color theme analysis, and sentiment mining for heritage-informed urban planning.
 
@@ -81,7 +81,7 @@ My research aims to build intelligent systems that are spatially and socially aw
 
 Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, Wei Huang
 
-[[Slides]](/assets/汇报.pptx) [[arXiv]](https://arxiv.org/abs/2509.06099)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[[arXiv]](https://arxiv.org/abs/2509.06099) [[slides]](/assets/汇报.pptx)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - *Under Revision at GIScience & Remote Sensing*
 - Proposed a spatiotemporal adaptive local search (STALS) method combining dynamic graph learning and spatial analytics to model and mitigate large-scale urban traffic congestion propagation.
 </div>
@@ -94,7 +94,7 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 
 **Kaizhen Tan**
 
-[[Slides]](/assets/ACMLC2025.pptx) [[arXiv]](https://arxiv.org/abs/2509.10522)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[[arXiv]](https://arxiv.org/abs/2509.10522) [[slides]](/assets/ACMLC2025.pptx) [[code]](https://github.com/tantansir/Multimodal-Deep-Learning-for-Modeling-ATCO-Command-Lifecycle-in-Terminal-Airspace)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - *Accepted at 7th Asia Conference on Machine Learning and Computing (ACMLC 2025)*
 - Designed a multimodal deep learning framework linking ATCO voice commands with aircraft trajectories to model workload dynamics, enabling intelligent command generation and scheduling support.
 </div>
