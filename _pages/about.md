@@ -19,7 +19,9 @@ redirect_from:
 
 Hi! I’m Kaizhen Tan (谭楷蓁). I am currently a master’s student in **Artificial Intelligence Systems Management** at Carnegie Mellon University. I received my bachelor’s degree in Information Management and Information System from Tongji University, where I built a solid foundation in programming, data analysis, and machine learning, complemented by interdisciplinary training in business and organizational systems.
 
-My research interests focus on Urban AI, Spatial Intelligence, and embodied AI in urban scenes. In particular, I am interested in how AI systems can perceive, reason, and interact with the world not only through data but also through space, behavior, and cognition. Currently, I am focusing on:
+My research interests focus on **Urban AI, Spatial Intelligence, and embodied AI in urban scenes**. In particular, I am interested in how AI systems can perceive, reason, and interact with the world not only through data but also through space, behavior, and cognition.
+
+Currently, I am focusing on:
 
 (1) Representation and embedding of geographic and spatial knowledge as a foundation for building world models
 
