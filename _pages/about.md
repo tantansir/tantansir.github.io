@@ -59,39 +59,39 @@ My research aims to build intelligent systems that are spatially and socially aw
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/2.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">GSCS & ICUI 2025</div><img src='images/2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[A Multidimensional AI-powered Framework for Analyzing Tourist Perception in Historic Urban Quarters: A Case Study in Shanghai](https://arxiv.org/abs/2509.03830)
+**A Multidimensional AI-powered Framework for Analyzing Tourist Perception in Historic Urban Quarters: A Case Study in Shanghai**
 
 **Kaizhen Tan**, Yufan Wu, Yuxuan Liu, Haoran Zeng
 
-[**Download Slides**](/assets/ICUI2025.pptx) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- *Accepted at the Global Smart Cities Summit cum The 4th International Conference on Urban Informatics (GSCS & ICUI 2025)*
+[[Slides]](/assets/ICUI2025.pptx)[[arXiv]](https://arxiv.org/abs/2509.03830)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- *Accepted at [the Global Smart Cities Summit cum The 4th International Conference on Urban Informatics (GSCS & ICUI 2025)](https://www.isocui.org/icui2025)*
 </div>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/4.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">GIScience & Remote Sensing</div><img src='images/4.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [A Spatiotemporal Adaptive Local Search Method for Tracking Congestion Propagation in Dynamic Networks](https://arxiv.org/abs/2509.06099)
 
 Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, Wei Huang
 
-[**Download Slides**](/assets/汇报.pptx) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Slides**](/assets/汇报.pptx) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - *Under Revision at GIScience & Remote Sensing*
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/21.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMLC 2025</div><img src='images/21.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace](https://arxiv.org/abs/2509.10522)
 
 **Kaizhen Tan**
 
-[**Download Slides**](/assets/ACMLC2025.pptx) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Slides**](/assets/ACMLC2025.pptx) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - *Accepted at 7th Asia Conference on Machine Learning and Computing (ACMLC 2025)*
 </div>
 </div>
