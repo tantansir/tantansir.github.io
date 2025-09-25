@@ -48,7 +48,7 @@ My research aims to build intelligent systems that are spatially and socially aw
 
 # 🔥 News
 
-- *2025.09*: 🔭 Joined Dr. Yu Liu and Dr. Fan Zhang’s team at Peking University as a remote research assistant.
+- *2025.09*: 🔭 Joined [Dr. Yu Liu](https://scholar.google.com/citations?user=Xh_lRY4AAAAJ) and [Dr. Fan Zhang](https://scholar.google.com/citations?user=dc1TzLoAAAAJ)’s team at Peking University as a remote research assistant.
 - *2025.08*: 🎉 Presented my work at PolyU in Hong Kong after our paper was accepted to the Global Smart Cities Summit cum The 4th International Conference on Urban Informatics.
 - *2025.07*: 🎉 My undergraduate thesis was accepted by ACMLC 2025.
 - *2025.06*: 🎓 Graduated from Tongji University—grateful for the journey and excited to continue my studies at CMU.
