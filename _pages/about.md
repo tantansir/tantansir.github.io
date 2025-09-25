@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I’m Kaizhen Tan (谭楷蓁). I am currently a master’s student in **Artificial Intelligence Systems Management** at Carnegie Mellon University. I received my bachelor’s degree in Information Management and Information System from Tongji University, where I built a solid foundation in programming, data analysis, and machine learning, complemented by interdisciplinary training in business and organizational systems.
+Hi! I’m Kaizhen Tan (谭楷蓁). I am currently a master’s student in **Artificial Intelligence Systems Management** at **Carnegie Mellon University**. I received my bachelor’s degree in **Information Management and Information System** from **Tongji University**, where I built a solid foundation in programming, data analysis, and machine learning, complemented by interdisciplinary training in business and organizational systems.
 
 My research interests focus on **Urban AI, Spatial Intelligence, and embodied AI in urban scenes**. In particular, I am interested in how AI systems can perceive, reason, and interact with the world not only through data but also through space, behavior, and cognition.
 
@@ -35,7 +35,16 @@ Currently, I am focusing on:
 
 My research aims to build intelligent systems that are spatially and socially aware, providing computational solutions that make cities more adaptive, inclusive, and human-centric, while addressing complex societal challenges.
 
-[View My CV](../assets/CV_Kaizhen TAN.pdf)
+<div align="center">
+
+[View My CV](../assets/CV_Kaizhen TAN.pdf) / 
+[Email](mailto:wflps20140311@gmail.com) / 
+[Github](https://github.com/tantansir) / 
+[Wechat](../images/Wechat.jpg) / 
+[LinkedIn](https://www.linkedin.com/in/kaizhen-t-b020232b3/)
+
+</div>
+
 
 # 🔥 News
 
@@ -43,10 +52,10 @@ My research aims to build intelligent systems that are spatially and socially aw
 - *2025.08*: 🎉 Presented my work at PolyU in Hong Kong after our paper was accepted to the Global Smart Cities Summit cum The 4th International Conference on Urban Informatics.
 - *2025.07*: 🎉 My undergraduate thesis was accepted by ACMLC 2025.
 - *2025.06*: 🎓 Graduated from Tongji University—grateful for the journey and excited to continue my studies at CMU.
-- *2025.04*: 🔭 Completed the SITP project under the supervision of Dr. Yujia Zhai at the College of Architecture and Urban Planning.
+- *2025.04*: 🔭 Completed the SITP project under the supervision of [Dr. Yujia Zhai](https://www.researchgate.net/profile/Yujia-Zhai-15) at the College of Architecture and Urban Planning.
 - *2025.01*: 💼 Joined Shanghai Artificial Intelligence Laboratory as an AI Product Manager Intern.
-- *2024.09*: 🌏 Conducted research at ASTAR in Singapore under the supervision of Dr. Yicheng Zhang and Dr. Sheng Zhang.
-- *2024.04*: 🔭 Began my academic journey in Dr. Wei Huang’s lab at School of Surveying and Geo-Informatics.
+- *2024.09*: 🌏 Conducted research at ASTAR in Singapore under the supervision of [Dr. Yicheng Zhang](https://zinczhang.github.io/) and [Dr. Sheng Zhang](https://ieeexplore.ieee.org/author/37086165610).
+- *2024.04*: 🔭 Began my academic journey in [Dr. Wei Huang](https://huangweibuct.github.io/weihuang.github.io/)’s lab at School of Surveying and Geo-Informatics.
 
 # 📝 Publications 
 
