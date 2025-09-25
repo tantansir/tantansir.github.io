@@ -55,11 +55,11 @@ Ultimately, I aim to become a data scientist and spatial AI researcher who lever
 
 ## 📖 Educations
 
-- *2025.08 – 2026.08:* 🇺🇸 **Carnegie Mellon University**  
-  - *M.S. in Artificial Intelligence Systems Management*
+- *2025.08 – 2026.08:* :us: **Carnegie Mellon University**  
+  – *M.S. in Artificial Intelligence Systems Management*
 
-- *2021.09 – 2025.06:* 🇨🇳 **Tongji University**  
-  - *B.S. in Information Management and Information System*
+- *2021.09 – 2025.06:* :cn: **Tongji University**  
+  – *B.S. in Information Management and Information System*
 
 [//]: # (# 💬 Invited Talks)
 
