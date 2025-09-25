@@ -56,7 +56,7 @@ My research aims to build intelligent systems that are spatially and socially aw
 **Kaizhen Tan**, Yufan Wu, Yuxuan Liu, Haoran Zeng
 
 [**Download Slides**](/assets/ICUI2025.pptx) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- *Accepted at the Global Smart Cities Summit cum The 4th International Conference on Urban Informatics (GSCS *&* ICUI 2025)*
+- *Accepted at the Global Smart Cities Summit cum The 4th International Conference on Urban Informatics (GSCS & ICUI 2025)*
 </div>
 </div>
 
@@ -68,12 +68,12 @@ My research aims to build intelligent systems that are spatially and socially aw
 
 Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, Wei Huang
 
-[**Download Slides**](/assets/ACMLC2025.pptx) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Download Slides**](/assets/汇报.pptx) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - *Under Revision at GIScience & Remote Sensing*
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/3.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/21.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace](https://arxiv.org/abs/2509.10522)
