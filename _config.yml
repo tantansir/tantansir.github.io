@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Kaizhen Tan"
-description              : "A Pragmatic Idealist"
+description              :
 repository               : "tantansir/tantansir.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Kaizhen Tan"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Carneige Mellon University"
+  bio              : "Focusing on Urban AI and Spatial Intelligence."
   location         : "Shanghai, China"
   employer         :
   pubmed           : 
