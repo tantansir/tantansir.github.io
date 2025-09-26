@@ -102,15 +102,13 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 
 [//]: # (- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet]&#40;https://github.com&#41;, A, B, C, **CVPR 2020**)
 
-
-
 [//]: # (# 🎖 Honors and Awards)
 
 [//]: # (- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
 
 [//]: # (- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
 
-## 📖 Educations
+# 📖 Educations
 
 - *2025.08 – 2026.08:* <img src="https://twemoji.maxcdn.com/v/latest/svg/1f1fa-1f1f8.svg" width="14" /> **Carnegie Mellon University**  
   – *M.S. in Artificial Intelligence Systems Management*
