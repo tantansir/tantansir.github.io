@@ -55,7 +55,7 @@ My research aims to build intelligent systems that are spatially and socially aw
 - *2025.04*: 🔭 Completed the SITP project under the supervision of [Dr. Yujia Zhai](https://www.researchgate.net/profile/Yujia-Zhai-15) at the College of Architecture and Urban Planning.
 - *2025.01*: 💼 Joined Shanghai Artificial Intelligence Laboratory as an AI Product Manager Intern.
 - *2024.09*: 🌏 Conducted research at ASTAR in Singapore under the supervision of [Dr. Yicheng Zhang](https://zinczhang.github.io/) and [Dr. Sheng Zhang](https://ieeexplore.ieee.org/author/37086165610).
-- *2024.04*: 🔭 Began my academic journey in [Dr. Wei Huang](https://huangweibuct.github.io/weihuang.github.io/)’s lab at School of Surveying and Geo-Informatics.
+- *2024.04*: 🔭 Began my academic journey in [Dr. Wei Huang](https://huangweibuct.github.io/weihuang.github.io/)’s lab at College of Surveying and Geo-Informatics.
 
 # 📝 Publications 
 
