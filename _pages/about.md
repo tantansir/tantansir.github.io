@@ -29,9 +29,11 @@ Currently, I am focusing on:
 
 (3) Multimodal urban data fusion for constructing city-scale foundation models and virtual urban agents
 
-(4) Mobility and accessibility in urban infrastructure for people with disabilities
+(4) Large-scale geospatial data analysis to uncover urban behavioral patterns
 
-(5) Visual aesthetics in urban perception to inform urban design and regeneration
+(5) Mobility and accessibility in urban infrastructure for people with disabilities
+
+(6) Visual aesthetics in urban perception to inform urban design and regeneration
 
 My research aims to build intelligent systems that are spatially and socially aware, providing computational solutions that make cities more adaptive, inclusive, and human-centric, while addressing complex societal challenges.
 
