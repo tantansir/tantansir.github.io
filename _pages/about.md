@@ -19,7 +19,7 @@ redirect_from:
 
 Hi! I’m Kaizhen Tan (谭楷蓁). I am currently a master’s student in Artificial Intelligence at **Carnegie Mellon University**. I received my bachelor’s degree in Information Systems from **Tongji University**, where I built a solid foundation in programming, data analysis, and machine learning, complemented by interdisciplinary training in business and organizational systems.
 
-My research interests focus on **Urban AI, Spatial Intelligence, and embodied AI in urban scenes**. In particular, I am interested in how AI systems can perceive, reason, and interact with the world not only through data but also through space, behavior, and cognition.
+My research interests focus on **Urban AI, Human Geography, Spatial Intelligence, and embodied AI in urban scenes**. In particular, I am interested in how AI systems can perceive, reason, and interact with the world not only through data but also through space, behavior, and cognition.
 
 Currently, I am focusing on:
 
@@ -50,7 +50,7 @@ My research aims to build intelligent systems that are spatially and socially aw
 
 # 🔥 News
 
-- *2025.09*: 🔭 Joined [Dr. Yu Liu](https://scholar.google.com/citations?user=Xh_lRY4AAAAJ) and [Dr. Fan Zhang](https://scholar.google.com/citations?user=dc1TzLoAAAAJ)’s team at Peking University as a remote research assistant.
+- *2025.10*: 🔭 Joined [Dr. Yu Liu](https://scholar.google.com/citations?user=Xh_lRY4AAAAJ) and [Dr. Fan Zhang](https://scholar.google.com/citations?user=dc1TzLoAAAAJ)’s team at Peking University as a remote research assistant.
 - *2025.08*: 🎉 Delivered an oral presentation at Hong Kong Polytechnic University after our paper was accepted to the Global Smart Cities Summit cum The 4th International Conference on Urban Informatics [(GSCS & ICUI 2025)](https://www.isocui.org/icui2025).
 - *2025.07*: 🎉 My undergraduate thesis was accepted by 7th Asia Conference on Machine Learning and Computing [(ACMLC 2025)](https://www.acmlc.org/acmlc2025.html).
 - *2025.06*: 🎓 Graduated from Tongji University—grateful for the journey and excited to continue my studies at CMU.
