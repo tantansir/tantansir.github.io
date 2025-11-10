@@ -23,17 +23,17 @@ My research interests focus on **Urban AI, Social Sensing, Spatial Intelligence,
 
 Currently, I am focusing on:
 
-(1) Representation and embedding of geographic and spatial knowledge as a foundation for building world models
+(1) Large-scale AI-enhanced geospatial data analysis to uncover urban behavioral patterns
 
-(2) Embodied urban intelligence with applications in low-altitude planning and navigation
+(2) Mobility and accessibility in urban infrastructure for people with disabilities
 
-(3) Multimodal urban data fusion for constructing city-scale foundation models and virtual urban agents
+(3) Visual aesthetics in urban perception to inform urban design and regeneration
 
-(4) Large-scale geospatial data analysis to uncover urban behavioral patterns
+(4) Multimodal urban data fusion for constructing virtual urban agents and urban digital twins for sustainable and equitable cities
 
-(5) Mobility and accessibility in urban infrastructure for people with disabilities
+(5) Embodied urban intelligence that coordinates interactions among autonomous vehicles, drones, and pedestrians
 
-(6) Visual aesthetics in urban perception to inform urban design and regeneration
+(6) Representation and embedding of geographic and spatial knowledge as a foundation for building world models
 
 My research aims to build intelligent systems that are spatially and socially aware, providing computational solutions that make cities more adaptive, inclusive, and human-centric, while addressing complex societal challenges.
 
