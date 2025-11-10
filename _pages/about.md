@@ -25,7 +25,7 @@ Currently, I am focusing on:
 
 (1) Mobility and accessibility of urban infrastructure for people with disabilities
 
-(2) Visual aesthetics and urban perception to inform urban design and regeneration
+(2) Urban perception and visual aesthetics to inform urban design and regeneration
 
 (3) Large-scale AI-enhanced geospatial analysis of how urban environments and planning shape human behavior
 
