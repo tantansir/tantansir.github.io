@@ -70,7 +70,7 @@ My research aims to build intelligent systems that are spatially and socially aw
 
 [[abstract]](/assets/isprs_abstract_kaizhen_fan.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - *Under review at [(ISPRS Congress 2026)](https://www.isprs2026toronto.com/)*
-- Leverage street-view imagery and VGGT-based 3D reconstruction to estimate metrically scaled sidewalk widths, build the SV-SideWidth dataset, and fill OpenStreetMap gaps for equitable, city-level assessment of pedestrian infrastructure. 
+- Leverage street-view imagery and VGGT-based 3D reconstruction to estimate metrically scaled sidewalk widths, build the SV-SideWidth dataset, and fill OpenStreetMap gaps for equitable assessment of pedestrian infrastructure. 
 </div>
 </div>
 
