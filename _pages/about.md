@@ -69,7 +69,7 @@ My research aims to build intelligent systems that are spatially and socially aw
 **Kaizhen Tan**, Fan Zhang
 
 [[abstract]](/assets/isprs_abstract_kaizhen_fan.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- *Under review at [(ISPRS Congress 2026)](https://www.isprs2026toronto.com/)*
+- *Under review at [XXV ISPRS Congress 2026](https://www.isprs2026toronto.com/)*
 - Leverage street-view imagery and VGGT-based 3D reconstruction to estimate metrically scaled sidewalk widths, build the SV-SideWidth dataset, and fill OpenStreetMap gaps for equitable assessment of pedestrian infrastructure. 
 </div>
 </div>
@@ -98,7 +98,7 @@ My research aims to build intelligent systems that are spatially and socially aw
 **Kaizhen Tan**
 
 [[arXiv]](https://arxiv.org/abs/2509.10522) [[slides]](/assets/ACMLC2025.pptx) [[code]](https://github.com/tantansir/Multimodal-Deep-Learning-for-Modeling-ATCO-Command-Lifecycle-in-Terminal-Airspace)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- *Accepted at 7th Asia Conference on Machine Learning and Computing*
+- *Accepted at 7th Asia Conference on Machine Learning and Computing [(ACMLC 2025)](https://www.acmlc.org/acmlc2025.html)*
 - Designed a multimodal deep learning framework linking ATCO voice commands with aircraft trajectories to model workload dynamics, enabling intelligent command generation and scheduling support.
 </div>
 </div>
@@ -112,7 +112,7 @@ My research aims to build intelligent systems that are spatially and socially aw
 Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, Wei Huang
 
 [[arXiv]](https://arxiv.org/abs/2509.06099) [[slides]](/assets/汇报.pptx)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- *Under Revision at GIScience & Remote Sensing*
+- *Accepted at GIScience & Remote Sensing*
 - Proposed a spatiotemporal adaptive local search (STALS) method combining dynamic graph learning and spatial analytics to model and mitigate large-scale urban traffic congestion propagation.
 </div>
 </div>
