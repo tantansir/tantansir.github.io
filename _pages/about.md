@@ -50,7 +50,7 @@ My research aims to build intelligent systems that are spatially and socially aw
 
 # 🔥 News
 
-- *2025.12*: 🎉 Our paper, led by my senior labmate [Dr. Weihua Huan](https://www.researchgate.net/profile/Weihua-Huan-2), was accepted by the journal *GIS@Remote Sensing*; honored to contribute as second author and big congratulations to Dr. Huan!
+- *2025.12*: 🎉 Our paper, led by my senior labmate Dr. Weihua Huan and co-authored with Prof. Wei Huang at Tongji University, was accepted by the journal GIScience & Remote Sensing; honored to contribute as second author and big congratulations to Dr. Huan!
 - *2025.10*: 🔭 Joined [Prof. Yu Liu](https://scholar.google.com/citations?user=Xh_lRY4AAAAJ) and [Prof. Fan Zhang](https://scholar.google.com/citations?user=dc1TzLoAAAAJ)’s team at Peking University as a remote research assistant.
 - *2025.08*: 🎉 Delivered an oral presentation at Hong Kong Polytechnic University after our paper was accepted to the Global Smart Cities Summit cum The 4th International Conference on Urban Informatics [(GSCS & ICUI 2025)](https://www.isocui.org/icui2025).
 - *2025.07*: 🎉 My undergraduate thesis was accepted by 7th Asia Conference on Machine Learning and Computing [(ACMLC 2025)](https://www.acmlc.org/acmlc2025.html).
