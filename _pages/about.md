@@ -128,11 +128,17 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 
 # 📖 Educations
 
-- *2025.08 – 2026.08:* <img src="https://twemoji.maxcdn.com/v/latest/svg/1f1fa-1f1f8.svg" width="14" /> **Carnegie Mellon University**  
+- *2025.08 – 2026.08:*
+  <img src="https://twemoji.maxcdn.com/v/latest/svg/1f1fa-1f1f8.svg" width="14" /> 
+  <img src="/assets/cmu.png" width="18" style="vertical-align:-3px;border-radius:50%;margin:0 6px;object-fit:contain;" />
+  **Carnegie Mellon University**  
   – *M.S. in Artificial Intelligence Systems Management*
 
-- *2021.09 – 2025.06:* <img src="https://twemoji.maxcdn.com/v/latest/svg/1f1e8-1f1f3.svg" width="14" /> **Tongji University**  
-  – *B.S. in Information Management and Information System*
+- *2021.09 – 2025.06:* 
+  <img src="https://twemoji.maxcdn.com/v/latest/svg/1f1e8-1f1f3.svg" width="14" style="vertical-align:-2px;" />
+  <img src="/assets/tongji.svg" width="18" style="vertical-align:-3px;border-radius:50%;margin:0 6px;object-fit:contain;" />
+  **Tongji University**  
+  – *B.Mgt. in Information Management and Information System*
 
 [//]: # (# 💬 Invited Talks)
 
