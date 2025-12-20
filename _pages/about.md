@@ -112,8 +112,8 @@ My research aims to build intelligent systems that are spatially and socially aw
 
 Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, Wei Huang
 
-[[paper]](https://doi.org/10.1080/15481603.2025.2602215) [[slides]](/assets/汇报.pptx)
-- Published in *GIScience & Remote Sensing*
+[[DOI]](https://doi.org/10.1080/15481603.2025.2602215)
+- Published in *GIScience & Remote Sensing*, 62(1), 2602215 (2025).
 - Proposed a spatiotemporal adaptive local search (STALS) method combining dynamic graph learning and spatial analytics to model and mitigate large-scale urban traffic congestion propagation.
 </div>
 </div>
@@ -143,12 +143,12 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 # 📖 Educations
 
 - *2025.08 – 2026.08:*
-  <img src="/assets/cmu.png" width="24" height="24" style="vertical-align:-3px;border-radius:50%;margin:0 6px;object-fit:contain;" />
+  <img src="/assets/cmu.png" width="21" height="21" style="vertical-align:-3px;border-radius:50%;margin:0 6px;object-fit:contain;" />
   **Carnegie Mellon University**  
   – *M.S. in Artificial Intelligence Systems Management*
 
 - *2021.09 – 2025.06:*
-  <img src="/assets/tongji.svg" width="24" height="24" style="vertical-align:-3px;border-radius:50%;margin:0 6px;object-fit:contain;" />
+  <img src="/assets/tongji.svg" width="21" height="21" style="vertical-align:-3px;border-radius:50%;margin:0 6px;object-fit:contain;" />
   **Tongji University**  
   – *B.Mgt. in Information Management and Information System*
 
