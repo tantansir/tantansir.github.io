@@ -112,8 +112,8 @@ My research aims to build intelligent systems that are spatially and socially aw
 
 Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, Wei Huang
 
-[[arXiv]](https://arxiv.org/abs/2509.06099) [[slides]](/assets/汇报.pptx)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- *Accepted at GIScience & Remote Sensing*
+[[paper]](https://doi.org/10.1080/15481603.2025.2602215) [[slides]](/assets/汇报.pptx)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- *GIScience & Remote Sensing*, **62**(1), 2602215 (2025).
 - Proposed a spatiotemporal adaptive local search (STALS) method combining dynamic graph learning and spatial analytics to model and mitigate large-scale urban traffic congestion propagation.
 </div>
 </div>
