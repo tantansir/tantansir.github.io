@@ -98,7 +98,7 @@ My research aims to build intelligent systems that are spatially and socially aw
 
 **Kaizhen Tan**
 
-[[arXiv]](https://arxiv.org/abs/2509.10522) [[slides]](/assets/ACMLC2025.pptx) [[code]](https://github.com/tantansir/Multimodal-Deep-Learning-for-Modeling-ATCO-Command-Lifecycle-in-Terminal-Airspace)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[[arXiv]](https://arxiv.org/abs/2509.10522) [[slides]](/assets/ACMLC2025.pptx) [[github]](https://github.com/tantansir/Multimodal-Deep-Learning-for-Modeling-ATCO-Command-Lifecycle-in-Terminal-Airspace)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Accepted at *7th Asia Conference on Machine Learning and Computing [(ACMLC 2025)](https://www.acmlc.org/acmlc2025.html)*
 - Designed a multimodal deep learning framework linking ATCO voice commands with aircraft trajectories to model workload dynamics, enabling intelligent command generation and scheduling support.
 </div>
@@ -112,9 +112,23 @@ My research aims to build intelligent systems that are spatially and socially aw
 
 Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, Wei Huang
 
-[[paper]](https://doi.org/10.1080/15481603.2025.2602215) [[slides]](/assets/汇报.pptx)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[[paper]](https://doi.org/10.1080/15481603.2025.2602215) [[slides]](/assets/汇报.pptx)
 - Published in *GIScience & Remote Sensing*
 - Proposed a spatiotemporal adaptive local search (STALS) method combining dynamic graph learning and spatial analytics to model and mitigate large-scale urban traffic congestion propagation.
+</div>
+</div>
+
+# 🔬 Project
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/blindnav.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**BlindNav: YOLO+LLM for Real-Time Navigation Assistance for Blind Users**
+
+**Kaizhen Tan**, Yufan Wang, Yixiao Li, Hanzhe Hong, Nicole Lyu
+
+[[report]](/assets/blindnav.pdf) [[github]](https://github.com/tantansir/BlindNav)
+- BlindNav is a real-time, camera-based navigation assistant that uses YOLO for street-scene detection and a local LLM to turn those signals into concise voice guidance for blind and low-vision pedestrians.
 </div>
 </div>
 
@@ -129,12 +143,12 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 # 📖 Educations
 
 - *2025.08 – 2026.08:*
-  <img src="/assets/cmu.png" width="18" style="vertical-align:-3px;border-radius:50%;margin:0 6px;object-fit:contain;" />
+  <img src="/assets/cmu.png" width="24" height="24" style="vertical-align:-3px;border-radius:50%;margin:0 6px;object-fit:contain;" />
   **Carnegie Mellon University**  
   – *M.S. in Artificial Intelligence Systems Management*
 
 - *2021.09 – 2025.06:*
-  <img src="/assets/tongji.svg" width="18" style="vertical-align:-3px;border-radius:50%;margin:0 6px;object-fit:contain;" />
+  <img src="/assets/tongji.svg" width="24" height="24" style="vertical-align:-3px;border-radius:50%;margin:0 6px;object-fit:contain;" />
   **Tongji University**  
   – *B.Mgt. in Information Management and Information System*
 
