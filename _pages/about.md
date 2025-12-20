@@ -84,7 +84,7 @@ My research aims to build intelligent systems that are spatially and socially aw
 **Kaizhen Tan**, Yufan Wu, Yuxuan Liu, Haoran Zeng
 
 [[arXiv]](https://arxiv.org/abs/2509.03830) [[slides]](/assets/ICUI2025.pptx)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- *Accepted at the Global Smart Cities Summit cum The 4th International Conference on Urban Informatics [(GSCS & ICUI 2025)](https://www.isocui.org/icui2025)*
+- Accepted at *the Global Smart Cities Summit cum The 4th International Conference on Urban Informatics [(GSCS & ICUI 2025)](https://www.isocui.org/icui2025)*
 - Developed an AI-powered multimodal framework to analyze tourist perception in historic Shanghai quarters, integrating image segmentation, color theme analysis, and sentiment mining for heritage-informed urban planning.
 
 </div>
@@ -99,7 +99,7 @@ My research aims to build intelligent systems that are spatially and socially aw
 **Kaizhen Tan**
 
 [[arXiv]](https://arxiv.org/abs/2509.10522) [[slides]](/assets/ACMLC2025.pptx) [[code]](https://github.com/tantansir/Multimodal-Deep-Learning-for-Modeling-ATCO-Command-Lifecycle-in-Terminal-Airspace)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- *Accepted at 7th Asia Conference on Machine Learning and Computing [(ACMLC 2025)](https://www.acmlc.org/acmlc2025.html)*
+- Accepted at *7th Asia Conference on Machine Learning and Computing [(ACMLC 2025)](https://www.acmlc.org/acmlc2025.html)*
 - Designed a multimodal deep learning framework linking ATCO voice commands with aircraft trajectories to model workload dynamics, enabling intelligent command generation and scheduling support.
 </div>
 </div>
@@ -113,7 +113,7 @@ My research aims to build intelligent systems that are spatially and socially aw
 Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, Wei Huang
 
 [[paper]](https://doi.org/10.1080/15481603.2025.2602215) [[slides]](/assets/汇报.pptx)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- *GIScience & Remote Sensing*, **62**(1), 2602215 (2025).
+- Published in *GIScience & Remote Sensing*
 - Proposed a spatiotemporal adaptive local search (STALS) method combining dynamic graph learning and spatial analytics to model and mitigate large-scale urban traffic congestion propagation.
 </div>
 </div>
@@ -129,13 +129,11 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 # 📖 Educations
 
 - *2025.08 – 2026.08:*
-  <img src="https://twemoji.maxcdn.com/v/latest/svg/1f1fa-1f1f8.svg" width="14" /> 
   <img src="/assets/cmu.png" width="18" style="vertical-align:-3px;border-radius:50%;margin:0 6px;object-fit:contain;" />
   **Carnegie Mellon University**  
   – *M.S. in Artificial Intelligence Systems Management*
 
-- *2021.09 – 2025.06:* 
-  <img src="https://twemoji.maxcdn.com/v/latest/svg/1f1e8-1f1f3.svg" width="14" style="vertical-align:-2px;" />
+- *2021.09 – 2025.06:*
   <img src="/assets/tongji.svg" width="18" style="vertical-align:-3px;border-radius:50%;margin:0 6px;object-fit:contain;" />
   **Tongji University**  
   – *B.Mgt. in Information Management and Information System*
