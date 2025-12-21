@@ -31,7 +31,7 @@ Currently, I am focusing on:
 
 (4) Multimodal urban data fusion for constructing virtual urban agents and digital twins for sustainable and equitable cities
 
-(5) Embodied urban intelligence that coordinates interactions among autonomous vehicles, drones, and pedestrians
+(5) Embodied urban intelligence that coordinates interactions among autonomous vehicles, drones, robots, and pedestrians
 
 (6) Representation and embedding of geographic and spatial knowledge as a foundation for building world models
 
