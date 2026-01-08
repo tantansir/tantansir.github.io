@@ -147,6 +147,8 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
   <div class="edu-content">
     <div class="edu-top">
       <strong>Carnegie Mellon University</strong>
+    </div>
+    <div>
       <span class="edu-date">2025.08 – 2026.08</span>
     </div>
     <div class="edu-sub"><em>M.S. in Artificial Intelligence Systems Management</em></div>
