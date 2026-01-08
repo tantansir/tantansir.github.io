@@ -166,10 +166,30 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
   </div>
 </div>
 
-|  |  |
-|---|---|
-| <img src="/assets/cmu.png" width="80" style="object-fit:contain;border-radius:12px;" /> | **Carnegie Mellon University**  <br> *2025.08 – 2026.08* <br> *M.S. in Artificial Intelligence Systems Management* |
-| <img src="/assets/tongji.svg" width="80" style="object-fit:contain;border-radius:12px;" /> | **Tongji University** <br> *2021.09 – 2025.06* <br> *B.Mgt. in Information Management and Information System* |
+<table class="edu-table">
+  <tbody>
+    <tr>
+      <td class="edu-td-logo">
+        <img src="/assets/cmu.png" width="80" style="object-fit:contain;border-radius:12px;" />
+      </td>
+      <td>
+        <strong>Carnegie Mellon University</strong><br>
+        <em>2025.08 – 2026.08</em><br>
+        <em>M.S. in Artificial Intelligence Systems Management</em>
+      </td>
+    </tr>
+    <tr>
+      <td class="edu-td-logo">
+        <img src="/assets/tongji.svg" width="80" style="object-fit:contain;border-radius:12px;" />
+      </td>
+      <td>
+        <strong>Tongji University</strong><br>
+        <em>2021.09 – 2025.06</em><br>
+        <em>B.Mgt. in Information Management and Information System</em>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 [//]: # (- *2025.08 – 2026.08:*)
