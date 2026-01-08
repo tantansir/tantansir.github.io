@@ -142,30 +142,10 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 
 # 📖 Educations
 
-
-## 📖 Educations
-
-<div class="edu-item">
-  <img class="edu-logo" src="/assets/cmu.png" alt="CMU" />
-  <div class="edu-content">
-    <div class="edu-top">
-      <strong>Carnegie Mellon University</strong>
-      <span class="edu-date">2025.08 – 2026.08</span>
-    </div>
-    <div class="edu-sub"><em>M.S. in Artificial Intelligence Systems Management</em></div>
-  </div>
-</div>
-
-<div class="edu-item">
-  <img class="edu-logo" src="/assets/tongji.svg" alt="Tongji" />
-  <div class="edu-content">
-    <div class="edu-top">
-      <strong>Tongji University</strong>
-      <span class="edu-date">2021.09 – 2025.06</span>
-    </div>
-    <div class="edu-sub"><em>B.Mgt. in Information Management and Information System</em></div>
-  </div>
-</div>
+|  |  |
+|---|---|
+| <img src="/assets/cmu.png" width="80" style="object-fit:contain;border-radius:12px;" /> | **Carnegie Mellon University**  <br> *2025.08 – 2026.08* <br> *M.S. in Artificial Intelligence Systems Management* |
+| <img src="/assets/tongji.svg" width="80" style="object-fit:contain;border-radius:12px;" /> | **Tongji University** <br> *2021.09 – 2025.06* <br> *B.Mgt. in Information Management and Information System* |
 
 
 [//]: # (- *2025.08 – 2026.08:*)
