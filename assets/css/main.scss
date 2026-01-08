@@ -107,3 +107,42 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* ============ Educations ============ */
+.edu-item{
+  display:flex;
+  gap:16px;
+  align-items:flex-start;
+  margin:18px 0;
+}
+
+.edu-logo{
+  width:80px;          /* 想更大就改 90/96 */
+  height:80px;
+  object-fit:contain;
+  border-radius:12px;  /* 要圆形：改成 50% */
+  flex:0 0 auto;
+}
+
+.edu-content{min-width:0;}
+
+.edu-top{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  align-items:baseline;
+  line-height:1.2;
+}
+
+.edu-date{
+  opacity:.7;
+  font-weight:600;
+  font-size:.95em;
+}
+
+.edu-sub{margin-top:6px;}
+
+@media (max-width: 600px){
+  .edu-logo{width:56px;height:56px;}
+  .edu-item{gap:12px;}
+}
