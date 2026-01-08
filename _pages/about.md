@@ -142,71 +142,75 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 
 # 📖 Educations
 
-[//]: # (<div class="edu-item">)
+<div class="edu-item">
+  <img class="edu-logo" src="/assets/cmu.png" alt="CMU" />
+  <div class="edu-content">
+    <div class="edu-top">
+      <strong>Carnegie Mellon University</strong>
+    </div>
+    <div class="edu-sub"><em>2025.08 – 2026.08</em></div>
+    <div class="edu-sub"><em>M.S. in Artificial Intelligence Systems Management</em></div>
+  </div>
+</div>
 
-[//]: # (  <img class="edu-logo" src="/assets/cmu.png" alt="CMU" />)
+<div class="edu-item">
+  <img class="edu-logo" src="/assets/tongji.svg" alt="Tongji" />
+  <div class="edu-content">
+    <div class="edu-top">
+      <strong>Tongji University</strong>
+    </div>
+    <div class="edu-sub"><em>2021.09 – 2025.06</em></div>
+    <div class="edu-sub"><em>B.Mgt. in Information Management and Information System</em></div>
+  </div>
+</div>
 
-[//]: # (  <div class="edu-content">)
+[//]: # (<table class="edu-table">)
 
-[//]: # (    <div class="edu-top">)
+[//]: # (  <tbody>)
 
-[//]: # (      <strong>Carnegie Mellon University</strong>)
+[//]: # (    <tr>)
 
-[//]: # (    </div>)
+[//]: # (      <td class="edu-td-logo">)
 
-[//]: # (    <div class="edu-sub"><em>2025.08 – 2026.08</em></div>)
+[//]: # (        <img src="/assets/cmu.png" width="80" style="object-fit:contain;border-radius:12px;" />)
 
-[//]: # (    <div class="edu-sub"><em>M.S. in Artificial Intelligence Systems Management</em></div>)
+[//]: # (      </td>)
 
-[//]: # (  </div>)
+[//]: # (      <td>)
 
-[//]: # (</div>)
+[//]: # (        <strong>Carnegie Mellon University</strong><br>)
 
-[//]: # ()
-[//]: # (<div class="edu-item">)
+[//]: # (        <em>2025.08 – 2026.08</em><br>)
 
-[//]: # (  <img class="edu-logo" src="/assets/tongji.svg" alt="Tongji" />)
+[//]: # (        <em>M.S. in Artificial Intelligence Systems Management</em>)
 
-[//]: # (  <div class="edu-content">)
+[//]: # (      </td>)
 
-[//]: # (    <div class="edu-top">)
+[//]: # (    </tr>)
 
-[//]: # (      <strong>Tongji University</strong>)
+[//]: # (    <tr>)
 
-[//]: # (    </div>)
+[//]: # (      <td class="edu-td-logo">)
 
-[//]: # (    <div class="edu-sub"><em>2021.09 – 2025.06</em></div>)
+[//]: # (        <img src="/assets/tongji.svg" width="80" style="object-fit:contain;border-radius:12px;" />)
 
-[//]: # (    <div class="edu-sub"><em>B.Mgt. in Information Management and Information System</em></div>)
+[//]: # (      </td>)
 
-[//]: # (  </div>)
+[//]: # (      <td>)
 
-[//]: # (</div>)
+[//]: # (        <strong>Tongji University</strong><br>)
 
-<table class="edu-table">
-  <tbody>
-    <tr>
-      <td class="edu-td-logo">
-        <img src="/assets/cmu.png" width="80" style="object-fit:contain;border-radius:12px;" />
-      </td>
-      <td>
-        <strong>Carnegie Mellon University</strong><br>
-        <em>2025.08 – 2026.08</em><br>
-        <em>M.S. in Artificial Intelligence Systems Management</em>
-      </td>
-    </tr>
-    <tr>
-      <td class="edu-td-logo">
-        <img src="/assets/tongji.svg" width="80" style="object-fit:contain;border-radius:12px;" />
-      </td>
-      <td>
-        <strong>Tongji University</strong><br>
-        <em>2021.09 – 2025.06</em><br>
-        <em>B.Mgt. in Information Management and Information System</em>
-      </td>
-    </tr>
-  </tbody>
-</table>
+[//]: # (        <em>2021.09 – 2025.06</em><br>)
+
+[//]: # (        <em>B.Mgt. in Information Management and Information System</em>)
+
+[//]: # (      </td>)
+
+[//]: # (    </tr>)
+
+[//]: # (  </tbody>)
+
+[//]: # (</table>)
 
 
 [//]: # (- *2025.08 – 2026.08:*)
