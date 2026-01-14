@@ -19,7 +19,7 @@ redirect_from:
 
 Hi! I’m Kaizhen Tan (谭楷蓁). I am currently a master’s student in Artificial Intelligence at **Carnegie Mellon University**. I received my bachelor’s degree in Information Systems from **Tongji University**, where I built a solid foundation in programming, data analysis, and machine learning, complemented by interdisciplinary training in business and organizational systems.
 
-My research interests focus on **Urban AI, Social Sensing, Spatial Intelligence, and embodied AI in urban scenes**. In particular, I am interested in how AI systems can perceive, reason, and interact with the world not only through data but also through space, behavior, and cognition.
+My research interests focus on **Urban AI, Social Sensing, Digital Twins, Spatial Intelligence, and embodied AI in urban scenes**. In particular, I am interested in how AI systems can perceive, reason, and interact with the world not only through data but also through space, behavior, and cognition.
 
 Currently, I am focusing on:
 
@@ -31,9 +31,11 @@ Currently, I am focusing on:
 
 (4) Multimodal urban data fusion for constructing virtual urban agents and digital twins for sustainable and equitable cities
 
-(5) Embodied urban intelligence that coordinates interactions among autonomous vehicles, drones, robots, and pedestrians
+(5) Robot-friendly urban spaces and embodied urban intelligence that coordinates interactions among autonomous vehicles, drones, robots, and pedestrians
 
-(6) Representation and embedding of geographic and spatial knowledge as a foundation for building world models
+(6) Representation and embedding of geographic and spatial knowledge as a foundation for building urban foundational models
+
+(7) Foundational capabilities for world models include interpretable spatial reasoning, 3D priors, unified representations, and long-term memory.
 
 My research aims to build intelligent systems that are spatially and socially aware, providing computational solutions that make cities more adaptive, inclusive, and human-centric, while addressing complex societal challenges.
 
@@ -50,6 +52,7 @@ My research aims to build intelligent systems that are spatially and socially aw
 
 # 🔥 News
 
+- *2026.01*: 🎉 The extended abstract co-authored with Prof. Fan Zhang at Peking University has been accepted for the XXV ISPRS Congress 2026. See you in Toronto!
 - *2025.12*: 🎉 Our paper, led by my senior labmate Dr. Weihua Huan and co-authored with Prof. Wei Huang at Tongji University, was accepted by GIScience & Remote Sensing; honored to contribute as second author and big congratulations to Dr. Huan!
 - *2025.10*: 🔭 Joined [Prof. Yu Liu](https://scholar.google.com/citations?user=Xh_lRY4AAAAJ) and [Prof. Fan Zhang](https://scholar.google.com/citations?user=dc1TzLoAAAAJ)’s team at Peking University as a remote research assistant.
 - *2025.08*: 🎉 Delivered an oral presentation at Hong Kong Polytechnic University after our paper was accepted to the Global Smart Cities Summit cum The 4th International Conference on Urban Informatics [(GSCS & ICUI 2025)](https://www.isocui.org/icui2025).
@@ -70,7 +73,7 @@ My research aims to build intelligent systems that are spatially and socially aw
 **Kaizhen Tan**, Fan Zhang
 
 [[abstract]](/assets/isprs_abstract_kaizhen_fan.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- *Under review at [XXV ISPRS Congress 2026](https://www.isprs2026toronto.com/)*
+- Accepted at *[XXV ISPRS Congress 2026](https://www.isprs2026toronto.com/)*
 - Leverage street-view imagery and VGGT-based 3D reconstruction to estimate metrically scaled sidewalk widths, build the SV-SideWidth dataset, and fill OpenStreetMap gaps for equitable assessment of pedestrian infrastructure. 
 </div>
 </div>
@@ -164,71 +167,6 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
   </div>
 </div>
 
-[//]: # (<table class="edu-table">)
-
-[//]: # (  <tbody>)
-
-[//]: # (    <tr>)
-
-[//]: # (      <td class="edu-td-logo">)
-
-[//]: # (        <img src="/assets/cmu.png" width="80" style="object-fit:contain;border-radius:12px;" />)
-
-[//]: # (      </td>)
-
-[//]: # (      <td>)
-
-[//]: # (        <strong>Carnegie Mellon University</strong><br>)
-
-[//]: # (        <em>2025.08 – 2026.08</em><br>)
-
-[//]: # (        <em>M.S. in Artificial Intelligence Systems Management</em>)
-
-[//]: # (      </td>)
-
-[//]: # (    </tr>)
-
-[//]: # (    <tr>)
-
-[//]: # (      <td class="edu-td-logo">)
-
-[//]: # (        <img src="/assets/tongji.svg" width="80" style="object-fit:contain;border-radius:12px;" />)
-
-[//]: # (      </td>)
-
-[//]: # (      <td>)
-
-[//]: # (        <strong>Tongji University</strong><br>)
-
-[//]: # (        <em>2021.09 – 2025.06</em><br>)
-
-[//]: # (        <em>B.Mgt. in Information Management and Information System</em>)
-
-[//]: # (      </td>)
-
-[//]: # (    </tr>)
-
-[//]: # (  </tbody>)
-
-[//]: # (</table>)
-
-
-[//]: # (- *2025.08 – 2026.08:*)
-
-[//]: # (  <img src="/assets/cmu.png" width="21" height="21" style="vertical-align:-3px;border-radius:50%;margin:0 6px;object-fit:contain;" />)
-
-[//]: # (  **Carnegie Mellon University**  )
-
-[//]: # (  – *M.S. in Artificial Intelligence Systems Management*)
-
-[//]: # ()
-[//]: # (- *2021.09 – 2025.06:*)
-
-[//]: # (  <img src="/assets/tongji.svg" width="21" height="21" style="vertical-align:-3px;border-radius:50%;margin:0 6px;object-fit:contain;" />)
-
-[//]: # (  **Tongji University**  )
-
-[//]: # (  – *B.Mgt. in Information Management and Information System*)
 
 [//]: # (# 💬 Invited Talks)
 
