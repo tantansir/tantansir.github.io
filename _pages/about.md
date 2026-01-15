@@ -33,7 +33,7 @@ Currently, I am focusing on:
 
 (5) Embodied intelligence-friendly urban spaces that coordinate interactions among autonomous vehicles, drones, robots, and pedestrians
 
-(6) Representation and embedding of geographic and spatial knowledge as a foundation for building urban foundational models
+(6) Representation and embedding of geographic and spatial knowledge for building urban foundational models
 
 (7) Interpretable and 3D-enhanced VLM spatial reasoning with unified world representation and long-term memory
 
