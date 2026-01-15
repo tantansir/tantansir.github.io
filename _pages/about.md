@@ -29,13 +29,13 @@ Currently, I am focusing on:
 
 (3) Large-scale AI-enhanced geospatial analysis of how urban environments and planning shape human behavior
 
-(4) Multimodal urban data fusion for constructing virtual urban agents and digital twins for sustainable and equitable cities
+(4) Multimodal urban data fusion for constructing self-evolving digital twins and virtual urban agents for sustainable and equitable cities
 
-(5) Robot-friendly urban spaces and embodied urban intelligence that coordinates interactions among autonomous vehicles, drones, robots, and pedestrians
+(5) Embodied intelligence-friendly urban spaces that coordinate interactions among autonomous vehicles, drones, robots, and pedestrians
 
 (6) Representation and embedding of geographic and spatial knowledge as a foundation for building urban foundational models
 
-(7) Foundational capabilities for world models include interpretable spatial reasoning, 3D priors, unified representations, and long-term memory.
+(7) Interpretable and 3D-enhanced VLM spatial reasoning with unified world representation and long-term memory
 
 My research aims to build intelligent systems that are spatially and socially aware, providing computational solutions that make cities more adaptive, inclusive, and human-centric, while addressing complex societal challenges.
 
