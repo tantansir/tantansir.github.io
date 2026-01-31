@@ -44,7 +44,7 @@ My research aims to build intelligent systems that are spatially and socially aw
   <a href="mailto:wflps20140311@gmail.com">Email</a> /
   <a href="https://github.com/tantansir">Github</a> /
   <a href="/images/Wechat.jpg">Wechat</a> /
-  <a href="https://www.linkedin.com/in/kaizhen-tan-b020232b3 ">LinkedIn</a>
+  <a href="https://www.linkedin.com/">LinkedIn</a>
 </div>
 
 
