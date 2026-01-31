@@ -48,6 +48,7 @@ My research aims to build intelligent systems that are spatially and socially aw
 </div>
 
 
+
 # 🔥 News
 
 - *2026.01*: 🎉 The abstract co-authored with Prof. Fan Zhang has been accepted for the [XXV ISPRS Congress 2026](https://www.isprs2026toronto.com/). See you in Toronto!
