@@ -12,14 +12,20 @@ main:
 #  - title: "Honors and Awards"
 #    url: "/#-honors-and-awards"
 
-  - title: "Educations"
-    url: "/#-educations"
+  - title: "Projects"
+    url: "/#-projects"
 
-#  - title: "Invited Talks"
-#    url: "/#-invited-talks"
+  - title: "Presentation"
+    url: "/#-presentation"
 
-  - title: "Internships"
-    url: "/#-internships"
+  - title: "Education"
+    url: "/#-education"
+
+  - title: "Research Experience"
+    url: "/#-research"
+
+  - title: "Internship"
+    url: "/#-internship"
 
   - title: "Curriculum Vitae"
     url: "/assets/CV_Kaizhen TAN.pdf"
