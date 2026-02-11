@@ -22,10 +22,10 @@ main:
     url: "/#-education"
 
   - title: "Research Experience"
-    url: "/#-research"
+    url: "/#-research-xperience"
 
-  - title: "Internship"
-    url: "/#-internship"
+  - title: "Professional Experience"
+    url: "/#-professional-experience"
 
   - title: "Curriculum Vitae"
     url: "/assets/CV_Kaizhen TAN.pdf"
