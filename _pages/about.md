@@ -47,7 +47,6 @@ My research aims to build intelligent systems that are spatially and socially aw
   <a href="https://www.linkedin.com/in/kaizhen-tan-b020232b3/">LinkedIn</a>
 </div>
 
-
 # 🔥 News
 
 - *2026.01*: 🎉 The abstract co-authored with Prof. Fan Zhang has been accepted for the [XXV ISPRS Congress 2026](https://www.isprs2026toronto.com/). See you in Toronto!
@@ -61,6 +60,29 @@ My research aims to build intelligent systems that are spatially and socially aw
 - *2024.09*: 🌏 Conducted research at ASTAR in Singapore under the supervision of [Dr. Yicheng Zhang](https://zinczhang.github.io/) and [Dr. Sheng Zhang](https://ieeexplore.ieee.org/author/37086165610).
 - *2024.04*: 🔭 Began my academic journey at [Prof. Wei Huang](https://huangweibuct.github.io/weihuang.github.io/)’s lab in the College of Surveying and Geo-Informatics, Tongji University.
 
+# 📖 Education
+
+<div class="edu-item">
+  <img class="edu-logo" src="/assets/cmu.png" alt="CMU" />
+  <div class="edu-content">
+    <div class="edu-top">
+      <strong>Carnegie Mellon University</strong>
+    </div>
+    <div class="edu-sub"><em>2025.08 – 2026.08</em></div>
+    <div class="edu-sub"><em>M.S. in Artificial Intelligence Systems Management</em></div>
+  </div>
+</div>
+
+<div class="edu-item">
+  <img class="edu-logo" src="/assets/tongji.svg" alt="Tongji" />
+  <div class="edu-content">
+    <div class="edu-top">
+      <strong>Tongji University</strong>
+    </div>
+    <div class="edu-sub"><em>2021.09 – 2025.06</em></div>
+    <div class="edu-sub"><em>B.Mgt. in Information Management and Information System</em></div>
+  </div>
+</div>
 
 # 📝 Publications 
 
@@ -131,29 +153,6 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 </div>
 </div>
 
-# 📖 Education
-
-<div class="edu-item">
-  <img class="edu-logo" src="/assets/cmu.png" alt="CMU" />
-  <div class="edu-content">
-    <div class="edu-top">
-      <strong>Carnegie Mellon University</strong>
-    </div>
-    <div class="edu-sub"><em>2025.08 – 2026.08</em></div>
-    <div class="edu-sub"><em>M.S. in Artificial Intelligence Systems Management</em></div>
-  </div>
-</div>
-
-<div class="edu-item">
-  <img class="edu-logo" src="/assets/tongji.svg" alt="Tongji" />
-  <div class="edu-content">
-    <div class="edu-top">
-      <strong>Tongji University</strong>
-    </div>
-    <div class="edu-sub"><em>2021.09 – 2025.06</em></div>
-    <div class="edu-sub"><em>B.Mgt. in Information Management and Information System</em></div>
-  </div>
-</div>
 
 [//]: # (# 💬 Presentation)
 
