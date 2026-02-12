@@ -153,7 +153,7 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 </div>
 </div>
 
-# 💬 Presentation / Conference Talks
+# 💬 Conference
 
 - 2026.07 - **XXV ISPRS Congress 2026**  
 UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images  

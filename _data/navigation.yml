@@ -15,11 +15,11 @@ main:
 #  - title: "Projects"
 #    url: "/#-projects"
 
-  - title: "Presentation / Conference Talks"
-    url: "/#-presentation-conference-talks"
+  - title: "Conference"
+    url: "/#-conference"
 
   - title: "Experience"
-    url: "/#experience"
+    url: "/#-experience"
 
   - title: "Curriculum Vitae"
     url: "/assets/CV_Kaizhen TAN.pdf"
