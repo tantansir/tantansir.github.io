@@ -131,6 +131,33 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 </div>
 </div>
 
+# 💬 Presentation
+
+[//]: # (### 2027.02, aag2027)
+
+[//]: # (Do we need a robot lane?)
+
+[//]: # (*New York, USA*)
+
+[//]: # ()
+[//]: # (### 2026.11, acsp2026)
+
+[//]: # (Do we need a robot lane?)
+
+[//]: # (*Pittsburgh, USA*)
+
+**2026.07 - XXV ISPRS Congress 2026**
+UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images  
+*Toronto, Canada*
+
+**2025.08 - Global Smart Cities Summit cum The 4th International Conference on Urban Informatics [(GSCS & ICUI 2025)](https://www.isocui.org/icui2025)**
+A Multidimensional AI-powered Framework for Analyzing Tourist Perception in Historic Urban Quarters: A Case Study in Shanghai  
+*Hong Kong Polytechnic University (PolyU), Hong Kong SAR, China*
+
+**2025.07 - 7th Asia Conference on Machine Learning and Computing [(ACMLC 2025)](https://www.acmlc.org/acmlc2025.html)**
+Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace  
+*Virtual*
+
 # 📖 Education
 
 <div class="edu-item">
@@ -155,40 +182,13 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
   </div>
 </div>
 
-# 💬 Presentation
-
-[//]: # (### 2027.02, aag2027)
-
-[//]: # (Do we need a robot lane?)
-
-[//]: # (*New York, USA*)
-
-[//]: # ()
-[//]: # (### 2026.11, acsp2026)
-
-[//]: # (Do we need a robot lane?)
-
-[//]: # (*Pittsburgh, USA*)
-
-- *2026.07* | **XXV ISPRS Congress 2026**  
-  UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images  
-  *Toronto, Canada*
-
-- *2025.08* | **Global Smart Cities Summit cum The 4th International Conference on Urban Informatics** [(GSCS & ICUI 2025)](https://www.isocui.org/icui2025)  
-  A Multidimensional AI-powered Framework for Analyzing Tourist Perception in Historic Urban Quarters: A Case Study in Shanghai  
-  *Hong Kong Polytechnic University (PolyU), Hong Kong SAR, China*
-
-- *2025.07* | **7th Asia Conference on Machine Learning and Computing** [(ACMLC 2025)](https://www.acmlc.org/acmlc2025.html)  
-  Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace  
-  *Virtual*
-
 # 🔭 Research Experience
 
 [//]: # (- *2026.04 - Present*, Research Assistant, Shanghai Key Laboratory of Urban Design and Urban Science &#40;LOUD&#41;, NYU Shanghai.)
-- *2025.10 - 2026.04* | Research Assistant, Institute of Remote Sensing and Geographic Information System, Peking University, China
-- *2024.09 - 2024.12* | Research Officer, [A*STAR Institute for Infocomm Research](https://www.a-star.edu.sg/i2r), Singapore
-- *2024.04 - 2025.04* | Research Assistant, College of Architecture and Urban Planning, Tongji University, China
-- *2024.04 - 2024.12* | Research Assistant, College of Surveying and Geo-Informatics, Tongji University, China
+- *2025.10 - 2026.04*, Research Assistant, Institute of Remote Sensing and Geographic Information System, Peking University, China
+- *2024.09 - 2024.12*, Research Officer, [A*STAR Institute for Infocomm Research](https://www.a-star.edu.sg/i2r), Singapore
+- *2024.04 - 2025.04*, Research Assistant, College of Architecture and Urban Planning, Tongji University, China
+- *2024.04 - 2024.12*, Research Assistant, College of Surveying and Geo-Informatics, Tongji University, China
 
 # 💻 Professional Experience
 - *2025.01 - 2025.04*, AI Product Manager, [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/), China.
