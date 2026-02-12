@@ -9,23 +9,17 @@ main:
   - title: "Publications"
     url: "/#-publications"
 
-#  - title: "Honors and Awards"
-#    url: "/#-honors-and-awards"
-
 #  - title: "Projects"
 #    url: "/#-projects"
 
-#  - title: "Presentation"
-#    url: "/#-presentation"
+  - title: "Presentation"
+    url: "/#-presentation"
 
   - title: "Education"
     url: "/#-education"
 
-  - title: "Research Experience"
-    url: "/#-research-experience"
-
-  - title: "Professional Experience"
-    url: "/#-professional-experience"
+  - title: "Experience"
+    url: "/#experience"
 
   - title: "Curriculum Vitae"
     url: "/assets/CV_Kaizhen TAN.pdf"
