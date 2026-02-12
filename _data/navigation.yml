@@ -15,8 +15,8 @@ main:
 #  - title: "Projects"
 #    url: "/#-projects"
 
-  - title: "Conference"
-    url: "/#-conference"
+  - title: "Presentations"
+    url: "/#-presentations"
 
   - title: "Experience"
     url: "/#-experience"
