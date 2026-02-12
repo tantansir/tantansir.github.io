@@ -146,15 +146,15 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 
 [//]: # (*Pittsburgh, USA*)
 
-**2026.07 - XXV ISPRS Congress 2026**
+- **2026.07 - XXV ISPRS Congress 2026**  
 UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images  
 *Toronto, Canada*
 
-**2025.08 - Global Smart Cities Summit cum The 4th International Conference on Urban Informatics [(GSCS & ICUI 2025)](https://www.isocui.org/icui2025)**
+- **2025.08 - Global Smart Cities Summit cum The 4th International Conference on Urban Informatics [(GSCS & ICUI 2025)](https://www.isocui.org/icui2025)**  
 A Multidimensional AI-powered Framework for Analyzing Tourist Perception in Historic Urban Quarters: A Case Study in Shanghai  
 *Hong Kong Polytechnic University (PolyU), Hong Kong SAR, China*
 
-**2025.07 - 7th Asia Conference on Machine Learning and Computing [(ACMLC 2025)](https://www.acmlc.org/acmlc2025.html)**
+- **2025.07 - 7th Asia Conference on Machine Learning and Computing [(ACMLC 2025)](https://www.acmlc.org/acmlc2025.html)**  
 Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace  
 *Virtual*
 
