@@ -155,32 +155,41 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
   </div>
 </div>
 
-# 💬 Presentation
-
-[//]: # (### 2027.02, aag2027)
-
-[//]: # (Do we need a robot lane?)
-
-[//]: # (*New York, USA*)
+[//]: # (# 💬 Presentation)
 
 [//]: # ()
-[//]: # (### 2026.11, acsp2026)
+[//]: # ([//]: # &#40;### 2027.02, aag2027&#41;)
+[//]: # ()
+[//]: # ([//]: # &#40;Do we need a robot lane?&#41;)
+[//]: # ()
+[//]: # ([//]: # &#40;*New York, USA*&#41;)
+[//]: # ()
+[//]: # ([//]: # &#40;&#41;)
+[//]: # ([//]: # &#40;### 2026.11, acsp2026&#41;)
+[//]: # ()
+[//]: # ([//]: # &#40;Do we need a robot lane?&#41;)
+[//]: # ()
+[//]: # ([//]: # &#40;*Pittsburgh, USA*&#41;)
+[//]: # ()
+[//]: # (- **2026.07 - XXV ISPRS Congress 2026**  )
 
-[//]: # (Do we need a robot lane?)
+[//]: # (UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images  )
 
-[//]: # (*Pittsburgh, USA*)
+[//]: # (*Toronto, Canada*)
 
-- **2026.07 - XXV ISPRS Congress 2026**  
-UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images  
-*Toronto, Canada*
+[//]: # ()
+[//]: # (- **2025.08 - Global Smart Cities Summit cum The 4th International Conference on Urban Informatics [&#40;GSCS & ICUI 2025&#41;]&#40;https://www.isocui.org/icui2025&#41;**  )
 
-- **2025.08 - Global Smart Cities Summit cum The 4th International Conference on Urban Informatics [(GSCS & ICUI 2025)](https://www.isocui.org/icui2025)**  
-A Multidimensional AI-powered Framework for Analyzing Tourist Perception in Historic Urban Quarters: A Case Study in Shanghai  
-*Hong Kong Polytechnic University (PolyU), Hong Kong SAR, China*
+[//]: # (A Multidimensional AI-powered Framework for Analyzing Tourist Perception in Historic Urban Quarters: A Case Study in Shanghai  )
 
-- **2025.07 - 7th Asia Conference on Machine Learning and Computing [(ACMLC 2025)](https://www.acmlc.org/acmlc2025.html)**  
-Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace  
-*Virtual*
+[//]: # (*Hong Kong Polytechnic University &#40;PolyU&#41;, Hong Kong SAR, China*)
+
+[//]: # ()
+[//]: # (- **2025.07 - 7th Asia Conference on Machine Learning and Computing [&#40;ACMLC 2025&#41;]&#40;https://www.acmlc.org/acmlc2025.html&#41;**  )
+
+[//]: # (Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace  )
+
+[//]: # (*Virtual*)
 
 
 # 🔭 Research Experience

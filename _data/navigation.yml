@@ -12,11 +12,11 @@ main:
 #  - title: "Honors and Awards"
 #    url: "/#-honors-and-awards"
 
-  - title: "Projects"
-    url: "/#-projects"
+#  - title: "Projects"
+#    url: "/#-projects"
 
-  - title: "Presentation"
-    url: "/#-presentation"
+#  - title: "Presentation"
+#    url: "/#-presentation"
 
   - title: "Education"
     url: "/#-education"
