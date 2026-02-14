@@ -21,23 +21,45 @@ Hi! I’m Kaizhen Tan (谭楷蓁). I am currently a master’s student in Artifi
 
 My research interests focus on **Urban AI, Social Sensing, Digital Twins, Spatial Intelligence, and Embodied AI for Urban Environments**. In particular, I am interested in how AI systems can perceive, reason, and interact with the world not only through data but also through space, behavior, and cognition.
 
-Currently, I am focusing on:
+Currently, my research is driven by the vision of **harmonizing artificial intelligence with urban ecosystems**. I focus on four interdisciplinary pillars:
 
-(1) Mobility and accessibility of urban infrastructure for people with disabilities
+<div class="research-container" style="margin-top: 20px;">
 
-(2) Urban perception and visual aesthetics to inform urban design and regeneration
+  <div style="margin-bottom: 25px;">
+    <h4 style="margin-bottom: 8px;">🤖 Embodied Urbanism & Collaborative Governance</h4>
+    <ul style="margin-top: 0;">
+      <li>Designing robot-friendly urban spaces and visual navigation systems (UrbanNav) for accessibility.</li>
+      <li>Developing deployment pathways for emerging devices (Robots, Low-altitude systems, BCI, and Wearables).</li>
+    </ul>
+  </div>
 
-(3) Large-scale AI-enhanced geospatial analysis of how urban environments and planning shape human behavior
+  <div style="margin-bottom: 25px;">
+    <h4 style="margin-bottom: 8px;">🏙️ Self-Evolving Urban Digital Twins</h4>
+    <ul style="margin-top: 0;">
+      <li>Fusing multimodal urban data (RS, street view, IoT) into unified Geo-embeddings and foundation models.</li>
+      <li>Creating dynamic sensing loops where mobile agents/robots serve as nodes for real-time urban state updates.</li>
+    </ul>
+  </div>
 
-(4) Multimodal urban data fusion for constructing self-evolving digital twins and virtual urban agents for sustainable and equitable cities
+  <div style="margin-bottom: 25px;">
+    <h4 style="margin-bottom: 8px;">🎨 Urban Perception & Socio-Cultural Analytics</h4>
+    <ul style="margin-top: 0;">
+      <li>Quantifying urban imagery and visual aesthetics to guide neighborhood renewal and design.</li>
+      <li>Integrating local cultural narratives and semantics into AI models for empathetic public services.</li>
+    </ul>
+  </div>
 
-(5) Embodied intelligence-friendly urban spaces that coordinate interactions among autonomous vehicles, drones, robots, and pedestrians
+  <div style="margin-bottom: 25px;">
+    <h4 style="margin-bottom: 8px;">🚀 Spatial Intelligence & Foundation World Models</h4>
+    <ul style="margin-top: 0;">
+      <li>Developing reliable and actionable spatial reasoning via 3DGS-based world models and novel 3D encoders.</li>
+      <li>Exploring self-evolving physical agents through long-term memory and infinite continuous learning.</li>
+    </ul>
+  </div>
 
-(6) Representation and embedding of geographic and spatial knowledge for building urban foundational models
+</div>
 
-(7) Interpretable and 3D-enhanced VLM spatial reasoning with unified world representation and long-term memory
-
-My research aims to build intelligent systems that are spatially and socially aware, providing computational solutions that make cities more adaptive, inclusive, and human-centric, while addressing complex societal challenges.
+My research aims to build systems that are both **spatially intelligent and socially aware**, providing computational solutions to make cities more adaptive, inclusive, and human-centric.
 
 <div style="text-align: center;">
   <a href="/assets/CV_Kaizhen TAN.pdf">View My CV</a> /
