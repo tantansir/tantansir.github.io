@@ -171,6 +171,11 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
     letter-spacing: 0.2px;
   }
 
+  .research-card h4 .amp{
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", Arial, sans-serif !important;
+    font-weight: inherit;
+  }
+
   .research-card p{
     margin: 0 0 10px 0;
     font-size: 0.95em;
