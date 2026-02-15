@@ -159,13 +159,134 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
   </div>
 </div>
 
-<div style="text-align: center;">
-  <a href="/assets/CV_Kaizhen TAN.pdf">View My CV</a> /
-  <a href="mailto:wflps20140311@gmail.com">Email</a> /
-  <a href="https://github.com/tantansir">Github</a> /
-  <a href="/images/Wechat.jpg">Wechat</a> /
-  <a href="https://www.linkedin.com/in/kaizhen-tan-b020232b3/">LinkedIn</a>
+[//]: # (<div style="text-align: center;">)
+
+[//]: # (  <a href="/assets/CV_Kaizhen TAN.pdf">View My CV</a> /)
+
+[//]: # (  <a href="mailto:wflps20140311@gmail.com">Email</a> /)
+
+[//]: # (  <a href="https://github.com/tantansir">Github</a> /)
+
+[//]: # (  <a href="/images/Wechat.jpg">Wechat</a> /)
+
+[//]: # (  <a href="https://www.linkedin.com/in/kaizhen-tan-b020232b3/">LinkedIn</a>)
+
+[//]: # (</div>)
+
+<style>
+  .cv-row{
+    text-align:center;
+    margin-top: 10px;
+  }
+  .cv-row a{
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  .social-row{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    flex-wrap:wrap;
+    margin: 14px 0 6px 0;
+  }
+  .social-row a{
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.08);
+    transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
+    text-decoration: none;
+  }
+  .social-row a:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 14px 30px rgba(0,0,0,0.12);
+    filter: brightness(1.02);
+  }
+  .social-row svg{
+    width: 22px;
+    height: 22px;
+    fill: #fff;
+  }
+  .social-row .txt{
+    color:#fff;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    user-select:none;
+  }
+  .social-row .txt.small{ font-size: 14px; letter-spacing: 0; }
+
+  .bg-mail{ background:#1E88FF; }
+  .bg-scholar{ background:#2F6FE4; }
+  .bg-github{ background:#111; }
+  .bg-x{ background:#000; }
+  .bg-wechat{ background:#07C160; }
+  .bg-bili{ background:#00A1D6; }
+  .bg-zhihu{ background:#1677FF; }
+  .bg-xhs{ background:#FF2442; }
+  .bg-linkedin{ background:#0A66C2; }
+
+  @media (prefers-color-scheme: dark){
+    .social-row a{ box-shadow: 0 14px 34px rgba(0,0,0,0.36); }
+  }
+</style>
+
+<div class="cv-row">
+  <a href="/assets/CV_Kaizhen TAN.pdf">View My CV</a>
 </div>
+
+<div class="social-row" aria-label="Social links">
+  <!-- Email -->
+  <a class="bg-mail" href="mailto:wflps20140311@gmail.com" aria-label="Email" title="Email">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+    </svg>
+  </a>
+
+  <!-- Google Scholar -->
+  <a class="bg-scholar" href="https://scholar.google.com/citations?user=JtyjnWYAAAAJ" aria-label="Google Scholar" title="Google Scholar" rel="me noopener noreferrer" target="_blank">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3zm0 10.5L4 9.5 12 5l8 4.5-8 4z"/>
+      <path d="M6 12.7V16c0 1.9 2.7 3.5 6 3.5s6-1.6 6-3.5v-3.3l-6 3.3-6-3.3z"/>
+    </svg>
+  </a>
+
+  <!-- GitHub -->
+  <a class="bg-github" href="https://github.com/tantansir" aria-label="GitHub" title="GitHub" rel="me noopener noreferrer" target="_blank">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 .5C5.73.5.5 5.74.5 12.22c0 5.18 3.44 9.58 8.21 11.13.6.11.82-.27.82-.58 0-.29-.01-1.04-.02-2.05-3.34.74-4.04-1.64-4.04-1.64-.55-1.42-1.34-1.8-1.34-1.8-1.09-.77.08-.76.08-.76 1.2.09 1.84 1.26 1.84 1.26 1.07 1.86 2.81 1.32 3.5 1.01.11-.8.42-1.32.76-1.62-2.66-.31-5.47-1.36-5.47-6.05 0-1.34.46-2.44 1.23-3.3-.12-.31-.53-1.57.12-3.27 0 0 1.01-.33 3.3 1.26.96-.27 1.98-.4 3-.41 1.02.01 2.04.14 3 .41 2.29-1.59 3.3-1.26 3.3-1.26.65 1.7.24 2.96.12 3.27.77.86 1.23 1.96 1.23 3.3 0 4.7-2.81 5.74-5.49 6.04.43.38.82 1.13.82 2.28 0 1.64-.02 2.97-.02 3.37 0 .32.22.7.83.58 4.77-1.55 8.2-5.95 8.2-11.13C23.5 5.74 18.27.5 12 .5z"/>
+    </svg>
+  </a>
+
+  <!-- WeChat -->
+  <a class="bg-wechat" href="/images/Wechat.jpg" aria-label="WeChat" title="WeChat">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M9.3 4C5.6 4 2.6 6.5 2.6 9.6c0 1.8 1 3.4 2.7 4.4l-.7 2.2 2.4-1.2c.7.2 1.5.3 2.3.3 3.7 0 6.7-2.5 6.7-5.6S13 4 9.3 4z"/>
+      <path d="M14.8 9.2c-3.1 0-5.6 2.1-5.6 4.7s2.5 4.7 5.6 4.7c.6 0 1.2-.1 1.8-.2l2 1  -.6-1.9c1.3-.8 2.2-2.1 2.2-3.6 0-2.6-2.5-4.7-5.4-4.7z"/>
+      <circle cx="7.7" cy="9.3" r="0.8"/><circle cx="10.5" cy="9.3" r="0.8"/>
+      <circle cx="13.4" cy="13.6" r="0.7"/><circle cx="16.2" cy="13.6" r="0.7"/>
+    </svg>
+  </a>
+
+  <!-- Xiaohongshu -->
+  <a class="bg-xhs" href="https://www.xiaohongshu.com/user/profile/5e2031bc000000000100b761" aria-label="Xiaohongshu" title="Xiaohongshu" rel="me noopener noreferrer" target="_blank">
+    <span class="txt small">小红书</span>
+  </a>
+
+  <!-- LinkedIn -->
+  <a class="bg-linkedin" href="https://www.linkedin.com/in/kaizhen-tan-b020232b3/" aria-label="LinkedIn" title="LinkedIn" rel="me noopener noreferrer" target="_blank">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0.5 23.5h4V7.5h-4v16zM8 7.5h3.8v2.2h.1c.5-1 1.9-2.2 3.9-2.2 4.2 0 5 2.7 5 6.3v9.7h-4v-8.6c0-2.1 0-4.7-2.9-4.7-2.9 0-3.4 2.2-3.4 4.6v8.7H8v-16z"/>
+    </svg>
+  </a>
+</div>
+
 
 # 🔥 News
 
