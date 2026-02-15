@@ -184,8 +184,8 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 
   .sbtn{
     --bg:#2d2d2d;
-    width:56px;
-    height:56px;
+    width:30px;
+    height:30px;
     border-radius:16px;
     display:inline-flex;
     align-items:center;
