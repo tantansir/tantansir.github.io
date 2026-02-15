@@ -391,13 +391,23 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
   }
   .edu-content{
     flex: 1 1 auto;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .edu-top strong{
+    font-size: 22px;
+  }
+  .edu-sub{
+    font-size: 18px;
+    margin-top: 4px;
   }
 </style>
 
 # 📖 Education
 
 <div class="edu-item">
-  <img class="edu-logo" src="/assets/cmu.png" alt="CMU" />
+  <img class="edu-logo" src="/assets/cmu2.jpg" alt="CMU" />
   <div class="edu-content">
     <div class="edu-top">
       <strong>Carnegie Mellon University</strong>
