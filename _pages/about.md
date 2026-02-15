@@ -225,7 +225,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
   </div>
 
   <div class="research-card">
-    <h4>🏙️ Self-Evolving Urban Digital Twins</h4>
+    <h4>🏙️ Self-Evolving Urban Digital Twins and Agents</h4>
     <p><i>Core Question: How can we build a self evolving urban digital twin that stays continuously updated, hosts agents, and supports sustainable and equitable city governance?</i></p>
     <ul>
       <li><b>Urban Foundation Models:</b> Fuse remote sensing, street-level data, trajectories, IoT, text, and graphs into unified urban representations.</li>
@@ -237,12 +237,12 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
   </div>
 
   <div class="research-card">
-    <h4>🎨 Urban Perception & Socio-Cultural Analytics</h4>
+    <h4>🎨 Social Sensing & Human-Environment Interaction</h4>
     <p><i>Core Question: How can local narratives, culture, and human behavior be measured and integrated into models to support urban renewal and governance?</i></p>
     <ul>
-      <li><b>AI-Enhanced Geospatial Analysis:</b> Large-scale spatial analytics linking urban form, environment, and mobility to human behavior and public service outcomes.</li>
+      <li><b>AI-Enhanced Geospatial Analysis:</b> Use large-scale spatial analytics to link urban form, environment, and mobility with human behavior and public service outcomes.</li>
       <li><b>Urban Perception & Visual Aesthetics:</b> Quantify streetscape perception and neighborhood imagery to inform design choices and regeneration priorities.</li>
-      <li><b>Socio-Cultural Computing:</b> Incorporate dialects and place-based narratives into LLM-enabled applications for communication, interaction, and inclusive governance.</li>
+      <li><b>Socio-Cultural Computing:</b> Incorporate place-based narratives into LLM-enabled applications for communication, interaction, and inclusive governance.</li>
     </ul>
   </div>
 
