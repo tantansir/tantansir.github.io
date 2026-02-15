@@ -180,6 +180,11 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 - *2024.09*: 🌏 Conducted research at ASTAR in Singapore under the supervision of [Dr. Yicheng Zhang](https://zinczhang.github.io/) and [Dr. Sheng Zhang](https://ieeexplore.ieee.org/author/37086165610).
 - *2024.04*: 🔭 Began my academic journey at [Prof. Wei Huang](https://huangweibuct.github.io/weihuang.github.io/)’s lab in the College of Surveying and Geo-Informatics, Tongji University.
 
+<style>
+  .section-gap{ height: 10px; }
+</style>
+<div class="section-gap"></div>
+
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">XXV ISPRS Congress</div><img src='images/5.jpg' alt="sym" width="100%"></div></div>
@@ -292,6 +297,11 @@ A Multidimensional AI-powered Framework for Analyzing Tourist Perception in Hist
 - 2025.07 - **7th Asia Conference on Machine Learning and Computing [(ACMLC 2025)](https://www.acmlc.org/acmlc2025.html)**  
 Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace  
 *Hong Kong SAR, China*    
+
+<style>
+  .section-gap{ height: 10px; }
+</style>
+<div class="section-gap"></div>
 
 # 💼 Experience
 
