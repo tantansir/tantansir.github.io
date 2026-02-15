@@ -164,7 +164,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
   }
 
   .research-card h4{
-    margin: 0 0 10px 0;
+    margin: 0 0 9px 0;
     line-height: 1.2;
     font-size: 1.22rem;
     font-weight: 800;
@@ -216,7 +216,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
     <h4>🤖 Embodied Urbanism & Collaborative Governance</h4>
     <p><i>Core Question: How should embodied intelligence move in cities, and how can humans govern and collaborate with them at scale?</i></p>
     <ul>
-      <li><b>Robot-Friendly Urban Space:</b> Redesign streets and building interiors for deployment, including siting, infrastructure, protocols, and responsibility boundaries.</li>
+      <li><b>Robot-Friendly Urban Space:</b> Redesign streets and building interiors for robot operations, setting standards for siting, infrastructure, protocols, and responsibility boundaries.</li>
       <li><b>Embodied Navigation:</b> Vision-based navigation and task execution in real urban scenes, with accessibility-aware routing and ground robot and drone platforms.</li>
       <li><b>Low-Altitude Governance:</b> Derive operable air corridors from demand signals, then validate in 3D city models under privacy, noise, crowds, and other effects.</li>
       <li><b>Emerging Urban Devices & Deployment:</b> Study city-scale rollout of robots, low-altitude systems, wearables, and BCI-like devices, focusing on deployment bottlenecks.</li>
@@ -229,7 +229,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
     <p><i>Core Question: How can we build a self evolving urban digital twin that stays continuously updated, hosts agents, and supports sustainable and equitable city governance?</i></p>
     <ul>
       <li><b>Urban Foundation Models:</b> Fuse remote sensing, street-level data, trajectories, IoT, text, and graphs into unified urban representations.</li>
-      <li><b>Measurement & Sensing Loops:</b> Develop scalable metrics and updating pipelines, e.g., measuring sidewalk width from street-view point clouds.</li>
+      <li><b>Measurement & Sensing Loops:</b> Develop scalable metrics and updating pipelines, using robots, drones, and wearables as new data sources for continuous urban sensing.</li>
       <li><b>Localization & Mapping:</b> Advance geo-localization and semantic SLAM across point clouds, meshes, and 3D Gaussian representations for interactive 3D cities.</li>
       <li><b>Urban Agents:</b> Build task agents for planning and public services, including map-LLM systems, spatial RAG, policy QA, and travel assistance.</li>
       <li><b>Policy Sandbox & Systems:</b> Use the twin for what-if simulation, risk assessment, and execution checks, supported by efficient retrieval, caching, and rendering.</li>
