@@ -232,7 +232,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
   </div>
 
   <div class="research-card">
-    <h4>🎨 Social Sensing & Human-Environment Interaction</h4>
+    <h4>🎨 Social Sensing <span class="amp">&amp;</span> Human-Environment Interaction</h4>
     <p><i>Core Question: How can local narratives, culture, and human behavior be measured and integrated into models to support urban renewal and governance?</i></p>
     <ul>
       <li><b>AI-Enhanced Geospatial Analysis:</b> Use large-scale spatial analytics to link urban form, environment, and mobility with human behavior and public service outcomes.</li>
@@ -255,7 +255,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
   </div>
 
   <div class="research-card">
-    <h4>🚀 Spatial Intelligence & Foundation World Models</h4>
+    <h4>🚀 Spatial Intelligence <span class="amp">&amp;</span> Foundation World Models</h4>
     <p><i>Core Question: How can world models support reliable spatial reasoning and actionable decision-making for physical agents?</i></p>
     <ul>
       <li><b>World Models & Architecture:</b> Study generative, predictive, and representation-learning paradigms for forecasting and planning in the physical world.</li>
@@ -379,6 +379,13 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
     <div class="edu-sub"><em>B.Mgt. in Information Management and Information System</em></div>
   </div>
 </div>
+
+<style>
+  /* 只拉开 Presentations 与上一块内容的距离 */
+  .page__content h1#presentations{
+    margin-top: 3rem;
+  }
+</style>
 
 # 💬 Presentations
 
