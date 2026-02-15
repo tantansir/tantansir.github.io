@@ -409,7 +409,7 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 
 [//]: # (    <div class="edu-sub"><em>2026.09 – 2031.05 &#40;expected&#41;</em></div>)
 
-[//]: # (    <div class="edu-sub"><em>Ph.D. student in Urban Science</em></div>)
+[//]: # (    <div class="edu-sub"><em>Ph.D. in Public Administration</em></div>)
 
 [//]: # (  </div>)
 

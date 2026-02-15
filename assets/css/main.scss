@@ -151,18 +151,3 @@ body{
   font-feature-settings: "salt" 0, "swsh" 0, "ss01" 0, "ss02" 0;
   font-variant-ligatures: none;
 }
-
-/* avatar 改成长方形 */
-.author__avatar{
-  border-radius: 0;
-  overflow: visible;
-  width: 180px;          /* 长方形宽度，可改 */
-  height: 120px;         /* 长方形高度，可改 */
-}
-
-.author__avatar img{
-  border-radius: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;     /* 填满并裁切，避免变形 */
-}
