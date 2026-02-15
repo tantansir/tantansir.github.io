@@ -294,6 +294,71 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 </style>
 <div class="section-gap"></div>
 
+# 📖 Education
+
+[//]: # (<div class="edu-item">)
+
+[//]: # (  <img class="edu-logo" src="/assets/nyu.png" alt="NYU" />)
+
+[//]: # (  <div class="edu-content">)
+
+[//]: # (    <div class="edu-top">)
+
+[//]: # (      <strong>New York University</strong>)
+
+[//]: # (    </div>)
+
+[//]: # (    <div class="edu-sub"><em>2026.09 – 2031.05 &#40;expected&#41;</em></div>)
+
+[//]: # (    <div class="edu-sub"><em>Ph.D. in Public Administration</em></div>)
+
+[//]: # (  </div>)
+
+[//]: # (</div>)
+
+<div class="edu-item">
+  <img class="edu-logo" src="/assets/cmu.png" alt="CMU" />
+  <div class="edu-content">
+    <div class="edu-top">
+      <strong>Carnegie Mellon University</strong>
+    </div>
+    <div class="edu-sub"><em>2025.08 – 2026.08</em></div>
+    <div class="edu-sub"><em>M.S. in Artificial Intelligence Systems Management</em></div>
+  </div>
+</div>
+
+<div class="edu-item">
+  <img class="edu-logo" src="/assets/tongji.svg" alt="Tongji" />
+  <div class="edu-content">
+    <div class="edu-top">
+      <strong>Tongji University</strong>
+    </div>
+    <div class="edu-sub"><em>2021.09 – 2025.06</em></div>
+    <div class="edu-sub"><em>B.Mgt. in Information Management and Information System</em></div>
+  </div>
+</div>
+
+
+<style>
+  .section-gap{ height: 10px; }
+</style>
+<div class="section-gap"></div>
+
+# 💼 Experience
+
+## 🔭 Research Experience
+
+[//]: # (- *2026.04 - Present*, Research Assistant, Shanghai Key Laboratory of Urban Design and Urban Science &#40;LOUD&#41;, NYU Shanghai.)
+- *2025.10 - 2026.04*, Research Assistant, Institute of Remote Sensing and Geographic Information System, Peking University, China
+- *2024.09 - 2024.12*, Research Officer, [A*STAR Institute for Infocomm Research](https://www.a-star.edu.sg/i2r), Singapore
+- *2024.04 - 2025.04*, Research Assistant, College of Architecture and Urban Planning, Tongji University, China
+- *2024.04 - 2024.12*, Research Assistant, College of Surveying and Geo-Informatics, Tongji University, China
+
+## 💻 Professional Experience
+- *2025.01 - 2025.04*, AI Product Manager, [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/), China.
+- *2023.01 - 2023.02*, Data Analyst, Shanghai Qiantan Emerging Industry Research Institute, China.
+
+
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">XXV ISPRS Congress</div><img src='images/5.jpg' alt="sym" width="100%"></div></div>
@@ -393,69 +458,6 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
   }
 </style>
 
-# 📖 Education
-
-[//]: # (<div class="edu-item">)
-
-[//]: # (  <img class="edu-logo" src="/assets/nyu.png" alt="NYU" />)
-
-[//]: # (  <div class="edu-content">)
-
-[//]: # (    <div class="edu-top">)
-
-[//]: # (      <strong>New York University</strong>)
-
-[//]: # (    </div>)
-
-[//]: # (    <div class="edu-sub"><em>2026.09 – 2031.05 &#40;expected&#41;</em></div>)
-
-[//]: # (    <div class="edu-sub"><em>Ph.D. in Public Administration</em></div>)
-
-[//]: # (  </div>)
-
-[//]: # (</div>)
-
-<div class="edu-item">
-  <img class="edu-logo" src="/assets/cmu.png" alt="CMU" />
-  <div class="edu-content">
-    <div class="edu-top">
-      <strong>Carnegie Mellon University</strong>
-    </div>
-    <div class="edu-sub"><em>2025.08 – 2026.08</em></div>
-    <div class="edu-sub"><em>M.S. in Artificial Intelligence Systems Management</em></div>
-  </div>
-</div>
-
-<div class="edu-item">
-  <img class="edu-logo" src="/assets/tongji.svg" alt="Tongji" />
-  <div class="edu-content">
-    <div class="edu-top">
-      <strong>Tongji University</strong>
-    </div>
-    <div class="edu-sub"><em>2021.09 – 2025.06</em></div>
-    <div class="edu-sub"><em>B.Mgt. in Information Management and Information System</em></div>
-  </div>
-</div>
-
-
-<style>
-  .section-gap{ height: 10px; }
-</style>
-<div class="section-gap"></div>
-
-# 💼 Experience
-
-## 🔭 Research Experience
-
-[//]: # (- *2026.04 - Present*, Research Assistant, Shanghai Key Laboratory of Urban Design and Urban Science &#40;LOUD&#41;, NYU Shanghai.)
-- *2025.10 - 2026.04*, Research Assistant, Institute of Remote Sensing and Geographic Information System, Peking University, China
-- *2024.09 - 2024.12*, Research Officer, [A*STAR Institute for Infocomm Research](https://www.a-star.edu.sg/i2r), Singapore
-- *2024.04 - 2025.04*, Research Assistant, College of Architecture and Urban Planning, Tongji University, China
-- *2024.04 - 2024.12*, Research Assistant, College of Surveying and Geo-Informatics, Tongji University, China
-
-## 💻 Professional Experience
-- *2025.01 - 2025.04*, AI Product Manager, [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/), China.
-- *2023.01 - 2023.02*, Data Analyst, Shanghai Qiantan Emerging Industry Research Institute, China.
 
 <style>
   .section-gap10{ height: 2px; }
