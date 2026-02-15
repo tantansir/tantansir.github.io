@@ -268,7 +268,7 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 </div>
 
 <div class="edu-item">
-  <img class="edu-logo" src="/assets/tongji1.png" alt="Tongji" />
+  <img class="edu-logo" src="/assets/tongji.svg" alt="Tongji" />
   <div class="edu-content">
     <div class="edu-top">
       <strong>Tongji University</strong>
