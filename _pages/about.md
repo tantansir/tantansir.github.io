@@ -284,25 +284,6 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 </style>
 <div class="section-gap"></div>
 
-# 💬 Presentations
-
-- 2026.07 - **XXV ISPRS Congress 2026**  
-UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images  
-*Toronto, Canada*  
-
-- 2025.08 - **Global Smart Cities Summit cum The 4th International Conference on Urban Informatics [(GSCS & ICUI 2025)](https://www.isocui.org/icui2025)**  
-A Multidimensional AI-powered Framework for Analyzing Tourist Perception in Historic Urban Quarters: A Case Study in Shanghai  
-*Hong Kong Polytechnic University (PolyU), Hong Kong SAR, China*  
-
-- 2025.07 - **7th Asia Conference on Machine Learning and Computing [(ACMLC 2025)](https://www.acmlc.org/acmlc2025.html)**  
-Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace  
-*Hong Kong SAR, China*    
-
-<style>
-  .section-gap{ height: 5px; }
-</style>
-<div class="section-gap"></div>
-
 # 💼 Experience
 
 ## 🔭 Research Experience
@@ -317,6 +298,24 @@ Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle 
 - *2025.01 - 2025.04*, AI Product Manager, [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/), China.
 - *2023.01 - 2023.02*, Data Analyst, Shanghai Qiantan Emerging Industry Research Institute, China.
 
+<style>
+  .section-gap{ height: 4px; }
+</style>
+<div class="section-gap"></div>
+
+# 💬 Presentations
+
+- 2026.07 - **XXV ISPRS Congress 2026**  
+UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images  
+*Toronto, Canada*  
+
+- 2025.08 - **Global Smart Cities Summit cum The 4th International Conference on Urban Informatics [(GSCS & ICUI 2025)](https://www.isocui.org/icui2025)**  
+A Multidimensional AI-powered Framework for Analyzing Tourist Perception in Historic Urban Quarters: A Case Study in Shanghai  
+*Hong Kong Polytechnic University (PolyU), Hong Kong SAR, China*  
+
+- 2025.07 - **7th Asia Conference on Machine Learning and Computing [(ACMLC 2025)](https://www.acmlc.org/acmlc2025.html)**  
+Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace  
+*Hong Kong SAR, China*    
 
 [//]: # (### 2027.02, aag2027)
 
