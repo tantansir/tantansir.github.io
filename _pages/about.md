@@ -164,7 +164,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
   }
 
   .research-card h4{
-    margin: 0 0 4px 0;
+    margin: 0 0 12px 0;
     line-height: 1.2;
     font-size: 1.1rem;
     font-weight: 800;
