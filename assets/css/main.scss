@@ -146,3 +146,8 @@ h1:before, .anchor:before {
   .edu-logo{width:56px;height:56px;}
   .edu-item{gap:12px;}
 }
+
+/* 如果只想改 & */
+.section-title .amp{
+  font-family: inherit;
+}
