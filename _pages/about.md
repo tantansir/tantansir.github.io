@@ -23,14 +23,196 @@ My research sits at the intersection of **Urban Management and Spatial Intellige
 
 Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, my work is structured around four interdisciplinary pillars:
 
-<div class="research-container" style="margin-top: 20px;">
+[//]: # ()
+[//]: # (<div class="research-container" style="margin-top: 20px;">)
 
-  <div style="margin-bottom: 25px;">
-    <h4 style="margin-bottom: 8px;">🤖 Embodied Urbanism & Collaborative Governance</h4>
-    <p style="margin: 0 0 8px 0; font-size: 0.95em; color: #555;">
-      <i>Core Question: How should embodied intelligence move in cities, and how can humans govern and collaborate with them at scale?</i>
-    </p>
-    <ul style="margin-top: 0; font-size: 0.95em;">
+[//]: # ()
+[//]: # (  <div style="margin-bottom: 25px;">)
+
+[//]: # (    <h4 style="margin-bottom: 8px;">🤖 Embodied Urbanism & Collaborative Governance</h4>)
+
+[//]: # (    <p style="margin: 0 0 8px 0; font-size: 0.95em; color: #555;">)
+
+[//]: # (      <i>Core Question: How should embodied intelligence move in cities, and how can humans govern and collaborate with them at scale?</i>)
+
+[//]: # (    </p>)
+
+[//]: # (    <ul style="margin-top: 0; font-size: 0.95em;">)
+
+[//]: # (      <li><b>Robot-Friendly Urban Space:</b> Redesign streets and building interiors for deployment, including siting, infrastructure, protocols, and responsibility boundaries.</li>)
+
+[//]: # (      <li><b>Embodied Navigation:</b> Vision-based navigation and task execution in real urban scenes, with accessibility-aware routing and ground robot and drone platforms.</li>)
+
+[//]: # (      <li><b>Low-Altitude Governance:</b> Derive operable air corridors from demand signals, then validate in 3D city models under privacy, noise, crowds, and other effects.</li>)
+
+[//]: # (      <li><b>Emerging Urban Devices & Deployment:</b> Study city-scale rollout of robots, low-altitude systems, wearables, and BCI-like devices, focusing on deployment bottlenecks.</li>)
+
+[//]: # (      <li><b>Social Acceptance & Ethics:</b> Model how different groups perceive risks and capabilities, guiding interaction design, rollout strategy, and public communication.</li>)
+
+[//]: # (    </ul>)
+
+[//]: # (  </div>)
+
+[//]: # ()
+[//]: # (  <div style="margin-bottom: 25px;">)
+
+[//]: # (    <h4 style="margin-bottom: 8px;">🏙️ Self-Evolving Urban Digital Twins</h4>)
+
+[//]: # (    <p style="margin: 0 0 8px 0; font-size: 0.95em; color: #555;">)
+
+[//]: # (      <i>Core Question: How do we build a high-fidelity digital twin that keeps itself updated, hosts urban agents, and improves city governance efficiency?</i>)
+
+[//]: # (    </p>)
+
+[//]: # (    <ul style="margin-top: 0; font-size: 0.95em;">)
+
+[//]: # (      <li><b>Urban Foundation Models:</b> Fuse remote sensing, street-level data, trajectories, IoT, text, and graphs into unified urban representations.</li>)
+
+[//]: # (      <li><b>Measurement & Sensing Loops:</b> Develop scalable metrics and updating pipelines, e.g., measuring sidewalk width from street-view point clouds.</li>)
+
+[//]: # (      <li><b>Localization & Mapping:</b> Advance geo-localization and semantic SLAM across point clouds, meshes, and 3D Gaussian representations for interactive 3D cities.</li>)
+
+[//]: # (      <li><b>Urban Agents:</b> Build task agents for planning and public services, including map-LLM systems, spatial RAG, policy QA, and travel assistance.</li>)
+
+[//]: # (      <li><b>Policy Sandbox & Systems:</b> Use the twin for what-if simulation, risk assessment, and execution checks, supported by efficient retrieval, caching, and rendering.</li>)
+
+[//]: # (    </ul>)
+
+[//]: # (  </div>)
+
+[//]: # ()
+[//]: # (  <div style="margin-bottom: 25px;">)
+
+[//]: # (    <h4 style="margin-bottom: 8px;">🎨 Urban Perception & Socio-Cultural Analytics</h4>)
+
+[//]: # (    <p style="margin: 0 0 8px 0; font-size: 0.95em; color: #555;">)
+
+[//]: # (      <i>Core Question: How can local narratives, culture, and human behavior be measured and integrated into models to support urban renewal and governance?</i>)
+
+[//]: # (    </p>)
+
+[//]: # (    <ul style="margin-top: 0; font-size: 0.95em;">)
+
+[//]: # (      <li><b>AI-Enhanced Geospatial Analysis:</b> Large-scale spatial analytics linking urban form, environment, and mobility to human behavior and public service outcomes.</li>)
+
+[//]: # (      <li><b>Urban Perception & Visual Aesthetics:</b> Quantify streetscape perception and neighborhood imagery to inform design choices and regeneration priorities.</li>)
+
+[//]: # (      <li><b>Socio-Cultural Computing:</b> Incorporate dialects and place-based narratives into LLM-enabled applications for communication, interaction, and inclusive governance.</li>)
+
+[//]: # (    </ul>)
+
+[//]: # (  </div>)
+
+[//]: # ()
+[//]: # (  <div style="margin-bottom: 25px;">)
+
+[//]: # (    <h4 style="margin-bottom: 8px;">🚀 Spatial Intelligence & Foundation World Models</h4>)
+
+[//]: # (    <p style="margin: 0 0 8px 0; font-size: 0.95em; color: #555;">)
+
+[//]: # (      <i>Core Question: How can world models support reliable, interpretable spatial reasoning and actionable decision-making for physical agents?</i>)
+
+[//]: # (    </p>)
+
+[//]: # (    <ul style="margin-top: 0; font-size: 0.95em;">)
+
+[//]: # (      <li><b>World Models & Architecture:</b> Study generative, predictive, and representation-learning paradigms for forecasting and planning in the physical world.</li>)
+
+[//]: # (      <li><b>Embodied Representations:</b> Unify geometry, semantics, physics, and action into shared representations, with a path toward richer embodied modalities.</li>)
+
+[//]: # (      <li><b>Long-term Memory & Self-Evolution:</b> Build lifelong learning mechanisms with stability, forgetting control, and safety constraints for long-horizon autonomy.</li>)
+
+[//]: # (      <li><b>Neural-Inspired Reasoning:</b> Improve interpretability and robustness of spatial reasoning, exploring 3D-aware encoders and alternatives to standard transformers.</li>)
+
+[//]: # (    </ul>)
+
+[//]: # (  </div>)
+
+[//]: # ()
+[//]: # (</div>)
+
+<style>
+  .research-container.research-grid{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+    margin-top: 20px;
+    width: 100%;
+    min-height: 72vh;
+    align-items: stretch;
+    grid-auto-rows: 1fr;
+  }
+
+  .research-card{
+    background: rgba(255,255,255,0.75);
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 16px;
+    padding: 18px 18px 16px 18px;
+    box-shadow: 0 10px 28px rgba(0,0,0,0.06);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: transform 180ms ease, box-shadow 180ms ease;
+  }
+
+  .research-card:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 14px 36px rgba(0,0,0,0.10);
+  }
+
+  .research-card h4{
+    margin: 0 0 8px 0;
+    line-height: 1.25;
+  }
+
+  .research-card p{
+    margin: 0 0 10px 0;
+    font-size: 0.95em;
+    color: #555;
+  }
+
+  .research-card ul{
+    margin: 0;
+    padding-left: 1.1em;
+    font-size: 0.95em;
+    line-height: 1.55;
+
+    flex: 1 1 auto;
+    overflow: auto;
+  }
+
+  .research-card li{
+    margin: 0.2em 0;
+  }
+
+  @media (max-width: 900px){
+    .research-container.research-grid{
+      grid-template-columns: 1fr;
+      min-height: auto;
+    }
+  }
+
+  @media (prefers-color-scheme: dark){
+    .research-card{
+      background: rgba(20,20,20,0.60);
+      border: 1px solid rgba(255,255,255,0.10);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+    }
+    .research-card p{
+      color: rgba(255,255,255,0.75);
+    }
+  }
+</style>
+
+<div class="research-container research-grid">
+
+  <div class="research-card">
+    <h4>🤖 Embodied Urbanism & Collaborative Governance</h4>
+    <p><i>Core Question: How should embodied intelligence move in cities, and how can humans govern and collaborate with them at scale?</i></p>
+    <ul>
       <li><b>Robot-Friendly Urban Space:</b> Redesign streets and building interiors for deployment, including siting, infrastructure, protocols, and responsibility boundaries.</li>
       <li><b>Embodied Navigation:</b> Vision-based navigation and task execution in real urban scenes, with accessibility-aware routing and ground robot and drone platforms.</li>
       <li><b>Low-Altitude Governance:</b> Derive operable air corridors from demand signals, then validate in 3D city models under privacy, noise, crowds, and other effects.</li>
@@ -39,12 +221,10 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
     </ul>
   </div>
 
-  <div style="margin-bottom: 25px;">
-    <h4 style="margin-bottom: 8px;">🏙️ Self-Evolving Urban Digital Twins</h4>
-    <p style="margin: 0 0 8px 0; font-size: 0.95em; color: #555;">
-      <i>Core Question: How do we build a high-fidelity digital twin that keeps itself updated, hosts urban agents, and improves city governance efficiency?</i>
-    </p>
-    <ul style="margin-top: 0; font-size: 0.95em;">
+  <div class="research-card">
+    <h4>🏙️ Self-Evolving Urban Digital Twins</h4>
+    <p><i>Core Question: How do we build a high-fidelity digital twin that keeps itself updated, hosts urban agents, and improves city governance efficiency?</i></p>
+    <ul>
       <li><b>Urban Foundation Models:</b> Fuse remote sensing, street-level data, trajectories, IoT, text, and graphs into unified urban representations.</li>
       <li><b>Measurement & Sensing Loops:</b> Develop scalable metrics and updating pipelines, e.g., measuring sidewalk width from street-view point clouds.</li>
       <li><b>Localization & Mapping:</b> Advance geo-localization and semantic SLAM across point clouds, meshes, and 3D Gaussian representations for interactive 3D cities.</li>
@@ -53,24 +233,20 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
     </ul>
   </div>
 
-  <div style="margin-bottom: 25px;">
-    <h4 style="margin-bottom: 8px;">🎨 Urban Perception & Socio-Cultural Analytics</h4>
-    <p style="margin: 0 0 8px 0; font-size: 0.95em; color: #555;">
-      <i>Core Question: How can local narratives, culture, and human behavior be measured and integrated into models to support urban renewal and governance?</i>
-    </p>
-    <ul style="margin-top: 0; font-size: 0.95em;">
+  <div class="research-card">
+    <h4>🎨 Urban Perception & Socio-Cultural Analytics</h4>
+    <p><i>Core Question: How can local narratives, culture, and human behavior be measured and integrated into models to support urban renewal and governance?</i></p>
+    <ul>
       <li><b>AI-Enhanced Geospatial Analysis:</b> Large-scale spatial analytics linking urban form, environment, and mobility to human behavior and public service outcomes.</li>
       <li><b>Urban Perception & Visual Aesthetics:</b> Quantify streetscape perception and neighborhood imagery to inform design choices and regeneration priorities.</li>
       <li><b>Socio-Cultural Computing:</b> Incorporate dialects and place-based narratives into LLM-enabled applications for communication, interaction, and inclusive governance.</li>
     </ul>
   </div>
 
-  <div style="margin-bottom: 25px;">
-    <h4 style="margin-bottom: 8px;">🚀 Spatial Intelligence & Foundation World Models</h4>
-    <p style="margin: 0 0 8px 0; font-size: 0.95em; color: #555;">
-      <i>Core Question: How can world models support reliable, interpretable spatial reasoning and actionable decision-making for physical agents?</i>
-    </p>
-    <ul style="margin-top: 0; font-size: 0.95em;">
+  <div class="research-card">
+    <h4>🚀 Spatial Intelligence & Foundation World Models</h4>
+    <p><i>Core Question: How can world models support reliable, interpretable spatial reasoning and actionable decision-making for physical agents?</i></p>
+    <ul>
       <li><b>World Models & Architecture:</b> Study generative, predictive, and representation-learning paradigms for forecasting and planning in the physical world.</li>
       <li><b>Embodied Representations:</b> Unify geometry, semantics, physics, and action into shared representations, with a path toward richer embodied modalities.</li>
       <li><b>Long-term Memory & Self-Evolution:</b> Build lifelong learning mechanisms with stability, forgetting control, and safety constraints for long-horizon autonomy.</li>
@@ -79,6 +255,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
   </div>
 
 </div>
+
 
 <div style="text-align: center;">
   <a href="/assets/CV_Kaizhen TAN.pdf">View My CV</a> /
