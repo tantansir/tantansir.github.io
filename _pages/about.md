@@ -19,7 +19,7 @@ redirect_from:
 
 Hi! I’m Kaizhen Tan (谭楷蓁). I am currently a master’s student in Artificial Intelligence at **Carnegie Mellon University**. I received my bachelor’s degree in Information Systems from **Tongji University**, where I built a solid foundation in programming, data analysis, and machine learning, complemented by interdisciplinary training in business and organizational systems.
 
-My research sits at the intersection of **Urban Management and Spatial Intelligence**. I aim to build systems that are both **spatially intelligent and socially aware**, providing computational solutions to make cities more adaptive, inclusive, and human-centric.
+My research sits at the intersection of **Urban Management and Spatial Intelligence**. I aim to build systems that are both spatially intelligent and socially aware, providing computational solutions to make cities more adaptive, inclusive, and human-centric.
 
 Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, my work is structured around four interdisciplinary pillars:
 
@@ -27,44 +27,54 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 
   <div style="margin-bottom: 25px;">
     <h4 style="margin-bottom: 8px;">🤖 Embodied Urbanism & Collaborative Governance</h4>
-    <p style="margin: 0 0 8px 0; font-size: 0.95em; color: #555;"><i>Core Question: How do we manage and design urban spaces for human-machine co-habitation?</i></p>
+    <p style="margin: 0 0 8px 0; font-size: 0.95em; color: #555;">
+      <i>Core Question: How should embodied intelligence move in cities, and how can humans govern and collaborate with them at scale?</i>
+    </p>
     <ul style="margin-top: 0; font-size: 0.95em;">
-      <li><b>Robot-Friendly Urban Space:</b> Optimizing infrastructure siting and redesigning streetscapes/building interiors (e.g., domestic service workflows) to redefine human-machine interaction boundaries and liability.</li>
-      <li><b>Visual Embodied Navigation:</b> Developing navigation models (UrbanNav) for real-world scenarios, focusing on barrier-free facilities for the disabled and diverse platforms like drones and UGVs.</li>
-      <li><b>Low-Altitude Economy & Order:</b> Mining operational flight routes from logistics demand and traffic flow, validated against digital twins under noise, privacy, and "urban canyon" constraints.</li>
-      <li><b>Deployment Pathways for Emerging Devices:</b> Analyzing practical barriers for integrating <b>robots, low-altitude systems, BCI, and next-gen wearables</b> into urban services, while studying social acceptance across different demographics.</li>
+      <li><b>Robot-Friendly Urban Space:</b> Redesign streets and building interiors for deployment, including siting, infrastructure, protocols, and responsibility boundaries.</li>
+      <li><b>Embodied Navigation:</b> Vision-based navigation and task execution in real urban scenes, with accessibility-aware routing and ground robot and drone platforms.</li>
+      <li><b>Low-Altitude Governance:</b> Derive operable air corridors from demand signals, then validate in 3D city models under privacy, noise, crowds, and other effects.</li>
+      <li><b>Emerging Urban Devices & Deployment:</b> Study city-scale rollout of robots, low-altitude systems, wearables, and BCI-like devices, focusing on deployment bottlenecks.</li>
+      <li><b>Social Acceptance & Ethics:</b> Model how different groups perceive risks and capabilities, guiding interaction design, rollout strategy, and public communication.</li>
     </ul>
   </div>
 
   <div style="margin-bottom: 25px;">
     <h4 style="margin-bottom: 8px;">🏙️ Self-Evolving Urban Digital Twins</h4>
-    <p style="margin: 0 0 8px 0; font-size: 0.95em; color: #555;"><i>Core Question: How to maintain a high-fidelity, self-updating digital environment for agent-based urban governance?</i></p>
+    <p style="margin: 0 0 8px 0; font-size: 0.95em; color: #555;">
+      <i>Core Question: How do we build a high-fidelity digital twin that keeps itself updated, hosts urban agents, and improves city governance efficiency?</i>
+    </p>
     <ul style="margin-top: 0; font-size: 0.95em;">
-      <li><b>Multimodal Urban Foundation Models:</b> Fusing remote sensing, street view, trajectory, and IoT data to align spatial relations and POI semantics into unified <b>Geo-embeddings</b> for long-term agent memory.</li>
-      <li><b>Dynamic Sensing & Measurement:</b> Utilizing embodied agents as mobile sensors to create a closed loop of data collection and feedback (e.g., automated sidewalk width measurement via street-view point clouds/VGGT).</li>
-      <li><b>Policy Execution Sandbox:</b> Using Digital Twins as a controlled environment for spatial RAG, policy simulation, risk assessment, and mission planning (e.g., transit assistants and policy Q&A).</li>
-      <li><b>Semantic Mapping & Localization:</b> Advancing Geo-localization and semantic SLAM (3DGS, Mesh, Point Cloud) to build interactive and searchable 3D urban environments.</li>
+      <li><b>Urban Foundation Models:</b> Fuse remote sensing, street-level data, trajectories, IoT, text, and graphs into unified urban representations.</li>
+      <li><b>Measurement & Sensing Loops:</b> Develop scalable metrics and updating pipelines, e.g., measuring sidewalk width from street-view point clouds.</li>
+      <li><b>Localization & Mapping:</b> Advance geo-localization and semantic SLAM across point clouds, meshes, and 3D Gaussian representations for interactive 3D cities.</li>
+      <li><b>Urban Agents:</b> Build task agents for planning and public services, including map-LLM systems, spatial RAG, policy QA, and travel assistance.</li>
+      <li><b>Policy Sandbox & Systems:</b> Use the twin for what-if simulation, risk assessment, and execution checks, supported by efficient retrieval, caching, and rendering.</li>
     </ul>
   </div>
 
   <div style="margin-bottom: 25px;">
     <h4 style="margin-bottom: 8px;">🎨 Urban Perception & Socio-Cultural Analytics</h4>
-    <p style="margin: 0 0 8px 0; font-size: 0.95em; color: #555;"><i>Core Question: How do cultural narratives and human behavior inform smarter urban regeneration?</i></p>
+    <p style="margin: 0 0 8px 0; font-size: 0.95em; color: #555;">
+      <i>Core Question: How can local narratives, culture, and human behavior be measured and integrated into models to support urban renewal and governance?</i>
+    </p>
     <ul style="margin-top: 0; font-size: 0.95em;">
-      <li><b>AI-Enhanced Geospatial Analysis:</b> Studying how urban planning and environments shape human behavior (e.g., GIS-based analysis of lost-and-found patterns in subways).</li>
-      <li><b>Urban Imagery & Aesthetics:</b> Quantifying visual aesthetics and "Sense of Place" using AI to inform urban design and historic quarter regeneration.</li>
-      <li><b>Socio-Cultural LLMs:</b> Integrating local dialects, indigenous culture, and city narratives into models to foster more empathetic and localized smart city management.</li>
+      <li><b>AI-Enhanced Geospatial Analysis:</b> Large-scale spatial analytics linking urban form, environment, and mobility to human behavior and public service outcomes.</li>
+      <li><b>Urban Perception & Visual Aesthetics:</b> Quantify streetscape perception and neighborhood imagery to inform design choices and regeneration priorities.</li>
+      <li><b>Socio-Cultural Computing:</b> Incorporate dialects and place-based narratives into LLM-enabled applications for communication, interaction, and inclusive governance.</li>
     </ul>
   </div>
 
   <div style="margin-bottom: 25px;">
     <h4 style="margin-bottom: 8px;">🚀 Spatial Intelligence & Foundation World Models</h4>
-    <p style="margin: 0 0 8px 0; font-size: 0.95em; color: #555;"><i>Core Question: How to build reliable, interpretable, and self-evolving world models for physical agents?</i></p>
+    <p style="margin: 0 0 8px 0; font-size: 0.95em; color: #555;">
+      <i>Core Question: How can world models support reliable, interpretable spatial reasoning and actionable decision-making for physical agents?</i>
+    </p>
     <ul style="margin-top: 0; font-size: 0.95em;">
-      <li><b>World Model Architectures:</b> Exploring forms of world models including JEPA (perception-prediction), generative video (Genie), and 3DGS-based reconstruction; developing novel 3D encoders to break the limitations of standard Transformers.</li>
-      <li><b>3D-Enhanced Spatial Reasoning:</b> Leveraging 3D priors (reconstruction, camera poses, depth) to improve the stability and interpretability of VLM spatial understanding.</li>
-      <li><b>Continuous Self-Evolution:</b> Investigating long-term memory mechanisms (e.g., improving CambrianS) and "infinite continuous learning" to ensure stable autonomous growth and safety-constrained adaptation for physical agents.</li>
-      <li><b>Unified Representations:</b> Integrating geometry, semantics, and physical interaction (including tactile sensing) into a unified multimodal action representation.</li>
+      <li><b>World Models & Architecture:</b> Study generative, predictive, and representation-learning paradigms for forecasting and planning in the physical world.</li>
+      <li><b>Embodied Representations:</b> Unify geometry, semantics, physics, and action into shared representations, with a path toward richer embodied modalities.</li>
+      <li><b>Long-term Memory & Self-Evolution:</b> Build lifelong learning mechanisms with stability, forgetting control, and safety constraints for long-horizon autonomy.</li>
+      <li><b>Neural-Inspired Reasoning:</b> Improve interpretability and robustness of spatial reasoning, exploring 3D-aware encoders and alternatives to standard transformers.</li>
     </ul>
   </div>
 
