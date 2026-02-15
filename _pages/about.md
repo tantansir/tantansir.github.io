@@ -309,7 +309,6 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 
 </div>
 
-
 # 🔥 News
 
 - *2026.01*: 🎉 The abstract co-authored with Prof. Fan Zhang has been accepted for the [XXV ISPRS Congress 2026](https://www.isprs2026toronto.com/). See you in Toronto!
@@ -406,8 +405,8 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
     margin: 14px 0;
   }
   .edu-logo{
-    width: 100px;        /* 需要的话也可以调大 */
-    height: 100px;
+    width: 95px;        /* 需要的话也可以调大 */
+    height: 95px;
     object-fit: contain;
     flex: 0 0 auto;
   }
