@@ -184,8 +184,8 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 
   .sbtn{
     --bg:#2d2d2d;
-    width:30px;
-    height:30px;
+    width:35px;
+    height:35px;
     border-radius:16px;
     display:inline-flex;
     align-items:center;
@@ -200,7 +200,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 
   .sbtn:hover{
     transform: translateY(-2px);
-    box-shadow: 0 12px 26px rgba(0,0,0,0.14);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.14);
   }
 
   .sbtn:active{
@@ -209,8 +209,8 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 
   .sbtn img,
   .sbtn svg{
-    width:26px;
-    height:26px;
+    width:24px;
+    height:24px;
     display:block;
   }
 
@@ -235,7 +235,8 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
   <!-- CV -->
   <a class="sbtn s-cv" href="/assets/CV_Kaizhen%20TAN.pdf" aria-label="CV" title="CV">
     <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path fill="#fff" d="M6 2h9l3 3v17H6V2zm9 1.5V6h2.5L15 3.5zM8 9h8v2H8V9zm0 4h8v2H8v-2zm0 4h6v2H8v-2z"/>
+      <path fill="#fff" d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm0 2.5L19.5 10H14V4.5z"/>
+      <path fill="#fff" d="M8 13h8v1.7H8V13zm0 3h6v1.7H8V16z"/>
     </svg>
   </a>
 
@@ -268,7 +269,9 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 
   <!-- LinkedIn（Simple Icons 原版） -->
   <a class="sbtn s-linkedin" href="https://www.linkedin.com/in/kaizhen-tan-b020232b3/" aria-label="LinkedIn" title="LinkedIn" rel="me noopener noreferrer" target="_blank">
-    <img src="https://cdn.simpleicons.org/linkedin/ffffff" alt="" />
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="#fff" d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.95v5.66H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.35-1.85 3.59 0 4.26 2.36 4.26 5.43v6.31zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/>
+    </svg>
   </a>
 </div>
 
@@ -382,10 +385,6 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 
   .edu-top strong{
     font-size: 18px;
-  }
-  .edu-sub{
-    font-size: 14px;
-    margin-top: 4px;
   }
 </style>
 
