@@ -146,3 +146,8 @@ h1:before, .anchor:before {
   .edu-logo{width:56px;height:56px;}
   .edu-item{gap:12px;}
 }
+
+body{
+  font-feature-settings: "salt" 0, "swsh" 0, "ss01" 0, "ss02" 0;
+  font-variant-ligatures: none;
+}

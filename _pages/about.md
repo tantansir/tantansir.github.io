@@ -380,12 +380,7 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
   </div>
 </div>
 
-<style>
-  /* 只拉开 Presentations 与上一块内容的距离 */
-  .page__content h1#presentations{
-    margin-top: 3rem;
-  }
-</style>
+<div class="section-gap"></div>
 
 # 💬 Presentations
 
