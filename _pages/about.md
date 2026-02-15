@@ -395,6 +395,26 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 
 # 📖 Education
 
+[//]: # (<div class="edu-item">)
+
+[//]: # (  <img class="edu-logo" src="/assets/nyu.png" alt="NYU" />)
+
+[//]: # (  <div class="edu-content">)
+
+[//]: # (    <div class="edu-top">)
+
+[//]: # (      <strong>New York University</strong>)
+
+[//]: # (    </div>)
+
+[//]: # (    <div class="edu-sub"><em>2026.09 – 2031.05 &#40;expected&#41;</em></div>)
+
+[//]: # (    <div class="edu-sub"><em>Ph.D. student in Urban Science</em></div>)
+
+[//]: # (  </div>)
+
+[//]: # (</div>)
+
 <div class="edu-item">
   <img class="edu-logo" src="/assets/cmu.png" alt="CMU" />
   <div class="edu-content">
