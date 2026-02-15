@@ -147,6 +147,7 @@ h1:before, .anchor:before {
   .edu-item{gap:12px;}
 }
 
-.section-title .amp{
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", Arial, sans-serif;
+.research-card h4 .amp{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", Arial, sans-serif !important;
+  font-weight: inherit;
 }
