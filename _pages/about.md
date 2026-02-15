@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I’m Kaizhen Tan (谭楷蓁). I am currently a master’s student in Artificial Intelligence at **Carnegie Mellon University**. I received my bachelor’s degree in Information Systems from **Tongji University**, where I built a solid foundation in programming, data analysis, and machine learning, complemented by interdisciplinary training in business and organizational systems.
+Hi! I am Kaizhen Tan (Chinese name: 谭楷蓁). I am currently a master’s student in Artificial Intelligence at **Carnegie Mellon University**. I received my bachelor’s degree in Information Systems from **Tongji University**, where I built a solid foundation in programming, data analysis, and machine learning, complemented by interdisciplinary training in business and organizational systems.
 
 My research sits at the intersection of **Urban Management and Spatial Intelligence**. I aim to build systems that are both spatially intelligent and socially aware, providing computational solutions to make cities more adaptive, inclusive, and human-centric.
 
@@ -113,7 +113,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 <div class="research-container research-grid">
 
   <div class="research-card">
-    <h4>🤖 Embodied Urbanism <span class="amp">&amp;</span> Collaborative Governance</h4>
+    <h4>🤖 1. Embodied Urbanism <span class="amp">&amp;</span> Collaborative Governance</h4>
     <p><i>Core Question: How should embodied intelligence move in cities, and how can humans govern and collaborate with them at scale?</i></p>
     <ul>
       <li><b>Robot-Friendly Urban Space:</b> Redesign streets and building interiors for robot operations, setting standards for siting, infrastructure, protocols, and responsibility boundaries.</li>
@@ -125,7 +125,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
   </div>
 
   <div class="research-card">
-    <h4>🎨 Social Sensing <span class="amp">&amp;</span> Human-Environment Interaction</h4>
+    <h4>🎨 2. Social Sensing <span class="amp">&amp;</span> Human-Environment Interaction</h4>
     <p><i>Core Question: How can local narratives, culture, and human behavior be measured and integrated into models to support urban renewal and governance?</i></p>
     <ul>
       <li><b>AI-Enhanced Geospatial Analysis:</b> Use large-scale spatial analytics to link urban form, environment, and mobility with human behavior and public service outcomes.</li>
@@ -136,7 +136,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
   </div>
 
   <div class="research-card">
-    <h4>🏙️ Self-Evolving Urban Digital Twins and Agents</h4>
+    <h4>🏙️ 3. Self-Evolving Urban Digital Twins and Agents</h4>
     <p><i>Core Question: How can we build a self evolving urban digital twin that stays continuously updated, hosts agents, and supports sustainable and equitable city governance?</i></p>
     <ul>
       <li><b>Urban Foundation Models:</b> Fuse remote sensing, street-level data, trajectories, IoT, text, and graphs into unified urban representations.</li>
@@ -148,7 +148,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
   </div>
 
   <div class="research-card">
-    <h4>🚀 Spatial Intelligence <span class="amp">&amp;</span> Foundation World Models</h4>
+    <h4>🚀 4. Spatial Intelligence <span class="amp">&amp;</span> Foundation World Models</h4>
     <p><i>Core Question: How can world models support reliable spatial reasoning and actionable decision-making for physical agents?</i></p>
     <ul>
       <li><b>World Models & Architecture:</b> Study generative, predictive, and representation-learning paradigms for forecasting and planning in the physical world.</li>
@@ -257,7 +257,7 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 # 📖 Education
 
 <div class="edu-item">
-  <img class="edu-logo" src="/assets/cmu.png" alt="CMU" />
+  <img class="edu-logo" src="/assets/cmu2.png" alt="CMU" />
   <div class="edu-content">
     <div class="edu-top">
       <strong>Carnegie Mellon University</strong>
@@ -268,7 +268,7 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 </div>
 
 <div class="edu-item">
-  <img class="edu-logo" src="/assets/tongji.svg" alt="Tongji" />
+  <img class="edu-logo" src="/assets/tongji1.png" alt="Tongji" />
   <div class="edu-content">
     <div class="edu-top">
       <strong>Tongji University</strong>
@@ -299,9 +299,9 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 - *2023.01 - 2023.02*, Data Analyst, Shanghai Qiantan Emerging Industry Research Institute, China.
 
 <style>
-  .section-gap{ height: 4px; }
+  .section-gap10{ height: 2px; }
 </style>
-<div class="section-gap"></div>
+<div class="section-gap10"></div>
 
 # 💬 Presentations
 
