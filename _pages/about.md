@@ -269,30 +269,6 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
   <a href="https://www.linkedin.com/in/kaizhen-tan-b020232b3/">LinkedIn</a>
 </div>
 
-# 📖 Education
-
-<div class="edu-item">
-  <img class="edu-logo" src="/assets/cmu.png" alt="CMU" />
-  <div class="edu-content">
-    <div class="edu-top">
-      <strong>Carnegie Mellon University</strong>
-    </div>
-    <div class="edu-sub"><em>2025.08 – 2026.08</em></div>
-    <div class="edu-sub"><em>M.S. in Artificial Intelligence Systems Management</em></div>
-  </div>
-</div>
-
-<div class="edu-item">
-  <img class="edu-logo" src="/assets/tongji.svg" alt="Tongji" />
-  <div class="edu-content">
-    <div class="edu-top">
-      <strong>Tongji University</strong>
-    </div>
-    <div class="edu-sub"><em>2021.09 – 2025.06</em></div>
-    <div class="edu-sub"><em>B.Mgt. in Information Management and Information System</em></div>
-  </div>
-</div>
-
 # 🔥 News
 
 - *2026.01*: 🎉 The abstract co-authored with Prof. Fan Zhang has been accepted for the [XXV ISPRS Congress 2026](https://www.isprs2026toronto.com/). See you in Toronto!
@@ -373,6 +349,30 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 [[report]](/assets/blindnav.pdf) [[github]](https://github.com/tantansir/BlindNav)
 - BlindNav is a real-time, camera-based navigation assistant that uses YOLO for street-scene detection and a local LLM to turn those signals into concise voice guidance for blind and low-vision pedestrians.
 </div>
+</div>
+
+# 📖 Education
+
+<div class="edu-item">
+  <img class="edu-logo" src="/assets/cmu.png" alt="CMU" />
+  <div class="edu-content">
+    <div class="edu-top">
+      <strong>Carnegie Mellon University</strong>
+    </div>
+    <div class="edu-sub"><em>2025.08 – 2026.08</em></div>
+    <div class="edu-sub"><em>M.S. in Artificial Intelligence Systems Management</em></div>
+  </div>
+</div>
+
+<div class="edu-item">
+  <img class="edu-logo" src="/assets/tongji.svg" alt="Tongji" />
+  <div class="edu-content">
+    <div class="edu-top">
+      <strong>Tongji University</strong>
+    </div>
+    <div class="edu-sub"><em>2021.09 – 2025.06</em></div>
+    <div class="edu-sub"><em>B.Mgt. in Information Management and Information System</em></div>
+  </div>
 </div>
 
 # 💬 Presentations
