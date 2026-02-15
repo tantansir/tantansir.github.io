@@ -401,7 +401,7 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
   .edu-item{
     display: flex;
     align-items: center;
-    gap: 45px;          /* 这里调大就是间隔更远 */
+    gap: 40px;          /* 这里调大就是间隔更远 */
     margin: 14px 0;
   }
   .edu-logo{
@@ -417,10 +417,10 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
   }
 
   .edu-top strong{
-    font-size: 20px;
+    font-size: 18px;
   }
   .edu-sub{
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 4px;
   }
 </style>
