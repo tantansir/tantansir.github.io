@@ -215,7 +215,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
   .social-row .txt{
     color:#fff;
     font-weight: 900;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1;
     letter-spacing: 0.5px;
     user-select:none;
@@ -375,10 +375,29 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 </div>
 </div>
 
+
+<style>
+  .edu-item{
+    display: flex;
+    align-items: center;
+    gap: 22px;          /* 这里调大就是间隔更远 */
+    margin: 14px 0;
+  }
+  .edu-logo{
+    width: 64px;        /* 需要的话也可以调大 */
+    height: 64px;
+    object-fit: contain;
+    flex: 0 0 auto;
+  }
+  .edu-content{
+    flex: 1 1 auto;
+  }
+</style>
+
 # 📖 Education
 
 <div class="edu-item">
-  <img class="edu-logo" src="/assets/cmu2.png" alt="CMU" />
+  <img class="edu-logo" src="/assets/cmu.png" alt="CMU" />
   <div class="edu-content">
     <div class="edu-top">
       <strong>Carnegie Mellon University</strong>
