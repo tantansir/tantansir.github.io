@@ -214,7 +214,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 <div class="research-container research-grid">
 
   <div class="research-card">
-    <h4>🤖 Embodied Urbanism & Collaborative Governance</h4>
+    <h4>🤖 Embodied Urbanism <span class="amp">&amp;</span> Collaborative Governance</h4>
     <p><i>Core Question: How should embodied intelligence move in cities, and how can humans govern and collaborate with them at scale?</i></p>
     <ul>
       <li><b>Robot-Friendly Urban Space:</b> Redesign streets and building interiors for robot operations, setting standards for siting, infrastructure, protocols, and responsibility boundaries.</li>
@@ -267,6 +267,30 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
   <a href="https://github.com/tantansir">Github</a> /
   <a href="/images/Wechat.jpg">Wechat</a> /
   <a href="https://www.linkedin.com/in/kaizhen-tan-b020232b3/">LinkedIn</a>
+</div>
+
+# 📖 Education
+
+<div class="edu-item">
+  <img class="edu-logo" src="/assets/cmu.png" alt="CMU" />
+  <div class="edu-content">
+    <div class="edu-top">
+      <strong>Carnegie Mellon University</strong>
+    </div>
+    <div class="edu-sub"><em>2025.08 – 2026.08</em></div>
+    <div class="edu-sub"><em>M.S. in Artificial Intelligence Systems Management</em></div>
+  </div>
+</div>
+
+<div class="edu-item">
+  <img class="edu-logo" src="/assets/tongji.svg" alt="Tongji" />
+  <div class="edu-content">
+    <div class="edu-top">
+      <strong>Tongji University</strong>
+    </div>
+    <div class="edu-sub"><em>2021.09 – 2025.06</em></div>
+    <div class="edu-sub"><em>B.Mgt. in Information Management and Information System</em></div>
+  </div>
 </div>
 
 # 🔥 News
@@ -379,29 +403,6 @@ Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle 
 - *2025.01 - 2025.04*, AI Product Manager, [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/), China.
 - *2023.01 - 2023.02*, Data Analyst, Shanghai Qiantan Emerging Industry Research Institute, China.
 
-# 📖 Education
-
-<div class="edu-item">
-  <img class="edu-logo" src="/assets/cmu.png" alt="CMU" />
-  <div class="edu-content">
-    <div class="edu-top">
-      <strong>Carnegie Mellon University</strong>
-    </div>
-    <div class="edu-sub"><em>2025.08 – 2026.08</em></div>
-    <div class="edu-sub"><em>M.S. in Artificial Intelligence Systems Management</em></div>
-  </div>
-</div>
-
-<div class="edu-item">
-  <img class="edu-logo" src="/assets/tongji.svg" alt="Tongji" />
-  <div class="edu-content">
-    <div class="edu-top">
-      <strong>Tongji University</strong>
-    </div>
-    <div class="edu-sub"><em>2021.09 – 2025.06</em></div>
-    <div class="edu-sub"><em>B.Mgt. in Information Management and Information System</em></div>
-  </div>
-</div>
 
 [//]: # (### 2027.02, aag2027)
 
