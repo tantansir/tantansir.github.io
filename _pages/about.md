@@ -290,7 +290,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 - *2024.04*: 🔭 Began my academic journey at [Prof. Wei Huang](https://huangweibuct.github.io/weihuang.github.io/)’s lab in the College of Surveying and Geo-Informatics, Tongji University.
 
 <style>
-  .section-gap{ height: 8px; }
+  .section-gap{ height: 2px; }
 </style>
 <div class="section-gap"></div>
 
@@ -340,9 +340,9 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 
 
 <style>
-  .section-gap{ height: 10px; }
+  .section-gap1{ height: 10px; }
 </style>
-<div class="section-gap"></div>
+<div class="section-gap1"></div>
 
 # 💼 Experience
 
@@ -358,6 +358,10 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 - *2025.01 - 2025.04*, AI Product Manager, [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/), China.
 - *2023.01 - 2023.02*, Data Analyst, Shanghai Qiantan Emerging Industry Research Institute, China.
 
+<style>
+  .section-gap1{ height: 6px; }
+</style>
+<div class="section-gap1"></div>
 
 # 📝 Publications 
 

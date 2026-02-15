@@ -9,6 +9,9 @@ main:
   - title: "Education"
     url: "/#-education"
 
+  - title: "Experience"
+    url: "/#-experience"
+
   - title: "Publications"
     url: "/#-publications"
 
@@ -17,9 +20,6 @@ main:
 
   - title: "Presentations"
     url: "/#-presentations"
-
-  - title: "Experience"
-    url: "/#-experience"
 
   - title: "Curriculum Vitae"
     url: "/assets/CV_Kaizhen TAN.pdf"
