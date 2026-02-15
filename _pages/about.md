@@ -401,7 +401,7 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
   .edu-item{
     display: flex;
     align-items: center;
-    gap: 50px;          /* 这里调大就是间隔更远 */
+    gap: 45px;          /* 这里调大就是间隔更远 */
     margin: 14px 0;
   }
   .edu-logo{
