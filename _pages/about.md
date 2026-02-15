@@ -164,7 +164,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
   }
 
   .research-card h4{
-    margin: 0 0 9px 0;
+    margin: 0 0 8px 0;
     line-height: 1.2;
     font-size: 1.22rem;
     font-weight: 800;
@@ -248,7 +248,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 
   <div class="research-card">
     <h4>🚀 Spatial Intelligence & Foundation World Models</h4>
-    <p><i>Core Question: How can world models support reliable, interpretable spatial reasoning and actionable decision-making for physical agents?</i></p>
+    <p><i>Core Question: How can world models support reliable spatial reasoning and actionable decision-making for physical agents?</i></p>
     <ul>
       <li><b>World Models & Architecture:</b> Study generative, predictive, and representation-learning paradigms for forecasting and planning in the physical world.</li>
       <li><b>Embodied Representations:</b> Unify geometry, semantics, physics, and action into shared representations, with a path toward richer embodied modalities.</li>
