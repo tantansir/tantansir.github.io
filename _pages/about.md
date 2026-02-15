@@ -275,7 +275,7 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 
 
 <style>
-  .section-gap{ height: 40px; }
+  .section-gap{ height: 10px; }
 </style>
 <div class="section-gap"></div>
 
