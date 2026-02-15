@@ -181,7 +181,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 - *2024.04*: 🔭 Began my academic journey at [Prof. Wei Huang](https://huangweibuct.github.io/weihuang.github.io/)’s lab in the College of Surveying and Geo-Informatics, Tongji University.
 
 <style>
-  .section-gap{ height: 10px; }
+  .section-gap{ height: 8px; }
 </style>
 <div class="section-gap"></div>
 
@@ -299,7 +299,7 @@ Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle 
 *Hong Kong SAR, China*    
 
 <style>
-  .section-gap{ height: 10px; }
+  .section-gap{ height: 5px; }
 </style>
 <div class="section-gap"></div>
 
