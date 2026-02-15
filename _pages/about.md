@@ -386,6 +386,11 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
   .edu-top strong{
     font-size: 18px;
   }
+
+  .edu-sub{
+    font-size: 15px;
+    margin-top: 4px;
+  }
 </style>
 
 # 📖 Education
