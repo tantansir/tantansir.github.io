@@ -164,8 +164,11 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
   }
 
   .research-card h4{
-    margin: 0 0 8px 0;
-    line-height: 1.25;
+    margin: 0 0 10px 0;
+    line-height: 1.2;
+    font-size: 1.22rem;
+    font-weight: 800;
+    letter-spacing: 0.2px;
   }
 
   .research-card p{
@@ -223,7 +226,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 
   <div class="research-card">
     <h4>🏙️ Self-Evolving Urban Digital Twins</h4>
-    <p><i>Core Question: How do we build a high-fidelity digital twin that keeps itself updated, hosts urban agents, and improves city governance efficiency?</i></p>
+    <p><i>Core Question: How can we build a self evolving urban digital twin that stays continuously updated, hosts agents, and supports sustainable and equitable city governance?</i></p>
     <ul>
       <li><b>Urban Foundation Models:</b> Fuse remote sensing, street-level data, trajectories, IoT, text, and graphs into unified urban representations.</li>
       <li><b>Measurement & Sensing Loops:</b> Develop scalable metrics and updating pipelines, e.g., measuring sidewalk width from street-view point clouds.</li>
