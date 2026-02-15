@@ -226,6 +226,16 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
   </div>
 
   <div class="research-card">
+    <h4>🎨 Social Sensing & Human-Environment Interaction</h4>
+    <p><i>Core Question: How can local narratives, culture, and human behavior be measured and integrated into models to support urban renewal and governance?</i></p>
+    <ul>
+      <li><b>AI-Enhanced Geospatial Analysis:</b> Use large-scale spatial analytics to link urban form, environment, and mobility with human behavior and public service outcomes.</li>
+      <li><b>Urban Perception & Visual Aesthetics:</b> Quantify streetscape perception and neighborhood imagery to inform design choices and regeneration priorities.</li>
+      <li><b>Socio-Cultural Computing:</b> Incorporate place-based narratives into LLM-enabled applications for communication, interaction, and inclusive governance.</li>
+    </ul>
+  </div>
+
+  <div class="research-card">
     <h4>🏙️ Self-Evolving Urban Digital Twins and Agents</h4>
     <p><i>Core Question: How can we build a self evolving urban digital twin that stays continuously updated, hosts agents, and supports sustainable and equitable city governance?</i></p>
     <ul>
@@ -234,16 +244,6 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
       <li><b>Localization & Mapping:</b> Advance geo-localization and semantic SLAM across point clouds, meshes, and 3D Gaussian representations for interactive 3D cities.</li>
       <li><b>Urban Agents:</b> Build task agents for planning and public services, including map-LLM systems, spatial RAG, policy QA, and travel assistance.</li>
       <li><b>Policy Sandbox & Systems:</b> Use the twin for what-if simulation, risk assessment, and execution checks, supported by efficient retrieval, caching, and rendering.</li>
-    </ul>
-  </div>
-
-  <div class="research-card">
-    <h4>🎨 Social Sensing & Human-Environment Interaction</h4>
-    <p><i>Core Question: How can local narratives, culture, and human behavior be measured and integrated into models to support urban renewal and governance?</i></p>
-    <ul>
-      <li><b>AI-Enhanced Geospatial Analysis:</b> Use large-scale spatial analytics to link urban form, environment, and mobility with human behavior and public service outcomes.</li>
-      <li><b>Urban Perception & Visual Aesthetics:</b> Quantify streetscape perception and neighborhood imagery to inform design choices and regeneration priorities.</li>
-      <li><b>Socio-Cultural Computing:</b> Incorporate place-based narratives into LLM-enabled applications for communication, interaction, and inclusive governance.</li>
     </ul>
   </div>
 
@@ -257,9 +257,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
       <li><b>Neural-Inspired Reasoning:</b> Improve interpretability and robustness of spatial reasoning, exploring 3D-aware encoders and alternatives to standard transformers.</li>
     </ul>
   </div>
-
 </div>
-
 
 <div style="text-align: center;">
   <a href="/assets/CV_Kaizhen TAN.pdf">View My CV</a> /
