@@ -174,74 +174,92 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 [//]: # (</div>)
 
 <style>
-  .cv-row{
-    text-align:center;
-    margin-top: 10px;
-  }
-  .cv-row a{
-    font-weight: 700;
-    text-decoration: underline;
-    text-underline-offset: 4px;
-  }
-
   .social-row{
     display:flex;
     justify-content:center;
-    gap:12px;
+    gap:14px;
     flex-wrap:wrap;
-    margin: 14px 0 6px 0;
+    margin: 18px 0 6px 0;
   }
+
   .social-row a{
-    width: 44px;
-    height: 44px;
-    border-radius: 12px;
+    width:56px;
+    height:56px;
+    border-radius:18px;
     display:inline-flex;
     align-items:center;
     justify-content:center;
-    box-shadow: 0 10px 22px rgba(0,0,0,0.08);
+    position:relative;
+    overflow:hidden;
+
+    box-shadow: 0 10px 22px rgba(0,0,0,0.10);
+    border: 1px solid rgba(0,0,0,0.06);
+    transform: translateZ(0);
     transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
-    text-decoration: none;
+    text-decoration:none;
   }
+
+  .social-row a::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background: radial-gradient(circle at 28% 22%, rgba(255,255,255,0.38), rgba(255,255,255,0) 58%);
+    opacity: .95;
+    pointer-events:none;
+  }
+
+  .social-row a::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    box-shadow: inset 0 -10px 16px rgba(0,0,0,0.18);
+    opacity:.22;
+    pointer-events:none;
+  }
+
   .social-row a:hover{
     transform: translateY(-2px);
-    box-shadow: 0 14px 30px rgba(0,0,0,0.12);
-    filter: brightness(1.02);
+    box-shadow: 0 14px 30px rgba(0,0,0,0.14);
+    filter: saturate(1.05);
   }
-  .social-row svg{
-    width: 22px;
-    height: 22px;
-    fill: #fff;
-  }
-  .social-row .txt{
-    color:#fff;
-    font-weight: 900;
-    font-size: 14px;
-    line-height: 1;
-    letter-spacing: 0.5px;
-    user-select:none;
-  }
-  .social-row .txt.small{ font-size: 14px; letter-spacing: 0; }
 
-  .bg-mail{ background:#1E88FF; }
-  .bg-scholar{ background:#2F6FE4; }
-  .bg-github{ background:#111; }
-  .bg-x{ background:#000; }
-  .bg-wechat{ background:#07C160; }
-  .bg-bili{ background:#00A1D6; }
-  .bg-zhihu{ background:#1677FF; }
-  .bg-xhs{ background:#FF2442; }
-  .bg-linkedin{ background:#0A66C2; }
+  .social-row a:active{
+    transform: translateY(-1px) scale(0.99);
+  }
+
+  .social-row svg{
+    width:24px;
+    height:24px;
+    fill:#fff;
+    position:relative;
+    z-index:1;
+  }
+
+  .bg-cv{ background: linear-gradient(135deg,#2D2D2D,#0B0B0B); }
+  .bg-mail{ background: linear-gradient(135deg,#2F8CFF,#1767FF); }
+  .bg-scholar{ background: linear-gradient(135deg,#3C7CFF,#1E4ED8); }
+  .bg-github{ background: linear-gradient(135deg,#2A2A2A,#000); }
+  .bg-wechat{ background: linear-gradient(135deg,#18D86A,#07C160); }
+  .bg-xhs{ background: linear-gradient(135deg,#FF4B61,#FF2442); }
+  .bg-linkedin{ background: linear-gradient(135deg,#1B7BFF,#0A66C2); }
 
   @media (prefers-color-scheme: dark){
-    .social-row a{ box-shadow: 0 14px 34px rgba(0,0,0,0.36); }
+    .social-row a{
+      border: 1px solid rgba(255,255,255,0.10);
+      box-shadow: 0 14px 34px rgba(0,0,0,0.36);
+    }
+    .social-row a::after{ opacity:.28; }
   }
 </style>
 
-<div class="cv-row">
-  <a href="/assets/CV_Kaizhen TAN.pdf">View My CV</a>
-</div>
+<div class="social-row" aria-label="Links">
+  <!-- CV -->
+  <a class="bg-cv" href="/assets/CV_Kaizhen%20TAN.pdf" aria-label="CV" title="CV">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M6 2h9l3 3v17H6V2zm9 1.5V6h2.5L15 3.5zM8 9h8v2H8V9zm0 4h8v2H8v-2zm0 4h6v2H8v-2z"/>
+    </svg>
+  </a>
 
-<div class="social-row" aria-label="Social links">
   <!-- Email -->
   <a class="bg-mail" href="mailto:wflps20140311@gmail.com" aria-label="Email" title="Email">
     <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -268,7 +286,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
   <a class="bg-wechat" href="/images/Wechat.jpg" aria-label="WeChat" title="WeChat">
     <svg viewBox="0 0 24 24" aria-hidden="true">
       <path d="M9.3 4C5.6 4 2.6 6.5 2.6 9.6c0 1.8 1 3.4 2.7 4.4l-.7 2.2 2.4-1.2c.7.2 1.5.3 2.3.3 3.7 0 6.7-2.5 6.7-5.6S13 4 9.3 4z"/>
-      <path d="M14.8 9.2c-3.1 0-5.6 2.1-5.6 4.7s2.5 4.7 5.6 4.7c.6 0 1.2-.1 1.8-.2l2 1  -.6-1.9c1.3-.8 2.2-2.1 2.2-3.6 0-2.6-2.5-4.7-5.4-4.7z"/>
+      <path d="M14.8 9.2c-3.1 0-5.6 2.1-5.6 4.7s2.5 4.7 5.6 4.7c.6 0 1.2-.1 1.8-.2l2 1-.6-1.9c1.3-.8 2.2-2.1 2.2-3.6 0-2.6-2.5-4.7-5.4-4.7z"/>
       <circle cx="7.7" cy="9.3" r="0.8"/><circle cx="10.5" cy="9.3" r="0.8"/>
       <circle cx="13.4" cy="13.6" r="0.7"/><circle cx="16.2" cy="13.6" r="0.7"/>
     </svg>
@@ -276,7 +294,10 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 
   <!-- Xiaohongshu -->
   <a class="bg-xhs" href="https://www.xiaohongshu.com/user/profile/5e2031bc000000000100b761" aria-label="Xiaohongshu" title="Xiaohongshu" rel="me noopener noreferrer" target="_blank">
-    <span class="txt small">小红书</span>
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M7.2 8.2h9.6c1.7 0 3.2 1.3 3.2 3.1v2.6c0 3.9-3.2 6.9-8 6.9S4 17.8 4 13.9v-2.6c0-1.8 1.5-3.1 3.2-3.1zm.3 2.2c-.7 0-1.3.5-1.3 1.2v2.3c0 2.6 2.2 4.8 5.8 4.8s5.8-2.2 5.8-4.8v-2.3c0-.7-.6-1.2-1.3-1.2H7.5z"/>
+      <path d="M9 6.5c0-.6.5-1.1 1.1-1.1h3.8c.6 0 1.1.5 1.1 1.1S14.5 7.6 13.9 7.6h-3.8C9.5 7.6 9 7.1 9 6.5z"/>
+    </svg>
   </a>
 
   <!-- LinkedIn -->
@@ -285,6 +306,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
       <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0.5 23.5h4V7.5h-4v16zM8 7.5h3.8v2.2h.1c.5-1 1.9-2.2 3.9-2.2 4.2 0 5 2.7 5 6.3v9.7h-4v-8.6c0-2.1 0-4.7-2.9-4.7-2.9 0-3.4 2.2-3.4 4.6v8.7H8v-16z"/>
     </svg>
   </a>
+
 </div>
 
 
@@ -396,10 +418,10 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
   }
 
   .edu-top strong{
-    font-size: 22px;
+    font-size: 20px;
   }
   .edu-sub{
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 4px;
   }
 </style>
@@ -407,7 +429,7 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
 # 📖 Education
 
 <div class="edu-item">
-  <img class="edu-logo" src="/assets/cmu2.jpg" alt="CMU" />
+  <img class="edu-logo" src="/assets/cmu.png" alt="CMU" />
   <div class="edu-content">
     <div class="edu-top">
       <strong>Carnegie Mellon University</strong>
