@@ -380,12 +380,12 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
   .edu-item{
     display: flex;
     align-items: center;
-    gap: 22px;          /* 这里调大就是间隔更远 */
+    gap: 50px;          /* 这里调大就是间隔更远 */
     margin: 14px 0;
   }
   .edu-logo{
-    width: 64px;        /* 需要的话也可以调大 */
-    height: 64px;
+    width: 100px;        /* 需要的话也可以调大 */
+    height: 100px;
     object-fit: contain;
     flex: 0 0 auto;
   }
