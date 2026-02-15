@@ -177,137 +177,101 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
   .social-row{
     display:flex;
     justify-content:center;
-    gap:14px;
+    gap:16px;
     flex-wrap:wrap;
     margin: 18px 0 6px 0;
   }
 
-  .social-row a{
+  .sbtn{
+    --bg:#2d2d2d;
     width:56px;
     height:56px;
-    border-radius:18px;
+    border-radius:16px;
     display:inline-flex;
     align-items:center;
     justify-content:center;
-    position:relative;
-    overflow:hidden;
-
-    box-shadow: 0 10px 22px rgba(0,0,0,0.10);
-    border: 1px solid rgba(0,0,0,0.06);
-    transform: translateZ(0);
-    transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
+    background: var(--bg);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.10);
+    border: 1px solid rgba(0,0,0,0.08);
+    transition: transform 160ms ease, box-shadow 160ms ease;
     text-decoration:none;
+    -webkit-tap-highlight-color: transparent;
   }
 
-  .social-row a::before{
-    content:"";
-    position:absolute;
-    inset:0;
-    background: radial-gradient(circle at 28% 22%, rgba(255,255,255,0.38), rgba(255,255,255,0) 58%);
-    opacity: .95;
-    pointer-events:none;
-  }
-
-  .social-row a::after{
-    content:"";
-    position:absolute;
-    inset:0;
-    box-shadow: inset 0 -10px 16px rgba(0,0,0,0.18);
-    opacity:.22;
-    pointer-events:none;
-  }
-
-  .social-row a:hover{
+  .sbtn:hover{
     transform: translateY(-2px);
-    box-shadow: 0 14px 30px rgba(0,0,0,0.14);
-    filter: saturate(1.05);
+    box-shadow: 0 12px 26px rgba(0,0,0,0.14);
   }
 
-  .social-row a:active{
-    transform: translateY(-1px) scale(0.99);
+  .sbtn:active{
+    transform: translateY(-1px);
   }
 
-  .social-row svg{
-    width:24px;
-    height:24px;
-    fill:#fff;
-    position:relative;
-    z-index:1;
+  .sbtn img,
+  .sbtn svg{
+    width:26px;
+    height:26px;
+    display:block;
   }
 
-  .bg-cv{ background: linear-gradient(135deg,#2D2D2D,#0B0B0B); }
-  .bg-mail{ background: linear-gradient(135deg,#2F8CFF,#1767FF); }
-  .bg-scholar{ background: linear-gradient(135deg,#3C7CFF,#1E4ED8); }
-  .bg-github{ background: linear-gradient(135deg,#2A2A2A,#000); }
-  .bg-wechat{ background: linear-gradient(135deg,#18D86A,#07C160); }
-  .bg-xhs{ background: linear-gradient(135deg,#FF4B61,#FF2442); }
-  .bg-linkedin{ background: linear-gradient(135deg,#1B7BFF,#0A66C2); }
+  /* 背景色按品牌来 */
+  .s-cv{ --bg:#111; }
+  .s-mail{ --bg:#1E88FF; }
+  .s-scholar{ --bg:#2F6FE4; }
+  .s-github{ --bg:#111; }
+  .s-wechat{ --bg:#07C160; }
+  .s-xhs{ --bg:#FF2442; }
+  .s-linkedin{ --bg:#0A66C2; }
 
   @media (prefers-color-scheme: dark){
-    .social-row a{
+    .sbtn{
       border: 1px solid rgba(255,255,255,0.10);
       box-shadow: 0 14px 34px rgba(0,0,0,0.36);
     }
-    .social-row a::after{ opacity:.28; }
   }
 </style>
 
 <div class="social-row" aria-label="Links">
   <!-- CV -->
-  <a class="bg-cv" href="/assets/CV_Kaizhen%20TAN.pdf" aria-label="CV" title="CV">
+  <a class="sbtn s-cv" href="/assets/CV_Kaizhen%20TAN.pdf" aria-label="CV" title="CV">
     <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M6 2h9l3 3v17H6V2zm9 1.5V6h2.5L15 3.5zM8 9h8v2H8V9zm0 4h8v2H8v-2zm0 4h6v2H8v-2z"/>
+      <path fill="#fff" d="M6 2h9l3 3v17H6V2zm9 1.5V6h2.5L15 3.5zM8 9h8v2H8V9zm0 4h8v2H8v-2zm0 4h6v2H8v-2z"/>
     </svg>
   </a>
 
   <!-- Email -->
-  <a class="bg-mail" href="mailto:wflps20140311@gmail.com" aria-label="Email" title="Email">
+  <a class="sbtn s-mail" href="mailto:wflps20140311@gmail.com" aria-label="Email" title="Email">
     <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+      <path fill="#fff" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
     </svg>
   </a>
 
-  <!-- Google Scholar -->
-  <a class="bg-scholar" href="https://scholar.google.com/citations?user=JtyjnWYAAAAJ" aria-label="Google Scholar" title="Google Scholar" rel="me noopener noreferrer" target="_blank">
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3zm0 10.5L4 9.5 12 5l8 4.5-8 4z"/>
-      <path d="M6 12.7V16c0 1.9 2.7 3.5 6 3.5s6-1.6 6-3.5v-3.3l-6 3.3-6-3.3z"/>
-    </svg>
+  <!-- Google Scholar（Simple Icons 原版） -->
+  <a class="sbtn s-scholar" href="https://scholar.google.com/citations?user=JtyjnWYAAAAJ" aria-label="Google Scholar" title="Google Scholar" rel="me noopener noreferrer" target="_blank">
+    <img src="https://cdn.simpleicons.org/googlescholar/ffffff" alt="" />
   </a>
 
-  <!-- GitHub -->
-  <a class="bg-github" href="https://github.com/tantansir" aria-label="GitHub" title="GitHub" rel="me noopener noreferrer" target="_blank">
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M12 .5C5.73.5.5 5.74.5 12.22c0 5.18 3.44 9.58 8.21 11.13.6.11.82-.27.82-.58 0-.29-.01-1.04-.02-2.05-3.34.74-4.04-1.64-4.04-1.64-.55-1.42-1.34-1.8-1.34-1.8-1.09-.77.08-.76.08-.76 1.2.09 1.84 1.26 1.84 1.26 1.07 1.86 2.81 1.32 3.5 1.01.11-.8.42-1.32.76-1.62-2.66-.31-5.47-1.36-5.47-6.05 0-1.34.46-2.44 1.23-3.3-.12-.31-.53-1.57.12-3.27 0 0 1.01-.33 3.3 1.26.96-.27 1.98-.4 3-.41 1.02.01 2.04.14 3 .41 2.29-1.59 3.3-1.26 3.3-1.26.65 1.7.24 2.96.12 3.27.77.86 1.23 1.96 1.23 3.3 0 4.7-2.81 5.74-5.49 6.04.43.38.82 1.13.82 2.28 0 1.64-.02 2.97-.02 3.37 0 .32.22.7.83.58 4.77-1.55 8.2-5.95 8.2-11.13C23.5 5.74 18.27.5 12 .5z"/>
-    </svg>
+  <!-- GitHub（Simple Icons 原版） -->
+  <a class="sbtn s-github" href="https://github.com/tantansir" aria-label="GitHub" title="GitHub" rel="me noopener noreferrer" target="_blank">
+    <img src="https://cdn.simpleicons.org/github/ffffff" alt="" />
   </a>
 
-  <!-- WeChat -->
-  <a class="bg-wechat" href="/images/Wechat.jpg" aria-label="WeChat" title="WeChat">
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M9.3 4C5.6 4 2.6 6.5 2.6 9.6c0 1.8 1 3.4 2.7 4.4l-.7 2.2 2.4-1.2c.7.2 1.5.3 2.3.3 3.7 0 6.7-2.5 6.7-5.6S13 4 9.3 4z"/>
-      <path d="M14.8 9.2c-3.1 0-5.6 2.1-5.6 4.7s2.5 4.7 5.6 4.7c.6 0 1.2-.1 1.8-.2l2 1-.6-1.9c1.3-.8 2.2-2.1 2.2-3.6 0-2.6-2.5-4.7-5.4-4.7z"/>
-      <circle cx="7.7" cy="9.3" r="0.8"/><circle cx="10.5" cy="9.3" r="0.8"/>
-      <circle cx="13.4" cy="13.6" r="0.7"/><circle cx="16.2" cy="13.6" r="0.7"/>
-    </svg>
+  <!-- WeChat（Simple Icons 原版） -->
+  <a class="sbtn s-wechat" href="/images/Wechat.jpg" aria-label="WeChat" title="WeChat">
+    <img src="https://cdn.simpleicons.org/wechat/ffffff" alt="" />
   </a>
 
-  <!-- Xiaohongshu -->
-  <a class="bg-xhs" href="https://www.xiaohongshu.com/user/profile/5e2031bc000000000100b761" aria-label="Xiaohongshu" title="Xiaohongshu" rel="me noopener noreferrer" target="_blank">
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M7.2 8.2h9.6c1.7 0 3.2 1.3 3.2 3.1v2.6c0 3.9-3.2 6.9-8 6.9S4 17.8 4 13.9v-2.6c0-1.8 1.5-3.1 3.2-3.1zm.3 2.2c-.7 0-1.3.5-1.3 1.2v2.3c0 2.6 2.2 4.8 5.8 4.8s5.8-2.2 5.8-4.8v-2.3c0-.7-.6-1.2-1.3-1.2H7.5z"/>
-      <path d="M9 6.5c0-.6.5-1.1 1.1-1.1h3.8c.6 0 1.1.5 1.1 1.1S14.5 7.6 13.9 7.6h-3.8C9.5 7.6 9 7.1 9 6.5z"/>
-    </svg>
+  <!-- Xiaohongshu（Simple Icons 原版） -->
+  <a class="sbtn s-xhs" href="https://www.xiaohongshu.com/user/profile/5e2031bc000000000100b761" aria-label="Xiaohongshu" title="Xiaohongshu" rel="me noopener noreferrer" target="_blank">
+    <img src="https://cdn.simpleicons.org/xiaohongshu/ffffff" alt="" />
   </a>
 
-  <!-- LinkedIn -->
-  <a class="bg-linkedin" href="https://www.linkedin.com/in/kaizhen-tan-b020232b3/" aria-label="LinkedIn" title="LinkedIn" rel="me noopener noreferrer" target="_blank">
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0.5 23.5h4V7.5h-4v16zM8 7.5h3.8v2.2h.1c.5-1 1.9-2.2 3.9-2.2 4.2 0 5 2.7 5 6.3v9.7h-4v-8.6c0-2.1 0-4.7-2.9-4.7-2.9 0-3.4 2.2-3.4 4.6v8.7H8v-16z"/>
-    </svg>
+  <!-- LinkedIn（Simple Icons 原版） -->
+  <a class="sbtn s-linkedin" href="https://www.linkedin.com/in/kaizhen-tan-b020232b3/" aria-label="LinkedIn" title="LinkedIn" rel="me noopener noreferrer" target="_blank">
+    <img src="https://cdn.simpleicons.org/linkedin/ffffff" alt="" />
   </a>
-
 </div>
+
 
 # 🔥 News
 
