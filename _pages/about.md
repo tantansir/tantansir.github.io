@@ -36,77 +36,153 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
     grid-auto-rows: 1fr;
   }
 
-/* 让卡片有柔和的彩色底 */
-.research-card{
-  position: relative;
-  background: rgba(255,255,255,0.78);
-  overflow: hidden;
-}
-
-/* 彩色光晕层 */
-.research-card::after{
-  content:"";
-  position:absolute;
-  inset:0;
-  background:
-    radial-gradient(1200px circle at 18% 14%, var(--tint, rgba(99,102,241,0.18)) 0%, rgba(255,255,255,0) 55%),
-    radial-gradient(900px circle at 88% 88%, var(--tint2, rgba(16,185,129,0.12)) 0%, rgba(255,255,255,0) 58%);
-  pointer-events:none;
-}
-
-/* 顶部细色条，增强辨识度 */
-.research-card::before{
-  content:"";
-  position:absolute;
-  left:0; right:0; top:0;
-  height:6px;
-  background: linear-gradient(90deg, var(--accent, #6366F1), rgba(255,255,255,0));
-  opacity:0.95;
-  pointer-events:none;
-}
-
-/* 内容层级盖住伪元素 */
-.research-card > *{
-  position: relative;
-  z-index: 1;
-}
-
-/* 四张卡分别配色 */
-.research-container.research-grid .research-card:nth-child(1){
-  --accent:#6366F1;
-  --tint: rgba(99,102,241,0.22);
-  --tint2: rgba(56,189,248,0.14);
-}
-.research-container.research-grid .research-card:nth-child(2){
-  --accent:#EC4899;
-  --tint: rgba(236,72,153,0.20);
-  --tint2: rgba(168,85,247,0.12);
-}
-.research-container.research-grid .research-card:nth-child(3){
-  --accent:#10B981;
-  --tint: rgba(16,185,129,0.18);
-  --tint2: rgba(34,211,238,0.12);
-}
-.research-container.research-grid .research-card:nth-child(4){
-  --accent:#F59E0B;
-  --tint: rgba(245,158,11,0.20);
-  --tint2: rgba(251,191,36,0.12);
-}
-
-/* 深色模式下压暗一点，颜色仍保留 */
-@media (prefers-color-scheme: dark){
+  /* 卡片主体：柔和边界 + 彩色底 */
   .research-card{
-    background: rgba(20,20,20,0.62);
-    border: 1px solid rgba(255,255,255,0.10);
+    position: relative;
+    background: rgba(255,255,255,0.78);
+    overflow: hidden;
+
+    border: none;
+    border-radius: 22px;
+
+    padding: 18px 18px 16px 18px;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    display: flex;
+    flex-direction: column;
+
+    /* 外侧柔影 + 内侧高光，让边界更“软” */
+    box-shadow:
+      0 18px 48px rgba(0,0,0,0.08),
+      0 6px 18px rgba(0,0,0,0.06),
+      0 1px 0 rgba(255,255,255,0.70) inset,
+      0 -1px 0 rgba(0,0,0,0.03) inset;
+
+    transition: transform 180ms ease, box-shadow 180ms ease;
   }
+
+  .research-card:hover{
+    transform: translateY(-2px);
+    box-shadow:
+      0 22px 60px rgba(0,0,0,0.10),
+      0 8px 22px rgba(0,0,0,0.07),
+      0 1px 0 rgba(255,255,255,0.75) inset,
+      0 -1px 0 rgba(0,0,0,0.03) inset;
+  }
+
+  /* 彩色光晕层 */
   .research-card::after{
-    filter: saturate(1.05) brightness(0.9);
-    opacity: 0.9;
+    content:"";
+    position:absolute;
+    inset:0;
+    background:
+      radial-gradient(1200px circle at 18% 14%, var(--tint, rgba(99,102,241,0.18)) 0%, rgba(255,255,255,0) 55%),
+      radial-gradient(900px circle at 88% 88%, var(--tint2, rgba(16,185,129,0.12)) 0%, rgba(255,255,255,0) 58%);
+    pointer-events:none;
   }
-}
 
+  /* 顶部细色条 */
+  .research-card::before{
+    content:"";
+    position:absolute;
+    left:0; right:0; top:0;
+    height:6px;
+    background: linear-gradient(90deg, var(--accent, #6366F1), rgba(255,255,255,0));
+    opacity:0.95;
+    pointer-events:none;
+  }
 
+  /* 内容层级盖住伪元素 */
+  .research-card > *{
+    position: relative;
+    z-index: 1;
+  }
+
+  .research-card h4{
+    margin: 0 0 12px 0;
+    line-height: 1.2;
+    font-size: 1.1rem;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+  }
+
+  .research-card h4 .amp{
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", Arial, sans-serif !important;
+    font-weight: inherit;
+  }
+
+  .research-card p{
+    margin: 0 0 10px 0;
+    font-size: 0.95em;
+    color: #555;
+  }
+
+  .research-card ul{
+    margin: 0;
+    padding-left: 1.1em;
+    font-size: 0.95em;
+    line-height: 1.55;
+
+    flex: 1 1 auto;
+    overflow: auto;
+  }
+
+  .research-card li{
+    margin: 0.2em 0;
+  }
+
+  /* 四张卡分别配色 */
+  .research-container.research-grid .research-card:nth-child(1){
+    --accent:#6366F1;
+    --tint: rgba(99,102,241,0.22);
+    --tint2: rgba(56,189,248,0.14);
+  }
+  .research-container.research-grid .research-card:nth-child(2){
+    --accent:#EC4899;
+    --tint: rgba(236,72,153,0.20);
+    --tint2: rgba(168,85,247,0.12);
+  }
+  .research-container.research-grid .research-card:nth-child(3){
+    --accent:#10B981;
+    --tint: rgba(16,185,129,0.18);
+    --tint2: rgba(34,211,238,0.12);
+  }
+  .research-container.research-grid .research-card:nth-child(4){
+    --accent:#F59E0B;
+    --tint: rgba(245,158,11,0.20);
+    --tint2: rgba(251,191,36,0.12);
+  }
+
+  @media (max-width: 900px){
+    .research-container.research-grid{
+      grid-template-columns: 1fr;
+      min-height: auto;
+    }
+  }
+
+  /* 深色模式：去掉方框边界，保留柔和彩色 */
+  @media (prefers-color-scheme: dark){
+    .research-card{
+      background: rgba(20,20,20,0.62);
+      border: none;
+      box-shadow:
+        0 22px 64px rgba(0,0,0,0.42),
+        0 10px 26px rgba(0,0,0,0.30),
+        0 1px 0 rgba(255,255,255,0.10) inset,
+        0 -1px 0 rgba(0,0,0,0.35) inset;
+    }
+    .research-card p{
+      color: rgba(255,255,255,0.75);
+    }
+    .research-card::after{
+      filter: saturate(1.05) brightness(0.9);
+      opacity: 0.9;
+    }
+  }
 </style>
+
 
 <div class="research-container research-grid">
 
