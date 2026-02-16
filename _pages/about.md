@@ -19,9 +19,7 @@ redirect_from:
 
 Hi! I am Kaizhen Tan (Chinese name: 谭楷蓁). I am currently a master’s student in Artificial Intelligence at **Carnegie Mellon University**. I received my bachelor’s degree in Information Systems from **Tongji University**, where I built a solid foundation in programming, data analysis, and machine learning, complemented by interdisciplinary training in business and organizational systems.
 
-My research sits at the intersection of **Urban Management and Spatial Intelligence**. I aim to build systems that are both spatially intelligent and socially aware, providing computational solutions to make cities more adaptive, inclusive, and human-centric.
-
-Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, my research agenda is organized around four key areas:
+My research sits at the intersection of **Urban Management and Spatial Intelligence**. I aim to build systems that are both spatially intelligent and socially aware, providing computational solutions to make cities more adaptive, inclusive, and human-centric. Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, my research agenda is structured around four key topics. Please feel free to email me if any of these resonate with you, I’d be happy to chat.
 
 
 <style>
