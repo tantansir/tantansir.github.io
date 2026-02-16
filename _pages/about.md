@@ -21,8 +21,110 @@ Hi! I am Kaizhen Tan (Chinese name: 谭楷蓁). I am currently a master’s stud
 
 My research sits at the intersection of **Urban Management and Spatial Intelligence**. I aim to build systems that are both spatially intelligent and socially aware, providing computational solutions to make cities more adaptive, inclusive, and human-centric. 
 
-Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, my research agenda is structured around four key topics. Please feel free to email me if any of these resonate with you, I’d be happy to chat.
+Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, my research agenda is structured around four key topics. Please feel free to contact me if any of these resonate with you, I’d be happy to chat!
 
+
+<style>
+  .social-row{
+    display:flex;
+    justify-content:center;
+    gap:16px;
+    flex-wrap:wrap;
+    margin: 18px 0 6px 0;
+  }
+
+  .sbtn{
+    --bg:#2d2d2d;
+    width:35px;
+    height:35px;
+    border-radius:16px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    background: var(--bg);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.10);
+    border: 1px solid rgba(0,0,0,0.08);
+    transition: transform 160ms ease, box-shadow 160ms ease;
+    text-decoration:none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .sbtn:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.14);
+  }
+
+  .sbtn:active{
+    transform: translateY(-1px);
+  }
+
+  .sbtn img,
+  .sbtn svg{
+    width:24px;
+    height:24px;
+    display:block;
+  }
+
+  /* 背景色按品牌来 */
+  .s-cv{ --bg:#111; }
+  .s-mail{ --bg:#1E88FF; }
+  .s-scholar{ --bg:#2F6FE4; }
+  .s-github{ --bg:#111; }
+  .s-wechat{ --bg:#07C160; }
+  .s-xhs{ --bg:#FF2442; }
+  .s-linkedin{ --bg:#0A66C2; }
+
+  @media (prefers-color-scheme: dark){
+    .sbtn{
+      border: 1px solid rgba(255,255,255,0.10);
+      box-shadow: 0 14px 34px rgba(0,0,0,0.36);
+    }
+  }
+</style>
+
+<div class="social-row" aria-label="Links">
+  <!-- CV -->
+  <a class="sbtn s-cv" href="/assets/CV_Kaizhen%20TAN.pdf" aria-label="CV" title="CV">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="#fff" d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm0 2.5L19.5 10H14V4.5z"/>
+      <path fill="#fff" d="M8 13h8v1.7H8V13zm0 3h6v1.7H8V16z"/>
+    </svg>
+  </a>
+
+  <!-- Email -->
+  <a class="sbtn s-mail" href="mailto:wflps20140311@gmail.com" aria-label="Email" title="Email">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="#fff" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+    </svg>
+  </a>
+
+  <!-- Google Scholar（Simple Icons 原版） -->
+  <a class="sbtn s-scholar" href="https://scholar.google.com/citations?user=JtyjnWYAAAAJ" aria-label="Google Scholar" title="Google Scholar" rel="me noopener noreferrer" target="_blank">
+    <img src="https://cdn.simpleicons.org/googlescholar/ffffff" alt="" />
+  </a>
+
+  <!-- GitHub（Simple Icons 原版） -->
+  <a class="sbtn s-github" href="https://github.com/tantansir" aria-label="GitHub" title="GitHub" rel="me noopener noreferrer" target="_blank">
+    <img src="https://cdn.simpleicons.org/github/ffffff" alt="" />
+  </a>
+
+  <!-- WeChat（Simple Icons 原版） -->
+  <a class="sbtn s-wechat" href="/images/Wechat.jpg" aria-label="WeChat" title="WeChat">
+    <img src="https://cdn.simpleicons.org/wechat/ffffff" alt="" />
+  </a>
+
+  <!-- Xiaohongshu（Simple Icons 原版） -->
+  <a class="sbtn s-xhs" href="https://www.xiaohongshu.com/user/profile/5e2031bc000000000100b761" aria-label="Xiaohongshu" title="Xiaohongshu" rel="me noopener noreferrer" target="_blank">
+    <img src="https://cdn.simpleicons.org/xiaohongshu/ffffff" alt="" />
+  </a>
+
+  <!-- LinkedIn（Simple Icons 原版） -->
+  <a class="sbtn s-linkedin" href="https://www.linkedin.com/in/kaizhen-tan-b020232b3/" aria-label="LinkedIn" title="LinkedIn" rel="me noopener noreferrer" target="_blank">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="#fff" d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.95v5.66H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.35-1.85 3.59 0 4.26 2.36 4.26 5.43v6.31zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/>
+    </svg>
+  </a>
+</div>
 
 <style>
   .research-container.research-grid{
@@ -172,108 +274,6 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 [//]: # (  <a href="https://www.linkedin.com/in/kaizhen-tan-b020232b3/">LinkedIn</a>)
 
 [//]: # (</div>)
-
-<style>
-  .social-row{
-    display:flex;
-    justify-content:center;
-    gap:16px;
-    flex-wrap:wrap;
-    margin: 18px 0 6px 0;
-  }
-
-  .sbtn{
-    --bg:#2d2d2d;
-    width:35px;
-    height:35px;
-    border-radius:16px;
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    background: var(--bg);
-    box-shadow: 0 8px 18px rgba(0,0,0,0.10);
-    border: 1px solid rgba(0,0,0,0.08);
-    transition: transform 160ms ease, box-shadow 160ms ease;
-    text-decoration:none;
-    -webkit-tap-highlight-color: transparent;
-  }
-
-  .sbtn:hover{
-    transform: translateY(-2px);
-    box-shadow: 0 12px 24px rgba(0,0,0,0.14);
-  }
-
-  .sbtn:active{
-    transform: translateY(-1px);
-  }
-
-  .sbtn img,
-  .sbtn svg{
-    width:24px;
-    height:24px;
-    display:block;
-  }
-
-  /* 背景色按品牌来 */
-  .s-cv{ --bg:#111; }
-  .s-mail{ --bg:#1E88FF; }
-  .s-scholar{ --bg:#2F6FE4; }
-  .s-github{ --bg:#111; }
-  .s-wechat{ --bg:#07C160; }
-  .s-xhs{ --bg:#FF2442; }
-  .s-linkedin{ --bg:#0A66C2; }
-
-  @media (prefers-color-scheme: dark){
-    .sbtn{
-      border: 1px solid rgba(255,255,255,0.10);
-      box-shadow: 0 14px 34px rgba(0,0,0,0.36);
-    }
-  }
-</style>
-
-<div class="social-row" aria-label="Links">
-  <!-- CV -->
-  <a class="sbtn s-cv" href="/assets/CV_Kaizhen%20TAN.pdf" aria-label="CV" title="CV">
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path fill="#fff" d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm0 2.5L19.5 10H14V4.5z"/>
-      <path fill="#fff" d="M8 13h8v1.7H8V13zm0 3h6v1.7H8V16z"/>
-    </svg>
-  </a>
-
-  <!-- Email -->
-  <a class="sbtn s-mail" href="mailto:wflps20140311@gmail.com" aria-label="Email" title="Email">
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path fill="#fff" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
-    </svg>
-  </a>
-
-  <!-- Google Scholar（Simple Icons 原版） -->
-  <a class="sbtn s-scholar" href="https://scholar.google.com/citations?user=JtyjnWYAAAAJ" aria-label="Google Scholar" title="Google Scholar" rel="me noopener noreferrer" target="_blank">
-    <img src="https://cdn.simpleicons.org/googlescholar/ffffff" alt="" />
-  </a>
-
-  <!-- GitHub（Simple Icons 原版） -->
-  <a class="sbtn s-github" href="https://github.com/tantansir" aria-label="GitHub" title="GitHub" rel="me noopener noreferrer" target="_blank">
-    <img src="https://cdn.simpleicons.org/github/ffffff" alt="" />
-  </a>
-
-  <!-- WeChat（Simple Icons 原版） -->
-  <a class="sbtn s-wechat" href="/images/Wechat.jpg" aria-label="WeChat" title="WeChat">
-    <img src="https://cdn.simpleicons.org/wechat/ffffff" alt="" />
-  </a>
-
-  <!-- Xiaohongshu（Simple Icons 原版） -->
-  <a class="sbtn s-xhs" href="https://www.xiaohongshu.com/user/profile/5e2031bc000000000100b761" aria-label="Xiaohongshu" title="Xiaohongshu" rel="me noopener noreferrer" target="_blank">
-    <img src="https://cdn.simpleicons.org/xiaohongshu/ffffff" alt="" />
-  </a>
-
-  <!-- LinkedIn（Simple Icons 原版） -->
-  <a class="sbtn s-linkedin" href="https://www.linkedin.com/in/kaizhen-tan-b020232b3/" aria-label="LinkedIn" title="LinkedIn" rel="me noopener noreferrer" target="_blank">
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path fill="#fff" d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.95v5.66H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.35-1.85 3.59 0 4.26 2.36 4.26 5.43v6.31zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/>
-    </svg>
-  </a>
-</div>
 
 
 # 🔥 News
