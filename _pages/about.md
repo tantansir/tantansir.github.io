@@ -200,7 +200,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 
   <div class="research-card">
     <h4>🎨 2. Social Sensing <span class="amp">&amp;</span> Human-Environment Interaction</h4>
-    <p><i>Core Question: How can local narratives, culture, and human behavior be measured and integrated into models to support urban renewal and governance?</i></p>
+    <p><i>Core Question: How can multimodal human-centered data translate into actionable insights for urban planning and governance?</i></p>
     <ul>
       <li><b>AI-Enhanced Geospatial Analysis:</b> Use large-scale spatial analytics to link urban form, environment, and mobility with human behavior and public service outcomes.</li>
       <li><b>Pedestrian-Oriented Design:</b> Analyze walking experiences and accessibility barriers, integrating disabled people’s mobility needs into urban governance decisions.</li>
