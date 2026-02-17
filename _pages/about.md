@@ -191,10 +191,10 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
     <p><i>Core Question: How should embodied intelligence move through cities, and how can humans govern and collaborate with it at scale?</i></p>
     <ul>
       <li><b>Robot-Friendly Urban Space:</b> Redesign streets and building interiors for robot operations, setting standards for siting, infrastructure, protocols, and responsibility boundaries.</li>
-      <li><b>Embodied Navigation:</b> Vision-based navigation and task execution under real urban constraints, with accessibility-aware routing and compliance with local infrastructure and operational rules.</li>
+      <li><b>Embodied Operation:</b> Vision-based navigation and task execution under real urban constraints, with accessibility-aware routing and compliance with local infrastructure and operational rules.</li>
       <li><b>Low-Altitude Governance:</b> Derive operable air corridors from demand signals, then validate in 3D city models under privacy, noise, crowds, and other effects.</li>
       <li><b>Emerging Urban Devices & Deployment:</b> Study city-scale rollout of robots, low-altitude systems, wearables, and BCI-like devices, focusing on deployment bottlenecks.</li>
-      <li><b>Social Acceptance & Ethics:</b> Model how different groups perceive risks and capabilities, guiding interaction design, rollout strategy, and public communication.</li>
+      <li><b>Public Acceptance & Ethics:</b> Model how different groups perceive risks and capabilities, guiding interaction design, rollout strategy, and public communication.</li>
     </ul>
   </div>
 
@@ -203,9 +203,9 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
     <p><i>Core Question: How can multimodal human-centered data translate into actionable insights for urban planning and governance?</i></p>
     <ul>
       <li><b>AI-Enhanced Geospatial Analysis:</b> Use large-scale spatial analytics to link urban form, environment, and mobility with human behavior and public service outcomes.</li>
-      <li><b>Pedestrian-Oriented Design:</b> Analyze walking experiences and accessibility barriers, integrating disabled people’s mobility needs into urban governance decisions.</li>
+      <li><b>Accessibility & Pedestrian Experience:</b> Analyze walking experiences and accessibility barriers, integrating disabled people’s mobility needs into urban governance decisions.</li>
       <li><b>Urban Perception & Visual Aesthetics:</b> Quantify streetscape perception and neighborhood imagery to inform design choices and regeneration priorities.</li>
-      <li><b>Socio-Cultural Computing:</b> Incorporate place-based narratives into LLM-enabled applications for communication, interaction, and inclusive governance.</li>
+      <li><b>Socio-Cultural Signals for Governance:</b> Incorporate place-based narratives into LLM-enabled applications for communication, interaction, and inclusive governance.</li>
     </ul>
   </div>
 
@@ -213,11 +213,11 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
     <h4>🏙️ 3. Self-Evolving Urban Digital Twins and Agents</h4>
     <p><i>Core Question: How can we build self-evolving urban digital twin that stays continuously updated, hosts agents, and supports sustainable and equitable city governance?</i></p>
     <ul>
-      <li><b>Urban Foundation Models:</b> Fuse remote sensing, street-level data, trajectories, IoT, text, and graphs into unified urban representations.</li>
-      <li><b>Measurement & Sensing Loops:</b> Develop scalable metrics and updating pipelines, using robots, drones, and wearables as new data sources for continuous urban sensing.</li>
-      <li><b>Localization & Mapping:</b> Advance geo-localization and semantic SLAM across point clouds, meshes, and 3D Gaussian representations for interactive 3D cities.</li>
+      <li><b>Urban Foundation Representations:</b> Fuse remote sensing, street-level data, trajectories, IoT, text, and graphs into unified urban representations.</li>
+      <li><b>Measurement & Sensing Pipelines:</b> Develop scalable metrics and updating pipelines, using robots, drones, and wearables as new data sources for continuous urban sensing.</li>
+      <li><b>Localization, Mapping, and 3D City:</b> Geo-localization and semantic mapping across point clouds, meshes, and 3D Gaussian representations for interactive querying and simulation.</li>
       <li><b>Urban Agents:</b> Build task agents for planning and public services, including map-LLM systems, spatial RAG, policy QA, and travel assistance.</li>
-      <li><b>Policy Sandbox & Systems:</b> Use the twin for what-if simulation, risk assessment, and execution checks, supported by efficient retrieval, caching, and rendering.</li>
+      <li><b>Policy Sandbox:</b> Use the twin for what-if simulation, risk assessment, and execution checks, supported by efficient retrieval, caching, and rendering.</li>
     </ul>
   </div>
 
@@ -225,10 +225,10 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
     <h4>🚀 4. Spatial Intelligence <span class="amp">&amp;</span> Foundation World Models</h4>
     <p><i>Core Question: How can world models support reliable spatial reasoning and decision-making for physical agents?</i></p>
     <ul>
-      <li><b>World Models & Architecture:</b> Study generative, predictive, and representation-learning paradigms for forecasting and planning in the physical world.</li>
+      <li><b>World Models & Architectures:</b> Study generative, predictive, and representation-learning paradigms for forecasting and planning in the physical world.</li>
       <li><b>Embodied Representations:</b> Unify geometry, semantics, physics, and action into shared representations, with a path toward richer embodied modalities.</li>
       <li><b>Long-term Memory & Self-Evolution:</b> Build lifelong learning mechanisms with stability, forgetting control, and safety constraints for long-horizon autonomy.</li>
-      <li><b>Neural-Inspired Reasoning:</b> Improve interpretability and robustness of spatial reasoning, exploring 3D-aware encoders and alternatives to standard transformers.</li>
+      <li><b>Interpretable Spatial Reasoning:</b> Improve interpretability and robustness of spatial reasoning, exploring 3D-aware encoders and alternatives to standard transformers.</li>
     </ul>
   </div>
 </div>
