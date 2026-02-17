@@ -188,7 +188,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 
   <div class="research-card">
     <h4>🤖 1. Robotic Urbanism <span class="amp">&amp;</span> Collaborative Governance</h4>
-    <p><i>Core Question: How can embodied intelligence serve as a critical mediation layer between the physical and digital worlds so humans can govern and collaborate with these systems at scale, especially in the context of robotics and lightweight urbanization?</i></p>
+    <p><i>Core Question: How should embodied intelligence move through cities, and how can humans govern and collaborate with it at scale?</i></p>
     <ul>
       <li><b>Robot-Friendly Urban Space:</b> Redesign streets and building interiors for robot operations, setting standards for siting, infrastructure, protocols, and responsibility boundaries.</li>
       <li><b>Embodied Navigation:</b> Vision-based navigation and task execution under real urban constraints, with accessibility-aware routing and compliance with local infrastructure and operational rules.</li>
