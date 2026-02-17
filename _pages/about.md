@@ -187,11 +187,11 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 <div class="research-container research-grid">
 
   <div class="research-card">
-    <h4>🤖 1. Embodied Urbanism <span class="amp">&amp;</span> Collaborative Governance</h4>
-    <p><i>Core Question: How should embodied intelligence move in cities, and how can humans govern and collaborate with them at scale?</i></p>
+    <h4>🤖 1. Robotic Urbanism <span class="amp">&amp;</span> Collaborative Governance</h4>
+    <p><i>Core Question: How can embodied intelligence serve as a critical mediation layer between the physical and digital worlds so humans can govern and collaborate with these systems at scale, especially in the context of robotics and lightweight urbanization?</i></p>
     <ul>
       <li><b>Robot-Friendly Urban Space:</b> Redesign streets and building interiors for robot operations, setting standards for siting, infrastructure, protocols, and responsibility boundaries.</li>
-      <li><b>Embodied Navigation:</b> Vision-based navigation and task execution in real urban scenes, with accessibility-aware routing and ground robot and drone platforms.</li>
+      <li><b>Embodied Navigation:</b> Vision-based navigation and task execution under real urban constraints, with accessibility-aware routing and compliance with local infrastructure and operational rules.</li>
       <li><b>Low-Altitude Governance:</b> Derive operable air corridors from demand signals, then validate in 3D city models under privacy, noise, crowds, and other effects.</li>
       <li><b>Emerging Urban Devices & Deployment:</b> Study city-scale rollout of robots, low-altitude systems, wearables, and BCI-like devices, focusing on deployment bottlenecks.</li>
       <li><b>Social Acceptance & Ethics:</b> Model how different groups perceive risks and capabilities, guiding interaction design, rollout strategy, and public communication.</li>
@@ -211,7 +211,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 
   <div class="research-card">
     <h4>🏙️ 3. Self-Evolving Urban Digital Twins and Agents</h4>
-    <p><i>Core Question: How can we build a self evolving urban digital twin that stays continuously updated, hosts agents, and supports sustainable and equitable city governance?</i></p>
+    <p><i>Core Question: How can we build self-evolving urban digital twin that stays continuously updated, hosts agents, and supports sustainable and equitable city governance?</i></p>
     <ul>
       <li><b>Urban Foundation Models:</b> Fuse remote sensing, street-level data, trajectories, IoT, text, and graphs into unified urban representations.</li>
       <li><b>Measurement & Sensing Loops:</b> Develop scalable metrics and updating pipelines, using robots, drones, and wearables as new data sources for continuous urban sensing.</li>
@@ -223,7 +223,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 
   <div class="research-card">
     <h4>🚀 4. Spatial Intelligence <span class="amp">&amp;</span> Foundation World Models</h4>
-    <p><i>Core Question: How can world models support reliable spatial reasoning and actionable decision-making for physical agents?</i></p>
+    <p><i>Core Question: How can world models support reliable spatial reasoning and decision-making for physical agents?</i></p>
     <ul>
       <li><b>World Models & Architecture:</b> Study generative, predictive, and representation-learning paradigms for forecasting and planning in the physical world.</li>
       <li><b>Embodied Representations:</b> Unify geometry, semantics, physics, and action into shared representations, with a path toward richer embodied modalities.</li>
