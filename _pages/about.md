@@ -213,10 +213,10 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
     <h4>🏙️ 3. Self-Evolving Urban Digital Twins and Agents</h4>
     <p><i>Core Question: How can we build self-evolving urban digital twin that stays continuously updated, hosts agents, and supports sustainable and equitable city governance?</i></p>
     <ul>
-      <li><b>Urban Foundation Model:</b> Fuse remote sensing, street-level data, trajectories, IoT, text, and graphs into unified urban representations.</li>
+      <li><b>Urban Foundation Model:</b> Integrate remote sensing, street-level imagery, mobility trajectory, POI, IoT signal, and text into unified urban representations.</li>
       <li><b>Measurement & Sensing Pipelines:</b> Develop scalable metrics and updating pipelines, using robots, drones, and wearables as new data sources for continuous urban sensing.</li>
       <li><b>Localization, Mapping, and 3D City:</b> Geo-localization and semantic mapping across point clouds, meshes, and 3D Gaussian representations for interactive querying and simulation.</li>
-      <li><b>Urban Agents:</b> Build task agents for planning and public services, including map-LLM systems, spatial RAG, policy QA, and travel assistance.</li>
+      <li><b>Urban Agents:</b> Build task agents for planning and public services, including map-LLM, spatial RAG, policy QA, and travel assistance.</li>
       <li><b>Policy Sandbox:</b> Use the twin for what-if simulation, risk assessment, and execution checks, supported by efficient retrieval, caching, and rendering.</li>
     </ul>
   </div>
