@@ -569,113 +569,138 @@ Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle 
 
 [//]: # (*Pittsburgh, USA*)
 
+
+# 📫 Contact
+- Email(CMU): kaizhent@cmu.edu
+- Email(personal): wflps20140311@gmail.com
+
+
 <style>
-  /* 标题样式，做成截图那种上方居中 */
-  .visitor-map-title{
-    text-align:center;
-    font-weight:700;
-    font-size:22px;
-    color:#1f4aa6;
-    margin: 2px 0 10px 0;
-    letter-spacing: .2px;
+  .visitor-map-wrap{ margin:28px 0 6px; }
+  .section-gap3{ height:3px; }
+
+  /* 外观改成“蓝底白陆地”的地图块 */
+  .visitor-map-card{
+    padding:0;
+    background: transparent;
+    border:0;
+    border-radius:0;
+    box-shadow:none;
   }
 
-  /* 地图容器高度与背景 */
   .visitor-map-embed{
-    background:#fff;
-    min-height: 420px;
-  }
-  @media (max-width: 520px){
-    .visitor-map-embed{ min-height: 320px; }
+    position:relative;
+    width:100%;
+    max-width:730px;
+    height:300px;
+    margin:0 auto;
+    overflow:hidden;
+    border-radius:10px;
+    background:#8bbcff; /* 海洋颜色 */
   }
 
-  /* 世界底图：陆地灰、边界白 */
+  /* 顶部标题 */
+  .visitor-map-title{
+    position:absolute;
+    top:8px;
+    left:0;
+    right:0;
+    text-align:center;
+    color:#fff;
+    font-weight:700;
+    font-size:16px;
+    line-height:1.2;
+    z-index:5;
+    pointer-events:none;
+    text-shadow:0 2px 10px rgba(0,0,0,.18);
+  }
+  .visitor-map-title .count{ font-weight:800; }
+
+  /* 让 MapMyVisitors 的地图铺满容器 */
+  .visitor-map-embed .mapmyvisitors-map{
+    width:100% !important;
+    height:100% !important;
+  }
+  .visitor-map-embed .jvectormap-container{
+    width:100% !important;
+    height:100% !important;
+  }
+
+  /* 把陆地改成白色，边界线更淡 */
   .visitor-map-embed .jvectormap-region{
-    fill:#d1d5db !important;
-    stroke:#ffffff !important;
+    fill:#ffffff !important;
+    stroke:rgba(255,255,255,.65) !important;
     stroke-width:1 !important;
   }
 
-  /* 点的默认描边 */
-  .visitor-map-embed .jvectormap-marker{
-    stroke:#ffffff !important;
-  }
-
-  /* 把旧点（默认红色）改成深蓝 */
-  .visitor-map-embed .jvectormap-marker[fill="#FF0000"],
-  .visitor-map-embed .jvectormap-marker[style*="fill: #FF0000"]{
-    fill:#1d4ed8 !important;
-    fill-opacity:1 !important;
-    stroke-width:1.2 !important;
-  }
-
-  /* 把最近点（默认橙色）改成粉紫，稍微更醒目 */
-  .visitor-map-embed .jvectormap-marker[fill="#F8A400"],
-  .visitor-map-embed .jvectormap-marker[style*="fill: #F8A400"]{
-    fill:#ff4bb7 !important;
-    fill-opacity:1 !important;
-    stroke-width:2 !important;
-  }
-
-  /* 让缩放按钮更接近截图风格 */
+  /* 缩放按钮做成图里那种白底小方块 */
   .visitor-map-embed .jvectormap-zoomin,
   .visitor-map-embed .jvectormap-zoomout{
-    background: rgba(255,255,255,0.92) !important;
-    color:#6b7280 !important;
-    border:1px solid rgba(0,0,0,0.08) !important;
-    border-radius:8px !important;
-    width:34px !important;
-    height:34px !important;
-    line-height:34px !important;
-    left:12px !important;
-    box-shadow: 0 8px 18px rgba(0,0,0,0.08) !important;
+    width:28px;
+    height:28px;
+    line-height:28px;
+    border-radius:4px;
+    background:rgba(255,255,255,.92);
+    color:#2b2b2b;
+    border:1px solid rgba(0,0,0,.08);
+    box-shadow:0 8px 18px rgba(0,0,0,.12);
   }
-  .visitor-map-embed .jvectormap-zoomin{ top:auto !important; bottom:58px !important; }
-  .visitor-map-embed .jvectormap-zoomout{ top:auto !important; bottom:18px !important; }
-
-  /* 隐藏 MapMyVisitors 自带的文字行，只保留你自己的标题 */
-  .visitor-map-embed .mapmyvisitors-visitors,
-  .visitor-map-embed .mapmyvisitors-date{
-    display:none !important;
-  }
+  .visitor-map-embed .jvectormap-zoomin{ top:auto; bottom:44px; left:10px; }
+  .visitor-map-embed .jvectormap-zoomout{ top:auto; bottom:10px; left:10px; }
 </style>
 
-<div class="visitor-map-title" id="visitorMapTitle">Loading...</div>
+<div class="section-gap3"></div>
 
-<div class="visitor-map-embed" aria-label="Visitor map">
-  <script type="text/javascript" id="mapmyvisitors"
-    src="//mapmyvisitors.com/map.js?d=fU8cgDogJMfp7fmFhvAp5fSI9CakxNg1n0lI_B_Gc6o&cl=ffffff&w=a"></script>
+# 🌍 Visitor Map
+
+<div class="visitor-map-wrap">
+  <div class="visitor-map-card">
+    <div class="visitor-map-embed" aria-label="Visitor map">
+      <div class="visitor-map-title">
+        <span class="count" id="vmCount">0</span> Total Pageviews
+      </div>
+
+      <script
+        type="text/javascript"
+        id="mapmyvisitors"
+        src="//mapmyvisitors.com/map.js?d=fU8cgDogJMfp7fmFhvAp5fSI9CakxNg1n0lI_B_Gc6o&cl=ffffff&w=a">
+      </script>
+
+      <script>
+        (function () {
+          const root = document.currentScript.parentElement;
+          const countEl = root.querySelector('#vmCount');
+
+          function pickText() {
+            const selectors = [
+              '.non_unique_visitor_count-count',
+              '.unique_visitor_count-count',
+              '.mapmyvisitors-pageviews',
+              '.mapmyvisitors-total',
+              '.mapmyvisitors-visitors'
+            ];
+            for (const sel of selectors) {
+              const el = root.querySelector(sel);
+              if (!el) continue;
+              const t = (el.textContent || '').trim();
+              if (t) return t;
+            }
+            return '';
+          }
+
+          function update() {
+            const t = pickText();
+            if (!t) return;
+            const m = t.replace(/,/g, '').match(/\d+/);
+            if (m) countEl.textContent = Number(m[0]).toLocaleString();
+          }
+
+          update();
+          const timer = setInterval(update, 1500);
+          setTimeout(() => clearInterval(timer), 15000);
+        })();
+      </script>
+    </div>
+  </div>
 </div>
-
-<script>
-  (function () {
-    const titleEl = document.getElementById('visitorMapTitle');
-
-    function toNumber(text){
-      const digits = (text || '').replace(/[^\d]/g, '');
-      return digits ? Number(digits) : null;
-    }
-
-    let tries = 0;
-    const timer = setInterval(() => {
-      tries += 1;
-
-      const raw = document.querySelector('.visitor-map-embed .mapmyvisitors-visitors');
-      if (raw && raw.textContent) {
-        const n = toNumber(raw.textContent);
-        if (n !== null) {
-          titleEl.textContent = n.toLocaleString() + ' Total Pageviews';
-        } else {
-          titleEl.textContent = raw.textContent.trim();
-        }
-        clearInterval(timer);
-      }
-
-      if (tries > 60) {
-        titleEl.textContent = 'Visitor Map';
-        clearInterval(timer);
-      }
-    }, 250);
-  })();
-</script>
 
