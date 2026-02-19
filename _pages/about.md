@@ -702,17 +702,25 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 
 # 💬 Presentations
 
-- 2026.07 - **XXV ISPRS Congress 2026**  
-UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images  
-*Toronto, Canada*  
+<ul style="line-height: 1.6; list-style-type: disc; padding-left: 20px;">
+  <li style="margin-bottom: 18px;">
+    2026.07 - <strong>XXV ISPRS Congress 2026</strong><br>
+    UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images<br>
+    <em>Toronto, Canada</em>
+  </li>
 
-- 2025.08 - **Global Smart Cities Summit cum The 4th International Conference on Urban Informatics [(GSCS & ICUI 2025)](https://www.isocui.org/icui2025)**  
-A Multidimensional AI-powered Framework for Analyzing Tourist Perception in Historic Urban Quarters: A Case Study in Shanghai  
-*Hong Kong Polytechnic University (PolyU), Hong Kong SAR, China*  
+  <li style="margin-bottom: 18px;">
+    2025.08 - <strong>Global Smart Cities Summit cum The 4th International Conference on Urban Informatics <a href="https://www.isocui.org/icui2025" style="color: #0d2a63; text-decoration: none;">(GSCS & ICUI 2025)</a></strong><br>
+    A Multidimensional AI-powered Framework for Analyzing Tourist Perception in Historic Urban Quarters: A Case Study in Shanghai<br>
+    <em>Hong Kong Polytechnic University (PolyU), Hong Kong SAR, China</em>
+  </li>
 
-- 2025.07 - **7th Asia Conference on Machine Learning and Computing [(ACMLC 2025)](https://www.acmlc.org/acmlc2025.html)**  
-Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace  
-*Hong Kong SAR, China*    
+  <li style="margin-bottom: 18px;">
+    2025.07 - <strong>7th Asia Conference on Machine Learning and Computing <a href="https://www.acmlc.org/acmlc2025.html" style="color: #0d2a63; text-decoration: none;">(ACMLC 2025)</a></strong><br>
+    Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace<br>
+    <em>Hong Kong SAR, China</em>
+  </li>
+</ul>
 
 [//]: # (### 2027.02, aag2027)
 
@@ -842,11 +850,6 @@ Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle 
     }
   }
 </style>
-
-<style>
-  .section-gap3{ height: 1px; }
-</style>
-<div class="section-gap3"></div>
 
 # 🌍 Visitor Map
 
