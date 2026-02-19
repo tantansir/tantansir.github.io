@@ -601,14 +601,6 @@ Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle 
 
   .visitor-map-card > *{ position: relative; z-index: 1; }
 
-  .visitor-map-title{
-    margin: 0 0 12px 0;
-    font-size: 1.15rem;
-    font-weight: 800;
-    letter-spacing: 0.2px;
-  }
-
-  /* 让地图区域稍微缩小：限制最大宽度并居中 */
   .visitor-map-embed{
     width: 100%;
     max-width: 630px;
@@ -629,10 +621,6 @@ Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle 
     max-width: 100% !important;
   }
 
-  @media (max-width: 600px){
-    .visitor-map-embed{ max-width: 100%; min-height: 200px; }
-  }
-
   @media (prefers-color-scheme: dark){
     .visitor-map-card{
       background: rgba(20,20,20,0.62);
@@ -642,7 +630,6 @@ Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle 
         0 1px 0 rgba(255,255,255,0.10) inset,
         0 -1px 0 rgba(0,0,0,0.35) inset;
     }
-    .visitor-map-embed{ background: rgba(255,255,255,0.06); }
     .visitor-map-card::after{
       filter: saturate(1.05) brightness(0.9);
       opacity: 0.9;
