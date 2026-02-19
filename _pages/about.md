@@ -558,11 +558,11 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
     <div><div class="badge">XXV ISPRS Congress</div><img src='images/5.jpg' alt="sym" width="100%"></div>
   </div>
   <div class='paper-box-text'>
-    <div style="color: #0d2a63; font-weight: bold; font-size: 1.05em; margin-bottom: 6px;">UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images</div>
-    <div style="font-size: 0.95em; margin-bottom: 6px;">
+    <div style="color: #0d2a63; font-weight: bold; font-size: 1.08em; margin-bottom: 6px;">UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images</div>
+    <div style="font-size: 0.98em; margin-bottom: 6px;">
       <span style="color: #000; font-weight: bold;">Kaizhen Tan</span><span style="color: #666;">, Fan Zhang</span>
     </div>
-    <div style="font-size: 0.95em; font-style: italic; color: #666; margin-bottom: 10px;">
+    <div style="font-size: 0.98em; font-style: italic; color: #666; margin-bottom: 10px;">
       XXV ISPRS Congress, 2026.
     </div>
     <div style="margin-bottom: 10px;">
