@@ -566,7 +566,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
       XXV ISPRS Congress, 2026.
     </div>
     <div style="margin-bottom: 10px;">
-      <a href="/assets/isprs_abstract_kaizhen_fan.pdf" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">Abstract</a>
+      <a href="/assets/isprs_abstract_kaizhen_fan.pdf" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">Abstract</a>
       <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
     </div>
     <div style="font-size: 0.9em; color: #444; line-height: 1.4;">
@@ -588,8 +588,8 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
       Under Review at Computational Urban Science, 2026.
     </div>
     <div style="margin-bottom: 10px;">
-      <a href="https://arxiv.org/abs/2509.03830" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">arXiv</a>
-      <a href="/assets/ICUI2025.pptx" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">Slides</a>
+      <a href="https://arxiv.org/abs/2509.03830" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">arXiv</a>
+      <a href="/assets/ICUI2025.pptx" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">Slides</a>
       <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
     </div>
     <div style="font-size: 0.9em; color: #444; line-height: 1.4;">
@@ -611,9 +611,9 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
       Asia Conference on Machine Learning and Computing, 2025.
     </div>
     <div style="margin-bottom: 10px;">
-      <a href="https://arxiv.org/abs/2509.10522" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">arXiv</a>
-      <a href="/assets/ACMLC2025.pptx" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">Slides</a>
-      <a href="https://github.com/tantansir/Multimodal-Deep-Learning-for-Modeling-ATCO-Command-Lifecycle-in-Terminal-Airspace" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 2px;">GitHub</a>
+      <a href="https://arxiv.org/abs/2509.10522" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">arXiv</a>
+      <a href="/assets/ACMLC2025.pptx" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">Slides</a>
+      <a href="https://github.com/tantansir/Multimodal-Deep-Learning-for-Modeling-ATCO-Command-Lifecycle-in-Terminal-Airspace" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 2px;">GitHub</a>
       <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
     </div>
     <div style="font-size: 0.9em; color: #444; line-height: 1.4;">
@@ -635,8 +635,8 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
       GIScience & Remote Sensing, 2025.
     </div>
     <div style="margin-bottom: 10px;">
-      <a href="https://doi.org/10.1080/15481603.2025.2602215" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">DOI</a>
-      <a href="https://www.tandfonline.com/doi/epdf/10.1080/15481603.2025.2602215" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">PDF</a>
+      <a href="https://doi.org/10.1080/15481603.2025.2602215" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">DOI</a>
+      <a href="https://www.tandfonline.com/doi/epdf/10.1080/15481603.2025.2602215" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">PDF</a>
     </div>
     <div style="font-size: 0.9em; color: #444; line-height: 1.4;">
       Proposed a spatiotemporal adaptive local search (STALS) method combining dynamic graph learning and spatial analytics to model and mitigate large-scale urban traffic congestion propagation.
@@ -656,8 +656,8 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
       <span style="color: #000; font-weight: bold;">Kaizhen Tan</span><span style="color: #666;">, Yufan Wang, Yixiao Li, Hanzhe Hong, Nicole Lyu</span>
     </div>
     <div style="margin-bottom: 10px;">
-      <a href="/assets/blindnav.pdf" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1px 4px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">Report</a>
-      <a href="https://github.com/tantansir/BlindNav" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1px 4px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">GitHub</a>
+      <a href="/assets/blindnav.pdf" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">Report</a>
+      <a href="https://github.com/tantansir/BlindNav" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">GitHub</a>
     </div>
     <div style="font-size: 0.9em; color: #444; line-height: 1.4;">
       BlindNav is a real-time, camera-based navigation assistant that uses YOLO for street-scene detection and a local LLM to turn those signals into concise voice guidance for blind and low-vision pedestrians.
