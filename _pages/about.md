@@ -741,7 +741,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 - Email(personal): wflps20140311@gmail.com
 
 <style>
-  .visitor-map-wrap{ margin: 28px 0 6px 0; }
+  .visitor-map-wrap{ margin: 8px 0 6px 0; }
 
   .visitor-map-card{
     position: relative;
