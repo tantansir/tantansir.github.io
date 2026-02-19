@@ -21,5 +21,8 @@ main:
   - title: "Presentations"
     url: "/#-presentations"
 
+  - title: "Contact"
+    url: "/#-Contact"
+
   - title: "Curriculum Vitae"
     url: "/assets/CV_Kaizhen TAN.pdf"

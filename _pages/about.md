@@ -656,8 +656,8 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
       <span style="color: #000; font-weight: bold;">Kaizhen Tan</span><span style="color: #666;">, Yufan Wang, Yixiao Li, Hanzhe Hong, Nicole Lyu</span>
     </div>
     <div style="margin-bottom: 10px;">
-      <a href="/assets/blindnav.pdf" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">Report</a>
-      <a href="https://github.com/tantansir/BlindNav" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">GitHub</a>
+      <a href="/assets/blindnav.pdf" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1px 4px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">Report</a>
+      <a href="https://github.com/tantansir/BlindNav" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1px 4px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">GitHub</a>
     </div>
     <div style="font-size: 0.9em; color: #444; line-height: 1.4;">
       BlindNav is a real-time, camera-based navigation assistant that uses YOLO for street-scene detection and a local LLM to turn those signals into concise voice guidance for blind and low-vision pedestrians.
@@ -757,8 +757,6 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
       0 6px 18px rgba(0,0,0,0.06),
       0 1px 0 rgba(255,255,255,0.70) inset,
       0 -1px 0 rgba(0,0,0,0.03) inset;
-    /* 如果你希望整个卡片也只占 500px 宽度并靠左，可以取消下面这行的注释 */
-    /* max-width: 536px; */
   }
 
   .visitor-map-card::after{
@@ -773,14 +771,11 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 
   .visitor-map-card > *{ position: relative; z-index: 1; }
 
-  /* 核心：地图改成蓝底，靠左，并自适应高度修复截断问题 */
   .visitor-map-embed{
     position: relative;
     width: 100%;
     max-width: 500px;
-    /* 修改 1：去除 0 auto 让容器靠左 */
-    margin: 0; 
-    /* 修改 2：去除固定 200px 高度，改为自适应或最小高度以显示完整 */
+    margin: 0;
     height: auto;
     min-height: 260px; 
     border-radius: 10px;
@@ -788,7 +783,6 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
     background: #8bbcff;
   }
 
-  /* 兼容 iframe 或 div 或 canvas/svg 的情况 */
   .visitor-map-embed iframe{
     width: 100% !important;
     height: 100% !important;
@@ -806,7 +800,6 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
     height: 100% !important;
   }
 
-  /* 如果它用的是 Leaflet，按截图风格改 */
   .visitor-map-embed .leaflet-container{
     background: #8bbcff !important;
     width: 100% !important;
