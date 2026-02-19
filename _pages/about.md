@@ -629,8 +629,8 @@ Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle 
     max-width: 100% !important;
   }
 
-  @media (max-width: 900px){
-    .visitor-map-embed{ max-width: 100%; min-height: 260px; }
+  @media (max-width: 400px){
+    .visitor-map-embed{ max-width: 100%; min-height: 160px; }
   }
 
   @media (prefers-color-scheme: dark){
