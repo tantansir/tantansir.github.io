@@ -603,13 +603,13 @@ Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle 
 
   .visitor-map-embed{
     width: 100%;
-    max-width: 630px;
-    min-height: 230px;
+    max-width: 730px;
+    min-height: 300px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 18px;
+    border-radius: 10px;
     overflow: hidden;
     background: rgba(0,0,0,0.03);
   }
