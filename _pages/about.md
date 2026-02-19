@@ -580,11 +580,11 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
     <div><div class="badge">Computational Urban Science</div><img src='images/2.png' alt="sym" width="100%"></div>
   </div>
   <div class='paper-box-text'>
-    <div style="color: #0d2a63; font-weight: bold; font-size: 1.1em; margin-bottom: 6px;">Decoding Tourist Perception in Historic Urban Quarters with Multimodal Social Media Data: An AI-Based Framework and Evidence from Shanghai</div>
-    <div style="font-size: 1em; margin-bottom: 6px;">
+    <div style="color: #0d2a63; font-weight: bold; font-size: 1.08em; margin-bottom: 6px;">Decoding Tourist Perception in Historic Urban Quarters with Multimodal Social Media Data: An AI-Based Framework and Evidence from Shanghai</div>
+    <div style="font-size: 0.98em; margin-bottom: 6px;">
       <span style="color: #000; font-weight: bold;">Kaizhen Tan</span><span style="color: #666;">, Yufan Wu, Yuxuan Liu, Haoran Zeng</span>
     </div>
-    <div style="font-size: 1em; font-style: italic; color: #666; margin-bottom: 10px;">
+    <div style="font-size: 0.98em; font-style: italic; color: #666; margin-bottom: 10px;">
       Under Review at Computational Urban Science, 2026.
     </div>
     <div style="margin-bottom: 10px;">
@@ -603,11 +603,11 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
     <div><div class="badge">ACMLC 2025</div><img src='images/21.png' alt="sym" width="100%"></div>
   </div>
   <div class='paper-box-text'>
-    <div style="color: #0d2a63; font-weight: bold; font-size: 1.1em; margin-bottom: 6px;">Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace</div>
-    <div style="font-size: 1em; margin-bottom: 6px;">
+    <div style="color: #0d2a63; font-weight: bold; font-size: 1.08em; margin-bottom: 6px;">Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace</div>
+    <div style="font-size: 0.98em; margin-bottom: 6px;">
       <span style="color: #000; font-weight: bold;">Kaizhen Tan</span>
     </div>
-    <div style="font-size: 1em; font-style: italic; color: #666; margin-bottom: 10px;">
+    <div style="font-size: 0.98em; font-style: italic; color: #666; margin-bottom: 10px;">
       Asia Conference on Machine Learning and Computing, 2025.
     </div>
     <div style="margin-bottom: 10px;">
@@ -627,11 +627,11 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
     <div><div class="badge">GIScience & Remote Sensing</div><img src='images/4.png' alt="sym" width="100%"></div>
   </div>
   <div class='paper-box-text'>
-    <div style="color: #0d2a63; font-weight: bold; font-size: 1.1em; margin-bottom: 6px;">A Spatiotemporal Adaptive Local Search Method for Tracking Congestion Propagation in Dynamic Networks</div>
-    <div style="font-size: 1em; margin-bottom: 6px;">
+    <div style="color: #0d2a63; font-weight: bold; font-size: 1.08em; margin-bottom: 6px;">A Spatiotemporal Adaptive Local Search Method for Tracking Congestion Propagation in Dynamic Networks</div>
+    <div style="font-size: 0.98em; margin-bottom: 6px;">
       <span style="color: #666;">Weihua Huan, </span><span style="color: #000; font-weight: bold;">Kaizhen Tan</span><span style="color: #666;">, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, Wei Huang</span>
     </div>
-    <div style="font-size: 1em; font-style: italic; color: #666; margin-bottom: 10px;">
+    <div style="font-size: 0.98em; font-style: italic; color: #666; margin-bottom: 10px;">
       GIScience & Remote Sensing, 2025.
     </div>
     <div style="margin-bottom: 10px;">
@@ -651,13 +651,13 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
     <div><img src='images/blindnav.png' alt="sym" width="100%"></div>
   </div>
   <div class='paper-box-text'>
-    <div style="color: #0d2a63; font-weight: bold; font-size: 1.1em; margin-bottom: 6px;">BlindNav: YOLO+LLM for Real-Time Navigation Assistance for Blind Users</div>
-    <div style="font-size: 1em; margin-bottom: 10px;">
+    <div style="color: #0d2a63; font-weight: bold; font-size: 1.08em; margin-bottom: 6px;">BlindNav: YOLO+LLM for Real-Time Navigation Assistance for Blind Users</div>
+    <div style="font-size: 0.98em; margin-bottom: 10px;">
       <span style="color: #000; font-weight: bold;">Kaizhen Tan</span><span style="color: #666;">, Yufan Wang, Yixiao Li, Hanzhe Hong, Nicole Lyu</span>
     </div>
     <div style="margin-bottom: 10px;">
-      <a href="/assets/blindnav.pdf" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 2px;">Report</a>
-      <a href="https://github.com/tantansir/BlindNav" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 2px;">GitHub</a>
+      <a href="/assets/blindnav.pdf" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">Report</a>
+      <a href="https://github.com/tantansir/BlindNav" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">GitHub</a>
     </div>
     <div style="font-size: 0.9em; color: #444; line-height: 1.4;">
       BlindNav is a real-time, camera-based navigation assistant that uses YOLO for street-scene detection and a local LLM to turn those signals into concise voice guidance for blind and low-vision pedestrians.
