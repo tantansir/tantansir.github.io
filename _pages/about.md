@@ -437,74 +437,119 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 </style>
 <div class="section-gap1"></div>
 
-# 📝 Publications 
+[//]: # (# 📝 Publications )
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">XXV ISPRS Congress</div><img src='images/5.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+[//]: # ()
+[//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">XXV ISPRS Congress</div><img src='images/5.jpg' alt="sym" width="100%"></div></div>)
 
-**UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images**
+[//]: # (<div class='paper-box-text' markdown="1">)
 
-**Kaizhen Tan**, Fan Zhang
+[//]: # ()
+[//]: # (**UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images**)
 
-[[abstract]](/assets/isprs_abstract_kaizhen_fan.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Accepted at *[XXV ISPRS Congress 2026](https://www.isprs2026toronto.com/)*
-- Leverage street-view imagery and VGGT-based 3D reconstruction to estimate metrically scaled sidewalk widths, build the SV-SideWidth dataset, and fill OpenStreetMap gaps for equitable assessment of pedestrian infrastructure. 
-</div>
-</div>
+[//]: # ()
+[//]: # (**Kaizhen Tan**, Fan Zhang)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Computational Urban Science</div><img src='images/2.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+[//]: # ()
+[//]: # ([[abstract]]&#40;/assets/isprs_abstract_kaizhen_fan.pdf&#41; <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>)
 
-**Decoding Tourist Perception in Historic Urban Quarters with Multimodal Social Media Data: An AI-Based Framework and Evidence from Shanghai**
+[//]: # (- Accepted at *[XXV ISPRS Congress 2026]&#40;https://www.isprs2026toronto.com/&#41;*)
 
-**Kaizhen Tan**, Yufan Wu, Yuxuan Liu, Haoran Zeng
+[//]: # (- Leverage street-view imagery and VGGT-based 3D reconstruction to estimate metrically scaled sidewalk widths, build the SV-SideWidth dataset, and fill OpenStreetMap gaps for equitable assessment of pedestrian infrastructure. )
 
-[[arXiv]](https://arxiv.org/abs/2509.03830) [[slides]](/assets/ICUI2025.pptx)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Under Review at *Computational Urban Science*
-- Developed an AI-powered multimodal framework to analyze tourist perception in historic Shanghai quarters, integrating image segmentation, color theme analysis, and sentiment mining for heritage-informed urban planning.
+[//]: # (</div>)
 
-</div>
-</div>
+[//]: # (</div>)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMLC 2025</div><img src='images/21.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+[//]: # ()
+[//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Computational Urban Science</div><img src='images/2.png' alt="sym" width="100%"></div></div>)
 
-**Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace**
+[//]: # (<div class='paper-box-text' markdown="1">)
 
-**Kaizhen Tan**
+[//]: # ()
+[//]: # (**Decoding Tourist Perception in Historic Urban Quarters with Multimodal Social Media Data: An AI-Based Framework and Evidence from Shanghai**)
 
-[[arXiv]](https://arxiv.org/abs/2509.10522) [[slides]](/assets/ACMLC2025.pptx) [[github]](https://github.com/tantansir/Multimodal-Deep-Learning-for-Modeling-ATCO-Command-Lifecycle-in-Terminal-Airspace)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Published in *7th Asia Conference on Machine Learning and Computing [(ACMLC 2025)](https://www.acmlc.org/acmlc2025.html)*
-- Designed a multimodal deep learning framework linking ATCO voice commands with aircraft trajectories to model workload dynamics, enabling intelligent command generation and scheduling support.
-</div>
-</div>
+[//]: # ()
+[//]: # (**Kaizhen Tan**, Yufan Wu, Yuxuan Liu, Haoran Zeng)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">GIScience & Remote Sensing</div><img src='images/4.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+[//]: # ()
+[//]: # ([[arXiv]]&#40;https://arxiv.org/abs/2509.03830&#41; [[slides]]&#40;/assets/ICUI2025.pptx&#41;<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>)
 
-**A Spatiotemporal Adaptive Local Search Method for Tracking Congestion Propagation in Dynamic Networks**
+[//]: # (- Under Review at *Computational Urban Science*)
 
-Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, Wei Huang
+[//]: # (- Developed an AI-powered multimodal framework to analyze tourist perception in historic Shanghai quarters, integrating image segmentation, color theme analysis, and sentiment mining for heritage-informed urban planning.)
 
-[[paper]](https://doi.org/10.1080/15481603.2025.2602215)
-- Published in *GIScience & Remote Sensing* (JCR Q1; IF = 6.9).
-- Proposed a spatiotemporal adaptive local search (STALS) method combining dynamic graph learning and spatial analytics to model and mitigate large-scale urban traffic congestion propagation.
-</div>
-</div>
+[//]: # ()
+[//]: # (</div>)
 
-# 🔬 Projects
+[//]: # (</div>)
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/blindnav.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+[//]: # ()
+[//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMLC 2025</div><img src='images/21.png' alt="sym" width="100%"></div></div>)
 
-**BlindNav: YOLO+LLM for Real-Time Navigation Assistance for Blind Users**
+[//]: # (<div class='paper-box-text' markdown="1">)
 
-**Kaizhen Tan**, Yufan Wang, Yixiao Li, Hanzhe Hong, Nicole Lyu
+[//]: # ()
+[//]: # (**Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace**)
 
-[[report]](/assets/blindnav.pdf) [[github]](https://github.com/tantansir/BlindNav)
-- BlindNav is a real-time, camera-based navigation assistant that uses YOLO for street-scene detection and a local LLM to turn those signals into concise voice guidance for blind and low-vision pedestrians.
-</div>
-</div>
+[//]: # ()
+[//]: # (**Kaizhen Tan**)
+
+[//]: # ()
+[//]: # ([[arXiv]]&#40;https://arxiv.org/abs/2509.10522&#41; [[slides]]&#40;/assets/ACMLC2025.pptx&#41; [[github]]&#40;https://github.com/tantansir/Multimodal-Deep-Learning-for-Modeling-ATCO-Command-Lifecycle-in-Terminal-Airspace&#41;<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>)
+
+[//]: # (- Published in *7th Asia Conference on Machine Learning and Computing [&#40;ACMLC 2025&#41;]&#40;https://www.acmlc.org/acmlc2025.html&#41;*)
+
+[//]: # (- Designed a multimodal deep learning framework linking ATCO voice commands with aircraft trajectories to model workload dynamics, enabling intelligent command generation and scheduling support.)
+
+[//]: # (</div>)
+
+[//]: # (</div>)
+
+[//]: # ()
+[//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">GIScience & Remote Sensing</div><img src='images/4.png' alt="sym" width="100%"></div></div>)
+
+[//]: # (<div class='paper-box-text' markdown="1">)
+
+[//]: # ()
+[//]: # (**A Spatiotemporal Adaptive Local Search Method for Tracking Congestion Propagation in Dynamic Networks**)
+
+[//]: # ()
+[//]: # (Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, Wei Huang)
+
+[//]: # ()
+[//]: # ([[paper]]&#40;https://doi.org/10.1080/15481603.2025.2602215&#41;)
+
+[//]: # (- Published in *GIScience & Remote Sensing* &#40;JCR Q1; IF = 6.9&#41;.)
+
+[//]: # (- Proposed a spatiotemporal adaptive local search &#40;STALS&#41; method combining dynamic graph learning and spatial analytics to model and mitigate large-scale urban traffic congestion propagation.)
+
+[//]: # (</div>)
+
+[//]: # (</div>)
+
+[//]: # ()
+[//]: # (# 🔬 Projects)
+
+[//]: # ()
+[//]: # (<div class='paper-box'><div class='paper-box-image'><div><img src='images/blindnav.png' alt="sym" width="100%"></div></div>)
+
+[//]: # (<div class='paper-box-text' markdown="1">)
+
+[//]: # ()
+[//]: # (**BlindNav: YOLO+LLM for Real-Time Navigation Assistance for Blind Users**)
+
+[//]: # ()
+[//]: # (**Kaizhen Tan**, Yufan Wang, Yixiao Li, Hanzhe Hong, Nicole Lyu)
+
+[//]: # ()
+[//]: # ([[report]]&#40;/assets/blindnav.pdf&#41; [[github]]&#40;https://github.com/tantansir/BlindNav&#41;)
+
+[//]: # (- BlindNav is a real-time, camera-based navigation assistant that uses YOLO for street-scene detection and a local LLM to turn those signals into concise voice guidance for blind and low-vision pedestrians.)
+
+[//]: # (</div>)
+
+[//]: # (</div>)
 
 # 📝 Publications 
 
@@ -518,7 +563,7 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
       <span style="color: #000; font-weight: bold;">Kaizhen Tan</span><span style="color: #666;">, Fan Zhang</span>
     </div>
     <div style="font-size: 1em; font-style: italic; color: #666; margin-bottom: 10px;">
-      Accepted at XXV ISPRS Congress, 2026.
+      XXV ISPRS Congress, 2026.
     </div>
     <div style="margin-bottom: 10px;">
       <a href="/assets/isprs_abstract_kaizhen_fan.pdf" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 6px;">Abstract</a>
@@ -563,7 +608,7 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
       <span style="color: #000; font-weight: bold;">Kaizhen Tan</span>
     </div>
     <div style="font-size: 1em; font-style: italic; color: #666; margin-bottom: 10px;">
-      Published in 7th Asia Conference on Machine Learning and Computing (ACMLC 2025).
+      Asia Conference on Machine Learning and Computing, 2025.
     </div>
     <div style="margin-bottom: 10px;">
       <a href="https://arxiv.org/abs/2509.10522" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 6px;">arXiv</a>
@@ -587,13 +632,35 @@ Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, We
       <span style="color: #666;">Weihua Huan, </span><span style="color: #000; font-weight: bold;">Kaizhen Tan</span><span style="color: #666;">, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, Wei Huang</span>
     </div>
     <div style="font-size: 1em; font-style: italic; color: #666; margin-bottom: 10px;">
-      Published in GIScience & Remote Sensing (JCR Q1; IF = 6.9).
+      GIScience & Remote Sensing, 2025.
     </div>
     <div style="margin-bottom: 10px;">
-      <a href="https://doi.org/10.1080/15481603.2025.2602215" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 6px;">Paper</a>
+      <a href="https://doi.org/10.1080/15481603.2025.2602215" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 6px;">DOI</a>
+      <a href="https://www.tandfonline.com/doi/epdf/10.1080/15481603.2025.2602215" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 6px;">PDF</a>
     </div>
     <div style="font-size: 0.9em; color: #444; line-height: 1.4;">
       Proposed a spatiotemporal adaptive local search (STALS) method combining dynamic graph learning and spatial analytics to model and mitigate large-scale urban traffic congestion propagation.
+    </div>
+  </div>
+</div>
+
+# 🔬 Projects
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div><img src='images/blindnav.png' alt="sym" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div style="color: #0d2a63; font-weight: bold; font-size: 1.1em; margin-bottom: 6px;">BlindNav: YOLO+LLM for Real-Time Navigation Assistance for Blind Users</div>
+    <div style="font-size: 1em; margin-bottom: 10px;">
+      <span style="color: #000; font-weight: bold;">Kaizhen Tan</span><span style="color: #666;">, Yufan Wang, Yixiao Li, Hanzhe Hong, Nicole Lyu</span>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <a href="/assets/blindnav.pdf" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 6px;">Report</a>
+      <a href="https://github.com/tantansir/BlindNav" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 6px;">GitHub</a>
+    </div>
+    <div style="font-size: 0.9em; color: #444; line-height: 1.4;">
+      BlindNav is a real-time, camera-based navigation assistant that uses YOLO for street-scene detection and a local LLM to turn those signals into concise voice guidance for blind and low-vision pedestrians.
     </div>
   </div>
 </div>
@@ -666,73 +733,125 @@ Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle 
 - Email(personal): wflps20140311@gmail.com
 
 <style>
+  .visitor-map-wrap{ margin: 28px 0 6px 0; }
+
+  .visitor-map-card{
+    position: relative;
+    background: rgba(255,255,255,0.78);
+    overflow: hidden;
+    border: none;
+    border-radius: 22px;
+    padding: 18px 18px 14px 18px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow:
+      0 18px 48px rgba(0,0,0,0.08),
+      0 6px 18px rgba(0,0,0,0.06),
+      0 1px 0 rgba(255,255,255,0.70) inset,
+      0 -1px 0 rgba(0,0,0,0.03) inset;
+  }
+
+  .visitor-map-card::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:
+      radial-gradient(1100px circle at 18% 18%, rgba(59,130,246,0.10) 0%, rgba(255,255,255,0) 55%),
+      radial-gradient(900px circle at 88% 86%, rgba(168,85,247,0.08) 0%, rgba(255,255,255,0) 58%);
+    pointer-events:none;
+  }
+
+  .visitor-map-card > *{ position: relative; z-index: 1; }
+
+  /* 核心：地图改成蓝底，并确保内部地图容器铺满 */
   .visitor-map-embed{
     position: relative;
     width: 100%;
-    max-width: 100%;      /* 不限宽 */
-    height: 380px;        /* 加高，底部就不会缺 */
-    margin: 0;            /* 不再居中 */
+    max-width: 500px;
+    height: 200px;
+    margin: 0 auto;
     border-radius: 10px;
     overflow: hidden;
     background: #8bbcff;
   }
 
-  /* 内部容器铺满，避免出现只剩一块背景或裁切 */
+  /* 兼容 iframe 或 div 或 canvas/svg 的情况 */
   .visitor-map-embed iframe{
     width: 100% !important;
     height: 100% !important;
     border: 0 !important;
     display: block;
   }
-  .visitor-map-embed > div,
-  .visitor-map-embed .mapmyvisitors-map,
-  .visitor-map-embed .leaflet-container,
-  .visitor-map-embed .jvectormap-container{
+  .visitor-map-embed > div{
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .visitor-map-embed canvas,
+  .visitor-map-embed svg{
     width: 100% !important;
     height: 100% !important;
   }
 
-  /* 顶部文字靠左（覆盖它默认的居中） */
-  .visitor-map-embed,
-  .visitor-map-embed .mapmyvisitors-map,
-  .visitor-map-embed .mapmyvisitors-map *{
-    text-align: left !important;
-  }
-  .visitor-map-embed .mapmyvisitors-map{
-    padding-left: 14px;   /* 给标题留一点左边距 */
-    box-sizing: border-box;
-  }
-
-  /* 陆地白色 */
-  .visitor-map-embed .jvectormap-region{
-    fill:#ffffff !important;
-    stroke:rgba(255,255,255,.65) !important;
-    stroke-width:1 !important;
+  /* 如果它用的是 Leaflet，按截图风格改 */
+  .visitor-map-embed .leaflet-container{
+    background: #8bbcff !important;
+    width: 100% !important;
+    height: 100% !important;
   }
   .visitor-map-embed .leaflet-pane svg path{
-    fill:#ffffff !important;
-    stroke:rgba(255,255,255,.65) !important;
-    stroke-width:1 !important;
+    fill: #ffffff !important;
+    stroke: rgba(255,255,255,.65) !important;
+    stroke-width: 1 !important;
   }
 
-  /* 缩放按钮在左下 */
+  /* 缩放按钮移到左下角并做成白色小方块 */
   .visitor-map-embed .leaflet-top.leaflet-left{
     top: auto !important;
     bottom: 10px !important;
     left: 10px !important;
   }
+  .visitor-map-embed .leaflet-control-zoom a{
+    width: 28px !important;
+    height: 28px !important;
+    line-height: 28px !important;
+    border-radius: 4px !important;
+    background: rgba(255,255,255,.92) !important;
+    color: #2b2b2b !important;
+    border: 1px solid rgba(0,0,0,.08) !important;
+    box-shadow: 0 8px 18px rgba(0,0,0,.12) !important;
+  }
+
+  @media (prefers-color-scheme: dark){
+    .visitor-map-card{
+      background: rgba(20,20,20,0.62);
+      box-shadow:
+        0 22px 64px rgba(0,0,0,0.42),
+        0 10px 26px rgba(0,0,0,0.30),
+        0 1px 0 rgba(255,255,255,0.10) inset,
+        0 -1px 0 rgba(0,0,0,0.35) inset;
+    }
+    .visitor-map-card::after{
+      filter: saturate(1.05) brightness(0.9);
+      opacity: 0.9;
+    }
+  }
 </style>
 
-<div class="visitor-map-embed" aria-label="Visitor map">
-  <script type="text/javascript" id="mapmyvisitors"
-    src="//mapmyvisitors.com/map.js?d=fU8cgDogJMfp7fmFhvAp5fSI9CakxNg1n0lI_B_Gc6o&cl=ffffff&w=a">
-  </script>
+<style>
+  .section-gap3{ height: 1px; }
+</style>
+<div class="section-gap3"></div>
 
-  <script>
-    // 让地图在容器高度变化后重新计算尺寸，防止底部被裁
-    setTimeout(() => window.dispatchEvent(new Event('resize')), 800);
-    setTimeout(() => window.dispatchEvent(new Event('resize')), 1800);
-  </script>
+# 🌍 Visitor Map
+
+<div class="visitor-map-wrap">
+  <div class="visitor-map-card">
+    <div class="visitor-map-embed" aria-label="Visitor map">
+      <script type="text/javascript" id="mapmyvisitors"
+        src="//mapmyvisitors.com/map.js?d=fU8cgDogJMfp7fmFhvAp5fSI9CakxNg1n0lI_B_Gc6o&cl=ffffff&w=a">
+      </script>
+    </div>
+  </div>
 </div>
 
 
