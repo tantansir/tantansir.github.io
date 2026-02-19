@@ -437,6 +437,150 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 </style>
 <div class="section-gap1"></div>
 
+
+/* paper meta */
+.paper-title{
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0 0 8px 0;
+}
+.paper-authors{
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 0 6px 0;
+}
+.paper-venue{
+  font-size: 1rem;
+  font-style: italic;
+  color: #444;
+  margin: 0 0 10px 0;
+}
+
+/* pill buttons */
+.paper-links{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 6px 0 10px 0;
+}
+.paper-btn{
+  display: inline-block;
+  padding: 6px 12px;
+  border: 1px solid #222;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  line-height: 1;
+  text-decoration: none;
+  color: #111;
+  background: #fff;
+}
+.paper-btn:hover{
+  background: #f4f4f4;
+}
+
+# 📝 Publications 
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">XXV ISPRS Congress</div>
+      <img src='images/5.jpg' alt="sym" width="100%">
+    </div>
+  </div>
+
+  <div class='paper-box-text' markdown="1">
+    <div class="paper-title">UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images</div>
+    <div class="paper-authors"><strong>Kaizhen Tan</strong>, Fan Zhang</div>
+    <div class="paper-venue">Accepted at <em>XXV ISPRS Congress 2026</em></div>
+
+    <div class="paper-links">
+      <a class="paper-btn" href="/assets/isprs_abstract_kaizhen_fan.pdf" target="_blank" rel="noopener">PDF</a>
+      <a class="paper-btn" href="https://www.isprs2026toronto.com/" target="_blank" rel="noopener">Venue</a>
+    </div>
+
+    <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+    - Leverage street-view imagery and VGGT-based 3D reconstruction to estimate metrically scaled sidewalk widths, build the SV-SideWidth dataset, and fill OpenStreetMap gaps for equitable assessment of pedestrian infrastructure. 
+  </div>
+</div>
+
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Computational Urban Science</div>
+      <img src='images/2.png' alt="sym" width="100%">
+    </div>
+  </div>
+
+  <div class='paper-box-text' markdown="1">
+    <div class="paper-title">Decoding Tourist Perception in Historic Urban Quarters with Multimodal Social Media Data: An AI-Based Framework and Evidence from Shanghai</div>
+    <div class="paper-authors"><strong>Kaizhen Tan</strong>, Yufan Wu, Yuxuan Liu, Haoran Zeng</div>
+    <div class="paper-venue">Under Review at <em>Computational Urban Science</em></div>
+
+    <div class="paper-links">
+      <a class="paper-btn" href="https://arxiv.org/abs/2509.03830" target="_blank" rel="noopener">arXiv</a>
+      <a class="paper-btn" href="/assets/ICUI2025.pptx" target="_blank" rel="noopener">Slides</a>
+    </div>
+
+    <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+    - Developed an AI-powered multimodal framework to analyze tourist perception in historic Shanghai quarters, integrating image segmentation, color theme analysis, and sentiment mining for heritage-informed urban planning.
+  </div>
+</div>
+
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">ACMLC 2025</div>
+      <img src='images/21.png' alt="sym" width="100%">
+    </div>
+  </div>
+
+  <div class='paper-box-text' markdown="1">
+    <div class="paper-title">Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace</div>
+    <div class="paper-authors"><strong>Kaizhen Tan</strong></div>
+    <div class="paper-venue">Published in <em>7th Asia Conference on Machine Learning and Computing (ACMLC 2025)</em></div>
+
+    <div class="paper-links">
+      <a class="paper-btn" href="https://arxiv.org/abs/2509.10522" target="_blank" rel="noopener">arXiv</a>
+      <a class="paper-btn" href="/assets/ACMLC2025.pptx" target="_blank" rel="noopener">Slides</a>
+      <a class="paper-btn" href="https://github.com/tantansir/Multimodal-Deep-Learning-for-Modeling-ATCO-Command-Lifecycle-in-Terminal-Airspace" target="_blank" rel="noopener">Code</a>
+    </div>
+
+    <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+    - Designed a multimodal deep learning framework linking ATCO voice commands with aircraft trajectories to model workload dynamics, enabling intelligent command generation and scheduling support.
+  </div>
+</div>
+
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">GIScience & Remote Sensing</div>
+      <img src='images/4.png' alt="sym" width="100%">
+    </div>
+  </div>
+
+  <div class='paper-box-text' markdown="1">
+    <div class="paper-title">A Spatiotemporal Adaptive Local Search Method for Tracking Congestion Propagation in Dynamic Networks</div>
+    <div class="paper-authors">Weihua Huan, <strong>Kaizhen Tan</strong>, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, Wei Huang</div>
+    <div class="paper-venue">Published in <em>GIScience & Remote Sensing</em></div>
+
+    <div class="paper-links">
+      <a class="paper-btn" href="https://doi.org/10.1080/15481603.2025.2602215" target="_blank" rel="noopener">DOI</a>
+    </div>
+
+    - <em>GIScience & Remote Sensing, 2025</em>
+    - Proposed a spatiotemporal adaptive local search (STALS) method combining dynamic graph learning and spatial analytics to model and mitigate large-scale urban traffic congestion propagation.
+  </div>
+</div>
+
+
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">XXV ISPRS Congress</div><img src='images/5.jpg' alt="sym" width="100%"></div></div>
