@@ -420,7 +420,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 
 # 💼 Experience
 
-## 🔭 Research Experience
+## 🔭 Research
 
 [//]: # (- *2026.04 - Present*, Research Assistant, Shanghai Key Laboratory of Urban Design and Urban Science &#40;LOUD&#41;, NYU Shanghai.)
 - *2025.10 - 2026.04*, Research Assistant, Institute of Remote Sensing and Geographic Information System, Peking University, China
@@ -428,7 +428,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 - *2024.04 - 2025.04*, Research Assistant, College of Architecture and Urban Planning, Tongji University, China
 - *2024.04 - 2024.12*, Research Assistant, College of Surveying and Geo-Informatics, Tongji University, China
 
-## 💻 Professional Experience
+## 💻 Industry
 - *2025.01 - 2025.04*, AI Product Manager, [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/), China.
 - *2023.01 - 2023.02*, Data Analyst, Shanghai Qiantan Emerging Industry Research Institute, China.
 
@@ -436,150 +436,6 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
   .section-gap1{ height: 6px; }
 </style>
 <div class="section-gap1"></div>
-
-
-/* paper meta */
-.paper-title{
-  font-size: 1.25rem;
-  font-weight: 700;
-  line-height: 1.25;
-  margin: 0 0 8px 0;
-}
-.paper-authors{
-  font-size: 1rem;
-  font-weight: 500;
-  margin: 0 0 6px 0;
-}
-.paper-venue{
-  font-size: 1rem;
-  font-style: italic;
-  color: #444;
-  margin: 0 0 10px 0;
-}
-
-/* pill buttons */
-.paper-links{
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 6px 0 10px 0;
-}
-.paper-btn{
-  display: inline-block;
-  padding: 6px 12px;
-  border: 1px solid #222;
-  border-radius: 8px;
-  font-size: 0.95rem;
-  line-height: 1;
-  text-decoration: none;
-  color: #111;
-  background: #fff;
-}
-.paper-btn:hover{
-  background: #f4f4f4;
-}
-
-# 📝 Publications 
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">XXV ISPRS Congress</div>
-      <img src='images/5.jpg' alt="sym" width="100%">
-    </div>
-  </div>
-
-  <div class='paper-box-text' markdown="1">
-    <div class="paper-title">UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images</div>
-    <div class="paper-authors"><strong>Kaizhen Tan</strong>, Fan Zhang</div>
-    <div class="paper-venue">Accepted at <em>XXV ISPRS Congress 2026</em></div>
-
-    <div class="paper-links">
-      <a class="paper-btn" href="/assets/isprs_abstract_kaizhen_fan.pdf" target="_blank" rel="noopener">PDF</a>
-      <a class="paper-btn" href="https://www.isprs2026toronto.com/" target="_blank" rel="noopener">Venue</a>
-    </div>
-
-    <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-
-    - Leverage street-view imagery and VGGT-based 3D reconstruction to estimate metrically scaled sidewalk widths, build the SV-SideWidth dataset, and fill OpenStreetMap gaps for equitable assessment of pedestrian infrastructure. 
-  </div>
-</div>
-
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">Computational Urban Science</div>
-      <img src='images/2.png' alt="sym" width="100%">
-    </div>
-  </div>
-
-  <div class='paper-box-text' markdown="1">
-    <div class="paper-title">Decoding Tourist Perception in Historic Urban Quarters with Multimodal Social Media Data: An AI-Based Framework and Evidence from Shanghai</div>
-    <div class="paper-authors"><strong>Kaizhen Tan</strong>, Yufan Wu, Yuxuan Liu, Haoran Zeng</div>
-    <div class="paper-venue">Under Review at <em>Computational Urban Science</em></div>
-
-    <div class="paper-links">
-      <a class="paper-btn" href="https://arxiv.org/abs/2509.03830" target="_blank" rel="noopener">arXiv</a>
-      <a class="paper-btn" href="/assets/ICUI2025.pptx" target="_blank" rel="noopener">Slides</a>
-    </div>
-
-    <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-
-    - Developed an AI-powered multimodal framework to analyze tourist perception in historic Shanghai quarters, integrating image segmentation, color theme analysis, and sentiment mining for heritage-informed urban planning.
-  </div>
-</div>
-
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">ACMLC 2025</div>
-      <img src='images/21.png' alt="sym" width="100%">
-    </div>
-  </div>
-
-  <div class='paper-box-text' markdown="1">
-    <div class="paper-title">Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace</div>
-    <div class="paper-authors"><strong>Kaizhen Tan</strong></div>
-    <div class="paper-venue">Published in <em>7th Asia Conference on Machine Learning and Computing (ACMLC 2025)</em></div>
-
-    <div class="paper-links">
-      <a class="paper-btn" href="https://arxiv.org/abs/2509.10522" target="_blank" rel="noopener">arXiv</a>
-      <a class="paper-btn" href="/assets/ACMLC2025.pptx" target="_blank" rel="noopener">Slides</a>
-      <a class="paper-btn" href="https://github.com/tantansir/Multimodal-Deep-Learning-for-Modeling-ATCO-Command-Lifecycle-in-Terminal-Airspace" target="_blank" rel="noopener">Code</a>
-    </div>
-
-    <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-
-    - Designed a multimodal deep learning framework linking ATCO voice commands with aircraft trajectories to model workload dynamics, enabling intelligent command generation and scheduling support.
-  </div>
-</div>
-
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">GIScience & Remote Sensing</div>
-      <img src='images/4.png' alt="sym" width="100%">
-    </div>
-  </div>
-
-  <div class='paper-box-text' markdown="1">
-    <div class="paper-title">A Spatiotemporal Adaptive Local Search Method for Tracking Congestion Propagation in Dynamic Networks</div>
-    <div class="paper-authors">Weihua Huan, <strong>Kaizhen Tan</strong>, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, Wei Huang</div>
-    <div class="paper-venue">Published in <em>GIScience & Remote Sensing</em></div>
-
-    <div class="paper-links">
-      <a class="paper-btn" href="https://doi.org/10.1080/15481603.2025.2602215" target="_blank" rel="noopener">DOI</a>
-    </div>
-
-    - <em>GIScience & Remote Sensing, 2025</em>
-    - Proposed a spatiotemporal adaptive local search (STALS) method combining dynamic graph learning and spatial analytics to model and mitigate large-scale urban traffic congestion propagation.
-  </div>
-</div>
-
 
 # 📝 Publications 
 
@@ -797,54 +653,126 @@ Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle 
 
 # 🌍 Visitor Map
 
+<style>
+  .visitor-map-wrap{ margin: 28px 0 6px 0; }
+
+  .visitor-map-card{
+    position: relative;
+    background: rgba(255,255,255,0.78);
+    overflow: hidden;
+    border: none;
+    border-radius: 22px;
+    padding: 18px 18px 14px 18px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow:
+      0 18px 48px rgba(0,0,0,0.08),
+      0 6px 18px rgba(0,0,0,0.06),
+      0 1px 0 rgba(255,255,255,0.70) inset,
+      0 -1px 0 rgba(0,0,0,0.03) inset;
+  }
+
+  .visitor-map-card::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:
+      radial-gradient(1100px circle at 18% 18%, rgba(59,130,246,0.10) 0%, rgba(255,255,255,0) 55%),
+      radial-gradient(900px circle at 88% 86%, rgba(168,85,247,0.08) 0%, rgba(255,255,255,0) 58%);
+    pointer-events:none;
+  }
+
+  .visitor-map-card > *{ position: relative; z-index: 1; }
+
+  /* 核心：地图改成蓝底，并确保内部地图容器铺满 */
+  .visitor-map-embed{
+    position: relative;
+    width: 100%;
+    max-width: 730px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #8bbcff;
+  }
+
+  /* 兼容 iframe 或 div 或 canvas/svg 的情况 */
+  .visitor-map-embed iframe{
+    width: 100% !important;
+    height: 100% !important;
+    border: 0 !important;
+    display: block;
+  }
+  .visitor-map-embed > div{
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .visitor-map-embed canvas,
+  .visitor-map-embed svg{
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  /* 如果它用的是 Leaflet，按截图风格改 */
+  .visitor-map-embed .leaflet-container{
+    background: #8bbcff !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .visitor-map-embed .leaflet-pane svg path{
+    fill: #ffffff !important;
+    stroke: rgba(255,255,255,.65) !important;
+    stroke-width: 1 !important;
+  }
+
+  /* 缩放按钮移到左下角并做成白色小方块 */
+  .visitor-map-embed .leaflet-top.leaflet-left{
+    top: auto !important;
+    bottom: 10px !important;
+    left: 10px !important;
+  }
+  .visitor-map-embed .leaflet-control-zoom a{
+    width: 28px !important;
+    height: 28px !important;
+    line-height: 28px !important;
+    border-radius: 4px !important;
+    background: rgba(255,255,255,.92) !important;
+    color: #2b2b2b !important;
+    border: 1px solid rgba(0,0,0,.08) !important;
+    box-shadow: 0 8px 18px rgba(0,0,0,.12) !important;
+  }
+
+  @media (prefers-color-scheme: dark){
+    .visitor-map-card{
+      background: rgba(20,20,20,0.62);
+      box-shadow:
+        0 22px 64px rgba(0,0,0,0.42),
+        0 10px 26px rgba(0,0,0,0.30),
+        0 1px 0 rgba(255,255,255,0.10) inset,
+        0 -1px 0 rgba(0,0,0,0.35) inset;
+    }
+    .visitor-map-card::after{
+      filter: saturate(1.05) brightness(0.9);
+      opacity: 0.9;
+    }
+  }
+</style>
+
+<style>
+  .section-gap3{ height: 3px; }
+</style>
+<div class="section-gap3"></div>
+
+# 🌍 Visitor Map
+
 <div class="visitor-map-wrap">
   <div class="visitor-map-card">
     <div class="visitor-map-embed" aria-label="Visitor map">
-      <div class="visitor-map-title">
-        <span class="count" id="vmCount">0</span> Total Pageviews
-      </div>
-
-      <script
-        type="text/javascript"
-        id="mapmyvisitors"
+      <script type="text/javascript" id="mapmyvisitors"
         src="//mapmyvisitors.com/map.js?d=fU8cgDogJMfp7fmFhvAp5fSI9CakxNg1n0lI_B_Gc6o&cl=ffffff&w=a">
-      </script>
-
-      <script>
-        (function () {
-          const root = document.currentScript.parentElement;
-          const countEl = root.querySelector('#vmCount');
-
-          function pickText() {
-            const selectors = [
-              '.non_unique_visitor_count-count',
-              '.unique_visitor_count-count',
-              '.mapmyvisitors-pageviews',
-              '.mapmyvisitors-total',
-              '.mapmyvisitors-visitors'
-            ];
-            for (const sel of selectors) {
-              const el = root.querySelector(sel);
-              if (!el) continue;
-              const t = (el.textContent || '').trim();
-              if (t) return t;
-            }
-            return '';
-          }
-
-          function update() {
-            const t = pickText();
-            if (!t) return;
-            const m = t.replace(/,/g, '').match(/\d+/);
-            if (m) countEl.textContent = Number(m[0]).toLocaleString();
-          }
-
-          update();
-          const timer = setInterval(update, 1500);
-          setTimeout(() => clearInterval(timer), 15000);
-        })();
       </script>
     </div>
   </div>
 </div>
+
 
