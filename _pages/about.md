@@ -585,11 +585,11 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
       <span style="color: #000; font-weight: bold;">Kaizhen Tan</span><span style="color: #666;">, Yufan Wu, Yuxuan Liu, Haoran Zeng</span>
     </div>
     <div style="font-size: 1em; font-style: italic; color: #666; margin-bottom: 10px;">
-      Under Review at Computational Urban Science.
+      Under Review at Computational Urban Science, 2026.
     </div>
     <div style="margin-bottom: 10px;">
-      <a href="https://arxiv.org/abs/2509.03830" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 6px;">arXiv</a>
-      <a href="/assets/ICUI2025.pptx" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 6px;">Slides</a>
+      <a href="https://arxiv.org/abs/2509.03830" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 2px;">arXiv</a>
+      <a href="/assets/ICUI2025.pptx" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 2px;">Slides</a>
       <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
     </div>
     <div style="font-size: 0.9em; color: #444; line-height: 1.4;">
