@@ -566,7 +566,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
       XXV ISPRS Congress, 2026.
     </div>
     <div style="margin-bottom: 10px;">
-      <a href="/assets/isprs_abstract_kaizhen_fan.pdf" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 2px;">Abstract</a>
+      <a href="/assets/isprs_abstract_kaizhen_fan.pdf" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">Abstract</a>
       <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
     </div>
     <div style="font-size: 0.9em; color: #444; line-height: 1.4;">
@@ -588,8 +588,8 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
       Under Review at Computational Urban Science, 2026.
     </div>
     <div style="margin-bottom: 10px;">
-      <a href="https://arxiv.org/abs/2509.03830" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 2px;">arXiv</a>
-      <a href="/assets/ICUI2025.pptx" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 2px;">Slides</a>
+      <a href="https://arxiv.org/abs/2509.03830" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">arXiv</a>
+      <a href="/assets/ICUI2025.pptx" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">Slides</a>
       <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
     </div>
     <div style="font-size: 0.9em; color: #444; line-height: 1.4;">
@@ -611,8 +611,8 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
       Asia Conference on Machine Learning and Computing, 2025.
     </div>
     <div style="margin-bottom: 10px;">
-      <a href="https://arxiv.org/abs/2509.10522" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 2px;">arXiv</a>
-      <a href="/assets/ACMLC2025.pptx" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 2px;">Slides</a>
+      <a href="https://arxiv.org/abs/2509.10522" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">arXiv</a>
+      <a href="/assets/ACMLC2025.pptx" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">Slides</a>
       <a href="https://github.com/tantansir/Multimodal-Deep-Learning-for-Modeling-ATCO-Command-Lifecycle-in-Terminal-Airspace" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 2px;">GitHub</a>
       <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
     </div>
@@ -635,8 +635,8 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
       GIScience & Remote Sensing, 2025.
     </div>
     <div style="margin-bottom: 10px;">
-      <a href="https://doi.org/10.1080/15481603.2025.2602215" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 2px;">DOI</a>
-      <a href="https://www.tandfonline.com/doi/epdf/10.1080/15481603.2025.2602215" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 2px;">PDF</a>
+      <a href="https://doi.org/10.1080/15481603.2025.2602215" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">DOI</a>
+      <a href="https://www.tandfonline.com/doi/epdf/10.1080/15481603.2025.2602215" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 2px 8px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">PDF</a>
     </div>
     <div style="font-size: 0.9em; color: #444; line-height: 1.4;">
       Proposed a spatiotemporal adaptive local search (STALS) method combining dynamic graph learning and spatial analytics to model and mitigate large-scale urban traffic congestion propagation.
@@ -749,6 +749,8 @@ Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle 
       0 6px 18px rgba(0,0,0,0.06),
       0 1px 0 rgba(255,255,255,0.70) inset,
       0 -1px 0 rgba(0,0,0,0.03) inset;
+    /* 如果你希望整个卡片也只占 500px 宽度并靠左，可以取消下面这行的注释 */
+    /* max-width: 536px; */
   }
 
   .visitor-map-card::after{
@@ -763,13 +765,16 @@ Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle 
 
   .visitor-map-card > *{ position: relative; z-index: 1; }
 
-  /* 核心：地图改成蓝底，并确保内部地图容器铺满 */
+  /* 核心：地图改成蓝底，靠左，并自适应高度修复截断问题 */
   .visitor-map-embed{
     position: relative;
     width: 100%;
     max-width: 500px;
-    height: 200px;
-    margin: 0 auto;
+    /* 修改 1：去除 0 auto 让容器靠左 */
+    margin: 0; 
+    /* 修改 2：去除固定 200px 高度，改为自适应或最小高度以显示完整 */
+    height: auto;
+    min-height: 260px; 
     border-radius: 10px;
     overflow: hidden;
     background: #8bbcff;
@@ -781,6 +786,7 @@ Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle 
     height: 100% !important;
     border: 0 !important;
     display: block;
+    min-height: 260px; /* 确保 iframe 撑开高度 */
   }
   .visitor-map-embed > div{
     width: 100% !important;
