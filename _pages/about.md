@@ -650,12 +650,17 @@ Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle 
   }
 </style>
 
+<style>
+  .section-gap3{ height: 3px; }
+</style>
+<div class="section-gap3"></div>
+
 # 🌍 Visitor Map
 
 <style>
-  .section-gap2{ height: 4px; }
+  .section-gap0.5{ height: 0.5px; }
 </style>
-<div class="section-gap2"></div>
+<div class="section-gap0.5"></div>
 
 <div class="visitor-map-wrap">
   <div class="visitor-map-card">
