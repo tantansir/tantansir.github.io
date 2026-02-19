@@ -473,7 +473,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 
 **Kaizhen Tan**
 
-[[arXiv]](https://arxiv.org/abs/2509.10522)[[slides]](/assets/ACMLC2025.pptx) [[github]](https://github.com/tantansir/Multimodal-Deep-Learning-for-Modeling-ATCO-Command-Lifecycle-in-Terminal-Airspace)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[[arXiv]](https://arxiv.org/abs/2509.10522) [[slides]](/assets/ACMLC2025.pptx) [[github]](https://github.com/tantansir/Multimodal-Deep-Learning-for-Modeling-ATCO-Command-Lifecycle-in-Terminal-Airspace)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Published in *7th Asia Conference on Machine Learning and Computing [(ACMLC 2025)](https://www.acmlc.org/acmlc2025.html)*
 - Designed a multimodal deep learning framework linking ATCO voice commands with aircraft trajectories to model workload dynamics, enabling intelligent command generation and scheduling support.
 </div>
@@ -569,87 +569,113 @@ Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle 
 
 [//]: # (*Pittsburgh, USA*)
 
-
 <style>
-  .visitor-map-wrap{ margin: 28px 0 6px 0; }
-
-  .visitor-map-card{
-    position: relative;
-    background: rgba(255,255,255,0.78);
-    overflow: hidden;
-    border: none;
-    border-radius: 22px;
-    padding: 18px 18px 14px 18px;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow:
-      0 18px 48px rgba(0,0,0,0.08),
-      0 6px 18px rgba(0,0,0,0.06),
-      0 1px 0 rgba(255,255,255,0.70) inset,
-      0 -1px 0 rgba(0,0,0,0.03) inset;
+  /* 标题样式，做成截图那种上方居中 */
+  .visitor-map-title{
+    text-align:center;
+    font-weight:700;
+    font-size:22px;
+    color:#1f4aa6;
+    margin: 2px 0 10px 0;
+    letter-spacing: .2px;
   }
 
-  .visitor-map-card::after{
-    content:"";
-    position:absolute;
-    inset:0;
-    background:
-      radial-gradient(1100px circle at 18% 18%, rgba(59,130,246,0.10) 0%, rgba(255,255,255,0) 55%),
-      radial-gradient(900px circle at 88% 86%, rgba(168,85,247,0.08) 0%, rgba(255,255,255,0) 58%);
-    pointer-events:none;
-  }
-
-  .visitor-map-card > *{ position: relative; z-index: 1; }
-
+  /* 地图容器高度与背景 */
   .visitor-map-embed{
-    width: 100%;
-    max-width: 730px;
-    min-height: 300px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    overflow: hidden;
-    background: rgba(0,0,0,0.03);
+    background:#fff;
+    min-height: 420px;
+  }
+  @media (max-width: 520px){
+    .visitor-map-embed{ min-height: 320px; }
   }
 
-  .visitor-map-embed a,
-  .visitor-map-embed img,
-  .visitor-map-embed canvas,
-  .visitor-map-embed iframe{
-    max-width: 100% !important;
+  /* 世界底图：陆地灰、边界白 */
+  .visitor-map-embed .jvectormap-region{
+    fill:#d1d5db !important;
+    stroke:#ffffff !important;
+    stroke-width:1 !important;
   }
 
-  @media (prefers-color-scheme: dark){
-    .visitor-map-card{
-      background: rgba(20,20,20,0.62);
-      box-shadow:
-        0 22px 64px rgba(0,0,0,0.42),
-        0 10px 26px rgba(0,0,0,0.30),
-        0 1px 0 rgba(255,255,255,0.10) inset,
-        0 -1px 0 rgba(0,0,0,0.35) inset;
-    }
-    .visitor-map-card::after{
-      filter: saturate(1.05) brightness(0.9);
-      opacity: 0.9;
-    }
+  /* 点的默认描边 */
+  .visitor-map-embed .jvectormap-marker{
+    stroke:#ffffff !important;
+  }
+
+  /* 把旧点（默认红色）改成深蓝 */
+  .visitor-map-embed .jvectormap-marker[fill="#FF0000"],
+  .visitor-map-embed .jvectormap-marker[style*="fill: #FF0000"]{
+    fill:#1d4ed8 !important;
+    fill-opacity:1 !important;
+    stroke-width:1.2 !important;
+  }
+
+  /* 把最近点（默认橙色）改成粉紫，稍微更醒目 */
+  .visitor-map-embed .jvectormap-marker[fill="#F8A400"],
+  .visitor-map-embed .jvectormap-marker[style*="fill: #F8A400"]{
+    fill:#ff4bb7 !important;
+    fill-opacity:1 !important;
+    stroke-width:2 !important;
+  }
+
+  /* 让缩放按钮更接近截图风格 */
+  .visitor-map-embed .jvectormap-zoomin,
+  .visitor-map-embed .jvectormap-zoomout{
+    background: rgba(255,255,255,0.92) !important;
+    color:#6b7280 !important;
+    border:1px solid rgba(0,0,0,0.08) !important;
+    border-radius:8px !important;
+    width:34px !important;
+    height:34px !important;
+    line-height:34px !important;
+    left:12px !important;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.08) !important;
+  }
+  .visitor-map-embed .jvectormap-zoomin{ top:auto !important; bottom:58px !important; }
+  .visitor-map-embed .jvectormap-zoomout{ top:auto !important; bottom:18px !important; }
+
+  /* 隐藏 MapMyVisitors 自带的文字行，只保留你自己的标题 */
+  .visitor-map-embed .mapmyvisitors-visitors,
+  .visitor-map-embed .mapmyvisitors-date{
+    display:none !important;
   }
 </style>
 
-<style>
-  .section-gap3{ height: 3px; }
-</style>
-<div class="section-gap3"></div>
+<div class="visitor-map-title" id="visitorMapTitle">Loading...</div>
 
-# 🌍 Visitor Map
-
-<div class="visitor-map-wrap">
-  <div class="visitor-map-card">
-
-    <div class="visitor-map-embed" aria-label="Visitor map">
-      <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=fU8cgDogJMfp7fmFhvAp5fSI9CakxNg1n0lI_B_Gc6o&cl=ffffff&w=a"></script>
-    </div>
-
-  </div>
+<div class="visitor-map-embed" aria-label="Visitor map">
+  <script type="text/javascript" id="mapmyvisitors"
+    src="//mapmyvisitors.com/map.js?d=fU8cgDogJMfp7fmFhvAp5fSI9CakxNg1n0lI_B_Gc6o&cl=ffffff&w=a"></script>
 </div>
+
+<script>
+  (function () {
+    const titleEl = document.getElementById('visitorMapTitle');
+
+    function toNumber(text){
+      const digits = (text || '').replace(/[^\d]/g, '');
+      return digits ? Number(digits) : null;
+    }
+
+    let tries = 0;
+    const timer = setInterval(() => {
+      tries += 1;
+
+      const raw = document.querySelector('.visitor-map-embed .mapmyvisitors-visitors');
+      if (raw && raw.textContent) {
+        const n = toNumber(raw.textContent);
+        if (n !== null) {
+          titleEl.textContent = n.toLocaleString() + ' Total Pageviews';
+        } else {
+          titleEl.textContent = raw.textContent.trim();
+        }
+        clearInterval(timer);
+      }
+
+      if (tries > 60) {
+        titleEl.textContent = 'Visitor Map';
+        clearInterval(timer);
+      }
+    }, 250);
+  })();
+</script>
+
