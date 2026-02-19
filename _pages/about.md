@@ -589,44 +589,31 @@ Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle 
       0 -1px 0 rgba(0,0,0,0.03) inset;
   }
 
-  .visitor-map-card::before{
-    content:"";
-    position:absolute;
-    left:0; right:0; top:0;
-    height:6px;
-    background: linear-gradient(90deg, #22C55E, rgba(255,255,255,0));
-    opacity:0.95;
-    pointer-events:none;
-  }
-
   .visitor-map-card::after{
     content:"";
     position:absolute;
     inset:0;
     background:
-      radial-gradient(1100px circle at 18% 18%, rgba(34,197,94,0.16) 0%, rgba(255,255,255,0) 55%),
-      radial-gradient(900px circle at 88% 86%, rgba(59,130,246,0.12) 0%, rgba(255,255,255,0) 58%);
+      radial-gradient(1100px circle at 18% 18%, rgba(59,130,246,0.10) 0%, rgba(255,255,255,0) 55%),
+      radial-gradient(900px circle at 88% 86%, rgba(168,85,247,0.08) 0%, rgba(255,255,255,0) 58%);
     pointer-events:none;
   }
 
   .visitor-map-card > *{ position: relative; z-index: 1; }
 
   .visitor-map-title{
-    margin: 0 0 8px 0;
+    margin: 0 0 12px 0;
     font-size: 1.15rem;
     font-weight: 800;
     letter-spacing: 0.2px;
   }
 
-  .visitor-map-note{
-    margin: 0 0 12px 0;
-    font-size: 0.95em;
-    color: #555;
-  }
-
+  /* 让地图区域稍微缩小：限制最大宽度并居中 */
   .visitor-map-embed{
     width: 100%;
-    min-height: 340px;
+    max-width: 860px;
+    min-height: 280px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -643,7 +630,7 @@ Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle 
   }
 
   @media (max-width: 900px){
-    .visitor-map-embed{ min-height: 300px; }
+    .visitor-map-embed{ max-width: 100%; min-height: 260px; }
   }
 
   @media (prefers-color-scheme: dark){
@@ -655,7 +642,6 @@ Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle 
         0 1px 0 rgba(255,255,255,0.10) inset,
         0 -1px 0 rgba(0,0,0,0.35) inset;
     }
-    .visitor-map-note{ color: rgba(255,255,255,0.75); }
     .visitor-map-embed{ background: rgba(255,255,255,0.06); }
     .visitor-map-card::after{
       filter: saturate(1.05) brightness(0.9);
@@ -667,8 +653,6 @@ Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle 
 <div class="visitor-map-wrap">
   <div class="visitor-map-card">
     <div class="visitor-map-title">🌍 Visitor Map</div>
-    <div class="visitor-map-note">Visitor locations are estimated from IP geolocation and shown as dots on the map.</div>
-
     <div class="visitor-map-embed" aria-label="Visitor map">
       <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=fU8cgDogJMfp7fmFhvAp5fSI9CakxNg1n0lI_B_Gc6o&cl=ffffff&w=a"></script>
     </div>
