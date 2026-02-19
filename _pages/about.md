@@ -568,3 +568,109 @@ Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle 
 [//]: # (Do we need a robot lane?)
 
 [//]: # (*Pittsburgh, USA*)
+
+
+<style>
+  .visitor-map-wrap{ margin: 28px 0 6px 0; }
+
+  .visitor-map-card{
+    position: relative;
+    background: rgba(255,255,255,0.78);
+    overflow: hidden;
+    border: none;
+    border-radius: 22px;
+    padding: 18px 18px 14px 18px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow:
+      0 18px 48px rgba(0,0,0,0.08),
+      0 6px 18px rgba(0,0,0,0.06),
+      0 1px 0 rgba(255,255,255,0.70) inset,
+      0 -1px 0 rgba(0,0,0,0.03) inset;
+  }
+
+  .visitor-map-card::before{
+    content:"";
+    position:absolute;
+    left:0; right:0; top:0;
+    height:6px;
+    background: linear-gradient(90deg, #22C55E, rgba(255,255,255,0));
+    opacity:0.95;
+    pointer-events:none;
+  }
+
+  .visitor-map-card::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:
+      radial-gradient(1100px circle at 18% 18%, rgba(34,197,94,0.16) 0%, rgba(255,255,255,0) 55%),
+      radial-gradient(900px circle at 88% 86%, rgba(59,130,246,0.12) 0%, rgba(255,255,255,0) 58%);
+    pointer-events:none;
+  }
+
+  .visitor-map-card > *{ position: relative; z-index: 1; }
+
+  .visitor-map-title{
+    margin: 0 0 8px 0;
+    font-size: 1.15rem;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+  }
+
+  .visitor-map-note{
+    margin: 0 0 12px 0;
+    font-size: 0.95em;
+    color: #555;
+  }
+
+  .visitor-map-embed{
+    width: 100%;
+    min-height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    overflow: hidden;
+    background: rgba(0,0,0,0.03);
+  }
+
+  .visitor-map-embed a,
+  .visitor-map-embed img,
+  .visitor-map-embed canvas,
+  .visitor-map-embed iframe{
+    max-width: 100% !important;
+  }
+
+  @media (max-width: 900px){
+    .visitor-map-embed{ min-height: 300px; }
+  }
+
+  @media (prefers-color-scheme: dark){
+    .visitor-map-card{
+      background: rgba(20,20,20,0.62);
+      box-shadow:
+        0 22px 64px rgba(0,0,0,0.42),
+        0 10px 26px rgba(0,0,0,0.30),
+        0 1px 0 rgba(255,255,255,0.10) inset,
+        0 -1px 0 rgba(0,0,0,0.35) inset;
+    }
+    .visitor-map-note{ color: rgba(255,255,255,0.75); }
+    .visitor-map-embed{ background: rgba(255,255,255,0.06); }
+    .visitor-map-card::after{
+      filter: saturate(1.05) brightness(0.9);
+      opacity: 0.9;
+    }
+  }
+</style>
+
+<div class="visitor-map-wrap">
+  <div class="visitor-map-card">
+    <div class="visitor-map-title">🌍 Visitor Map</div>
+    <div class="visitor-map-note">Visitor locations are estimated from IP geolocation and shown as dots on the map.</div>
+
+    <div class="visitor-map-embed" aria-label="Visitor map">
+      <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=fU8cgDogJMfp7fmFhvAp5fSI9CakxNg1n0lI_B_Gc6o&cl=ffffff&w=a"></script>
+    </div>
+  </div>
+</div>
