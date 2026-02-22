@@ -577,7 +577,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div><div class="badge">Computational Urban Science</div><img src='images/2.png' alt="sym" width="100%"></div>
+    <div><div class="badge">GSCS & ICUI 2025</div><img src='images/2.png' alt="sym" width="100%"></div>
   </div>
   <div class='paper-box-text'>
     <div style="color: #0d2a63; font-weight: bold; font-size: 1.08em; margin-bottom: 6px;">Decoding Tourist Perception in Historic Urban Quarters with Multimodal Social Media Data: An AI-Based Framework and Evidence from Shanghai</div>
@@ -585,7 +585,7 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
       <span style="color: #000; font-weight: bold;">Kaizhen Tan</span><span style="color: #666;">, Yufan Wu, Yuxuan Liu, Haoran Zeng</span>
     </div>
     <div style="font-size: 0.98em; font-style: italic; color: #666; margin-bottom: 10px;">
-      Under Review at Computational Urban Science, 2026.
+      Global Smart Cities Summit cum The 4th International Conference on Urban Informatics, 2025.
     </div>
     <div style="margin-bottom: 10px;">
       <a href="https://arxiv.org/abs/2509.03830" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">arXiv</a>
