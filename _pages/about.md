@@ -19,9 +19,14 @@ redirect_from:
 
 Hi! I am Kaizhen Tan (Chinese name: 谭楷蓁). I am currently a master’s student in Artificial Intelligence at **Carnegie Mellon University**. I received my bachelor’s degree in Information Systems from **Tongji University**, where I built a solid foundation in programming, data analysis, and machine learning, complemented by interdisciplinary training in business and organizational systems.
 
-My research sits at the intersection of **Urban Management and Spatial Intelligence**. I aim to build systems that are both spatially intelligent and socially aware, providing computational solutions to make cities more adaptive, inclusive, and human-centric. 
+My research sits at the intersection of **Urban Science** and **Human-centered AI**. I aim to build systems that are both spatially intelligent and socially aware, providing computational solutions to make cities more adaptive, inclusive, and human-centric. 
 
-Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, my research agenda is structured around four key topics. Please feel free to contact me if any of these resonate with you, I’d be happy to chat!
+To realize this vision, my work integrates:
+* **Urban Paradigms:** Robot-Friendly City, Lightweight Urbanization, and Self-evolving Urban Digital Twins.
+* **Methodologies:** Social Sensing, Geospatial & Spatiotemporal Data Analysis, and Computational Social Science.
+* **Technologies:** LLMs, VLMs, AI Agents, Embodied AI, Spatial Intelligence, World Models, and Emerging Devices.
+
+Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, my research agenda is structured around four key topics:
 
 
 <style>
@@ -232,6 +237,10 @@ Driven by the vision of **harmonizing artificial intelligence with urban ecosyst
     </ul>
   </div>
 </div>
+
+---
+
+**📫 Let's Connect!** Please feel free to reach out if any of these research directions resonate with you. I’d be happy to chat!
 
 [//]: # (<div style="text-align: center;">)
 
