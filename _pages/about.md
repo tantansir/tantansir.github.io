@@ -239,10 +239,10 @@ Specifically, my research agenda explores four key topics:
 
 ---
 
-<p style="font-size: 1.2rem; font-weight: 600; margin-top: 30px; margin-bottom: 5px;">
+<p style="font-size: 1.25rem; font-weight: 600; margin-top: 30px; margin-bottom: 5px;">
   📫 Let's Connect!
 </p>
-<p style="font-size: 0.9rem; margin-top: 0;">
+<p style="font-size: 1.1rem; margin-top: 0;">
   Please feel free to reach out if any of these research directions resonate with you. I’d be happy to chat!
 </p>
 
