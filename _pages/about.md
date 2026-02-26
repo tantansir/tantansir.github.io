@@ -23,7 +23,7 @@ My research sits at the intersection of **Urban Science** and **Human-centered A
 
 To realize this vision, my work integrates:
 * **Paradigms:** Robot-Friendly City, Lightweight Urbanization, Self-evolving Urban Digital Twins
-* **Methodologies:** Social Sensing, Geospatial & Spatiotemporal Data Analysis, Computational Social Science
+* **Methodologies:** Social Sensing, Geospatial & Spatiotemporal Data Analysis, Computational Social Science, Human-Computer Interaction
 * **Technologies:** LLMs, VLMs, AI Agents, Embodied AI, Spatial Intelligence, World Models, Emerging Devices
 
 Specifically, my research agenda explores four key topics:
@@ -242,7 +242,7 @@ Specifically, my research agenda explores four key topics:
 <p style="font-size: 1.25rem; font-weight: 600; margin-top: 30px; margin-bottom: 5px;">
   📫 Let's Connect!
 </p>
-<p style="font-size: 1.1rem; margin-top: 0;">
+<p style="font-size: 1.05rem; margin-top: 0;">
   Please feel free to reach out if any of these research directions resonate with you. I’d be happy to chat!
 </p>
 
