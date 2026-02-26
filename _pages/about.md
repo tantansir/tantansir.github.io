@@ -241,6 +241,11 @@ Specifically, my research agenda explores four key topics:
 
 **📫 Let's Connect!**  Please feel free to reach out if any of these research directions resonate with you. I’d be happy to chat!
 
+<p style="font-size: 1.2rem; font-weight: 500; text-align: center; margin-top: 20px; line-height: 1.5;">
+  <b>📫 Let's Connect!</b> <br>
+  <span style="font-size: 0.9em; font-weight: normal;">Please feel free to reach out if any of these research directions resonate with you. I’d be happy to chat!</span>
+</p>
+
 [//]: # (<div style="text-align: center;">)
 
 [//]: # (  <a href="/assets/CV_Kaizhen TAN.pdf">View My CV</a> /)
