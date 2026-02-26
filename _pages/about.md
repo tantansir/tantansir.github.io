@@ -22,7 +22,7 @@ Hi! I am Kaizhen Tan (Chinese name: 谭楷蓁). I am currently a master’s stud
 My research sits at the intersection of **Urban Science** and **Human-centered AI**. Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, I aim to build spatially intelligent and socially aware systems that make cities more adaptive, inclusive, and human-centric. 
 
 To realize this vision, my work integrates:
-* **Urban Paradigms:** Robot-Friendly City, Lightweight Urbanization, Self-evolving Urban Digital Twins
+* **Paradigms:** Robot-Friendly City, Lightweight Urbanization, Self-evolving Urban Digital Twins
 * **Methodologies:** Social Sensing, Geospatial & Spatiotemporal Data Analysis, Computational Social Science
 * **Technologies:** LLMs, VLMs, AI Agents, Embodied AI, Spatial Intelligence, World Models, Emerging Devices
 
@@ -239,11 +239,11 @@ Specifically, my research agenda explores four key topics:
 
 ---
 
-**📫 Let's Connect!**  Please feel free to reach out if any of these research directions resonate with you. I’d be happy to chat!
-
-<p style="font-size: 1.2rem; font-weight: 500; text-align: center; margin-top: 20px; line-height: 1.5;">
-  <b>📫 Let's Connect!</b> <br>
-  <span style="font-size: 0.9em; font-weight: normal;">Please feel free to reach out if any of these research directions resonate with you. I’d be happy to chat!</span>
+<p style="font-size: 1.2rem; font-weight: 600; margin-top: 30px; margin-bottom: 5px;">
+  📫 Let's Connect!
+</p>
+<p style="font-size: 0.9rem; margin-top: 0;">
+  Please feel free to reach out if any of these research directions resonate with you. I’d be happy to chat!
 </p>
 
 [//]: # (<div style="text-align: center;">)
