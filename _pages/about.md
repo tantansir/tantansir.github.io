@@ -246,19 +246,6 @@ Specifically, my research agenda explores four key topics:
   - Please feel free to reach out if any of these research directions resonate with you. I’d be happy to chat!
 </p>
 
-[//]: # (<div style="text-align: center;">)
-
-[//]: # (  <a href="/assets/CV_Kaizhen TAN.pdf">View My CV</a> /)
-
-[//]: # (  <a href="mailto:wflps20140311@gmail.com">Email</a> /)
-
-[//]: # (  <a href="https://github.com/tantansir">Github</a> /)
-
-[//]: # (  <a href="/images/Wechat.jpg">Wechat</a> /)
-
-[//]: # (  <a href="https://www.linkedin.com/in/kaizhen-tan-b020232b3/">LinkedIn</a>)
-
-[//]: # (</div>)
 
 <style>
   .social-row{
@@ -365,6 +352,7 @@ Specifically, my research agenda explores four key topics:
 
 # 🔥 News
 
+- *2026.03*: 🎓 I am pleased to share that I will begin my PhD at NYU Wagner and NYU Shanghai in Fall 2026 under the supervision of [Prof. Chenghe Guan](https://wagner.nyu.edu/community/faculty/chenghe-guan) and [Prof. Zhan Guo](https://wagner.nyu.edu/community/faculty/zhan-guo).
 - *2026.01*: 🎉 The abstract co-authored with Prof. Fan Zhang has been accepted for the [XXV ISPRS Congress 2026](https://www.isprs2026toronto.com/). See you in Toronto!
 - *2025.12*: 🎉 Our paper, led by my senior labmate Dr. Weihua Huan and co-authored with Prof. Wei Huang at Tongji University, was accepted by GIScience & Remote Sensing; honored to contribute as second author and big congratulations to Dr. Huan!
 - *2025.10*: 🔭 Joined [Prof. Yu Liu](https://scholar.google.com/citations?user=Xh_lRY4AAAAJ) and [Prof. Fan Zhang](https://scholar.google.com/citations?user=dc1TzLoAAAAJ)’s team at Peking University as a remote research assistant.
@@ -383,25 +371,16 @@ Specifically, my research agenda explores four key topics:
 
 # 📖 Education
 
-[//]: # (<div class="edu-item">)
-
-[//]: # (  <img class="edu-logo" src="/assets/nyu.png" alt="NYU" />)
-
-[//]: # (  <div class="edu-content">)
-
-[//]: # (    <div class="edu-top">)
-
-[//]: # (      <strong>New York University</strong>)
-
-[//]: # (    </div>)
-
-[//]: # (    <div class="edu-sub"><em>2026.09 – 2031.05 &#40;expected&#41;</em></div>)
-
-[//]: # (    <div class="edu-sub"><em>Ph.D. in Public Administration</em></div>)
-
-[//]: # (  </div>)
-
-[//]: # (</div>)
+<div class="edu-item">
+  <img class="edu-logo" src="/assets/nyu.png" alt="NYU" />
+  <div class="edu-content">
+    <div class="edu-top">
+      <strong>New York University</strong>
+    </div>
+    <div class="edu-sub"><em>2026.09 – 2031.05 (expected)</em></div>
+    <div class="edu-sub"><em>Ph.D. in Public Administration</em></div>
+  </div>
+</div>
 
 <div class="edu-item">
   <img class="edu-logo" src="/assets/cmu.png" alt="CMU" />
@@ -435,8 +414,8 @@ Specifically, my research agenda explores four key topics:
 
 ## 🔭 Research
 
-[//]: # (- *2026.04 - Present*, Research Assistant, Shanghai Key Laboratory of Urban Design and Urban Science &#40;LOUD&#41;, NYU Shanghai.)
-- *2025.10 - 2026.04*, Research Assistant, Institute of Remote Sensing and Geographic Information System, Peking University, China
+- *2026.04 - Present*, Research Assistant, Shanghai Key Laboratory of Urban Design and Urban Science (LOUD), NYU Shanghai.
+- *2025.10 - 2026.03*, Research Assistant, Institute of Remote Sensing and Geographic Information System, Peking University, China
 - *2024.09 - 2024.12*, Research Officer, [A*STAR Institute for Infocomm Research](https://www.a-star.edu.sg/i2r), Singapore
 - *2024.04 - 2025.04*, Research Assistant, College of Architecture and Urban Planning, Tongji University, China
 - *2024.04 - 2024.12*, Research Assistant, College of Surveying and Geo-Informatics, Tongji University, China
@@ -449,120 +428,6 @@ Specifically, my research agenda explores four key topics:
   .section-gap1{ height: 6px; }
 </style>
 <div class="section-gap1"></div>
-
-[//]: # (# 📝 Publications )
-
-[//]: # ()
-[//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">XXV ISPRS Congress</div><img src='images/5.jpg' alt="sym" width="100%"></div></div>)
-
-[//]: # (<div class='paper-box-text' markdown="1">)
-
-[//]: # ()
-[//]: # (**UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images**)
-
-[//]: # ()
-[//]: # (**Kaizhen Tan**, Fan Zhang)
-
-[//]: # ()
-[//]: # ([[abstract]]&#40;/assets/isprs_abstract_kaizhen_fan.pdf&#41; <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>)
-
-[//]: # (- Accepted at *[XXV ISPRS Congress 2026]&#40;https://www.isprs2026toronto.com/&#41;*)
-
-[//]: # (- Leverage street-view imagery and VGGT-based 3D reconstruction to estimate metrically scaled sidewalk widths, build the SV-SideWidth dataset, and fill OpenStreetMap gaps for equitable assessment of pedestrian infrastructure. )
-
-[//]: # (</div>)
-
-[//]: # (</div>)
-
-[//]: # ()
-[//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Computational Urban Science</div><img src='images/2.png' alt="sym" width="100%"></div></div>)
-
-[//]: # (<div class='paper-box-text' markdown="1">)
-
-[//]: # ()
-[//]: # (**Decoding Tourist Perception in Historic Urban Quarters with Multimodal Social Media Data: An AI-Based Framework and Evidence from Shanghai**)
-
-[//]: # ()
-[//]: # (**Kaizhen Tan**, Yufan Wu, Yuxuan Liu, Haoran Zeng)
-
-[//]: # ()
-[//]: # ([[arXiv]]&#40;https://arxiv.org/abs/2509.03830&#41; [[slides]]&#40;/assets/ICUI2025.pptx&#41;<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>)
-
-[//]: # (- Under Review at *Computational Urban Science*)
-
-[//]: # (- Developed an AI-powered multimodal framework to analyze tourist perception in historic Shanghai quarters, integrating image segmentation, color theme analysis, and sentiment mining for heritage-informed urban planning.)
-
-[//]: # ()
-[//]: # (</div>)
-
-[//]: # (</div>)
-
-[//]: # ()
-[//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMLC 2025</div><img src='images/21.png' alt="sym" width="100%"></div></div>)
-
-[//]: # (<div class='paper-box-text' markdown="1">)
-
-[//]: # ()
-[//]: # (**Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace**)
-
-[//]: # ()
-[//]: # (**Kaizhen Tan**)
-
-[//]: # ()
-[//]: # ([[arXiv]]&#40;https://arxiv.org/abs/2509.10522&#41; [[slides]]&#40;/assets/ACMLC2025.pptx&#41; [[github]]&#40;https://github.com/tantansir/Multimodal-Deep-Learning-for-Modeling-ATCO-Command-Lifecycle-in-Terminal-Airspace&#41;<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>)
-
-[//]: # (- Published in *7th Asia Conference on Machine Learning and Computing [&#40;ACMLC 2025&#41;]&#40;https://www.acmlc.org/acmlc2025.html&#41;*)
-
-[//]: # (- Designed a multimodal deep learning framework linking ATCO voice commands with aircraft trajectories to model workload dynamics, enabling intelligent command generation and scheduling support.)
-
-[//]: # (</div>)
-
-[//]: # (</div>)
-
-[//]: # ()
-[//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">GIScience & Remote Sensing</div><img src='images/4.png' alt="sym" width="100%"></div></div>)
-
-[//]: # (<div class='paper-box-text' markdown="1">)
-
-[//]: # ()
-[//]: # (**A Spatiotemporal Adaptive Local Search Method for Tracking Congestion Propagation in Dynamic Networks**)
-
-[//]: # ()
-[//]: # (Weihua Huan, **Kaizhen Tan**, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, Wei Huang)
-
-[//]: # ()
-[//]: # ([[paper]]&#40;https://doi.org/10.1080/15481603.2025.2602215&#41;)
-
-[//]: # (- Published in *GIScience & Remote Sensing* &#40;JCR Q1; IF = 6.9&#41;.)
-
-[//]: # (- Proposed a spatiotemporal adaptive local search &#40;STALS&#41; method combining dynamic graph learning and spatial analytics to model and mitigate large-scale urban traffic congestion propagation.)
-
-[//]: # (</div>)
-
-[//]: # (</div>)
-
-[//]: # ()
-[//]: # (# 🔬 Projects)
-
-[//]: # ()
-[//]: # (<div class='paper-box'><div class='paper-box-image'><div><img src='images/blindnav.png' alt="sym" width="100%"></div></div>)
-
-[//]: # (<div class='paper-box-text' markdown="1">)
-
-[//]: # ()
-[//]: # (**BlindNav: YOLO+LLM for Real-Time Navigation Assistance for Blind Users**)
-
-[//]: # ()
-[//]: # (**Kaizhen Tan**, Yufan Wang, Yixiao Li, Hanzhe Hong, Nicole Lyu)
-
-[//]: # ()
-[//]: # ([[report]]&#40;/assets/blindnav.pdf&#41; [[github]]&#40;https://github.com/tantansir/BlindNav&#41;)
-
-[//]: # (- BlindNav is a real-time, camera-based navigation assistant that uses YOLO for street-scene detection and a local LLM to turn those signals into concise voice guidance for blind and low-vision pedestrians.)
-
-[//]: # (</div>)
-
-[//]: # (</div>)
 
 # 📝 Publications 
 
@@ -736,21 +601,17 @@ Specifically, my research agenda explores four key topics:
 </ul>
 
 [//]: # (### 2027.02, aag2027)
-
 [//]: # (Do we need a robot lane?)
-
 [//]: # (*New York, USA*)
-
 [//]: # ()
 [//]: # (### 2026.11, acsp2026)
-
 [//]: # (Do we need a robot lane?)
-
 [//]: # (*Pittsburgh, USA*)
 
 
 # 📫 Contact
 - Email(CMU): kaizhent@cmu.edu
+- Email(NYU): kt3275@nyu.edu
 - Email(personal): wflps20140311@gmail.com
 
 <style>
