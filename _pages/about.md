@@ -372,7 +372,7 @@ Specifically, my research agenda explores four key topics:
 # 📖 Education
 
 <div class="edu-item">
-  <img class="edu-logo" src="/assets/nyu.png" alt="NYU" />
+  <img class="edu-logo" src="/assets/nyu2.jpg" alt="NYU" />
   <div class="edu-content">
     <div class="edu-top">
       <strong>New York University</strong>
