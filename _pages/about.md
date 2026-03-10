@@ -383,7 +383,7 @@ Specifically, my research agenda explores four key topics:
 </div>
 
 <div class="edu-item">
-  <img class="edu-logo" src="/assets/cmu2.jpg" alt="CMU" />
+  <img class="edu-logo" src="/assets/cmu.png" alt="CMU" />
   <div class="edu-content">
     <div class="edu-top">
       <strong>Carnegie Mellon University</strong>
