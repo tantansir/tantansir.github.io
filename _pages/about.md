@@ -378,7 +378,7 @@ Specifically, my research agenda explores four key topics:
       <strong>New York University</strong>
     </div>
     <div class="edu-sub"><em>2026.09 – 2031.05 (expected)</em></div>
-    <div class="edu-sub"><em>Ph.D. in Public Administration</em></div>
+    <div class="edu-sub"><em>Ph.D. student in Public Administration</em></div>
   </div>
 </div>
 
@@ -416,7 +416,7 @@ Specifically, my research agenda explores four key topics:
 
 - *2026.04 - Present*, Research Assistant, Shanghai Key Laboratory of Urban Design and Urban Science (LOUD), NYU Shanghai.
 - *2025.10 - 2026.03*, Research Assistant, Institute of Remote Sensing and Geographic Information System, Peking University, China
-- *2024.09 - 2024.12*, Research Officer, [A*STAR Institute for Infocomm Research](https://www.a-star.edu.sg/i2r), Singapore
+- *2024.09 - 2024.12*, Research Officer Intern, [A*STAR Institute for Infocomm Research](https://www.a-star.edu.sg/i2r), Singapore
 - *2024.04 - 2025.04*, Research Assistant, College of Architecture and Urban Planning, Tongji University, China
 - *2024.04 - 2024.12*, Research Assistant, College of Surveying and Geo-Informatics, Tongji University, China
 
