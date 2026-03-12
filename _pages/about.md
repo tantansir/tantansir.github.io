@@ -603,11 +603,6 @@ Specifically, my research agenda explores four key topics:
 [//]: # (### 2027.02, aag2027)
 [//]: # (Do we need a robot lane?)
 [//]: # (*New York, USA*)
-[//]: # ()
-[//]: # (### 2026.11, acsp2026)
-[//]: # (Do we need a robot lane?)
-[//]: # (*Pittsburgh, USA*)
-
 
 # 📫 Contact
 - Email(CMU): kaizhent@cmu.edu
