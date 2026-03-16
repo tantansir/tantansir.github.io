@@ -23,7 +23,7 @@ My research sits at the intersection of **Urban Science** and **Human-centered A
 
 To realize this vision, my work integrates:
 * **Paradigms:** Robot-Friendly City, Lightweight Urbanization, Self-evolving Urban Digital Twins
-* **Methodologies:** Social Sensing, Geospatial & Spatiotemporal Data Analysis, Computational Social Science, Human-Computer Interaction
+* **Methodologies:** Social Sensing, Geospatial & Spatiotemporal Data Analysis, Computational Social Science
 * **Technologies:** LLMs, VLMs, AI Agents, Embodied AI, Spatial Intelligence, World Models, Emerging Devices
 
 Specifically, my research agenda explores four key topics:
@@ -352,7 +352,7 @@ Specifically, my research agenda explores four key topics:
 
 # 🔥 News
 
-- *2026.03*: 🎓 I am pleased to share that I will begin my PhD at NYU Wagner in Fall 2026 under the supervision of [Prof. Chenghe Guan](https://wagner.nyu.edu/community/faculty/chenghe-guan) and [Prof. Zhan Guo](https://wagner.nyu.edu/community/faculty/zhan-guo).
+- *2026.03*: 🎓 I am pleased to share that I will begin my PhD at New York University in Fall 2026 under the supervision of [Prof. Chenghe Guan](https://wagner.nyu.edu/community/faculty/chenghe-guan) and [Prof. Zhan Guo](https://wagner.nyu.edu/community/faculty/zhan-guo).
 - *2026.01*: 🎉 The abstract co-authored with Prof. Fan Zhang has been accepted for the [XXV ISPRS Congress 2026](https://www.isprs2026toronto.com/). See you in Toronto!
 - *2025.12*: 🎉 Our paper, led by my senior labmate Dr. Weihua Huan and co-authored with Prof. Wei Huang at Tongji University, was accepted by GIScience & Remote Sensing; honored to contribute as second author and big congratulations to Dr. Huan!
 - *2025.10*: 🔭 Joined [Prof. Yu Liu](https://scholar.google.com/citations?user=Xh_lRY4AAAAJ) and [Prof. Fan Zhang](https://scholar.google.com/citations?user=dc1TzLoAAAAJ)’s team at Peking University as a remote research assistant.
@@ -378,7 +378,7 @@ Specifically, my research agenda explores four key topics:
       <strong>New York University</strong>
     </div>
     <div class="edu-sub"><em>2026.09 – 2031.05 (expected)</em></div>
-    <div class="edu-sub"><em>Ph.D. student in Public Administration</em></div>
+    <div class="edu-sub"><em>Ph.D. student in Public Administration (Urban Policy)</em></div>
   </div>
 </div>
 
@@ -489,7 +489,8 @@ Specifically, my research agenda explores four key topics:
       Asia Conference on Machine Learning and Computing, 2025.
     </div>
     <div style="margin-bottom: 10px;">
-      <a href="https://arxiv.org/abs/2509.10522" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">arXiv</a>
+      <a href="https://doi.org/10.1145/3772673.3772702" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">DOI</a>
+      <a href="https://dl.acm.org/doi/epdf/10.1145/3772673.3772702" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">PDF</a>
       <a href="/assets/ACMLC2025.pptx" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">Slides</a>
       <a href="https://github.com/tantansir/Multimodal-Deep-Learning-for-Modeling-ATCO-Command-Lifecycle-in-Terminal-Airspace" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 2px;">GitHub</a>
       <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
