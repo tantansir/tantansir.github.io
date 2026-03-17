@@ -216,7 +216,7 @@ h1:before, .anchor:before {
   width: calc(100% + 40px);
   margin-left: -20px;
   margin-right: -20px;
-  align-items: start;
+  align-items: stretch;
 
   @media (max-width: 900px) {
     width: 100%;
@@ -601,29 +601,16 @@ h1:before, .anchor:before {
 
 .visitor-map-card {
   position: relative;
-  background: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: transparent;
   overflow: hidden;
-  border: 1px solid rgba(91, 127, 213, 0.06);
-  border-radius: 22px;
-  padding: 20px 20px 16px 20px;
-  box-shadow: 0 4px 24px rgba(91, 127, 213, 0.08);
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
 }
 
 .visitor-map-card::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(1100px circle at 18% 18%, rgba(91, 127, 213, 0.05) 0%, transparent 55%),
-    radial-gradient(900px circle at 88% 86%, rgba(123, 174, 165, 0.04) 0%, transparent 58%);
-  pointer-events: none;
-}
-
-.visitor-map-card > * {
-  position: relative;
-  z-index: 1;
+  display: none;
 }
 
 .visitor-map-embed {
