@@ -31,48 +31,48 @@ Specifically, my research agenda explores four key topics:
 <div class="research-container research-grid">
 
   <div class="research-card">
-    <h4>🤖 1. Robotic Urbanism <span class="amp">&amp;</span> Collaborative Governance</h4>
-    <p><i>Core Question: How should embodied intelligence move through cities, and how can humans govern and collaborate with it at scale?</i></p>
+    <h4>🤖 1. Robotic Urbanism & Governance<span class="amp">&amp;</span> Collaborative Governance</h4>
+    <p><i>How should embodied intelligence operate in cities, and how can humans govern it at scale?</i></p>
     <ul>
-      <li><b>Robot-Friendly Urban Space:</b> Redesign streets and building interiors for robot operations, setting standards for siting, infrastructure, protocols, and responsibility boundaries.</li>
-      <li><b>Embodied Operation:</b> Vision-based navigation and task execution under real urban constraints, with accessibility-aware routing and compliance with local infrastructure and operational rules.</li>
-      <li><b>Low-Altitude Governance:</b> Derive operable air corridors from demand signals, then validate in 3D city models under privacy, noise, crowds, and other effects.</li>
-      <li><b>Emerging Urban Devices & Deployment:</b> Study city-scale rollout of robots, low-altitude systems, wearables, and BCI-like devices, focusing on deployment bottlenecks.</li>
-      <li><b>Public Acceptance & Ethics:</b> Model how different groups perceive risks and capabilities, guiding interaction design, rollout strategy, and public communication.</li>
+      <li><b>Robot-Friendly Urban Space:</b> Redesign streets and buildings with standards for robot siting, infrastructure, and responsibility boundaries.</li>
+      <li><b>Embodied Operation:</b> Vision-based navigation and task execution with accessibility-aware routing under real urban constraints.</li>
+      <li><b>Low-Altitude Governance:</b> Derive air corridors from demand signals and validate them in 3D city models for privacy, noise, and safety.</li>
+      <li><b>Emerging Devices & Deployment:</b> Study city-scale deployment of robots, drones, wearables, and BCI-like devices.</li>
+      <li><b>Public Acceptance & Ethics:</b> Model public perception of risks and capabilities to guide interaction design and rollout strategy.</li>
     </ul>
   </div>
 
   <div class="research-card">
-    <h4>🏙️ 2. Self-Evolving Urban Digital Twins and Agents</h4>
-    <p><i>Core Question: How can we build self-evolving urban digital twin that stays continuously updated, hosts agents, and supports sustainable and equitable city governance?</i></p>
+    <h4>🏙️ 2. Self-Evolving Urban Digital Twins <span class="amp">&amp;</span> Agents</h4>
+    <p><i>How to build a continuously updated digital twin that hosts agents and supports equitable city governance?</i></p>
     <ul>
-      <li><b>Urban Foundation Model:</b> Integrate remote sensing, street-level imagery, mobility trajectory, POI, IoT signal, and text into unified urban representations.</li>
-      <li><b>Measurement & Sensing:</b> Develop scalable metrics and updating pipelines, using robots, drones, and wearables as new data sources for continuous urban sensing.</li>
-      <li><b>Localization, Mapping & 3D City:</b> Geo-localization and semantic mapping across point clouds, meshes, and 3D Gaussian representations for interactive querying and simulation.</li>
-      <li><b>Urban Agents:</b> Build task agents for planning and public services, including map-LLM, spatial RAG, policy QA, and travel assistance.</li>
-      <li><b>Policy Sandbox:</b> Use the twin for what-if simulation, risk assessment, and execution checks, supported by efficient retrieval, caching, and rendering.</li>
+      <li><b>Urban Foundation Model:</b> Fuse remote sensing, street imagery, trajectories, POI, IoT, and text into unified urban representations.</li>
+      <li><b>Measurement & Sensing:</b> Scalable metrics and updating workflows using robots, drones, and wearables for continuous urban sensing.</li>
+      <li><b>Mapping for 3D City:</b> Geo-localization and semantic mapping across point clouds, meshes, and 3D Gaussians for querying and simulation.</li>
+      <li><b>Urban Agents:</b> Task agents for planning and public services — map-LLM, spatial RAG, policy QA, and travel assistance.</li>
+      <li><b>Policy Sandbox:</b> What-if simulation, risk assessment, and policy execution checks within the twin.</li>
     </ul>
   </div>
 
   <div class="research-card">
-    <h4>🎨 3. Social Sensing <span class="amp">&amp;</span> Human-Environment Interaction</h4>
-    <p><i>Core Question: How can multimodal human-centered data translate into actionable insights for urban planning and governance?</i></p>
+    <h4>🎨 3. Social Sensing & Geospatial Analysis<span class="amp">&amp;</span> Human-Environment Interaction</h4>
+    <p><i>How can multimodal human-centered data become actionable insights for urban planning?</i></p>
     <ul>
-      <li><b>AI-Enhanced Geospatial Analysis:</b> Use large-scale spatial analytics to link urban form, environment, and mobility with human behavior and public service outcomes.</li>
-      <li><b>Accessibility & Pedestrian Experience:</b> Analyze walking experiences and accessibility barriers, integrating disabled people's mobility needs into urban governance decisions.</li>
-      <li><b>Urban Perception & Visual Aesthetics:</b> Quantify streetscape perception and neighborhood imagery to inform design choices and regeneration priorities.</li>
-      <li><b>Socio-Cultural Signals for Governance:</b> Incorporate place-based narratives into LLM-enabled applications for communication, interaction, and inclusive governance.</li>
+      <li><b>AI-Enhanced Geospatial Analysis:</b> Link urban form, environment, and mobility with human behavior and public service outcomes.</li>
+      <li><b>Accessibility & Pedestrian Experience:</b> Analyze walking experiences and barriers, integrating mobility needs of disabled people into governance.</li>
+      <li><b>Urban Perception & Visual Aesthetics:</b> Quantify streetscape aesthetics and neighborhood imagery to inform design and regeneration priorities.</li>
+      <li><b>Socio-Cultural Signals:</b> Embed place-based narratives into LLM-enabled tools for communication and inclusive governance.</li>
     </ul>
   </div>
 
   <div class="research-card">
-    <h4>🚀 4. Spatial Intelligence <span class="amp">&amp;</span> Foundation World Models</h4>
-    <p><i>Core Question: How can world models support reliable spatial reasoning and decision-making for physical agents?</i></p>
+    <h4>🚀 4. Spatial Intelligence & World Models<span class="amp">&amp;</span> Foundation World Models</h4>
+    <p><i>How can world models support reliable spatial reasoning and decision-making for physical agents?</i></p>
     <ul>
-      <li><b>World Models & Architectures:</b> Study generative, predictive, and representation-learning paradigms for forecasting and planning in the physical world.</li>
-      <li><b>Embodied Representations:</b> Unify geometry, semantics, physics, and action into shared representations, with a path toward richer embodied modalities.</li>
-      <li><b>Long-term Memory & Self-Evolution:</b> Build lifelong learning mechanisms with stability, forgetting control, and safety constraints for long-horizon autonomy.</li>
-      <li><b>Interpretable Spatial Reasoning:</b> Improve interpretability and robustness of spatial reasoning, exploring 3D-aware encoders and alternatives to standard transformers.</li>
+      <li><b>World Models & Architectures:</b> Generative, predictive, and representation-learning architectures for forecasting and planning in the physical world.</li>
+      <li><b>Embodied Representations:</b> Unify geometry, semantics, physics, and action into shared representations for embodied modalities.</li>
+      <li><b>Lifelong Memory & Self-Evolution:</b> Learning mechanisms with stability, forgetting control, and safety constraints for long-horizon autonomy.</li>
+      <li><b>Interpretable Spatial Reasoning:</b> Improve interpretability and robustness via 3D-aware encoders and alternatives to standard transformers.</li>
     </ul>
   </div>
 </div>
