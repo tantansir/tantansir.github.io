@@ -15,11 +15,6 @@
 
   @include breakpoint($large) {
     @include span(2 of 12);
-    order: 2;
-    width: 220px;
-    flex-shrink: 0;
-    margin-left: 2em;
-    margin-right: 0;
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -76,12 +71,6 @@
 .profile_box{
   @include breakpoint($large) {
     display: block;
-    background: #fff;
-    border-radius: 18px;
-    padding: 24px 20px;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.06), 0 1px 4px rgba(0,0,0,0.04);
-    border: 1px solid rgba(0,0,0,0.04);
-    text-align: center;
   }
   display: flex;
   justify-content: flex-start;
@@ -105,17 +94,11 @@
   img {
     max-width: 175px;
     min-width: 75px;
-    border-radius: 14px;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
+    border-radius: 50%;
 
     @include breakpoint($large) {
-      padding: 0;
-      border: none;
-      display: block;
-      margin: 0 auto;
-      max-width: 200px;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      padding: 5px;
+      border: 1px solid $border-color;
     }
   }
 }
