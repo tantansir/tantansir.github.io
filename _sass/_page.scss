@@ -1,43 +1,25 @@
 /* ==========================================================================
-   SINGLE PAGE/POST
+   SINGLE PAGE/POST — full-width centered layout (no sidebar)
    ========================================================================== */
 
 #main {
-  @include container;
-  @include clearfix;
-  margin-top: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5em 1.5em 3em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
-
-  @include breakpoint($large) {
-    display: flex;
-    align-items: flex-start;
-  }
-
-  @include breakpoint($x-large) {
-    max-width: $x-large;
-  }
 }
 
 .page {
-  @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
-    @include suffix(0 of 12);
-    order: 1;
-    flex: 1 1 0%;
-    min-width: 0;
-  }
+  width: 100%;
 
   .page__inner-wrap {
-    @include full();
+    width: 100%;
 
     .page__content,
     .page__meta,
     .page__share {
-      @include full();
+      width: 100%;
     }
   }
 }
@@ -57,32 +39,53 @@
 }
 
 .page__content {
-  #about-me{
+  #about-me {
     margin-top: -10em;
-      &:before { 
-        content: ''; 
-        display: block; 
-        position: relative; 
-        width: 0; 
-        height: 10em; 
-        margin-top: -10em;
+    &:before {
+      content: '';
+      display: block;
+      position: relative;
+      width: 0;
+      height: 10em;
+      margin-top: -10em;
     }
   }
+
+  /* Section headings with gradient accent */
   h1 {
-    margin-top: 1em;
+    margin-top: 2em;
     padding-bottom: 0.5em;
-    border-bottom: 2px solid rgba(91, 127, 213, 0.15);
+    border-bottom: none;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 60px;
+      height: 3px;
+      border-radius: 3px;
+      background: linear-gradient(90deg, $primary-color, $success-color);
+    }
+  }
+
+  h2 {
+    color: #2D3748;
+    font-weight: 600;
+    margin-top: 1.5em;
   }
 
   p, li, dl {
     font-size: 1em;
+    line-height: 1.7;
+    color: #4A5568;
   }
 
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
 
-    /* sibling indentation*/
     @if $paragraph-indent == true {
       & + p {
         text-indent: $indent-var;
@@ -92,10 +95,13 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
+    color: $link-color;
+    border-bottom: 1px solid rgba(91, 127, 213, 0.25);
 
     &:hover {
-      text-decoration: underline;
+      color: $link-color-hover;
+      border-bottom-color: $link-color-hover;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
@@ -301,7 +307,7 @@
    ========================================================================== */
 
 .page__comments {
-  @include full();
+  width: 100%;
 }
 
 .page__comments-title {
@@ -402,10 +408,6 @@
   border-top: 1px solid $border-color;
   @include clearfix();
   float: left;
-
-  @include breakpoint($large) {
-    @include pre(2.5 of 12);
-  }
 
   a {
     color: inherit;

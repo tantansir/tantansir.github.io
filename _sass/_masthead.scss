@@ -1,24 +1,24 @@
 /* ==========================================================================
-   MASTHEAD
+   MASTHEAD — floating glass navigation
    ========================================================================== */
 
 .masthead {
   position: sticky;
   top: 0;
-  background-color: rgba(255, 255, 255, 0.88);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  z-index: 100;
+  background: rgba(247, 249, 252, 0.82);
+  backdrop-filter: blur(20px) saturate(1.8);
+  -webkit-backdrop-filter: blur(20px) saturate(1.8);
+  border-bottom: 1px solid rgba(91, 127, 213, 0.08);
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
-  z-index: 20;
 
   &__inner-wrap {
-    @include container;
-    @include clearfix;
-    padding: .5em;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0.4em 1.5em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -63,4 +63,148 @@
   }
 }
 
+/* Priority plus navigation — greedy nav */
 
+.greedy-nav {
+  position: relative;
+  min-width: 250px;
+  background: transparent;
+
+  a {
+    display: block;
+    margin: 0 0.6rem;
+    padding: 0.5rem 0.3rem;
+    color: $masthead-link-color;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  button {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    padding: 0 0.5rem;
+    border: 0;
+    outline: none;
+    background-color: $primary-color;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  .visible-links {
+    display: table;
+
+    li {
+      display: table-cell;
+      vertical-align: middle;
+
+      &:first-child {
+        font-weight: bold;
+
+        a {
+          margin-left: 0;
+        }
+      }
+
+      &:last-child {
+        a {
+          margin-right: 0;
+        }
+      }
+    }
+
+    a {
+      position: relative;
+
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 2px;
+        background: linear-gradient(90deg, $primary-color, $success-color);
+        width: 100%;
+        border-radius: 2px;
+        -webkit-transition: $global-transition;
+        transition: $global-transition;
+        -webkit-transform: scaleX(0);
+            -ms-transform: scaleX(0);
+                transform: scaleX(0);
+      }
+
+      &:hover:before {
+        -webkit-transform: scaleX(1);
+            -ms-transform: scaleX(1);
+                transform: scaleX(1);
+      }
+    }
+  }
+
+  .hidden-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 15px;
+    padding: 8px;
+    border: 1px solid rgba(91, 127, 213, 0.10);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px rgba(91, 127, 213, 0.12);
+
+    a {
+      margin: 0;
+      padding: 10px 20px;
+      font-size: $type-size-5;
+
+      &:hover {
+        color: $primary-color;
+        background: rgba(91, 127, 213, 0.06);
+        border-radius: 8px;
+      }
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: -11px;
+      right: 10px;
+      width: 0;
+      border-style: solid;
+      border-width: 0 10px 10px;
+      border-color: rgba(91, 127, 213, 0.10) transparent;
+      display: block;
+      z-index: 0;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: -10px;
+      right: 10px;
+      width: 0;
+      border-style: solid;
+      border-width: 0 10px 10px;
+      border-color: #fff transparent;
+      display: block;
+      z-index: 1;
+    }
+
+    li {
+      display: block;
+      border-bottom: 1px solid rgba(91, 127, 213, 0.06);
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}

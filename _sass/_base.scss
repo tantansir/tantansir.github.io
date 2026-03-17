@@ -2,7 +2,6 @@
    BASE ELEMENTS
    ========================================================================== */
 html {
-  /* sticky footer fix */
   position: relative;
   min-height: 100%;
 }
@@ -13,24 +12,28 @@ body {
   padding-bottom: 0em;
   color: $text-color;
   font-family: $global-font-family;
-  line-height: 1.5;
-  background-color: #f7f8fa;
+  line-height: 1.7;
+  background-color: $background-color;
+  font-feature-settings: "salt" 0, "swsh" 0, "ss01" 0, "ss02" 0;
+  font-variant-ligatures: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
   &.overflow--hidden {
-    /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
   }
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 1em 0 0.5em;
-  line-height: 1.2;
+  line-height: 1.3;
   font-family: $header-font-family;
-  font-weight: bold;
+  font-weight: 700;
+  color: #1a202c;
+  letter-spacing: -0.01em;
 }
 
 h1 {
-  // margin: 4em 0 0.5em;
   margin-top: 1em;
   font-size: $type-size-3;
 }
@@ -104,7 +107,8 @@ blockquote {
   padding-left: 1em;
   padding-right: 1em;
   font-style: italic;
-  border-left: 0.25em solid $primary-color;
+  border-left: 3px solid $primary-color;
+  color: $dark-gray;
 
   cite {
     font-style: italic;
@@ -119,7 +123,9 @@ blockquote {
 /* links */
 
 a {
-  
+  color: $link-color;
+  transition: $global-transition;
+
   &:focus {
     @extend %tab-focus;
   }
@@ -127,6 +133,7 @@ a {
   &:hover,
   &:active {
     outline: 0;
+    color: $link-color-hover;
   }
 }
 
@@ -137,7 +144,7 @@ tt, code, kbd, samp, pre {
 }
 
 pre {
-  overflow-x: auto; /* add scrollbars to wide code blocks*/
+  overflow-x: auto;
 }
 
 p > code,
@@ -150,12 +157,12 @@ td > code {
   font-size: $type-size-6;
   background: $code-background-color;
   border: 1px solid $lighter-gray;
-  border-radius: $border-radius;
-  box-shadow: $box-shadow;
+  border-radius: 6px;
+  box-shadow: none;
 
   &:before, &:after {
     letter-spacing: -0.2em;
-    content: "\00a0"; /* non-breaking space*/
+    content: "\00a0";
   }
 }
 
@@ -163,9 +170,11 @@ td > code {
 
 hr {
   display: block;
-  margin: 1em 0;
+  margin: 2em 0;
   border: 0;
-  border-top: 1px solid $border-color;
+  height: 2px;
+  background: linear-gradient(90deg, $primary-color, $success-color, transparent);
+  opacity: 0.3;
 }
 
 /* lists */
@@ -274,19 +283,6 @@ svg:not(:root) {
    Navigation lists
    ========================================================================== */
 
-/**
- * Removes margins, padding, and bullet points from navigation lists
- *
- * Example usage:
- * <nav>
- *    <ul>
- *      <li><a href="#link-1">Link 1</a></li>
- *      <li><a href="#link-2">Link 2</a></li>
- *      <li><a href="#link-3">Link 3</a></li>
- *    </ul>
- *  </nav>
- */
-
 nav {
   ul {
     margin: 0;
@@ -301,7 +297,6 @@ nav {
     text-decoration: none;
   }
 
-  /* override white-space for nested lists */
   ul li,
   ol li {
     margin-bottom: 0;
@@ -320,4 +315,15 @@ nav {
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
+}
+
+/* Selection color */
+::selection {
+  color: #fff;
+  background: $primary-color;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: $primary-color;
 }

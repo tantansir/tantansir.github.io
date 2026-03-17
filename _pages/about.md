@@ -3,7 +3,7 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I am Kaizhen Tan (Chinese name: 谭楷蓁). I am currently a master’s student in Artificial Intelligence at **Carnegie Mellon University**. I received my bachelor’s degree in Information Systems from **Tongji University**, where I built a solid foundation in programming, data analysis, and machine learning, complemented by interdisciplinary training in business and organizational systems.
+Hi! I am Kaizhen Tan (Chinese name: 谭楷蓁). I am currently a master's student in Artificial Intelligence at **Carnegie Mellon University**. I received my bachelor's degree in Information Systems from **Tongji University**, where I built a solid foundation in programming, data analysis, and machine learning, complemented by interdisciplinary training in business and organizational systems.
 
-My research sits at the intersection of **Urban Science** and **Human-centered AI**. Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, I aim to build spatially intelligent and socially aware systems that make cities more adaptive, inclusive, and human-centric. 
+My research sits at the intersection of **Urban Science** and **Human-centered AI**. Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, I aim to build spatially intelligent and socially aware systems that make cities more adaptive, inclusive, and human-centric.
 
 To realize this vision, my work integrates:
 * **Paradigms:** Robot-Friendly City, Lightweight Urbanization, Self-evolving Urban Digital Twins
@@ -27,166 +27,6 @@ To realize this vision, my work integrates:
 * **Technologies:** LLMs, VLMs, AI Agents, Embodied AI, Spatial Intelligence, World Models, Emerging Devices
 
 Specifically, my research agenda explores four key topics:
-
-<style>
-  .research-container.research-grid{
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 22px;
-    margin-top: 20px;
-    width: 100%;
-    min-height: 72vh;
-    align-items: stretch;
-    grid-auto-rows: 1fr;
-  }
-
-  /* 卡片主体：柔和边界 + 彩色底 */
-  .research-card{
-    position: relative;
-    background: rgba(255,255,255,0.78);
-    overflow: hidden;
-
-    border: none;
-    border-radius: 22px;
-
-    padding: 18px 18px 16px 18px;
-
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-
-    display: flex;
-    flex-direction: column;
-
-    /* 外侧柔影 + 内侧高光，让边界更“软” */
-    box-shadow:
-      0 18px 48px rgba(0,0,0,0.08),
-      0 6px 18px rgba(0,0,0,0.06),
-      0 1px 0 rgba(255,255,255,0.70) inset,
-      0 -1px 0 rgba(0,0,0,0.03) inset;
-
-    transition: transform 180ms ease, box-shadow 180ms ease;
-  }
-
-  .research-card:hover{
-    transform: translateY(-2px);
-    box-shadow:
-      0 22px 60px rgba(0,0,0,0.10),
-      0 8px 22px rgba(0,0,0,0.07),
-      0 1px 0 rgba(255,255,255,0.75) inset,
-      0 -1px 0 rgba(0,0,0,0.03) inset;
-  }
-
-  /* 彩色光晕层 */
-  .research-card::after{
-    content:"";
-    position:absolute;
-    inset:0;
-    background:
-      radial-gradient(1200px circle at 18% 14%, var(--tint, rgba(99,102,241,0.18)) 0%, rgba(255,255,255,0) 55%),
-      radial-gradient(900px circle at 88% 88%, var(--tint2, rgba(16,185,129,0.12)) 0%, rgba(255,255,255,0) 58%);
-    pointer-events:none;
-  }
-
-  /* 顶部细色条 */
-  .research-card::before{
-    content:"";
-    position:absolute;
-    left:0; right:0; top:0;
-    height:6px;
-    background: linear-gradient(90deg, var(--accent, #6366F1), rgba(255,255,255,0));
-    opacity:0.95;
-    pointer-events:none;
-  }
-
-  /* 内容层级盖住伪元素 */
-  .research-card > *{
-    position: relative;
-    z-index: 1;
-  }
-
-  .research-card h4{
-    margin: 0 0 12px 0;
-    line-height: 1.2;
-    font-size: 1.1rem;
-    font-weight: 800;
-    letter-spacing: 0.2px;
-  }
-
-  .research-card h4 .amp{
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", Arial, sans-serif !important;
-    font-weight: inherit;
-  }
-
-  .research-card p{
-    margin: 0 0 10px 0;
-    font-size: 0.95em;
-    color: #555;
-  }
-
-  .research-card ul{
-    margin: 0;
-    padding-left: 1.1em;
-    font-size: 0.95em;
-    line-height: 1.55;
-
-    flex: 1 1 auto;
-    overflow: auto;
-  }
-
-  .research-card li{
-    margin: 0.2em 0;
-  }
-
-  /* 四张卡分别配色 */
-  .research-container.research-grid .research-card:nth-child(1){
-    --accent:#6366F1;
-    --tint: rgba(99,102,241,0.22);
-    --tint2: rgba(56,189,248,0.14);
-  }
-  .research-container.research-grid .research-card:nth-child(2){
-    --accent:#EC4899;
-    --tint: rgba(236,72,153,0.20);
-    --tint2: rgba(168,85,247,0.12);
-  }
-  .research-container.research-grid .research-card:nth-child(3){
-    --accent:#10B981;
-    --tint: rgba(16,185,129,0.18);
-    --tint2: rgba(34,211,238,0.12);
-  }
-  .research-container.research-grid .research-card:nth-child(4){
-    --accent:#F59E0B;
-    --tint: rgba(245,158,11,0.20);
-    --tint2: rgba(251,191,36,0.12);
-  }
-
-  @media (max-width: 900px){
-    .research-container.research-grid{
-      grid-template-columns: 1fr;
-      min-height: auto;
-    }
-  }
-
-  /* 深色模式：去掉方框边界，保留柔和彩色 */
-  @media (prefers-color-scheme: dark){
-    .research-card{
-      background: rgba(20,20,20,0.62);
-      border: none;
-      box-shadow:
-        0 22px 64px rgba(0,0,0,0.42),
-        0 10px 26px rgba(0,0,0,0.30),
-        0 1px 0 rgba(255,255,255,0.10) inset,
-        0 -1px 0 rgba(0,0,0,0.35) inset;
-    }
-    .research-card p{
-      color: rgba(255,255,255,0.75);
-    }
-    .research-card::after{
-      filter: saturate(1.05) brightness(0.9);
-      opacity: 0.9;
-    }
-  }
-</style>
-
 
 <div class="research-container research-grid">
 
@@ -207,7 +47,7 @@ Specifically, my research agenda explores four key topics:
     <p><i>Core Question: How can multimodal human-centered data translate into actionable insights for urban planning and governance?</i></p>
     <ul>
       <li><b>AI-Enhanced Geospatial Analysis:</b> Use large-scale spatial analytics to link urban form, environment, and mobility with human behavior and public service outcomes.</li>
-      <li><b>Accessibility & Pedestrian Experience:</b> Analyze walking experiences and accessibility barriers, integrating disabled people’s mobility needs into urban governance decisions.</li>
+      <li><b>Accessibility & Pedestrian Experience:</b> Analyze walking experiences and accessibility barriers, integrating disabled people's mobility needs into urban governance decisions.</li>
       <li><b>Urban Perception & Visual Aesthetics:</b> Quantify streetscape perception and neighborhood imagery to inform design choices and regeneration priorities.</li>
       <li><b>Socio-Cultural Signals for Governance:</b> Incorporate place-based narratives into LLM-enabled applications for communication, interaction, and inclusive governance.</li>
     </ul>
@@ -239,71 +79,13 @@ Specifically, my research agenda explores four key topics:
 
 ---
 
-<p style="font-size: 1.2rem; font-weight: 600; margin-top: 30px; margin-bottom: 5px;">
+<p class="connect-title">
   📫 Let's Connect!
 </p>
-<p style="font-size: 1.0rem; margin-top: 0;">
-  - Please feel free to reach out if any of these research directions resonate with you. I’d be happy to chat!
+<p class="connect-text">
+  - Please feel free to reach out if any of these research directions resonate with you. I'd be happy to chat!
 </p>
 
-
-<style>
-  .social-row{
-    display:flex;
-    justify-content:center;
-    gap:16px;
-    flex-wrap:wrap;
-    margin: 18px 0 6px 0;
-  }
-
-  .sbtn{
-    --bg:#2d2d2d;
-    width:35px;
-    height:35px;
-    border-radius:16px;
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    background: var(--bg);
-    box-shadow: 0 8px 18px rgba(0,0,0,0.10);
-    border: 1px solid rgba(0,0,0,0.08);
-    transition: transform 160ms ease, box-shadow 160ms ease;
-    text-decoration:none;
-    -webkit-tap-highlight-color: transparent;
-  }
-
-  .sbtn:hover{
-    transform: translateY(-2px);
-    box-shadow: 0 12px 24px rgba(0,0,0,0.14);
-  }
-
-  .sbtn:active{
-    transform: translateY(-1px);
-  }
-
-  .sbtn img,
-  .sbtn svg{
-    width:24px;
-    height:24px;
-    display:block;
-  }
-
-  /* 背景色按品牌来 */
-  .s-cv{ --bg:#111; }
-  .s-mail{ --bg:#1E88FF; }
-  .s-scholar{ --bg:#2F6FE4; }
-  .s-github{ --bg:#111; }
-  .s-wechat{ --bg:#07C160; }
-  .s-xhs{ --bg:#FF2442; }
-  .s-linkedin{ --bg:#0A66C2; }
-
-  @media (prefers-color-scheme: dark){
-    .sbtn{
-      border: 1px solid rgba(255,255,255,0.10);
-      box-shadow: 0 14px 34px rgba(0,0,0,0.36);
-    }
-  }
-</style>
 
 <div class="social-row" aria-label="Links">
   <!-- CV -->
@@ -321,27 +103,27 @@ Specifically, my research agenda explores four key topics:
     </svg>
   </a>
 
-  <!-- Google Scholar（Simple Icons 原版） -->
+  <!-- Google Scholar -->
   <a class="sbtn s-scholar" href="https://scholar.google.com/citations?user=JtyjnWYAAAAJ" aria-label="Google Scholar" title="Google Scholar" rel="me noopener noreferrer" target="_blank">
     <img src="https://cdn.simpleicons.org/googlescholar/ffffff" alt="" />
   </a>
 
-  <!-- GitHub（Simple Icons 原版） -->
+  <!-- GitHub -->
   <a class="sbtn s-github" href="https://github.com/tantansir" aria-label="GitHub" title="GitHub" rel="me noopener noreferrer" target="_blank">
     <img src="https://cdn.simpleicons.org/github/ffffff" alt="" />
   </a>
 
-  <!-- WeChat（Simple Icons 原版） -->
+  <!-- WeChat -->
   <a class="sbtn s-wechat" href="/images/Wechat.jpg" aria-label="WeChat" title="WeChat">
     <img src="https://cdn.simpleicons.org/wechat/ffffff" alt="" />
   </a>
 
-  <!-- Xiaohongshu（Simple Icons 原版） -->
+  <!-- Xiaohongshu -->
   <a class="sbtn s-xhs" href="https://www.xiaohongshu.com/user/profile/5e2031bc000000000100b761" aria-label="Xiaohongshu" title="Xiaohongshu" rel="me noopener noreferrer" target="_blank">
     <img src="https://cdn.simpleicons.org/xiaohongshu/ffffff" alt="" />
   </a>
 
-  <!-- LinkedIn（Simple Icons 原版） -->
+  <!-- LinkedIn -->
   <a class="sbtn s-linkedin" href="https://www.linkedin.com/in/kaizhen-tan-b020232b3/" aria-label="LinkedIn" title="LinkedIn" rel="me noopener noreferrer" target="_blank">
     <svg viewBox="0 0 24 24" aria-hidden="true">
       <path fill="#fff" d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.95v5.66H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.35-1.85 3.59 0 4.26 2.36 4.26 5.43v6.31zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/>
@@ -355,19 +137,14 @@ Specifically, my research agenda explores four key topics:
 - *2026.03*: 🎓 I am pleased to share that I will begin my PhD at New York University in Fall 2026 under the supervision of [Prof. Chenghe Guan](https://wagner.nyu.edu/community/faculty/chenghe-guan) and [Prof. Zhan Guo](https://wagner.nyu.edu/community/faculty/zhan-guo).
 - *2026.01*: 🎉 The abstract co-authored with Prof. Fan Zhang has been accepted for the [XXV ISPRS Congress 2026](https://www.isprs2026toronto.com/). See you in Toronto!
 - *2025.12*: 🎉 Our paper, led by my senior labmate Dr. Weihua Huan and co-authored with Prof. Wei Huang at Tongji University, was accepted by GIScience & Remote Sensing; honored to contribute as second author and big congratulations to Dr. Huan!
-- *2025.10*: 🔭 Joined [Prof. Yu Liu](https://scholar.google.com/citations?user=Xh_lRY4AAAAJ) and [Prof. Fan Zhang](https://scholar.google.com/citations?user=dc1TzLoAAAAJ)’s team at Peking University as a remote research assistant.
+- *2025.10*: 🔭 Joined [Prof. Yu Liu](https://scholar.google.com/citations?user=Xh_lRY4AAAAJ) and [Prof. Fan Zhang](https://scholar.google.com/citations?user=dc1TzLoAAAAJ)'s team at Peking University as a remote research assistant.
 - *2025.08*: 🎉 Delivered an oral presentation at Hong Kong Polytechnic University after our paper was accepted to the Global Smart Cities Summit cum The 4th International Conference on Urban Informatics [(GSCS & ICUI 2025)](https://www.isocui.org/icui2025).
 - *2025.07*: 🎉 My undergraduate thesis was accepted by 7th Asia Conference on Machine Learning and Computing [(ACMLC 2025)](https://www.acmlc.org/acmlc2025.html).
 - *2025.06*: 🎓 Graduated from Tongji University—grateful for the journey and excited to continue my studies at CMU.
 - *2025.04*: 🔭 Completed the SITP project under the supervision of [Prof. Yujia Zhai](https://www.researchgate.net/profile/Yujia-Zhai-15) in the College of Architecture and Urban Planning.
 - *2025.01*: 💼 Joined Shanghai Artificial Intelligence Laboratory as an AI Product Manager Intern.
 - *2024.09*: 🌏 Conducted research at ASTAR in Singapore under the supervision of [Dr. Yicheng Zhang](https://zinczhang.github.io/) and [Dr. Sheng Zhang](https://ieeexplore.ieee.org/author/37086165610).
-- *2024.04*: 🔭 Began my academic journey at [Prof. Wei Huang](https://huangweibuct.github.io/weihuang.github.io/)’s lab in the College of Surveying and Geo-Informatics, Tongji University.
-
-<style>
-  .section-gap{ height: 2px; }
-</style>
-<div class="section-gap"></div>
+- *2024.04*: 🔭 Began my academic journey at [Prof. Wei Huang](https://huangweibuct.github.io/weihuang.github.io/)'s lab in the College of Surveying and Geo-Informatics, Tongji University.
 
 
 # 📖 Education
@@ -406,11 +183,6 @@ Specifically, my research agenda explores four key topics:
 </div>
 
 
-<style>
-  .section-gap1{ height: 10px; }
-</style>
-<div class="section-gap1"></div>
-
 # 💼 Experience
 
 ## 🔭 Research
@@ -425,30 +197,26 @@ Specifically, my research agenda explores four key topics:
 - *2025.01 - 2025.04*, AI Product Manager, [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/), China.
 - *2023.01 - 2023.02*, Data Analyst, Shanghai Qiantan Emerging Industry Research Institute, China.
 
-<style>
-  .section-gap1{ height: 6px; }
-</style>
-<div class="section-gap1"></div>
 
-# 📝 Publications 
+# 📝 Publications
 
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div><div class="badge">XXV ISPRS Congress</div><img src='images/5.jpg' alt="sym" width="100%"></div>
   </div>
   <div class='paper-box-text'>
-    <div style="color: #0d2a63; font-weight: bold; font-size: 1.08em; margin-bottom: 6px;">UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images</div>
-    <div style="font-size: 0.98em; margin-bottom: 6px;">
-      <span style="color: #000; font-weight: bold;">Kaizhen Tan</span><span style="color: #666;">, Fan Zhang</span>
+    <div class="paper-title">UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, Fan Zhang</span>
     </div>
-    <div style="font-size: 0.98em; font-style: italic; color: #666; margin-bottom: 10px;">
+    <div class="paper-venue">
       XXV ISPRS Congress, 2026.
     </div>
-    <div style="margin-bottom: 10px;">
-      <a href="/assets/isprs_abstract_kaizhen_fan.pdf" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">Abstract</a>
+    <div class="paper-links">
+      <a class="paper-link" href="/assets/isprs_abstract_kaizhen_fan.pdf">Abstract</a>
       <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
     </div>
-    <div style="font-size: 0.9em; color: #444; line-height: 1.4;">
+    <div class="paper-desc">
       Leverage street-view imagery and VGGT-based 3D reconstruction to estimate metrically scaled sidewalk widths, build the SV-SideWidth dataset, and fill OpenStreetMap gaps for equitable assessment of pedestrian infrastructure.
     </div>
   </div>
@@ -459,19 +227,19 @@ Specifically, my research agenda explores four key topics:
     <div><div class="badge">GSCS & ICUI 2025</div><img src='images/2.png' alt="sym" width="100%"></div>
   </div>
   <div class='paper-box-text'>
-    <div style="color: #0d2a63; font-weight: bold; font-size: 1.08em; margin-bottom: 6px;">Decoding Tourist Perception in Historic Urban Quarters with Multimodal Social Media Data: An AI-Based Framework and Evidence from Shanghai</div>
-    <div style="font-size: 0.98em; margin-bottom: 6px;">
-      <span style="color: #000; font-weight: bold;">Kaizhen Tan</span><span style="color: #666;">, Yufan Wu, Yuxuan Liu, Haoran Zeng</span>
+    <div class="paper-title">Decoding Tourist Perception in Historic Urban Quarters with Multimodal Social Media Data: An AI-Based Framework and Evidence from Shanghai</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, Yufan Wu, Yuxuan Liu, Haoran Zeng</span>
     </div>
-    <div style="font-size: 0.98em; font-style: italic; color: #666; margin-bottom: 10px;">
+    <div class="paper-venue">
       Global Smart Cities Summit cum The 4th International Conference on Urban Informatics, 2025.
     </div>
-    <div style="margin-bottom: 10px;">
-      <a href="https://arxiv.org/abs/2509.03830" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">arXiv</a>
-      <a href="/assets/ICUI2025.pptx" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">Slides</a>
+    <div class="paper-links">
+      <a class="paper-link" href="https://arxiv.org/abs/2509.03830">arXiv</a>
+      <a class="paper-link" href="/assets/ICUI2025.pptx">Slides</a>
       <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
     </div>
-    <div style="font-size: 0.9em; color: #444; line-height: 1.4;">
+    <div class="paper-desc">
       Developed an AI-powered multimodal framework to analyze tourist perception in historic Shanghai quarters, integrating image segmentation, color theme analysis, and sentiment mining for heritage-informed urban planning.
     </div>
   </div>
@@ -482,21 +250,21 @@ Specifically, my research agenda explores four key topics:
     <div><div class="badge">ACMLC 2025</div><img src='images/21.png' alt="sym" width="100%"></div>
   </div>
   <div class='paper-box-text'>
-    <div style="color: #0d2a63; font-weight: bold; font-size: 1.08em; margin-bottom: 6px;">Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace</div>
-    <div style="font-size: 0.98em; margin-bottom: 6px;">
-      <span style="color: #000; font-weight: bold;">Kaizhen Tan</span>
+    <div class="paper-title">Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span>
     </div>
-    <div style="font-size: 0.98em; font-style: italic; color: #666; margin-bottom: 10px;">
+    <div class="paper-venue">
       Asia Conference on Machine Learning and Computing, 2025.
     </div>
-    <div style="margin-bottom: 10px;">
-      <a href="https://doi.org/10.1145/3772673.3772702" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">DOI</a>
-      <a href="https://dl.acm.org/doi/epdf/10.1145/3772673.3772702" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">PDF</a>
-      <a href="/assets/ACMLC2025.pptx" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">Slides</a>
-      <a href="https://github.com/tantansir/Multimodal-Deep-Learning-for-Modeling-ATCO-Command-Lifecycle-in-Terminal-Airspace" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.85em; margin-right: 2px;">GitHub</a>
+    <div class="paper-links">
+      <a class="paper-link" href="https://doi.org/10.1145/3772673.3772702">DOI</a>
+      <a class="paper-link" href="https://dl.acm.org/doi/epdf/10.1145/3772673.3772702">PDF</a>
+      <a class="paper-link" href="/assets/ACMLC2025.pptx">Slides</a>
+      <a class="paper-link" href="https://github.com/tantansir/Multimodal-Deep-Learning-for-Modeling-ATCO-Command-Lifecycle-in-Terminal-Airspace">GitHub</a>
       <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
     </div>
-    <div style="font-size: 0.9em; color: #444; line-height: 1.4;">
+    <div class="paper-desc">
       Designed a multimodal deep learning framework linking ATCO voice commands with aircraft trajectories to model workload dynamics, enabling intelligent command generation and scheduling support.
     </div>
   </div>
@@ -507,18 +275,18 @@ Specifically, my research agenda explores four key topics:
     <div><div class="badge">GIScience & Remote Sensing</div><img src='images/4.png' alt="sym" width="100%"></div>
   </div>
   <div class='paper-box-text'>
-    <div style="color: #0d2a63; font-weight: bold; font-size: 1.08em; margin-bottom: 6px;">A Spatiotemporal Adaptive Local Search Method for Tracking Congestion Propagation in Dynamic Networks</div>
-    <div style="font-size: 0.98em; margin-bottom: 6px;">
-      <span style="color: #666;">Weihua Huan, </span><span style="color: #000; font-weight: bold;">Kaizhen Tan</span><span style="color: #666;">, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, Wei Huang</span>
+    <div class="paper-title">A Spatiotemporal Adaptive Local Search Method for Tracking Congestion Propagation in Dynamic Networks</div>
+    <div class="paper-authors">
+      <span class="author-other">Weihua Huan, </span><span class="author-self">Kaizhen Tan</span><span class="author-other">, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, Wei Huang</span>
     </div>
-    <div style="font-size: 0.98em; font-style: italic; color: #666; margin-bottom: 10px;">
+    <div class="paper-venue">
       GIScience & Remote Sensing, 2025.
     </div>
-    <div style="margin-bottom: 10px;">
-      <a href="https://doi.org/10.1080/15481603.2025.2602215" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">DOI</a>
-      <a href="https://www.tandfonline.com/doi/epdf/10.1080/15481603.2025.2602215" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">PDF</a>
+    <div class="paper-links">
+      <a class="paper-link" href="https://doi.org/10.1080/15481603.2025.2602215">DOI</a>
+      <a class="paper-link" href="https://www.tandfonline.com/doi/epdf/10.1080/15481603.2025.2602215">PDF</a>
     </div>
-    <div style="font-size: 0.9em; color: #444; line-height: 1.4;">
+    <div class="paper-desc">
       Proposed a spatiotemporal adaptive local search (STALS) method combining dynamic graph learning and spatial analytics to model and mitigate large-scale urban traffic congestion propagation.
     </div>
   </div>
@@ -531,72 +299,38 @@ Specifically, my research agenda explores four key topics:
     <div><img src='images/blindnav.png' alt="sym" width="100%"></div>
   </div>
   <div class='paper-box-text'>
-    <div style="color: #0d2a63; font-weight: bold; font-size: 1.08em; margin-bottom: 6px;">BlindNav: YOLO+LLM for Real-Time Navigation Assistance for Blind Users</div>
-    <div style="font-size: 0.98em; margin-bottom: 10px;">
-      <span style="color: #000; font-weight: bold;">Kaizhen Tan</span><span style="color: #666;">, Yufan Wang, Yixiao Li, Hanzhe Hong, Nicole Lyu</span>
+    <div class="paper-title">BlindNav: YOLO+LLM for Real-Time Navigation Assistance for Blind Users</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, Yufan Wang, Yixiao Li, Hanzhe Hong, Nicole Lyu</span>
     </div>
-    <div style="margin-bottom: 10px;">
-      <a href="/assets/blindnav.pdf" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">Report</a>
-      <a href="https://github.com/tantansir/BlindNav" style="display: inline-block; border: 1px solid #333; border-radius: 4px; padding: 1.5px 6px; color: #000; text-decoration: none; font-size: 0.8em; margin-right: 1px;">GitHub</a>
+    <div class="paper-links">
+      <a class="paper-link" href="/assets/blindnav.pdf">Report</a>
+      <a class="paper-link" href="https://github.com/tantansir/BlindNav">GitHub</a>
     </div>
-    <div style="font-size: 0.9em; color: #444; line-height: 1.4;">
+    <div class="paper-desc">
       BlindNav is a real-time, camera-based navigation assistant that uses YOLO for street-scene detection and a local LLM to turn those signals into concise voice guidance for blind and low-vision pedestrians.
     </div>
   </div>
 </div>
 
-<style>
-  .edu-item{
-    display: flex;
-    align-items: center;
-    gap: 40px;          /* 这里调大就是间隔更远 */
-    margin: 14px 0;
-  }
-  .edu-logo{
-    width: 95px;        /* 需要的话也可以调大 */
-    height: 95px;
-    object-fit: contain;
-    flex: 0 0 auto;
-  }
-  .edu-content{
-    flex: 1 1 auto;
-    font-size: 18px;
-    line-height: 1.5;
-  }
-
-  .edu-top strong{
-    font-size: 18px;
-  }
-
-  .edu-sub{
-    font-size: 15px;
-    margin-top: 4px;
-  }
-</style>
-
-
-<style>
-  .section-gap10{ height: 2px; }
-</style>
-<div class="section-gap10"></div>
 
 # 💬 Presentations
 
-<ul style="line-height: 1.6; list-style-type: disc; padding-left: 20px;">
-  <li style="margin-bottom: 18px;">
+<ul class="pres-list">
+  <li class="pres-item">
     2026.07 - <strong>XXV ISPRS Congress 2026</strong><br>
     UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images<br>
     <em>Toronto, Canada</em>
   </li>
 
-  <li style="margin-bottom: 18px;">
-    2025.08 - <strong>Global Smart Cities Summit cum The 4th International Conference on Urban Informatics <a href="https://www.isocui.org/icui2025" style="color: #0d2a63; text-decoration: none;">(GSCS & ICUI 2025)</a></strong><br>
+  <li class="pres-item">
+    2025.08 - <strong>Global Smart Cities Summit cum The 4th International Conference on Urban Informatics <a href="https://www.isocui.org/icui2025">(GSCS & ICUI 2025)</a></strong><br>
     A Multidimensional AI-powered Framework for Analyzing Tourist Perception in Historic Urban Quarters: A Case Study in Shanghai<br>
     <em>Hong Kong Polytechnic University (PolyU), Hong Kong SAR, China</em>
   </li>
 
-  <li style="margin-bottom: 18px;">
-    2025.07 - <strong>7th Asia Conference on Machine Learning and Computing <a href="https://www.acmlc.org/acmlc2025.html" style="color: #0d2a63; text-decoration: none;">(ACMLC 2025)</a></strong><br>
+  <li class="pres-item">
+    2025.07 - <strong>7th Asia Conference on Machine Learning and Computing <a href="https://www.acmlc.org/acmlc2025.html">(ACMLC 2025)</a></strong><br>
     Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace<br>
     <em>Hong Kong SAR, China</em>
   </li>
@@ -611,109 +345,6 @@ Specifically, my research agenda explores four key topics:
 - Email(NYU): kt3275@nyu.edu
 - Email(personal): wflps20140311@gmail.com
 
-<style>
-  .visitor-map-wrap{ margin: 8px 0 6px 0; }
-
-  .visitor-map-card{
-    position: relative;
-    background: rgba(255,255,255,0.78);
-    overflow: hidden;
-    border: none;
-    border-radius: 22px;
-    padding: 18px 18px 14px 18px;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow:
-      0 18px 48px rgba(0,0,0,0.08),
-      0 6px 18px rgba(0,0,0,0.06),
-      0 1px 0 rgba(255,255,255,0.70) inset,
-      0 -1px 0 rgba(0,0,0,0.03) inset;
-  }
-
-  .visitor-map-card::after{
-    content:"";
-    position:absolute;
-    inset:0;
-    background:
-      radial-gradient(1100px circle at 18% 18%, rgba(59,130,246,0.10) 0%, rgba(255,255,255,0) 55%),
-      radial-gradient(900px circle at 88% 86%, rgba(168,85,247,0.08) 0%, rgba(255,255,255,0) 58%);
-    pointer-events:none;
-  }
-
-  .visitor-map-card > *{ position: relative; z-index: 1; }
-
-  .visitor-map-embed{
-    position: relative;
-    width: 100%;
-    max-width: 500px;
-    margin: 0;
-    height: auto;
-    min-height: 260px; 
-    border-radius: 10px;
-    overflow: hidden;
-    background: #8bbcff;
-  }
-
-  .visitor-map-embed iframe{
-    width: 100% !important;
-    height: 100% !important;
-    border: 0 !important;
-    display: block;
-    min-height: 260px; /* 确保 iframe 撑开高度 */
-  }
-  .visitor-map-embed > div{
-    width: 100% !important;
-    height: 100% !important;
-  }
-  .visitor-map-embed canvas,
-  .visitor-map-embed svg{
-    width: 100% !important;
-    height: 100% !important;
-  }
-
-  .visitor-map-embed .leaflet-container{
-    background: #8bbcff !important;
-    width: 100% !important;
-    height: 100% !important;
-  }
-  .visitor-map-embed .leaflet-pane svg path{
-    fill: #ffffff !important;
-    stroke: rgba(255,255,255,.65) !important;
-    stroke-width: 1 !important;
-  }
-
-  /* 缩放按钮移到左下角并做成白色小方块 */
-  .visitor-map-embed .leaflet-top.leaflet-left{
-    top: auto !important;
-    bottom: 10px !important;
-    left: 10px !important;
-  }
-  .visitor-map-embed .leaflet-control-zoom a{
-    width: 28px !important;
-    height: 28px !important;
-    line-height: 28px !important;
-    border-radius: 4px !important;
-    background: rgba(255,255,255,.92) !important;
-    color: #2b2b2b !important;
-    border: 1px solid rgba(0,0,0,.08) !important;
-    box-shadow: 0 8px 18px rgba(0,0,0,.12) !important;
-  }
-
-  @media (prefers-color-scheme: dark){
-    .visitor-map-card{
-      background: rgba(20,20,20,0.62);
-      box-shadow:
-        0 22px 64px rgba(0,0,0,0.42),
-        0 10px 26px rgba(0,0,0,0.30),
-        0 1px 0 rgba(255,255,255,0.10) inset,
-        0 -1px 0 rgba(0,0,0,0.35) inset;
-    }
-    .visitor-map-card::after{
-      filter: saturate(1.05) brightness(0.9);
-      opacity: 0.9;
-    }
-  }
-</style>
 
 # 🌍 Visitor Map
 
@@ -726,6 +357,3 @@ Specifically, my research agenda explores four key topics:
     </div>
   </div>
 </div>
-
-
-
