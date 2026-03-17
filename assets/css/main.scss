@@ -2,7 +2,7 @@
 ---
 
 /*
- *  小清新 Academic Theme
+ *  小清新 Academic Theme — Tech × Humanities × Fresh
  *  Kaizhen Tan's Personal Homepage
  */
 
@@ -53,7 +53,7 @@ h1:before, .anchor:before {
 
 
 /* ==========================================================================
-   PUBLICATION / PAPER BOXES
+   PUBLICATION / PAPER BOXES — glass card style
    ========================================================================== */
 
 .paper-box {
@@ -62,7 +62,7 @@ h1:before, .anchor:before {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  border-bottom: 1px solid rgba(91, 127, 213, 0.08);
+  border-bottom: 1px solid rgba(91, 127, 213, 0.06);
   padding: 2em 0 2em 0;
 
   .paper-box-image {
@@ -73,14 +73,14 @@ h1:before, .anchor:before {
 
     img {
       max-width: 400px;
-      border-radius: 12px;
+      border-radius: 14px;
       box-shadow: 0 4px 20px rgba(91, 127, 213, 0.12);
       object-fit: cover;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s ease;
 
       &:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 8px 30px rgba(91, 127, 213, 0.18);
+        transform: translateY(-4px) scale(1.01);
+        box-shadow: 0 12px 36px rgba(91, 127, 213, 0.20);
       }
     }
   }
@@ -114,6 +114,11 @@ h1:before, .anchor:before {
   font-size: 1.08em;
   margin-bottom: 6px;
   line-height: 1.4;
+  transition: color 0.3s ease;
+}
+
+.paper-box:hover .paper-title {
+  color: $primary-color;
 }
 
 .paper-authors {
@@ -123,6 +128,10 @@ h1:before, .anchor:before {
   .author-self {
     color: #1a202c;
     font-weight: 700;
+    background: linear-gradient(135deg, #1a365d, $primary-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 
   .author-other {
@@ -135,6 +144,7 @@ h1:before, .anchor:before {
   font-style: italic;
   color: #7F8C8D;
   margin-bottom: 10px;
+  font-family: $serif-display;
 }
 
 .paper-links {
@@ -146,21 +156,22 @@ h1:before, .anchor:before {
 
 .paper-link {
   display: inline-block;
-  border: 1px solid rgba(91, 127, 213, 0.25);
-  border-radius: 6px;
-  padding: 2px 10px;
+  border: 1px solid rgba(91, 127, 213, 0.20);
+  border-radius: 8px;
+  padding: 3px 12px;
   color: #4A5568 !important;
   text-decoration: none !important;
   font-size: 0.82em;
   font-weight: 500;
-  transition: all 0.2s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   background: rgba(91, 127, 213, 0.04);
 
   &:hover {
-    background: $primary-color;
+    background: linear-gradient(135deg, $primary-color, darken($primary-color, 8%));
     color: #fff !important;
     border-color: $primary-color;
-    transform: translateY(-1px);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(91, 127, 213, 0.25);
   }
 }
 
@@ -187,13 +198,14 @@ h1:before, .anchor:before {
   background: linear-gradient(135deg, #5B7FD5, #7BAEA5);
   font-size: .78em;
   font-weight: 600;
-  border-radius: 0 8px 8px 0;
+  border-radius: 0 10px 10px 0;
   letter-spacing: 0.02em;
+  box-shadow: 0 2px 8px rgba(91, 127, 213, 0.20);
 }
 
 
 /* ==========================================================================
-   RESEARCH CARDS (2×2 grid)
+   RESEARCH CARDS (2×2 grid) — glassmorphism + glow
    ========================================================================== */
 
 .research-container.research-grid {
@@ -215,48 +227,65 @@ h1:before, .anchor:before {
 
 .research-card {
   position: relative;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   overflow: hidden;
-  border: 1px solid rgba(91, 127, 213, 0.12);
-  border-radius: 20px;
+  border: 1px solid rgba(91, 127, 213, 0.10);
+  border-radius: 22px;
   padding: 32px 32px 24px 32px;
   display: flex;
   flex-direction: column;
   box-shadow:
-    0 6px 32px rgba(91, 127, 213, 0.10),
-    0 1px 0 rgba(255, 255, 255, 0.80) inset;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    0 6px 32px rgba(91, 127, 213, 0.08),
+    0 1px 0 rgba(255, 255, 255, 0.90) inset;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.4s ease,
+              border-color 0.4s ease;
 }
 
 .research-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-6px);
   box-shadow:
-    0 14px 44px rgba(91, 127, 213, 0.16),
-    0 1px 0 rgba(255, 255, 255, 0.80) inset;
-  border-color: rgba(91, 127, 213, 0.22);
+    0 18px 52px rgba(91, 127, 213, 0.16),
+    0 0 0 1px rgba(91, 127, 213, 0.08),
+    0 1px 0 rgba(255, 255, 255, 0.90) inset;
+  border-color: var(--accent, rgba(91, 127, 213, 0.25));
 }
 
-/* Colored accent line at top */
+/* Colored accent line at top — gradient */
 .research-card::before {
   content: "";
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
-  height: 5px;
+  height: 4px;
   background: linear-gradient(90deg, var(--accent, #5B7FD5), var(--accent2, #7BAEA5));
-  opacity: 0.9;
+  opacity: 0.85;
   pointer-events: none;
+  transition: height 0.3s ease, opacity 0.3s ease;
 }
 
-/* Soft colored glow */
+.research-card:hover::before {
+  height: 5px;
+  opacity: 1;
+}
+
+/* Soft colored glow — ambient light effect */
 .research-card::after {
   content: "";
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(600px circle at 15% 10%, var(--tint, rgba(91,127,213,0.09)) 0%, transparent 55%);
+    radial-gradient(600px circle at 15% 10%, var(--tint, rgba(91,127,213,0.07)) 0%, transparent 55%),
+    radial-gradient(400px circle at 85% 90%, var(--tint, rgba(91,127,213,0.04)) 0%, transparent 55%);
   pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.research-card:hover::after {
+  opacity: 1.3;
 }
 
 /* Content above pseudo-elements */
@@ -284,6 +313,8 @@ h1:before, .anchor:before {
   font-size: 0.92em;
   color: #7F8C8D;
   line-height: 1.5;
+  font-family: $serif-display;
+  font-style: italic;
 }
 
 .research-card ul {
@@ -334,7 +365,7 @@ h1:before, .anchor:before {
 
 
 /* ==========================================================================
-   EDUCATION ITEMS
+   EDUCATION ITEMS — glass card with accent
    ========================================================================== */
 
 .edu-item {
@@ -342,16 +373,39 @@ h1:before, .anchor:before {
   gap: 28px;
   align-items: center;
   margin: 20px 0;
-  padding: 18px 22px;
-  background: #fff;
-  border-radius: 16px;
+  padding: 20px 24px;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 18px;
   border: 1px solid rgba(91, 127, 213, 0.06);
-  box-shadow: 0 2px 12px rgba(91, 127, 213, 0.06);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 16px rgba(91, 127, 213, 0.06);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+
+  /* Subtle left accent bar */
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 20%;
+    bottom: 20%;
+    width: 3px;
+    border-radius: 0 3px 3px 0;
+    background: linear-gradient(180deg, $primary-color, $success-color);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
 
   &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 24px rgba(91, 127, 213, 0.10);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 32px rgba(91, 127, 213, 0.12);
+    border-color: rgba(91, 127, 213, 0.12);
+
+    &::before {
+      opacity: 1;
+    }
   }
 }
 
@@ -359,10 +413,15 @@ h1:before, .anchor:before {
   width: 72px;
   height: 72px;
   object-fit: contain;
-  border-radius: 14px;
+  border-radius: 16px;
   flex: 0 0 auto;
   background: #FAFBFD;
-  padding: 4px;
+  padding: 6px;
+  transition: transform 0.3s ease;
+}
+
+.edu-item:hover .edu-logo {
+  transform: scale(1.05);
 }
 
 .edu-content {
@@ -404,7 +463,7 @@ h1:before, .anchor:before {
 
 
 /* ==========================================================================
-   NEWS LIST
+   NEWS LIST — enhanced with subtle decorations
    ========================================================================== */
 
 .page__content > ul {
@@ -418,6 +477,8 @@ h1:before, .anchor:before {
       font-weight: 600;
       color: $primary-color;
       font-size: 0.92em;
+      font-family: $monospace;
+      letter-spacing: -0.02em;
     }
   }
 }
@@ -453,8 +514,13 @@ h1:before, .anchor:before {
 
 
 /* ==========================================================================
-   PRESENTATIONS LIST — timeline style
+   PRESENTATIONS LIST — timeline with pulse animation
    ========================================================================== */
+
+@keyframes timelinePulse {
+  0%, 100% { box-shadow: 0 0 0 3px rgba(91, 127, 213, 0.08); }
+  50% { box-shadow: 0 0 0 6px rgba(91, 127, 213, 0.12); }
+}
 
 .pres-list {
   list-style-type: none;
@@ -470,22 +536,24 @@ h1:before, .anchor:before {
     top: 12px;
     bottom: 12px;
     width: 2px;
-    background: linear-gradient(180deg, rgba(91, 127, 213, 0.3), rgba(123, 174, 165, 0.12));
+    background: linear-gradient(180deg, $primary-color, rgba(123, 174, 165, 0.25), transparent);
     border-radius: 2px;
   }
 }
 
 .pres-item {
   position: relative;
-  margin-bottom: 18px;
-  padding: 2px 0 2px 16px;
+  margin-bottom: 20px;
+  padding: 6px 0 6px 18px;
+  border-radius: 12px;
+  transition: background 0.3s ease;
 
   /* Timeline dot */
   &::before {
     content: "";
     position: absolute;
     left: -20px;
-    top: 7px;
+    top: 11px;
     width: 12px;
     height: 12px;
     border-radius: 50%;
@@ -493,17 +561,28 @@ h1:before, .anchor:before {
     border: 2.5px solid $primary-color;
     box-shadow: 0 0 0 3px rgba(91, 127, 213, 0.08);
     z-index: 1;
-    transition: all 0.2s ease;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* First item pulse animation */
+  &:first-child::before {
+    animation: timelinePulse 2.5s ease-in-out infinite;
+  }
+
+  &:hover {
+    background: rgba(91, 127, 213, 0.03);
   }
 
   &:hover::before {
     background: $primary-color;
-    box-shadow: 0 0 0 5px rgba(91, 127, 213, 0.12);
+    box-shadow: 0 0 0 6px rgba(91, 127, 213, 0.15);
+    transform: scale(1.2);
   }
 
   a {
     color: $primary-color !important;
     border-bottom: none !important;
+    font-weight: 500;
   }
 
   em {
@@ -522,11 +601,13 @@ h1:before, .anchor:before {
 
 .visitor-map-card {
   position: relative;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   overflow: hidden;
   border: 1px solid rgba(91, 127, 213, 0.06);
-  border-radius: 20px;
-  padding: 18px 18px 14px 18px;
+  border-radius: 22px;
+  padding: 20px 20px 16px 20px;
   box-shadow: 0 4px 24px rgba(91, 127, 213, 0.08);
 }
 
@@ -552,7 +633,7 @@ h1:before, .anchor:before {
   margin: 0;
   height: auto;
   min-height: 260px;
-  border-radius: 12px;
+  border-radius: 14px;
   overflow: hidden;
   background: #8bbcff;
 }
@@ -633,11 +714,12 @@ h1:before, .anchor:before {
   margin-bottom: 0;
   color: #7F8C8D;
   font-style: italic;
+  font-family: $serif-display;
 }
 
 
 /* ==========================================================================
-   EXPERIENCE LISTS
+   EXPERIENCE LISTS — refined h2 accent
    ========================================================================== */
 
 .page__content h2 {
@@ -649,22 +731,22 @@ h1:before, .anchor:before {
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 40px;
+    width: 48px;
     height: 2px;
     border-radius: 2px;
-    background: linear-gradient(90deg, rgba(91, 127, 213, 0.4), transparent);
+    background: linear-gradient(90deg, rgba(91, 127, 213, 0.5), rgba(123, 174, 165, 0.3), transparent);
   }
 }
 
 
 /* ==========================================================================
-   FADE-IN ANIMATION on scroll (CSS only)
+   SCROLL REVEAL ANIMATION
    ========================================================================== */
 
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(16px);
+    transform: translateY(24px);
   }
   to {
     opacity: 1;
@@ -672,15 +754,165 @@ h1:before, .anchor:before {
   }
 }
 
-.page__content > h1,
-.page__content > h2,
-.page__content > p,
-.page__content > ul,
-.page__content > .research-container,
-.paper-box,
-.edu-item,
-.visitor-map-wrap {
-  animation: fadeInUp 0.5s ease both;
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Elements start invisible until revealed */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s cubic-bezier(0.4, 0, 0.2, 1),
+              transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger children */
+.reveal-stagger > .reveal:nth-child(1) { transition-delay: 0s; }
+.reveal-stagger > .reveal:nth-child(2) { transition-delay: 0.1s; }
+.reveal-stagger > .reveal:nth-child(3) { transition-delay: 0.2s; }
+.reveal-stagger > .reveal:nth-child(4) { transition-delay: 0.3s; }
+
+/* Fallback: if JS doesn't load, elements are visible */
+.no-js .reveal {
+  opacity: 1;
+  transform: none;
+}
+
+
+/* ==========================================================================
+   BACK TO TOP BUTTON
+   ========================================================================== */
+
+.back-to-top {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  z-index: 99;
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  border: 1px solid rgba(91, 127, 213, 0.15);
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 0 4px 20px rgba(91, 127, 213, 0.12);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(12px);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  &:hover {
+    background: linear-gradient(135deg, $primary-color, darken($primary-color, 8%));
+    border-color: $primary-color;
+    box-shadow: 0 8px 28px rgba(91, 127, 213, 0.28);
+    transform: translateY(-3px);
+
+    svg {
+      stroke: #fff;
+    }
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+
+  svg {
+    width: 18px;
+    height: 18px;
+    stroke: $primary-color;
+    stroke-width: 2.5;
+    fill: none;
+    transition: stroke 0.3s ease;
+  }
+}
+
+
+/* ==========================================================================
+   SITE FOOTER
+   ========================================================================== */
+
+.site-footer {
+  text-align: center;
+  padding: 2em 1.5em 1.5em;
+  font-size: 0.85em;
+  color: #7F8C8D;
+  letter-spacing: 0.01em;
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    max-width: 120px;
+    height: 2px;
+    margin: 0 auto 1.5em;
+    background: linear-gradient(90deg, transparent, rgba(91, 127, 213, 0.25), rgba(123, 174, 165, 0.25), transparent);
+    border-radius: 2px;
+  }
+
+  a {
+    color: $primary-color;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(91, 127, 213, 0.2);
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: darken($primary-color, 10%);
+      border-bottom-color: $primary-color;
+    }
+  }
+
+  .footer-quote {
+    font-family: $serif-display;
+    font-style: italic;
+    font-size: 0.95em;
+    color: #9CA3AF;
+    margin-bottom: 0.6em;
+  }
+}
+
+
+/* ==========================================================================
+   GLOBAL SCROLLBAR
+   ========================================================================== */
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(91, 127, 213, 0.15);
+  border-radius: 6px;
+
+  &:hover {
+    background: rgba(91, 127, 213, 0.30);
+  }
 }
 
 
@@ -700,6 +932,13 @@ h1:before, .anchor:before {
   .research-card h4 {
     font-size: 0.98rem;
   }
+
+  .back-to-top {
+    bottom: 1.2em;
+    right: 1.2em;
+    width: 40px;
+    height: 40px;
+  }
 }
 
 
@@ -710,11 +949,26 @@ h1:before, .anchor:before {
 @media print {
   .hero-section {
     background: none !important;
+    animation: none !important;
     padding: 1em;
   }
 
   .hero-profile {
     box-shadow: none;
     border: 1px solid #ddd;
+    backdrop-filter: none;
+  }
+
+  .back-to-top {
+    display: none !important;
+  }
+
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  body {
+    background-image: none !important;
   }
 }

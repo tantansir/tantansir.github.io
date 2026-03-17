@@ -1,4 +1,91 @@
 <script src="assets/js/main.min.js"></script>
 
+<script>
+(function() {
+  /* ======== Scroll Reveal (IntersectionObserver) ======== */
+  var revealTargets = [
+    '.page__content > h1',
+    '.page__content > h2',
+    '.page__content > p',
+    '.page__content > .research-container',
+    '.paper-box',
+    '.edu-item',
+    '.visitor-map-wrap',
+    '.pres-list',
+    '.news-scroll'
+  ];
+
+  function addRevealClass() {
+    revealTargets.forEach(function(sel) {
+      document.querySelectorAll(sel).forEach(function(el) {
+        el.classList.add('reveal');
+      });
+    });
+
+    /* Stagger research cards */
+    var grid = document.querySelector('.research-container.research-grid');
+    if (grid) {
+      grid.classList.add('reveal-stagger');
+      grid.querySelectorAll('.research-card').forEach(function(card) {
+        card.classList.add('reveal');
+      });
+    }
+  }
+
+  function initReveal() {
+    if (!('IntersectionObserver' in window)) {
+      document.querySelectorAll('.reveal').forEach(function(el) {
+        el.classList.add('revealed');
+      });
+      return;
+    }
+
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.reveal').forEach(function(el) {
+      observer.observe(el);
+    });
+  }
+
+  /* ======== Back to Top Button ======== */
+  function initBackToTop() {
+    var btn = document.getElementById('backToTop');
+    if (!btn) return;
+
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 400) {
+        btn.classList.add('visible');
+      } else {
+        btn.classList.remove('visible');
+      }
+    }, { passive: true });
+
+    btn.addEventListener('click', function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  /* ======== Init ======== */
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+      addRevealClass();
+      initReveal();
+      initBackToTop();
+    });
+  } else {
+    addRevealClass();
+    initReveal();
+    initBackToTop();
+  }
+})();
+</script>
+
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}

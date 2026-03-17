@@ -51,22 +51,24 @@
     }
   }
 
-  /* Section headings with gradient accent */
+  /* Section headings with gradient accent + serif display touch */
   h1 {
     margin-top: 2em;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.6em;
     border-bottom: none;
     position: relative;
+    font-family: $serif-display, $header-font-family;
+    letter-spacing: 0.01em;
 
     &::after {
       content: "";
       position: absolute;
       left: 0;
       bottom: 0;
-      width: 60px;
+      width: 72px;
       height: 3px;
       border-radius: 3px;
-      background: linear-gradient(90deg, $primary-color, $success-color);
+      background: linear-gradient(90deg, $primary-color, $success-color, transparent);
     }
   }
 
@@ -74,6 +76,7 @@
     color: #2D3748;
     font-weight: 600;
     margin-top: 1.5em;
+    font-family: $serif-display, $header-font-family;
   }
 
   p, li, dl {

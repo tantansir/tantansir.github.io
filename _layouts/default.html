@@ -37,6 +37,15 @@ layout: compress
       </article>
     </div>
 
+    <footer class="site-footer">
+      <p class="footer-quote">Where Technology Meets Humanity</p>
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. Powered by Jekyll.</p>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+
     {% include scripts.html %}
 
   </body>
