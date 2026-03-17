@@ -202,9 +202,7 @@ h1:before, .anchor:before {
   gap: 20px;
   margin-top: 20px;
   width: 100%;
-  min-height: 72vh;
-  align-items: stretch;
-  grid-auto-rows: 1fr;
+  align-items: start;
 }
 
 .research-card {
@@ -323,58 +321,7 @@ h1:before, .anchor:before {
 }
 
 
-/* ==========================================================================
-   SOCIAL BUTTONS ROW
-   ========================================================================== */
-
-.social-row {
-  display: flex;
-  justify-content: center;
-  gap: 14px;
-  flex-wrap: wrap;
-  margin: 18px 0 6px 0;
-}
-
-.sbtn {
-  --bg: #4A5568;
-  width: 38px;
-  height: 38px;
-  border-radius: 12px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--bg);
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.10);
-  border: none;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  text-decoration: none;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.sbtn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.16);
-}
-
-.sbtn:active {
-  transform: translateY(-1px);
-}
-
-.sbtn img,
-.sbtn svg {
-  width: 22px;
-  height: 22px;
-  display: block;
-}
-
-/* Brand colors */
-.s-cv { --bg: #4A5568; }
-.s-mail { --bg: #5B7FD5; }
-.s-scholar { --bg: #5B7FD5; }
-.s-github { --bg: #2D3748; }
-.s-wechat { --bg: #07C160; }
-.s-xhs { --bg: #FF2442; }
-.s-linkedin { --bg: #0A66C2; }
+/* Social buttons — styles kept for backwards compatibility */
 
 
 /* ==========================================================================
@@ -448,7 +395,7 @@ h1:before, .anchor:before {
 
 
 /* ==========================================================================
-   NEWS LIST
+   NEWS LIST — date badges + better spacing
    ========================================================================== */
 
 .page__content > ul {
@@ -456,6 +403,25 @@ h1:before, .anchor:before {
     position: relative;
     padding-left: 0;
     line-height: 1.65;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(91, 127, 213, 0.05);
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    /* Style the date (rendered as <em> from *2026.03*) as a subtle badge */
+    > em:first-child {
+      display: inline-block;
+      background: rgba(91, 127, 213, 0.08);
+      padding: 1px 8px;
+      border-radius: 4px;
+      font-style: normal;
+      font-weight: 600;
+      color: $primary-color;
+      font-size: 0.88em;
+      letter-spacing: 0.02em;
+    }
   }
 }
 
@@ -465,13 +431,42 @@ h1:before, .anchor:before {
    ========================================================================== */
 
 .pres-list {
-  list-style-type: disc;
-  padding-left: 20px;
+  list-style-type: none;
+  padding-left: 0;
   line-height: 1.6;
 }
 
 .pres-item {
-  margin-bottom: 18px;
+  margin-bottom: 16px;
+  padding: 14px 18px;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid rgba(91, 127, 213, 0.06);
+  box-shadow: 0 2px 8px rgba(91, 127, 213, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  padding-left: 24px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    border-radius: 3px;
+    background: linear-gradient(180deg, $primary-color, $success-color);
+  }
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(91, 127, 213, 0.10);
+  }
+
+  a {
+    color: $primary-color !important;
+    border-bottom: none !important;
+  }
 }
 
 
@@ -583,17 +578,19 @@ h1:before, .anchor:before {
    ========================================================================== */
 
 .connect-title {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   font-weight: 600;
-  margin-top: 30px;
-  margin-bottom: 5px;
+  margin-top: 24px;
+  margin-bottom: 4px;
   color: #1a202c;
 }
 
 .connect-text {
-  font-size: 1.0rem;
+  font-size: 0.98rem;
   margin-top: 0;
-  color: #4A5568;
+  margin-bottom: 0;
+  color: #7F8C8D;
+  font-style: italic;
 }
 
 

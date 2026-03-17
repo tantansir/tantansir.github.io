@@ -16,24 +16,61 @@
         </span>
       {% endif %}
     </div>
-    <div class="hero-profile__links">
+    <div class="hero-profile__icons">
+      <!-- CV -->
+      <a class="hero-icon hero-icon--cv" href="/assets/CV_Kaizhen%20TAN.pdf" title="CV">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path fill="#fff" d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm0 2.5L19.5 10H14V4.5z"/>
+          <path fill="#fff" d="M8 13h8v1.7H8V13zm0 3h6v1.7H8V16z"/>
+        </svg>
+      </a>
+      <!-- Email -->
       {% if author.email %}
-        <a href="mailto:{{ author.email }}" class="hero-link"><i class="fas fa-fw fa-envelope"></i> Email</a>
+      <a class="hero-icon hero-icon--email" href="mailto:{{ author.email }}" title="Email">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path fill="#fff" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+        </svg>
+      </a>
       {% endif %}
+      <!-- Google Scholar -->
       {% if author.googlescholar %}
-        <a href="{{ author.googlescholar }}" class="hero-link" rel="me noopener noreferrer" target="_blank"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a>
+      <a class="hero-icon hero-icon--scholar" href="{{ author.googlescholar }}" title="Google Scholar" target="_blank" rel="noopener noreferrer">
+        <img src="https://cdn.simpleicons.org/googlescholar/ffffff" alt="" />
+      </a>
       {% endif %}
+      <!-- GitHub -->
       {% if author.github %}
-        <a href="https://github.com/{{ author.github }}" class="hero-link" rel="me noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github"></i> GitHub</a>
+      <a class="hero-icon hero-icon--github" href="https://github.com/{{ author.github }}" title="GitHub" target="_blank" rel="noopener noreferrer">
+        <img src="https://cdn.simpleicons.org/github/ffffff" alt="" />
+      </a>
       {% endif %}
+      <!-- WeChat -->
+      <a class="hero-icon hero-icon--wechat" href="/images/Wechat.jpg" title="WeChat">
+        <img src="https://cdn.simpleicons.org/wechat/ffffff" alt="" />
+      </a>
+      <!-- Xiaohongshu -->
+      <a class="hero-icon hero-icon--xhs" href="https://www.xiaohongshu.com/user/profile/5e2031bc000000000100b761" title="Xiaohongshu" target="_blank" rel="noopener noreferrer">
+        <img src="https://cdn.simpleicons.org/xiaohongshu/ffffff" alt="" />
+      </a>
+      <!-- LinkedIn -->
       {% if author.linkedin %}
-        <a href="https://www.linkedin.com/in/{{ author.linkedin }}" class="hero-link" rel="me noopener noreferrer" target="_blank"><i class="fab fa-fw fa-linkedin"></i> LinkedIn</a>
+      <a class="hero-icon hero-icon--linkedin" href="https://www.linkedin.com/in/{{ author.linkedin }}" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path fill="#fff" d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.95v5.66H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.35-1.85 3.59 0 4.26 2.36 4.26 5.43v6.31zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/>
+        </svg>
+      </a>
       {% endif %}
+      <!-- ResearchGate -->
       {% if author.researchgate %}
-        <a href="{{ author.researchgate }}" class="hero-link" rel="me noopener noreferrer" target="_blank"><i class="fab fa-fw fa-researchgate"></i> ResearchGate</a>
+      <a class="hero-icon hero-icon--rg" href="{{ author.researchgate }}" title="ResearchGate" target="_blank" rel="noopener noreferrer">
+        <img src="https://cdn.simpleicons.org/researchgate/ffffff" alt="" />
+      </a>
       {% endif %}
+      <!-- ORCID -->
       {% if author.orcid %}
-        <a href="{{ author.orcid }}" class="hero-link" rel="me noopener noreferrer" target="_blank"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a>
+      <a class="hero-icon hero-icon--orcid" href="{{ author.orcid }}" title="ORCID" target="_blank" rel="noopener noreferrer">
+        <img src="https://cdn.simpleicons.org/orcid/ffffff" alt="" />
+      </a>
       {% endif %}
     </div>
   </div>
