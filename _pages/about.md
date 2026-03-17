@@ -31,7 +31,7 @@ Specifically, my research agenda explores four key topics:
 <div class="research-container research-grid">
 
   <div class="research-card">
-    <h4>🤖 1. Robotic Urbanism & Governance<span class="amp">&amp;</span> Collaborative Governance</h4>
+    <h4>🤖 1. Robotic Urbanism <span class="amp">&amp;</span> Governance</h4>
     <p><i>How should embodied intelligence operate in cities, and how can humans govern it at scale?</i></p>
     <ul>
       <li><b>Robot-Friendly Urban Space:</b> Redesign streets and buildings with standards for robot siting, infrastructure, and responsibility boundaries.</li>
@@ -55,7 +55,7 @@ Specifically, my research agenda explores four key topics:
   </div>
 
   <div class="research-card">
-    <h4>🎨 3. Social Sensing & Geospatial Analysis<span class="amp">&amp;</span> Human-Environment Interaction</h4>
+    <h4>🎨 3. Social Sensing <span class="amp">&amp;</span> Human-Environment Interaction</h4>
     <p><i>How can multimodal human-centered data become actionable insights for urban planning?</i></p>
     <ul>
       <li><b>AI-Enhanced Geospatial Analysis:</b> Link urban form, environment, and mobility with human behavior and public service outcomes.</li>
@@ -66,7 +66,7 @@ Specifically, my research agenda explores four key topics:
   </div>
 
   <div class="research-card">
-    <h4>🚀 4. Spatial Intelligence & World Models<span class="amp">&amp;</span> Foundation World Models</h4>
+    <h4>🚀 4. Spatial Intelligence <span class="amp">&amp;</span> World Models</h4>
     <p><i>How can world models support reliable spatial reasoning and decision-making for physical agents?</i></p>
     <ul>
       <li><b>World Models & Architectures:</b> Generative, predictive, and representation-learning architectures for forecasting and planning in the physical world.</li>
