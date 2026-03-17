@@ -220,7 +220,6 @@ Specifically, my research agenda explores four key topics:
       <a class="paper-link" href="https://doi.org/10.1145/3772673.3772702">DOI</a>
       <a class="paper-link" href="https://dl.acm.org/doi/epdf/10.1145/3772673.3772702">PDF</a>
       <a class="paper-link" href="/assets/ACMLC2025.pptx">Slides</a>
-      <a class="paper-link" href="https://github.com/tantansir/Multimodal-Deep-Learning-for-Modeling-ATCO-Command-Lifecycle-in-Terminal-Airspace">GitHub</a>
       <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
     </div>
     <div class="paper-desc">
