@@ -149,56 +149,53 @@
   }
 }
 
-/* Unified social icon row in hero */
-.hero-profile__icons {
+/* Social link pills in hero */
+.hero-profile__links {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
+  margin-top: 4px;
 
   @media (max-width: 700px) {
     justify-content: center;
   }
 }
 
-.hero-icon {
-  width: 38px;
-  height: 38px;
-  border-radius: 12px;
+.hero-link {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  background: var(--icon-bg, #4A5568);
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.10);
-  border: none;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  gap: 5px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  background: rgba(91, 127, 213, 0.08);
+  color: #4A5568 !important;
+  font-size: 0.88em;
+  font-weight: 500;
   text-decoration: none !important;
+  transition: all 0.25s ease;
+  border: 1px solid rgba(91, 127, 213, 0.08);
   -webkit-tap-highlight-color: transparent;
 
+  i {
+    font-size: 1.05em;
+    color: $primary-color;
+  }
+
   &:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.16);
+    background: $primary-color;
+    color: #fff !important;
+    border-color: $primary-color;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(91, 127, 213, 0.25);
+
+    i {
+      color: #fff;
+    }
   }
 
   &:active {
-    transform: translateY(-1px);
+    transform: translateY(0);
   }
-
-  img, svg {
-    width: 20px;
-    height: 20px;
-    display: block;
-  }
-
-  /* Brand colors */
-  &--cv      { --icon-bg: #4A5568; }
-  &--email   { --icon-bg: #5B7FD5; }
-  &--scholar { --icon-bg: #5B7FD5; }
-  &--github  { --icon-bg: #2D3748; }
-  &--wechat  { --icon-bg: #07C160; }
-  &--xhs     { --icon-bg: #FF2442; }
-  &--linkedin { --icon-bg: #0A66C2; }
-  &--rg      { --icon-bg: #00CCBB; }
-  &--orcid   { --icon-bg: #A6CE39; }
 }
 
 /* Legacy classes — keep for compatibility */

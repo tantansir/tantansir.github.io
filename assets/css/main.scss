@@ -395,32 +395,20 @@ h1:before, .anchor:before {
 
 
 /* ==========================================================================
-   NEWS LIST — date badges + better spacing
+   NEWS LIST
    ========================================================================== */
 
 .page__content > ul {
   li {
-    position: relative;
-    padding-left: 0;
     line-height: 1.65;
-    padding: 8px 0;
-    border-bottom: 1px solid rgba(91, 127, 213, 0.05);
+    padding: 6px 0;
 
-    &:last-child {
-      border-bottom: none;
-    }
-
-    /* Style the date (rendered as <em> from *2026.03*) as a subtle badge */
+    /* Date (rendered as <em> from *2026.03*) */
     > em:first-child {
-      display: inline-block;
-      background: rgba(91, 127, 213, 0.08);
-      padding: 1px 8px;
-      border-radius: 4px;
       font-style: normal;
       font-weight: 600;
       color: $primary-color;
-      font-size: 0.88em;
-      letter-spacing: 0.02em;
+      font-size: 0.92em;
     }
   }
 }
@@ -437,30 +425,13 @@ h1:before, .anchor:before {
 }
 
 .pres-item {
-  margin-bottom: 16px;
-  padding: 14px 18px;
-  background: #fff;
-  border-radius: 12px;
-  border: 1px solid rgba(91, 127, 213, 0.06);
-  box-shadow: 0 2px 8px rgba(91, 127, 213, 0.05);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  position: relative;
-  padding-left: 24px;
-
-  &::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 3px;
-    border-radius: 3px;
-    background: linear-gradient(180deg, $primary-color, $success-color);
-  }
+  margin-bottom: 12px;
+  padding: 10px 0 10px 16px;
+  border-left: 3px solid rgba(91, 127, 213, 0.2);
+  transition: border-color 0.2s ease;
 
   &:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 4px 16px rgba(91, 127, 213, 0.10);
+    border-left-color: $primary-color;
   }
 
   a {
