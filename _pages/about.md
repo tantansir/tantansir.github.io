@@ -89,6 +89,8 @@ Specifically, my research agenda explores four key topics:
 
 # 🔥 News
 
+<div class="news-scroll" markdown="1">
+
 - *2026.03*: 🎓 I am pleased to share that I will begin my PhD at New York University in Fall 2026 under the supervision of [Prof. Chenghe Guan](https://wagner.nyu.edu/community/faculty/chenghe-guan) and [Prof. Zhan Guo](https://wagner.nyu.edu/community/faculty/zhan-guo).
 - *2026.01*: 🎉 The abstract co-authored with Prof. Fan Zhang has been accepted for the [XXV ISPRS Congress 2026](https://www.isprs2026toronto.com/). See you in Toronto!
 - *2025.12*: 🎉 Our paper, led by my senior labmate Dr. Weihua Huan and co-authored with Prof. Wei Huang at Tongji University, was accepted by GIScience & Remote Sensing; honored to contribute as second author and big congratulations to Dr. Huan!
@@ -100,6 +102,8 @@ Specifically, my research agenda explores four key topics:
 - *2025.01*: 💼 Joined Shanghai Artificial Intelligence Laboratory as an AI Product Manager Intern.
 - *2024.09*: 🌏 Conducted research at ASTAR in Singapore under the supervision of [Dr. Yicheng Zhang](https://zinczhang.github.io/) and [Dr. Sheng Zhang](https://ieeexplore.ieee.org/author/37086165610).
 - *2024.04*: 🔭 Began my academic journey at [Prof. Wei Huang](https://huangweibuct.github.io/weihuang.github.io/)'s lab in the College of Surveying and Geo-Informatics, Tongji University.
+
+</div>
 
 
 # 📖 Education
@@ -142,8 +146,8 @@ Specifically, my research agenda explores four key topics:
 
 ## 🔭 Research
 
-- *2026.04 - Present*, Research Assistant, Shanghai Key Laboratory of Urban Design and Urban Science (LOUD), NYU Shanghai.
-- *2025.10 - 2026.03*, Research Assistant, Institute of Remote Sensing and Geographic Information System, Peking University, China
+- *2026.04 - Present*, Research Assistant, Shanghai Key Laboratory of Urban Design and Urban Science (LOUD), NYU Shanghai
+- *2025.10 - 2026.03*, Research Assistant, Institute of Remote Sensing and GIS, Peking University, China
 - *2024.09 - 2024.12*, Research Officer Intern, [A*STAR Institute for Infocomm Research](https://www.a-star.edu.sg/i2r), Singapore
 - *2024.04 - 2025.04*, Research Assistant, College of Architecture and Urban Planning, Tongji University, China
 - *2024.04 - 2024.12*, Research Assistant, College of Surveying and Geo-Informatics, Tongji University, China

@@ -196,6 +196,16 @@
   &:active {
     transform: translateY(0);
   }
+
+  .hero-link__img {
+    width: 14px;
+    height: 14px;
+    vertical-align: -1px;
+  }
+
+  &:hover .hero-link__img {
+    filter: brightness(0) invert(1);
+  }
 }
 
 /* Legacy classes — keep for compatibility */
