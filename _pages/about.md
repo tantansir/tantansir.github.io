@@ -43,18 +43,7 @@ Specifically, my research agenda explores four key topics:
   </div>
 
   <div class="research-card">
-    <h4>🎨 2. Social Sensing <span class="amp">&amp;</span> Human-Environment Interaction</h4>
-    <p><i>Core Question: How can multimodal human-centered data translate into actionable insights for urban planning and governance?</i></p>
-    <ul>
-      <li><b>AI-Enhanced Geospatial Analysis:</b> Use large-scale spatial analytics to link urban form, environment, and mobility with human behavior and public service outcomes.</li>
-      <li><b>Accessibility & Pedestrian Experience:</b> Analyze walking experiences and accessibility barriers, integrating disabled people's mobility needs into urban governance decisions.</li>
-      <li><b>Urban Perception & Visual Aesthetics:</b> Quantify streetscape perception and neighborhood imagery to inform design choices and regeneration priorities.</li>
-      <li><b>Socio-Cultural Signals for Governance:</b> Incorporate place-based narratives into LLM-enabled applications for communication, interaction, and inclusive governance.</li>
-    </ul>
-  </div>
-
-  <div class="research-card">
-    <h4>🏙️ 3. Self-Evolving Urban Digital Twins and Agents</h4>
+    <h4>🏙️ 2. Self-Evolving Urban Digital Twins and Agents</h4>
     <p><i>Core Question: How can we build self-evolving urban digital twin that stays continuously updated, hosts agents, and supports sustainable and equitable city governance?</i></p>
     <ul>
       <li><b>Urban Foundation Model:</b> Integrate remote sensing, street-level imagery, mobility trajectory, POI, IoT signal, and text into unified urban representations.</li>
@@ -62,6 +51,17 @@ Specifically, my research agenda explores four key topics:
       <li><b>Localization, Mapping, and 3D City:</b> Geo-localization and semantic mapping across point clouds, meshes, and 3D Gaussian representations for interactive querying and simulation.</li>
       <li><b>Urban Agents:</b> Build task agents for planning and public services, including map-LLM, spatial RAG, policy QA, and travel assistance.</li>
       <li><b>Policy Sandbox:</b> Use the twin for what-if simulation, risk assessment, and execution checks, supported by efficient retrieval, caching, and rendering.</li>
+    </ul>
+  </div>
+
+  <div class="research-card">
+    <h4>🎨 3. Social Sensing <span class="amp">&amp;</span> Human-Environment Interaction</h4>
+    <p><i>Core Question: How can multimodal human-centered data translate into actionable insights for urban planning and governance?</i></p>
+    <ul>
+      <li><b>AI-Enhanced Geospatial Analysis:</b> Use large-scale spatial analytics to link urban form, environment, and mobility with human behavior and public service outcomes.</li>
+      <li><b>Accessibility & Pedestrian Experience:</b> Analyze walking experiences and accessibility barriers, integrating disabled people's mobility needs into urban governance decisions.</li>
+      <li><b>Urban Perception & Visual Aesthetics:</b> Quantify streetscape perception and neighborhood imagery to inform design choices and regeneration priorities.</li>
+      <li><b>Socio-Cultural Signals for Governance:</b> Incorporate place-based narratives into LLM-enabled applications for communication, interaction, and inclusive governance.</li>
     </ul>
   </div>
 
