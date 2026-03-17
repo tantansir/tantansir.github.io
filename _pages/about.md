@@ -77,14 +77,6 @@ Specifically, my research agenda explores four key topics:
   </div>
 </div>
 
----
-
-<p class="connect-title">
-  📫 Let's Connect!
-</p>
-<p class="connect-text">
-  - Please feel free to reach out if any of these research directions resonate with you. I'd be happy to chat!
-</p>
 
 
 # 🔥 News
@@ -302,6 +294,10 @@ Specifically, my research agenda explores four key topics:
 - Email(CMU): kaizhent@cmu.edu
 - Email(NYU): kt3275@nyu.edu
 - Email(personal): wflps20140311@gmail.com
+
+<p class="connect-text">
+  Please feel free to reach out if any of these research directions resonate with you. I'd be happy to chat!
+</p>
 
 
 # 🌍 Visitor Map
