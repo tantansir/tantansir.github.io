@@ -274,7 +274,7 @@ Specifically, my research agenda explores four key topics:
   <div class='paper-box-text'>
     <div class="paper-title">RAGCache++: Cache-Aware Document Ordering for Low-Latency RAG Serving</div>
     <div class="paper-authors">
-      <span class="author-self">Kaizhen Tan*</span><span class="author-other">, Rong Gu*, Mingyuan Li*</span>
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, Rong Gu, Mingyuan Li</span>
     </div>
     <div class="paper-links">
       <a class="paper-link" href="/assets/RAGCACHE++.pdf">Report</a>
