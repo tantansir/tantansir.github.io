@@ -149,7 +149,7 @@ Specifically, my research agenda explores four key topics:
 - *2023.01 - 2023.02*, Data Analyst, Shanghai Qiantan Emerging Industry Research Institute, China.
 
 
-# 📝 Publications
+# 📝 Selected Papers
 
 <div class='paper-box'>
   <div class='paper-box-image'>
