@@ -164,11 +164,34 @@ Specifically, my research agenda explores four key topics:
       XXV ISPRS Congress, 2026.
     </div>
     <div class="paper-links">
+      <a class="paper-link" href="/assets/UrbanVGGT.pdf">PDF</a>
       <a class="paper-link" href="/assets/isprs_abstract_kaizhen_fan.pdf">Abstract</a>
       <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
     </div>
     <div class="paper-desc">
-      Leverage street-view imagery and VGGT-based 3D reconstruction to estimate metrically scaled sidewalk widths, build the SV-SideWidth dataset, and fill OpenStreetMap gaps for equitable assessment of pedestrian infrastructure.
+      Present UrbanVGGT, a measurement pipeline for estimating metrically scaled sidewalk width from a single street-view image using VGGT-based 3D reconstruction, semantic segmentation, and ground-plane fitting, achieving 0.25 m MAE on a Washington D.C. benchmark.
+    </div>
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div><div class="badge">Preprint</div><img src='images/creg.png' alt="sym" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">CREG: Compass Relational Evidence for Interpreting Spatial Reasoning in Vision-Language Models</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span>
+    </div>
+    <div class="paper-venue">
+      Preprint, 2026.
+    </div>
+    <div class="paper-links">
+      <a class="paper-link" href="/assets/CREG.pdf">PDF</a>
+      <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+    </div>
+    <div class="paper-desc">
+      Introduce CREG, a training-free interpretability framework that projects multi-layer contrastive Grad×Act attributions into a polar coordinate system to reveal directional spatial reasoning in VLMs, substantially outperforming standard attribution baselines on VSR and COCO-Pairs benchmarks.
     </div>
   </div>
 </div>
@@ -243,6 +266,24 @@ Specifically, my research agenda explores four key topics:
 </div>
 
 # 🔬 Projects
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div><img src='images/ragcache.png' alt="sym" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">RAGCache++: Cache-Aware Document Ordering for Low-Latency RAG Serving</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan*</span><span class="author-other">, Rong Gu*, Mingyuan Li*</span>
+    </div>
+    <div class="paper-links">
+      <a class="paper-link" href="/assets/RAGCACHE++.pdf">Report</a>
+    </div>
+    <div class="paper-desc">
+      Propose RAGCache++, a lightweight prompt-level optimization that reorders retrieved documents to maximize prefix sharing with cached sequences via a knowledge tree and greedy algorithm, reducing median TTFT by 20–33% with zero GPU memory cost and no serving-engine modification.
+    </div>
+  </div>
+</div>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
