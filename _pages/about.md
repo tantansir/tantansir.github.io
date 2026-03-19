@@ -151,7 +151,7 @@ Specifically, my research agenda explores four key topics:
 
 # 📝 Selected Papers
 
-## Published
+## Peer-Reviewed
 
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -264,7 +264,7 @@ Specifically, my research agenda explores four key topics:
       <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
     </div>
     <div class="paper-desc">
-      Introduce CREG, a training-free interpretability framework that projects multi-layer contrastive Grad×Act attributions into a polar coordinate system to reveal directional spatial reasoning in VLMs, substantially outperforming standard attribution baselines on VSR and COCO-Pairs benchmarks.
+      A training-free interpretability framework that maps vision-language model attributions into a polar coordinate system to reveal how VLMs reason about spatial relations.
     </div>
   </div>
 </div>
@@ -308,7 +308,7 @@ Specifically, my research agenda explores four key topics:
       <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
     </div>
     <div class="paper-desc">
-      A simulation-based screening framework comparing shared-space, managed sharing, and dedicated lane policies across 5,250 sidewalk scenarios to guide robot-lane allocation decisions for urban planners.
+      When should cities give sidewalk robots their own lane? An agent-based simulation framework that screens shared vs. dedicated space policies to answer this question.
     </div>
   </div>
 </div>
