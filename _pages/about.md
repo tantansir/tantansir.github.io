@@ -296,7 +296,7 @@ Specifically, my research agenda explores four key topics:
     <div><div class="badge">Preprint</div><img src='images/robotlane.png' alt="sym" width="100%"></div>
   </div>
   <div class='paper-box-text'>
-    <div class="paper-title">Under What Conditions Does Dedicated Space for Sidewalk Delivery Robots Outperform Shared Space? A Simulation-Based Planning Screening Framework</div>
+    <div class="paper-title">Do We Need a Robot Lane? A Simulation-Based Screening Framework for Sidewalk Delivery Robots</div>
     <div class="paper-authors">
       <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
     </div>
