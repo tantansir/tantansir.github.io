@@ -317,24 +317,6 @@ Specifically, my research agenda explores four key topics:
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div><img src='images/ragcache.png' alt="sym" width="100%"></div>
-  </div>
-  <div class='paper-box-text'>
-    <div class="paper-title">RAGCache++: Cache-Aware Document Ordering for Low-Latency RAG Serving</div>
-    <div class="paper-authors">
-      <span class="author-self">Kaizhen Tan</span><span class="author-other">, Rong Gu, Mingyuan Li</span>
-    </div>
-    <div class="paper-links">
-      <a class="paper-link" href="/assets/RAGCACHE++.pdf">Report</a>
-    </div>
-    <div class="paper-desc">
-      Propose RAGCache++, a lightweight prompt-level optimization that reorders retrieved documents to maximize prefix sharing with cached sequences via a knowledge tree and greedy algorithm, reducing median TTFT by 20–33% with zero GPU memory cost and no serving-engine modification.
-    </div>
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
     <div><img src='images/blindnav.png' alt="sym" width="100%"></div>
   </div>
   <div class='paper-box-text'>
@@ -348,6 +330,24 @@ Specifically, my research agenda explores four key topics:
     </div>
     <div class="paper-desc">
       BlindNav is a real-time, camera-based navigation assistant that uses YOLO for street-scene detection and a local LLM to turn those signals into concise voice guidance for blind and low-vision pedestrians.
+    </div>
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div><img src='images/ragcache.png' alt="sym" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">RAGCache++: Cache-Aware Document Ordering for Low-Latency RAG Serving</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, Rong Gu, Mingyuan Li</span>
+    </div>
+    <div class="paper-links">
+      <a class="paper-link" href="/assets/RAGCACHE++.pdf">Report</a>
+    </div>
+    <div class="paper-desc">
+      Propose RAGCache++, a lightweight prompt-level optimization that reorders retrieved documents to maximize prefix sharing with cached sequences via a knowledge tree and greedy algorithm, reducing median TTFT by 20–33% with zero GPU memory cost and no serving-engine modification.
     </div>
   </div>
 </div>
