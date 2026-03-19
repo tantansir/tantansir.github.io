@@ -151,6 +151,8 @@ Specifically, my research agenda explores four key topics:
 
 # 📝 Selected Papers
 
+## Published
+
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div><div class="badge">XXV ISPRS Congress</div><img src='images/5.jpg' alt="sym" width="100%"></div>
@@ -170,28 +172,6 @@ Specifically, my research agenda explores four key topics:
     </div>
     <div class="paper-desc">
       Present UrbanVGGT, a measurement pipeline for estimating metrically scaled sidewalk width from a single street-view image using VGGT-based 3D reconstruction, semantic segmentation, and ground-plane fitting, achieving 0.25 m MAE on a Washington D.C. benchmark.
-    </div>
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div><div class="badge">Preprint</div><img src='images/creg.png' alt="sym" width="100%"></div>
-  </div>
-  <div class='paper-box-text'>
-    <div class="paper-title">CREG: Compass Relational Evidence for Interpreting Spatial Reasoning in Vision-Language Models</div>
-    <div class="paper-authors">
-      <span class="author-self">Kaizhen Tan</span>
-    </div>
-    <div class="paper-venue">
-      Preprint, 2026.
-    </div>
-    <div class="paper-links">
-      <a class="paper-link" href="/assets/CREG.pdf">PDF</a>
-      <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-    </div>
-    <div class="paper-desc">
-      Introduce CREG, a training-free interpretability framework that projects multi-layer contrastive Grad×Act attributions into a polar coordinate system to reveal directional spatial reasoning in VLMs, substantially outperforming standard attribution baselines on VSR and COCO-Pairs benchmarks.
     </div>
   </div>
 </div>
@@ -261,6 +241,74 @@ Specifically, my research agenda explores four key topics:
     </div>
     <div class="paper-desc">
       Proposed a spatiotemporal adaptive local search (STALS) method combining dynamic graph learning and spatial analytics to model and mitigate large-scale urban traffic congestion propagation.
+    </div>
+  </div>
+</div>
+
+## Preprints
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div><div class="badge">Preprint</div><img src='images/creg.png' alt="sym" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">CREG: Compass Relational Evidence for Interpreting Spatial Reasoning in Vision-Language Models</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span>
+    </div>
+    <div class="paper-venue">
+      Preprint, 2026.
+    </div>
+    <div class="paper-links">
+      <a class="paper-link" href="/assets/CREG.pdf">PDF</a>
+      <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+    </div>
+    <div class="paper-desc">
+      Introduce CREG, a training-free interpretability framework that projects multi-layer contrastive Grad×Act attributions into a polar coordinate system to reveal directional spatial reasoning in VLMs, substantially outperforming standard attribution baselines on VSR and COCO-Pairs benchmarks.
+    </div>
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div><div class="badge">Preprint</div><img src='images/metro.png' alt="sym" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">What We Lose, What We Gain: Spatio-temporal Patterns of Lost-and-Found Items in Qingdao Metro</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, Chenghe Guan</span>
+    </div>
+    <div class="paper-venue">
+      Preprint, 2026.
+    </div>
+    <div class="paper-links">
+      <a class="paper-link" href="/assets/metro.pdf">PDF</a>
+      <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+    </div>
+    <div class="paper-desc">
+      Analyze 34,333 lost-and-found records across 173 stations of the Qingdao Metro to uncover spatio-temporal loss patterns, holiday effects, and station-level hotspots, offering data-driven insights for transit service optimization.
+    </div>
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div><div class="badge">Preprint</div><img src='images/robotlane.png' alt="sym" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">Under What Conditions Does Dedicated Space for Sidewalk Delivery Robots Outperform Shared Space? A Simulation-Based Planning Screening Framework</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, Chenghe Guan</span>
+    </div>
+    <div class="paper-venue">
+      Preprint, 2026.
+    </div>
+    <div class="paper-links">
+      <a class="paper-link" href="/assets/robotlane.pdf">PDF</a>
+      <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+    </div>
+    <div class="paper-desc">
+      Develop a simulation-based screening framework calibrated to 201 observed robot–pedestrian interactions to compare shared-space, managed sharing, and dedicated lane interventions across 5,250 sidewalk scenarios, providing urban planners a decision tool for robot-lane allocation.
     </div>
   </div>
 </div>
