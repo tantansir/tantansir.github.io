@@ -282,7 +282,7 @@ Specifically, my research agenda explores four key topics:
       Preprint, 2026.
     </div>
     <div class="paper-links">
-      <a class="paper-link" href="/assets/metro.pdf">PDF</a>
+      <!-- <a class="paper-link" href="/assets/metro.pdf">PDF</a> -->
       <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
     </div>
     <div class="paper-desc">
