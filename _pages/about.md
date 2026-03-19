@@ -23,7 +23,7 @@ My research sits at the intersection of **Urban Science** and **Human-centered A
 
 To realize this vision, my work integrates:
 * **Paradigms:** Robot-Friendly City, Lightweight Urbanization, Self-evolving Urban Digital Twins
-* **Methodologies:** Social Sensing, Geospatial & Spatiotemporal Data Analysis, Computational Social Science
+* **Methodologies:** Multimodal Learning, Geospatial & Spatiotemporal Data Analysis, Computational Social Science
 * **Technologies:** LLMs, VLMs, AI Agents, Embodied AI, Spatial Intelligence, World Models, Emerging Devices
 
 Specifically, my research agenda explores four key topics:
@@ -43,7 +43,7 @@ Specifically, my research agenda explores four key topics:
   </div>
 
   <div class="research-card">
-    <h4>🏙️ 2. Self-Evolving Urban Digital Twins <span class="amp">&amp;</span> Agents</h4>
+    <h4>🏙️ 2. Urban Digital Twins <span class="amp">&amp;</span> Agents</h4>
     <p><i>How to build a continuously updated digital twin that hosts agents and supports equitable city governance?</i></p>
     <ul>
       <li><b>Urban Foundation Model:</b> Fuse remote sensing, street imagery, trajectories, POI, IoT, and text into unified urban representations.</li>
@@ -55,7 +55,7 @@ Specifically, my research agenda explores four key topics:
   </div>
 
   <div class="research-card">
-    <h4>🎨 3. Social Sensing <span class="amp">&amp;</span> Human-Environment Interaction</h4>
+    <h4>🎨 3. Multimodal Social Sensing</h4>
     <p><i>How can multimodal human-centered data become actionable insights for urban planning?</i></p>
     <ul>
       <li><b>AI-Enhanced Geospatial Analysis:</b> Link urban form, environment, and mobility with human behavior and public service outcomes.</li>
