@@ -276,7 +276,7 @@ Specifically, my research agenda explores four key topics:
   <div class='paper-box-text'>
     <div class="paper-title">What We Lose, What We Gain: Spatio-temporal Patterns of Lost-and-Found Items in Qingdao Metro</div>
     <div class="paper-authors">
-      <span class="author-self">Kaizhen Tan</span><span class="author-other">, Chenghe Guan</span>
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
     </div>
     <div class="paper-venue">
       Preprint, 2026.
@@ -286,7 +286,7 @@ Specifically, my research agenda explores four key topics:
       <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
     </div>
     <div class="paper-desc">
-      Analyze 34,333 lost-and-found records across 173 stations of the Qingdao Metro to uncover spatio-temporal loss patterns, holiday effects, and station-level hotspots, offering data-driven insights for transit service optimization.
+      Analyze 34,333 lost-and-found records across 173 metro stations to uncover spatio-temporal loss patterns, holiday effects, and station-level hotspots for transit service optimization.
     </div>
   </div>
 </div>
@@ -298,7 +298,7 @@ Specifically, my research agenda explores four key topics:
   <div class='paper-box-text'>
     <div class="paper-title">Under What Conditions Does Dedicated Space for Sidewalk Delivery Robots Outperform Shared Space? A Simulation-Based Planning Screening Framework</div>
     <div class="paper-authors">
-      <span class="author-self">Kaizhen Tan</span><span class="author-other">, Chenghe Guan</span>
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
     </div>
     <div class="paper-venue">
       Preprint, 2026.
@@ -308,7 +308,7 @@ Specifically, my research agenda explores four key topics:
       <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
     </div>
     <div class="paper-desc">
-      Develop a simulation-based screening framework calibrated to 201 observed robot–pedestrian interactions to compare shared-space, managed sharing, and dedicated lane interventions across 5,250 sidewalk scenarios, providing urban planners a decision tool for robot-lane allocation.
+      A simulation-based screening framework comparing shared-space, managed sharing, and dedicated lane policies across 5,250 sidewalk scenarios to guide robot-lane allocation decisions for urban planners.
     </div>
   </div>
 </div>
