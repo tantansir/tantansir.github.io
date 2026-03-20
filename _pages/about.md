@@ -392,9 +392,7 @@ Specifically, my research agenda explores four key topics:
 <div class="visitor-map-wrap">
   <div class="visitor-map-card">
     <div class="visitor-map-embed" aria-label="Visitor map">
-      <script type="text/javascript" id="mapmyvisitors"
-        src="//mapmyvisitors.com/map.js?d=fU8cgDogJMfp7fmFhvAp5fSI9CakxNg1n0lI_B_Gc6o&cl=ffffff&w=a">
-      </script>
+        <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=f5f7fa&w=300&t=tt&d=fU8cgDogJMfp7fmFhvAp5fSI9CakxNg1n0lI_B_Gc6o&co=2d4f73&cmo=6cb6a5&cmn=e76f51&ct=ffffff'></script>
     </div>
   </div>
 </div>
