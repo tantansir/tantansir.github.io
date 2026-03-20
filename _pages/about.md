@@ -138,12 +138,11 @@ Specifically, my research agenda explores four key topics:
 
 ## 🔭 Research
 
-- *2026.04 - Present*, Research Assistant, Shanghai Key Laboratory of Urban Design and Urban Science (LOUD)
-- *2025.10 - 2026.03*, Research Assistant, Institute of Remote Sensing and GIS, Peking University, China
+- *2026.04 - Present*, Research Assistant, [Shanghai Key Laboratory of Urban Design and Urban Science (LOUD)](https://urban.shanghai.nyu.edu/), NYU Shanghai
+- *2025.10 - 2026.03*, Research Assistant, [Spatio-Temporal Social Sensing Lab (S3-Lab)](https://geos3.netlify.app/), Peking University, China
 - *2024.09 - 2024.12*, Research Officer Intern, [A*STAR Institute for Infocomm Research](https://www.a-star.edu.sg/i2r), Singapore
-- *2024.04 - 2025.04*, Research Assistant, College of Architecture and Urban Planning, Tongji University, China
-- *2024.04 - 2024.12*, Research Assistant, College of Surveying and Geo-Informatics, Tongji University, China
-
+- *2024.04 - 2025.04*, Research Assistant, [College of Architecture and Urban Planning](https://caup.tongji.edu.cn/caupen/main.psp), Tongji University, China
+- *2024.04 - 2024.12*, Research Assistant, [College of Surveying and Geo-Informatics](https://celiang.tongji.edu.cn/english/Home.htm), Tongji University, China
 ## 💻 Industry
 - *2025.01 - 2025.04*, AI Product Manager, [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/), China.
 - *2023.01 - 2023.02*, Data Analyst, Shanghai Qiantan Emerging Industry Research Institute, China.
