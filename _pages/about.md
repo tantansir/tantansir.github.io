@@ -343,6 +343,7 @@ Specifically, my research agenda explores four key topics:
     </div>
     <div class="paper-links">
       <a class="paper-link" href="/assets/RAGCACHE++.pdf">Report</a>
+      <a class="paper-link" href="https://github.com/tantansir/RAGCachePlusPlus">GitHub</a>
     </div>
     <div class="paper-desc">
       Propose RAGCache++, a lightweight prompt-level optimization that reorders retrieved documents to maximize prefix sharing with cached sequences via a knowledge tree and greedy algorithm, reducing median TTFT by 20–33% with zero GPU memory cost and no serving-engine modification.
