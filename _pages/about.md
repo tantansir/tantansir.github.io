@@ -187,7 +187,7 @@ Specifically, my research agenda explores four key topics:
       Global Smart Cities Summit cum The 4th International Conference on Urban Informatics, 2025.
     </div>
     <div class="paper-links">
-      <a class="paper-link" href="https://arxiv.org/abs/2509.03830">arXiv</a>
+      <a class="paper-link" href="https://arxiv.org/pdf/2509.03830">arXiv</a>
       <a class="paper-link" href="/assets/ICUI2025.pptx">Slides</a>
       <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
     </div>
@@ -258,7 +258,7 @@ Specifically, my research agenda explores four key topics:
       Preprint, 2026.
     </div>
     <div class="paper-links">
-      <a class="paper-link" href="/assets/CREG.pdf">PDF</a>
+      <a class="paper-link" href="https://arxiv.org/pdf/2603.20475">arXiv</a>
       <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
     </div>
     <div class="paper-desc">
