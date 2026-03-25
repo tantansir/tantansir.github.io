@@ -164,7 +164,7 @@ Specifically, my research agenda explores four key topics:
       XXV ISPRS Congress, 2026.
     </div>
     <div class="paper-links">
-      <a class="paper-link" href="/assets/UrbanVGGT.pdf">PDF</a>
+      <a class="paper-link" href="https://arxiv.org/pdf/2603.22531">arXiv</a>
       <a class="paper-link" href="/assets/isprs_abstract_kaizhen_fan.pdf">Abstract</a>
       <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
     </div>
