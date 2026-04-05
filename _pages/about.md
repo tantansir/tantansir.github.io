@@ -250,7 +250,7 @@ Specifically, my research agenda explores four key topics:
     <div><div class="badge">Preprint</div><img src='images/creg.png' alt="sym" width="100%"></div>
   </div>
   <div class='paper-box-text'>
-    <div class="paper-title">CREG: Compass Relational Evidence Graph for Diagnosing Layout Bias and Characterizing Relational Signal in VLM Spatial Attribution</div>
+    <div class="paper-title">CREG: Compass Relational Evidence Graph for Characterizing Directional Structure in VLM Spatial-Reasoning Attribution</div>
     <div class="paper-authors">
       <span class="author-self">Kaizhen Tan</span>
     </div>
