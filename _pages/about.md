@@ -236,6 +236,7 @@ Specifically, my research agenda explores four key topics:
     <div class="paper-links">
       <a class="paper-link" href="https://doi.org/10.1080/15481603.2025.2602215">DOI</a>
       <a class="paper-link" href="https://www.tandfonline.com/doi/epdf/10.1080/15481603.2025.2602215">PDF</a>
+      <strong><span class='show_paper_citations' data='JtyjnWYAAAAJ:qjMakFHDy7sC'></span></strong>
     </div>
     <div class="paper-desc">
       Proposed a spatiotemporal adaptive local search (STALS) method combining dynamic graph learning and spatial analytics to model and mitigate large-scale urban traffic congestion propagation.
@@ -252,7 +253,7 @@ Specifically, my research agenda explores four key topics:
   <div class='paper-box-text'>
     <div class="paper-title">CREG: Compass Relational Evidence Graph for Characterizing Directional Structure in VLM Spatial-Reasoning Attribution</div>
     <div class="paper-authors">
-      <span class="author-self">Kaizhen Tan</span>
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
     </div>
     <div class="paper-venue">
       Preprint, 2026.
@@ -263,6 +264,50 @@ Specifically, my research agenda explores four key topics:
     </div>
     <div class="paper-desc">
       A training-free interpretability framework that maps vision-language model attributions into a polar coordinate system to reveal how VLMs reason about spatial relations.
+    </div>
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div><div class="badge">Preprint</div><img src='images/robotlane.png' alt="sym" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">Do We Need a Robot Lane? A Simulation-Based Screening Framework for Sidewalk Delivery Robots</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
+    </div>
+    <div class="paper-venue">
+      Preprint, 2026.
+    </div>
+    <div class="paper-links">
+      <!-- <a class="paper-link" href="/assets/robotlane.pdf">PDF</a> -->
+      <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+    </div>
+    <div class="paper-desc">
+      When should cities give sidewalk robots their own lane? An agent-based simulation framework that screens shared vs. dedicated space policies to answer this question.
+    </div>
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div><div class="badge">Preprint</div><img src='images/Pruning.png' alt="token pruning calibration" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">Does Visual Token Pruning Improve Calibration? An Empirical Study on Confidence in MLLMs</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span>
+    </div>
+    <div class="paper-venue">
+      Preprint, 2026.
+    </div>
+    <div class="paper-links">
+      <!-- <a class="paper-link" href="/assets/Pruning.pdf">PDF</a> -->
+      <!-- <strong><span class='show_paper_citations' data='YOUR_SCHOLAR_PAPER_ID'></span></strong> -->
+    </div>
+    <div class="paper-desc">
+      Do visual tokens need to be kept for reliable confidence? This paper shows that moderate coverage-based pruning can make MLLMs better calibrated without noticeably hurting accuracy.
     </div>
   </div>
 </div>
@@ -285,27 +330,6 @@ Specifically, my research agenda explores four key topics:
     </div>
     <div class="paper-desc">
       Analyze 34,333 lost-and-found records across 173 metro stations to uncover spatio-temporal loss patterns, holiday effects, and station-level hotspots for transit service optimization.
-    </div>
-  </div>
-</div>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div><div class="badge">Preprint</div><img src='images/robotlane.png' alt="sym" width="100%"></div>
-  </div>
-  <div class='paper-box-text'>
-    <div class="paper-title">Do We Need a Robot Lane? A Simulation-Based Screening Framework for Sidewalk Delivery Robots</div>
-    <div class="paper-authors">
-      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
-    </div>
-    <div class="paper-venue">
-      Preprint, 2026.
-    </div>
-    <div class="paper-links">
-      <!-- <a class="paper-link" href="/assets/robotlane.pdf">PDF</a> -->
-      <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-    </div>
-    <div class="paper-desc">
-      When should cities give sidewalk robots their own lane? An agent-based simulation framework that screens shared vs. dedicated space policies to answer this question.
     </div>
   </div>
 </div>
