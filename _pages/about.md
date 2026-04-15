@@ -31,7 +31,7 @@ Specifically, my research agenda explores four key topics:
 <div class="research-container research-grid">
 
   <div class="research-card">
-    <h4>🤖 1. Robotic Urbanism <span class="amp">&amp;</span> Governance</h4>
+    <h4>🤖 1. Robotic Urbanization <span class="amp">&amp;</span> Governance</h4>
     <p><i>How should embodied intelligence operate in cities, and how can humans govern it at scale?</i></p>
     <ul>
       <li><b>Robot-Friendly Urban Space:</b> Redesign streets and buildings with standards for robot siting, infrastructure, and responsibility boundaries.</li>
