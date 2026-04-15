@@ -303,8 +303,7 @@ Specifically, my research agenda explores four key topics:
       Preprint, 2026.
     </div>
     <div class="paper-links">
-      <!-- <a class="paper-link" href="/assets/Pruning.pdf">PDF</a> -->
-      <!-- <strong><span class='show_paper_citations' data='YOUR_SCHOLAR_PAPER_ID'></span></strong> -->
+      <a class="paper-link" href="https://arxiv.org/pdf/2604.12035">arXiv</a>
     </div>
     <div class="paper-desc">
       Do visual tokens need to be kept for reliable confidence? This paper shows that moderate coverage-based pruning can make MLLMs better calibrated without noticeably hurting accuracy.
