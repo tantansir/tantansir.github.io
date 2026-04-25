@@ -31,7 +31,7 @@ Specifically, my research agenda is organized around four key topics:
 <div class="research-container research-grid">
 
   <div class="research-card">
-    <h4>🤖 1. Robot-Friendly Urban Space</h4>
+    <h4>🤖 1. Robotic Urbanization <span class="amp">&amp;</span> Governance</h4>
     <p><i>How can dense cities integrate embodied intelligence while preserving safety, accessibility, and pedestrian experience?</i></p>
     <ul>
       <li><b>Urban Readiness for Robots:</b> Measure whether sidewalks, crossings, curbs, buildings, and public facilities can support safe robot operation.</li>
