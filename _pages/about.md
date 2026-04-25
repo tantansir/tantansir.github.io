@@ -21,12 +21,12 @@ Hi! I am Kaizhen Tan (Chinese name: 谭楷蓁), an incoming Ph.D. student at **N
 
 My research sits at the intersection of <b>Urban Science</b>, <b>Human-centered AI</b>, and <b>Embodied Intelligence</b>. Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, I aim to address the knowledge-to-action gap in digital cities: while urban digital systems are increasingly capable of monitoring conditions, modeling urban dynamics, and anticipating risks, they still struggle to support timely, place-based action. My work seeks to build spatially intelligent and socially aware urban AI systems that make cities more adaptive, inclusive, and governable.
 
-To realize this vision, my work integrates:
+My research integrates:
 * **Paradigms:** Robotic Urbanization, Agentic Urban Digital Twins, Human-centered Urban Governance
 * **Methodologies:** Multimodal Learning, Geospatial & Spatiotemporal Data Analysis, Computational Social Science
 * **Technical Foundations:** LLMs, VLMs, AI Agents, Embodied AI, Spatial Intelligence, World Models, Emerging Devices
 
-Specifically, my research agenda explores four key topics:
+Specifically, my research agenda is organized around four key topics:
 
 <div class="research-container research-grid">
 
