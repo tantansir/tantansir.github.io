@@ -32,7 +32,7 @@ Specifically, my research agenda explores four key topics:
 
   <div class="research-card">
     <h4>🤖 1. Robot-Friendly Urban Space</h4>
-    <p><i>How can dense cities accommodate embodied intelligence while protecting safety, accessibility, and pedestrian experience?</i></p>
+    <p><i>How can dense cities integrate embodied intelligence while protecting safety, accessibility, and pedestrian experience?</i></p>
     <ul>
       <li><b>Urban Readiness for Robots:</b> Measure whether sidewalks, crossings, curbs, buildings, and public facilities can support safe robot operation.</li>
       <li><b>Human-Robot Coexistence:</b> Study conflicts, comfort, right-of-way, and interaction norms between robots, pedestrians, cyclists, and vulnerable groups.</li>
