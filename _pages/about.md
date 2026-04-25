@@ -19,12 +19,12 @@ redirect_from:
 
 Hi! I am Kaizhen Tan (Chinese name: 谭楷蓁), an incoming Ph.D. student at **New York University**, currently pursuing my master’s degree in Artificial Intelligence at **Carnegie Mellon University**. I received my bachelor’s degree in Information Systems from **Tongji University**.
 
-My research sits at the intersection of <b>Urban Science</b>, <b>Human-centered AI</b>, and <b>Embodied Intelligence</b>. Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, I aim to build spatially intelligent and socially aware urban AI systems that make cities more adaptive, inclusive, and governable.
+My research sits at the intersection of <b>Urban Science</b>, <b>Human-centered AI</b>, and <b>Embodied Intelligence</b>. Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, I aim to address the knowledge-to-action gap in digital cities: while urban digital systems are increasingly capable of monitoring conditions, modeling urban dynamics, and anticipating risks, they still struggle to support timely, place-based action. My work seeks to build spatially intelligent and socially aware urban AI systems that make cities more adaptive, inclusive, and governable.
 
 To realize this vision, my work integrates:
 * **Paradigms:** Robotic Urbanization, Agentic Urban Digital Twins, Human-centered Urban Governance
 * **Methodologies:** Multimodal Learning, Geospatial & Spatiotemporal Data Analysis, Computational Social Science
-* **Technologies:** LLMs, VLMs, AI Agents, Embodied AI, Spatial Intelligence, World Models, Emerging Devices
+* **Technical Foundations:** LLMs, VLMs, AI Agents, Embodied AI, Spatial Intelligence, World Models, Emerging Devices
 
 Specifically, my research agenda explores four key topics:
 
@@ -32,7 +32,7 @@ Specifically, my research agenda explores four key topics:
 
   <div class="research-card">
     <h4>🤖 1. Robot-Friendly Urban Space</h4>
-    <p><i>How can dense cities integrate embodied intelligence while protecting safety, accessibility, and pedestrian experience?</i></p>
+    <p><i>How can dense cities integrate embodied intelligence while preserving safety, accessibility, and pedestrian experience?</i></p>
     <ul>
       <li><b>Urban Readiness for Robots:</b> Measure whether sidewalks, crossings, curbs, buildings, and public facilities can support safe robot operation.</li>
       <li><b>Human-Robot Coexistence:</b> Study conflicts, comfort, right-of-way, and interaction norms between robots, pedestrians, cyclists, and vulnerable groups.</li>
