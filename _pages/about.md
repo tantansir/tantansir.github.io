@@ -32,7 +32,7 @@ Specifically, my research agenda explores four key topics:
 
   <div class="research-card">
     <h4>🤖 1. Robot-Friendly Urban Space</h4>
-    <p><i>How can dense cities accommodate embodied intelligence while protecting safety, accessibility, and public space quality?</i></p>
+    <p><i>How can dense cities accommodate embodied intelligence while protecting safety, accessibility, and pedestrian experience?</i></p>
     <ul>
       <li><b>Urban Readiness for Robots:</b> Measure whether sidewalks, crossings, curbs, buildings, and public facilities can support safe robot operation.</li>
       <li><b>Human-Robot Coexistence:</b> Study conflicts, comfort, right-of-way, and interaction norms between robots, pedestrians, cyclists, and vulnerable groups.</li>
@@ -48,7 +48,7 @@ Specifically, my research agenda explores four key topics:
     <ul>
       <li><b>Urban Foundation Representations:</b> Fuse remote sensing, street-view imagery, trajectories, POI, IoT, text, and 3D data into unified urban representations.</li>
       <li><b>Continuous Urban Sensing:</b> Use robots, drones, mobile devices, and wearables as emerging data sources to update urban conditions over time.</li>
-      <li><b>3D City Understanding:</b> Support geo-localization, semantic mapping, and spatial querying across point clouds, meshes, 3D Gaussians, and city-scale models.</li>
+      <li><b>3D City Understanding:</b> Support geo-localization, semantic mapping, and spatial querying in city-scale 3D models.</li>
       <li><b>Urban Agents:</b> Build LLM and VLM agents for map reasoning, spatial RAG, policy QA, public service assistance, and planning workflows.</li>
       <li><b>Policy Sandbox:</b> Enable what-if simulation, risk assessment, and implementation checks for urban management and public policy.</li>
     </ul>
