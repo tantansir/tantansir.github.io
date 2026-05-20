@@ -19,12 +19,12 @@ redirect_from:
 
 Hi! I am Kaizhen Tan (Chinese name: 谭楷蓁), an incoming Ph.D. student at **New York University**, currently pursuing my master’s degree in Artificial Intelligence at **Carnegie Mellon University**. I received my bachelor’s degree in Information Systems from **Tongji University**.
 
-My research sits at the intersection of <b>Urban Science</b>, <b>Human-centered AI</b>, and <b>Embodied Intelligence</b>. Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, I aim to address the knowledge-to-action gap in digital cities: while urban digital systems are increasingly capable of monitoring conditions, modeling urban dynamics, and anticipating risks, they still struggle to support timely, place-based action. My work seeks to build spatially intelligent and socially aware urban AI systems that make cities more adaptive, inclusive, and governable.
+My research sits at the intersection of <b>Urban Science</b>, <b>Spatial Intelligence</b>, and <b>Embodied AI for Urban Environments</b>. Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, I aim to address the knowledge-to-action gap in digital cities: while urban digital systems are increasingly capable of monitoring conditions, modeling urban dynamics, and anticipating risks, they still struggle to support timely, place-based action. My work seeks to build spatially intelligent and socially aware urban AI systems that make cities more adaptive, inclusive, and governable.
 
 My research integrates:
 * **Paradigms:** Robotic Urbanization, Agentic Urban Digital Twins, Human-centered Urban Governance
 * **Methodologies:** Multimodal Learning, Geospatial & Spatiotemporal Data Analysis, Computational Social Science
-* **Technical Foundations:** LLMs, VLMs, AI Agents, Embodied AI, Spatial Intelligence, World Models, Emerging Devices
+* **Technical Foundations:** LLMs, VLMs, AI Agents, World Models, 3D Vision, Wearable Devices
 
 Specifically, my research agenda is organized around four key topics:
 
