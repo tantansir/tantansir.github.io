@@ -109,7 +109,7 @@ Specifically, my research agenda is organized around four key topics:
       <strong>New York University</strong>
     </div>
     <div class="edu-sub"><em>2026.09 – 2031.05 (expected)</em></div>
-    <div class="edu-sub"><em>Ph.D. student in Public Administration (Urban Policy)</em></div>
+    <div class="edu-sub"><em>Ph.D. student in Urban Science</em></div>
   </div>
 </div>
 
@@ -120,7 +120,7 @@ Specifically, my research agenda is organized around four key topics:
       <strong>Carnegie Mellon University</strong>
     </div>
     <div class="edu-sub"><em>2025.08 – 2026.08</em></div>
-    <div class="edu-sub"><em>M.S. in Artificial Intelligence Systems Management</em></div>
+    <div class="edu-sub"><em>M.S. in Artificial Intelligence</em></div>
   </div>
 </div>
 
@@ -131,7 +131,7 @@ Specifically, my research agenda is organized around four key topics:
       <strong>Tongji University</strong>
     </div>
     <div class="edu-sub"><em>2021.09 – 2025.06</em></div>
-    <div class="edu-sub"><em>B.Mgt. in Information Management and Information System</em></div>
+    <div class="edu-sub"><em>B.Mgt. in Information Systems</em></div>
   </div>
 </div>
 
