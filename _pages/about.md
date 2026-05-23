@@ -167,7 +167,7 @@ Specifically, my research agenda is organized around four key topics:
     </div>
     <div class="paper-links">
       <a class="paper-link" href="https://arxiv.org/pdf/2603.22531">arXiv</a>
-      <a class="paper-link" href="/assets/isprs_abstract_kaizhen_fan.pdf">Abstract</a>
+      <a class="paper-link" href="/assets/poster.pdf">Poster</a>
       <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
     </div>
     <div class="paper-desc">
