@@ -356,25 +356,6 @@ Specifically, my research agenda is organized around four key topics:
   </div>
 </div>
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div><img src='images/ragcache.png' alt="sym" width="100%"></div>
-  </div>
-  <div class='paper-box-text'>
-    <div class="paper-title">RAGCache++: Cache-Aware Document Ordering for Low-Latency RAG Serving</div>
-    <div class="paper-authors">
-      <span class="author-self">Kaizhen Tan</span><span class="author-other">, Rong Gu, Mingyuan Li</span>
-    </div>
-    <div class="paper-links">
-      <a class="paper-link" href="/assets/RAGCACHE++.pdf">Report</a>
-      <a class="paper-link" href="https://github.com/tantansir/RAGCachePlusPlus">GitHub</a>
-    </div>
-    <div class="paper-desc">
-      Propose RAGCache++, a lightweight prompt-level optimization that reorders retrieved documents to maximize prefix sharing with cached sequences via a knowledge tree and greedy algorithm, reducing median TTFT by 20–33% with zero GPU memory cost and no serving-engine modification.
-    </div>
-  </div>
-</div>
-
 
 # 💬 Presentations
 
@@ -397,10 +378,6 @@ Specifically, my research agenda is organized around four key topics:
     <em>Hong Kong SAR, China</em>
   </li>
 </ul>
-
-[//]: # (### 2027.02, aag2027)
-[//]: # (Do we need a robot lane?)
-[//]: # (*New York, USA*)
 
 # 📫 Contact
 - Email(NYU): kt3275@nyu.edu
