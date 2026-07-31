@@ -85,16 +85,12 @@ Specifically, my research agenda is organized around four key topics:
 
 <div class="news-scroll" markdown="1">
 
+- *2026.07*: 🎉 Our paper [CREG](https://arxiv.org/abs/2603.20475) was accepted by the 9th Chinese Conference on Pattern Recognition and Computer Vision (PRCV 2026).
 - *2026.03*: 🎓 I am pleased to share that I will begin my PhD at New York University in Fall 2026 under the supervision of [Prof. Chenghe Guan](https://wagner.nyu.edu/community/faculty/chenghe-guan) and [Prof. Zhan Guo](https://wagner.nyu.edu/community/faculty/zhan-guo).
 - *2026.01*: 🎉 The abstract co-authored with Prof. Fan Zhang has been accepted for the [XXV ISPRS Congress 2026](https://www.isprs2026toronto.com/). See you in Toronto!
 - *2025.12*: 🎉 Our paper, led by my senior labmate Dr. Weihua Huan and co-authored with Prof. Wei Huang at Tongji University, was accepted by GIScience & Remote Sensing; honored to contribute as second author and big congratulations to Dr. Huan!
 - *2025.10*: 🔭 Joined [Prof. Yu Liu](https://scholar.google.com/citations?user=Xh_lRY4AAAAJ) and [Prof. Fan Zhang](https://scholar.google.com/citations?user=dc1TzLoAAAAJ)'s team at Peking University as a remote research assistant.
 - *2025.08*: 🎉 Delivered an oral presentation at Hong Kong Polytechnic University after our paper was accepted to the Global Smart Cities Summit cum The 4th International Conference on Urban Informatics [(GSCS & ICUI 2025)](https://www.isocui.org/icui2025).
-- *2025.07*: 🎉 My undergraduate thesis was accepted by 7th Asia Conference on Machine Learning and Computing [(ACMLC 2025)](https://www.acmlc.org/acmlc2025.html).
-- *2025.06*: 🎓 Graduated from Tongji University—grateful for the journey and excited to continue my studies at CMU.
-- *2025.04*: 🔭 Completed the SITP project under the supervision of [Prof. Yujia Zhai](https://www.researchgate.net/profile/Yujia-Zhai-15) in the College of Architecture and Urban Planning.
-- *2025.01*: 💼 Joined Shanghai Artificial Intelligence Laboratory as an AI Product Manager Intern.
-- *2024.09*: 🌏 Conducted research at ASTAR in Singapore under the supervision of [Dr. Yicheng Zhang](https://zinczhang.github.io/) and [Dr. Sheng Zhang](https://ieeexplore.ieee.org/author/37086165610).
 - *2024.04*: 🔭 Began my academic journey at [Prof. Wei Huang](https://huangweibuct.github.io/weihuang.github.io/)'s lab in the College of Surveying and Geo-Informatics, Tongji University.
 
 </div>
@@ -139,23 +135,116 @@ Specifically, my research agenda is organized around four key topics:
 # 💼 Experience
 
 ## 🔭 Research
-- *2026.04 - Present*, Research Assistant, [Shanghai Key Laboratory of Urban Design and Urban Science (LOUD)](https://urban.shanghai.nyu.edu/), NYU Shanghai, China
-- *2025.10 - 2026.03*, Research Assistant, [Spatio-Temporal Social Sensing Lab (S3-Lab)](https://geos3.netlify.app/), Peking University, China
-- *2024.09 - 2024.12*, Research Intern, [A*STAR Institute for Infocomm Research](https://www.a-star.edu.sg/i2r), Singapore
-- *2024.04 - 2025.04*, Research Assistant, [College of Architecture and Urban Planning](https://caup.tongji.edu.cn/caupen/main.psp), Tongji University, China
-- *2024.04 - 2024.12*, Research Assistant, [College of Surveying and Geo-Informatics](https://celiang.tongji.edu.cn/english/Home.htm), Tongji University, China
+
+<div class="exp-item">
+  <img class="exp-logo" src="/assets/nyu2.jpg" alt="NYU Shanghai" />
+  <div class="exp-content">
+    <div class="exp-top">
+      <strong><a href="https://urban.shanghai.nyu.edu/">Shanghai Key Laboratory of Urban Design and Urban Science (LOUD)</a></strong>
+      <span class="exp-date">2026.05 – Present</span>
+    </div>
+    <div class="exp-role">Research Assistant · NYU Shanghai, China</div>
+    <div class="exp-advisor"><span class="exp-advisor__label">Advisors</span><a href="https://wagner.nyu.edu/community/faculty/chenghe-guan">Prof. Chenghe Guan</a>, Prof. Zhaonan Wang</div>
+    <div class="exp-desc">Designing embodied-intelligence-friendly urban spaces, and advancing collaborative governance through digital twins and urban agents that model complex city dynamics.</div>
+  </div>
+</div>
+
+<div class="exp-item">
+  <span class="exp-logo exp-logo--mono" aria-hidden="true">PKU</span>
+  <div class="exp-content">
+    <div class="exp-top">
+      <strong><a href="https://geos3.netlify.app/">Spatio-Temporal Social Sensing Lab (S3-Lab)</a></strong>
+      <span class="exp-date">2025.10 – 2026.03</span>
+    </div>
+    <div class="exp-role">Research Assistant · Peking University, China</div>
+    <div class="exp-advisor"><span class="exp-advisor__label">Advisors</span><a href="https://scholar.google.com/citations?user=Xh_lRY4AAAAJ">Prof. Yu Liu</a>, <a href="https://scholar.google.com/citations?user=dc1TzLoAAAAJ">Prof. Fan Zhang</a></div>
+    <div class="exp-desc">Automated urban element measurement from street view using VGGT and semantic segmentation, recovering metric scale via ground-plane fitting and camera-height calibration for large-scale data generation.</div>
+  </div>
+</div>
+
+<div class="exp-item">
+  <span class="exp-logo exp-logo--mono" aria-hidden="true">A*</span>
+  <div class="exp-content">
+    <div class="exp-top">
+      <strong><a href="https://www.a-star.edu.sg/i2r">A*STAR, Institute for Infocomm Research</a></strong>
+      <span class="exp-date">2024.09 – 2025.05</span>
+    </div>
+    <div class="exp-role">Research Intern · Singapore</div>
+    <div class="exp-advisor"><span class="exp-advisor__label">Advisors</span><a href="https://zinczhang.github.io/">Dr. Yicheng Zhang</a>, <a href="https://ieeexplore.ieee.org/author/37086165610">Dr. Sheng Zhang</a></div>
+    <div class="exp-desc">Modeled air traffic controller communication tasks to predict workload from radiotelephony and trajectory data, integrating multi-source air traffic data with a CNN-Transformer model.</div>
+  </div>
+</div>
+
+<div class="exp-item">
+  <img class="exp-logo" src="/assets/tongji.svg" alt="Tongji University" />
+  <div class="exp-content">
+    <div class="exp-top">
+      <strong><a href="https://caup.tongji.edu.cn/caupen/main.psp">College of Architecture and Urban Planning</a></strong>
+      <span class="exp-date">2024.04 – 2025.04</span>
+    </div>
+    <div class="exp-role">Research Assistant · Tongji University, China</div>
+    <div class="exp-advisor"><span class="exp-advisor__label">Advisor</span><a href="https://www.researchgate.net/profile/Yujia-Zhai-15">Prof. Yujia Zhai</a></div>
+    <div class="exp-desc">Built a multimodal pipeline over social media reviews and photos to analyze tourist perception of historic quarters, fine-tuning segmentation models and applying sentiment analysis for multi-dimension satisfaction scores.</div>
+  </div>
+</div>
+
+<div class="exp-item">
+  <img class="exp-logo" src="/assets/tongji.svg" alt="Tongji University" />
+  <div class="exp-content">
+    <div class="exp-top">
+      <strong><a href="https://celiang.tongji.edu.cn/english/Home.htm">College of Surveying and Geo-Informatics</a></strong>
+      <span class="exp-date">2024.04 – 2024.12</span>
+    </div>
+    <div class="exp-role">Research Assistant · Tongji University, China</div>
+    <div class="exp-advisor"><span class="exp-advisor__label">Advisor</span><a href="https://huangweibuct.github.io/weihuang.github.io/">Prof. Wei Huang</a></div>
+    <div class="exp-desc">Modeled traffic congestion propagation with spatiotemporal graphs and multi-scale community search, linking propagation patterns to built environment factors via causal analysis and POI-based features.</div>
+  </div>
+</div>
 
 ## 💻 Industry
-- *2025.01 - 2025.04*, AI Product Manager, [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/), China.
-- *2023.01 - 2023.02*, Data Analyst, [Shanghai Qiantan Emerging Industry Research Institute](https://www.idss.org.cn/), China
 
-# 📝 Selected Papers
+<div class="exp-item">
+  <span class="exp-logo exp-logo--mono" aria-hidden="true">AI</span>
+  <div class="exp-content">
+    <div class="exp-top">
+      <strong><a href="https://www.shlab.org.cn/">Shanghai Artificial Intelligence Laboratory</a></strong>
+      <span class="exp-date">2025.01 – 2025.04</span>
+    </div>
+    <div class="exp-role">AI Product Manager Intern · Shanghai, China</div>
+    <div class="exp-desc">Ran end-to-end market and competitive analysis for AI products (Migo, Auto-Research) against 50+ vertical tools, built an operational KPI dashboard for retention and behavior funnels, and established evaluation frameworks for Migo's InternLM model.</div>
+  </div>
+</div>
 
-## Peer-Reviewed
+<div class="exp-item">
+  <span class="exp-logo exp-logo--mono" aria-hidden="true">QT</span>
+  <div class="exp-content">
+    <div class="exp-top">
+      <strong><a href="https://www.idss.org.cn/">Shanghai Qiantan Emerging Industry Research Institute</a></strong>
+      <span class="exp-date">2023.01 – 2023.02</span>
+    </div>
+    <div class="exp-role">Data Analyst · Shanghai, China</div>
+  </div>
+</div>
 
-<div class='paper-box'>
+# 📝 Publications
+
+<p class="pub-intro">Filter by research direction to see one line of work at a time. The papers leading each direction are <span class="pub-intro__lead">highlighted</span>.</p>
+
+<div class="pub-filter" id="pubFilter" role="group" aria-label="Filter publications by research direction">
+  <button type="button" class="pub-pill is-active" data-filter="all" aria-pressed="true">All<span class="pub-pill__n"></span></button>
+  <button type="button" class="pub-pill" data-filter="robotic" aria-pressed="false">🤖 Robotic Urbanization<span class="pub-pill__n"></span></button>
+  <button type="button" class="pub-pill" data-filter="twins" aria-pressed="false">🏙️ Urban Digital Twins<span class="pub-pill__n"></span></button>
+  <button type="button" class="pub-pill" data-filter="sensing" aria-pressed="false">🎨 Geospatial &amp; Social Sensing<span class="pub-pill__n"></span></button>
+  <button type="button" class="pub-pill" data-filter="spatial" aria-pressed="false">🚀 Spatial Intelligence &amp; World Models<span class="pub-pill__n"></span></button>
+  <button type="button" class="pub-pill" data-filter="others" aria-pressed="false">✦ Others<span class="pub-pill__n"></span></button>
+</div>
+
+<div class="pub-group">
+<h3 class="pub-group__title">Peer-Reviewed</h3>
+
+<div class='paper-box paper-box--lead' data-tags="twins">
   <div class='paper-box-image'>
-    <div><div class="badge">XXV ISPRS Congress</div><img src='images/5.jpg' alt="sym" width="100%"></div>
+    <div><div class="badge">XXV ISPRS Congress</div><img src='images/5.jpg' alt="UrbanVGGT" width="100%"></div>
   </div>
   <div class='paper-box-text'>
     <div class="paper-title">UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images</div>
@@ -163,69 +252,64 @@ Specifically, my research agenda is organized around four key topics:
       <span class="author-self">Kaizhen Tan</span><span class="author-other">, Fan Zhang</span>
     </div>
     <div class="paper-venue">
-      XXV ISPRS Congress, 2026.
+      The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, XLIX-B2-2026, 559–567 (XXV ISPRS Congress), 2026.
     </div>
     <div class="paper-links">
-      <a class="paper-link" href="https://arxiv.org/pdf/2603.22531">arXiv</a>
+      <a class="paper-link" href="https://doi.org/10.5194/isprs-archives-XLIX-B2-2026-559-2026">DOI</a>
+      <a class="paper-link" href="https://arxiv.org/abs/2603.22531">arXiv</a>
       <a class="paper-link" href="/assets/poster.pdf">Poster</a>
-      <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
     </div>
     <div class="paper-desc">
-      Present UrbanVGGT, a measurement pipeline for estimating metrically scaled sidewalk width from a single street-view image using VGGT-based 3D reconstruction, semantic segmentation, and ground-plane fitting, achieving 0.25 m MAE on a Washington D.C. benchmark.
+      A measurement pipeline that estimates metrically scaled sidewalk width from a single street-view image through VGGT-based 3D reconstruction, semantic segmentation, and adaptive ground-plane fitting, reaching 0.25 m MAE on a Washington D.C. benchmark.
     </div>
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box paper-box--lead' data-tags="spatial">
   <div class='paper-box-image'>
-    <div><div class="badge">GSCS & ICUI 2025</div><img src='images/2.png' alt="sym" width="100%"></div>
+    <div><div class="badge">PRCV 2026</div><img src='images/CREG.png' alt="CREG" width="100%"></div>
   </div>
   <div class='paper-box-text'>
-    <div class="paper-title">Decoding Tourist Perception in Historic Urban Quarters with Multimodal Social Media Data: An AI-Based Framework and Evidence from Shanghai</div>
+    <div class="paper-title">CREG: Compass Relational Evidence Graph for Characterizing Directional Structure in VLM Spatial-Reasoning Attribution</div>
     <div class="paper-authors">
-      <span class="author-self">Kaizhen Tan</span><span class="author-other">, Yufan Wu, Yuxuan Liu, Haoran Zeng</span>
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, Yang Feng, Heqing Du</span>
     </div>
     <div class="paper-venue">
-      Global Smart Cities Summit cum The 4th International Conference on Urban Informatics, 2025.
+      9th Chinese Conference on Pattern Recognition and Computer Vision (PRCV), 2026.
     </div>
     <div class="paper-links">
-      <a class="paper-link" href="https://arxiv.org/pdf/2509.03830">arXiv</a>
-      <a class="paper-link" href="/assets/ICUI2025.pptx">Slides</a>
-      <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+      <a class="paper-link" href="https://arxiv.org/abs/2603.20475">arXiv</a>
     </div>
     <div class="paper-desc">
-      Developed an AI-powered multimodal framework to analyze tourist perception in historic Shanghai quarters, integrating image segmentation, color theme analysis, and sentiment mining for heritage-informed urban planning.
+      A training-free diagnostic that maps vision-language model attributions into a compass-like relational graph, measuring whether the evidence a model attends to actually aligns with the queried spatial direction. Higher task accuracy turns out not to imply better directional organization.
     </div>
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box' data-tags="others">
   <div class='paper-box-image'>
-    <div><div class="badge">ACMLC 2025</div><img src='images/21.png' alt="sym" width="100%"></div>
+    <div><div class="badge">EMNLP 2026 Workshop</div><img src='images/ragcache.png' alt="CacheWeaver" width="100%"></div>
   </div>
   <div class='paper-box-text'>
-    <div class="paper-title">Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace</div>
+    <div class="paper-title">CacheWeaver: Cache-Aware Evidence Ordering for Efficient Grounded RAG Inference</div>
     <div class="paper-authors">
-      <span class="author-self">Kaizhen Tan</span>
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, Rong Gu, Mingyuan Li</span>
     </div>
     <div class="paper-venue">
-      Asia Conference on Machine Learning and Computing, 2025.
+      EMNLP 2026 Workshop on Grounding Language Models.
     </div>
     <div class="paper-links">
-      <a class="paper-link" href="https://doi.org/10.1145/3772673.3772702">DOI</a>
-      <a class="paper-link" href="https://dl.acm.org/doi/epdf/10.1145/3772673.3772702">PDF</a>
-      <a class="paper-link" href="/assets/ACMLC2025.pptx">Slides</a>
-      <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+      <a class="paper-link" href="https://arxiv.org/abs/2606.19667">arXiv</a>
     </div>
     <div class="paper-desc">
-      Designed a multimodal deep learning framework linking ATCO voice commands with aircraft trajectories to model workload dynamics, enabling intelligent command generation and scheduling support.
+      A prompt-layer reordering method that rearranges retrieved evidence so overlapping passages share prefix-cache hits, cutting median time-to-first-token by 20–33% across three vLLM configurations without touching the serving engine or the evidence set.
     </div>
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box paper-box--lead' data-tags="sensing">
   <div class='paper-box-image'>
-    <div><div class="badge">GIScience & Remote Sensing</div><img src='images/4.png' alt="sym" width="100%"></div>
+    <div><div class="badge">GIScience &amp; Remote Sensing</div><img src='images/4.png' alt="STALS" width="100%"></div>
   </div>
   <div class='paper-box-text'>
     <div class="paper-title">A Spatiotemporal Adaptive Local Search Method for Tracking Congestion Propagation in Dynamic Networks</div>
@@ -233,89 +317,195 @@ Specifically, my research agenda is organized around four key topics:
       <span class="author-other">Weihua Huan, </span><span class="author-self">Kaizhen Tan</span><span class="author-other">, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, Wei Huang</span>
     </div>
     <div class="paper-venue">
-      GIScience & Remote Sensing, 2025.
+      GIScience &amp; Remote Sensing, 62(1), 2602215, 2025.
     </div>
     <div class="paper-links">
       <a class="paper-link" href="https://doi.org/10.1080/15481603.2025.2602215">DOI</a>
-      <a class="paper-link" href="https://www.tandfonline.com/doi/epdf/10.1080/15481603.2025.2602215">PDF</a>
-      <strong><span class='show_paper_citations' data='JtyjnWYAAAAJ:qjMakFHDy7sC'></span></strong>
+      <a class="paper-link" href="https://arxiv.org/abs/2509.06099">arXiv</a>
     </div>
     <div class="paper-desc">
-      Proposed a spatiotemporal adaptive local search (STALS) method combining dynamic graph learning and spatial analytics to model and mitigate large-scale urban traffic congestion propagation.
+      A spatiotemporal adaptive local search (STALS) method combining dynamic graph learning and spatial analytics to trace how large-scale urban traffic congestion propagates through a road network.
     </div>
   </div>
 </div>
 
-## Preprints
-
-<div class='paper-box'>
+<div class='paper-box' data-tags="sensing">
   <div class='paper-box-image'>
-    <div><div class="badge">Preprint</div><img src='images/creg.png' alt="sym" width="100%"></div>
+    <div><div class="badge">GSCS &amp; ICUI 2025</div><img src='images/2.png' alt="Tourist perception framework" width="100%"></div>
   </div>
   <div class='paper-box-text'>
-    <div class="paper-title">CREG: Compass Relational Evidence Graph for Characterizing Directional Structure in VLM Spatial-Reasoning Attribution</div>
+    <div class="paper-title">Decoding Tourist Perception in Historic Urban Quarters with Multimodal Social Media Data: An AI-Based Framework and Evidence from Shanghai</div>
     <div class="paper-authors">
-      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, Yufan Wu, Yuxuan Liu, Haoran Zeng</span>
     </div>
     <div class="paper-venue">
-      Preprint, 2026.
+      Global Smart Cities Summit cum The 4th International Conference on Urban Informatics (GSCS &amp; ICUI), 2025.
     </div>
     <div class="paper-links">
-      <a class="paper-link" href="https://arxiv.org/pdf/2603.20475">arXiv</a>
-      <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+      <a class="paper-link" href="https://arxiv.org/abs/2509.03830">arXiv</a>
+      <a class="paper-link" href="/assets/ICUI2025.pptx">Slides</a>
     </div>
     <div class="paper-desc">
-      A training-free interpretability framework that maps vision-language model attributions into a polar coordinate system to reveal how VLMs reason about spatial relations.
+      A multimodal framework for reading tourist perception in historic Shanghai quarters, combining image segmentation, color theme analysis, and sentiment mining into four-dimensional satisfaction scores for heritage-informed planning.
     </div>
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box' data-tags="sensing">
   <div class='paper-box-image'>
-    <div><div class="badge">Preprint</div><img src='images/robotlane.png' alt="sym" width="100%"></div>
+    <div><div class="badge">ACMLC 2025</div><img src='images/21.png' alt="ATCO command lifecycle" width="100%"></div>
   </div>
   <div class='paper-box-text'>
-    <div class="paper-title">Do We Need a Robot Lane? A Simulation-Based Screening Framework for Sidewalk Delivery Robots</div>
-    <div class="paper-authors">
-      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
-    </div>
-    <div class="paper-venue">
-      Preprint, 2026.
-    </div>
-    <div class="paper-links">
-      <!-- <a class="paper-link" href="/assets/robotlane.pdf">PDF</a> -->
-      <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-    </div>
-    <div class="paper-desc">
-      When should cities give sidewalk robots their own lane? An agent-based simulation framework that screens shared vs. dedicated space policies to answer this question.
-    </div>
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div><div class="badge">Preprint</div><img src='images/Pruning.png' alt="token pruning calibration" width="100%"></div>
-  </div>
-  <div class='paper-box-text'>
-    <div class="paper-title">Does Visual Token Pruning Improve Calibration? An Empirical Study on Confidence in MLLMs</div>
+    <div class="paper-title">Multimodal Deep Learning for ATCO Command Lifecycle Modeling and Workload Prediction</div>
     <div class="paper-authors">
       <span class="author-self">Kaizhen Tan</span>
     </div>
     <div class="paper-venue">
-      Preprint, 2026.
+      7th Asia Conference on Machine Learning and Computing (ACMLC), 2025.
     </div>
     <div class="paper-links">
-      <a class="paper-link" href="https://arxiv.org/pdf/2604.12035">arXiv</a>
+      <a class="paper-link" href="https://doi.org/10.1145/3772673.3772702">DOI</a>
+      <a class="paper-link" href="https://arxiv.org/abs/2509.10522">arXiv</a>
+      <a class="paper-link" href="/assets/ACMLC2025.pptx">Slides</a>
     </div>
     <div class="paper-desc">
-      Do visual tokens need to be kept for reliable confidence? This paper shows that moderate coverage-based pruning can make MLLMs better calibrated without noticeably hurting accuracy.
+      A CNN-Transformer framework linking air traffic controller voice commands to aircraft trajectories, modeling command lifecycle and workload dynamics to support command generation and scheduling in terminal airspace.
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="pub-group">
+<h3 class="pub-group__title">Under Review</h3>
+
+<div class='paper-box paper-box--lead' data-tags="twins">
+  <div class='paper-box-image'>
+    <div><div class="badge">NeurIPS 2026</div><img src='images/geofidelity.jpg' alt="Real street views compared with six text-to-image generators across six cities" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">GeoFidelity-Bench: Evaluating Segment-Level Geographic Fidelity in Text-to-Image Street-View Generation</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, Hanzhe Hong, Siru Tao</span>
+    </div>
+    <div class="paper-venue">
+      Under Review at NeurIPS 2026.
+    </div>
+    <div class="paper-links">
+      <a class="paper-link" href="https://arxiv.org/abs/2606.23669">arXiv</a>
+    </div>
+    <div class="paper-desc">
+      A benchmark of 7,117 curated Mapillary images over 109 named OpenStreetMap road segments in 25 cities, asking whether text-to-image models can render <em>this</em> street rather than a plausible street. Naming the street and neighborhood helps; GPS coordinates alone do not.
     </div>
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box paper-box--lead' data-tags="spatial">
   <div class='paper-box-image'>
-    <div><div class="badge">Preprint</div><img src='images/metro.png' alt="sym" width="100%"></div>
+    <div><div class="badge">ICLR 2027</div><video class="paper-media" data-src="images/worldmodel.mp4" poster="images/worldmodel.png" muted loop playsinline preload="none" aria-label="On a held-out KUKA episode, force read from the frozen latent tracks the wrist force-torque sensor"></video></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">What Can Latent World Models Know? Physical Parameter Identifiability in Multimodal Predictive Representations</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, Xin Xu, Siru Tao, Yixiao Li, Hanzhe Hong, Yang Feng, Heqing Du</span>
+    </div>
+    <div class="paper-venue">
+      Under Review at ICLR 2027.
+    </div>
+    <div class="paper-links">
+      <a class="paper-link" href="https://tantansir.github.io/latent-world-model-identifiability/">Project Page</a>
+      <a class="paper-link" href="https://arxiv.org/abs/2607.27017">arXiv</a>
+    </div>
+    <div class="paper-desc">
+      Asks which physical parameters of an environment are actually recoverable from a latent world model's predictive representation, and which are structurally unidentifiable no matter how well the model predicts.
+    </div>
+  </div>
+</div>
+
+<div class='paper-box' data-tags="others">
+  <div class='paper-box-image'>
+    <div><div class="badge">AAAI 2027</div><img src='images/Pruning.png' alt="Token pruning calibration" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">When Does Visual Token Pruning Improve Calibration? The Role of Evidence Coverage in MLLMs</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, Yang Feng, Heqing Du, Hanzhe Hong, Siru Tao, Xin Xu</span>
+    </div>
+    <div class="paper-venue">
+      Under Review at AAAI 2027.
+    </div>
+    <div class="paper-links">
+      <a class="paper-link" href="https://arxiv.org/abs/2604.12035">arXiv</a>
+    </div>
+    <div class="paper-desc">
+      For multimodal LLM confidence, the selection rule matters more than the token budget: coverage-based pruning cuts expected calibration error on POPE with LLaVA-1.5 while holding accuracy, and the kept-set coverage tracks accuracy but not confidence.
+    </div>
+  </div>
+</div>
+
+<div class='paper-box' data-tags="others">
+  <div class='paper-box-image'>
+    <div><div class="badge">AAAI 2027</div><img src='images/adapter.png' alt="Adapter capacity measurement framework" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">How Many Bits Can an Adapter Write? Measuring the Capacity and Memorization of Parameter-Efficient Fine-Tuning</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, Heqing Du, Yang Feng</span>
+    </div>
+    <div class="paper-venue">
+      Under Review at AAAI 2027.
+    </div>
+    <div class="paper-links">
+      <a class="paper-link" href="https://arxiv.org/abs/2607.21351">arXiv</a>
+    </div>
+    <div class="paper-desc">
+      Measures in bits what a LoRA adapter can actually store: roughly two bits per trainable parameter, governed more by where the parameters sit than how many there are. On Qwen2.5, supervised fine-tuning memorizes verbatim while RL with verifiable rewards does not.
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="pub-group">
+<h3 class="pub-group__title">In Preparation</h3>
+
+<div class='paper-box paper-box--lead' data-tags="robotic">
+  <div class='paper-box-image'>
+    <div><div class="badge">In Preparation</div><img src='images/robotlane.png' alt="RoboROW" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">RoboROW: Simulating and Governing Right-of-Way for Urban Service Robots in Shared Urban Spaces</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
+    </div>
+    <div class="paper-venue">
+      Manuscript in preparation.
+    </div>
+    <div class="paper-desc">
+      When should a city give sidewalk robots their own lane? An agent-based simulation that screens shared versus dedicated right-of-way policies against pedestrian delay, comfort, and accessibility.
+    </div>
+  </div>
+</div>
+
+<div class='paper-box' data-tags="robotic">
+  <div class='paper-box-image'>
+    <div class="paper-figure-wrap"><div class="badge">In Preparation</div><div class="paper-figure-ph" aria-hidden="true"><span class="paper-figure-ph__label">Robotic Urbanization</span></div></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">Robotic Urbanization and the Transformation of Ground Transportation Systems: Impacts, Challenges, and Opportunities</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
+    </div>
+    <div class="paper-venue">
+      Manuscript in preparation.
+    </div>
+    <div class="paper-desc">
+      A synthesis of how embodied machines entering streets, sidewalks, and curbs reshape ground transportation systems, and what that demands of infrastructure design, regulation, and accountability.
+    </div>
+  </div>
+</div>
+
+<div class='paper-box' data-tags="sensing">
+  <div class='paper-box-image'>
+    <div><div class="badge">In Preparation</div><img src='images/metro.png' alt="Qingdao Metro lost-and-found" width="100%"></div>
   </div>
   <div class='paper-box-text'>
     <div class="paper-title">What We Lose, What We Gain: Spatio-temporal Patterns of Lost-and-Found Items in Qingdao Metro</div>
@@ -323,17 +513,16 @@ Specifically, my research agenda is organized around four key topics:
       <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
     </div>
     <div class="paper-venue">
-      Preprint, 2026.
-    </div>
-    <div class="paper-links">
-      <!-- <a class="paper-link" href="/assets/metro.pdf">PDF</a> -->
-      <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+      Manuscript in preparation.
     </div>
     <div class="paper-desc">
-      Analyze 34,333 lost-and-found records across 173 metro stations to uncover spatio-temporal loss patterns, holiday effects, and station-level hotspots for transit service optimization.
+      34,333 lost-and-found records across 173 metro stations, read for spatio-temporal loss patterns, holiday effects, and station-level hotspots that transit operators can act on.
     </div>
   </div>
 </div>
+</div>
+
+<p class="pub-empty" hidden>No publications in this direction yet.</p>
 
 # 🔬 Projects
 
@@ -368,13 +557,13 @@ Specifically, my research agenda is organized around four key topics:
 
   <li class="pres-item">
     2025.08 - <strong>Global Smart Cities Summit cum The 4th International Conference on Urban Informatics <a href="https://www.isocui.org/icui2025">(GSCS & ICUI 2025)</a></strong><br>
-    A Multidimensional AI-powered Framework for Analyzing Tourist Perception in Historic Urban Quarters: A Case Study in Shanghai<br>
+    Decoding Tourist Perception in Historic Urban Quarters with Multimodal Social Media Data: An AI-Based Framework and Evidence from Shanghai<br>
     <em>Hong Kong Polytechnic University (PolyU), Hong Kong SAR, China</em>
   </li>
 
   <li class="pres-item">
     2025.07 - <strong>7th Asia Conference on Machine Learning and Computing <a href="https://www.acmlc.org/acmlc2025.html">(ACMLC 2025)</a></strong><br>
-    Multimodal Deep Learning for Modeling Air Traffic Controllers Command Lifecycle and Workload Prediction in Terminal Airspace<br>
+    Multimodal Deep Learning for ATCO Command Lifecycle Modeling and Workload Prediction<br>
     <em>Hong Kong SAR, China</em>
   </li>
 </ul>

@@ -12,8 +12,8 @@ main:
   - title: "Experience"
     url: "/#-experience"
 
-  - title: "Selected Papers"
-    url: "/#-selected-papers"
+  - title: "Publications"
+    url: "/#-publications"
 
 #  - title: "Projects"
 #    url: "/#-projects"
@@ -25,4 +25,4 @@ main:
     url: "/#-contact"
 
   - title: "Curriculum Vitae"
-    url: "/assets/CV_Kaizhen TAN.pdf"
+    url: "/assets/CV_Kaizhen_TAN_new.pdf"

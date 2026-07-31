@@ -71,7 +71,8 @@ h1:before, .anchor:before {
     width: 100%;
     order: 2;
 
-    img {
+    img,
+    video {
       max-width: 400px;
       border-radius: 14px;
       box-shadow: 0 4px 20px rgba(91, 127, 213, 0.12);
@@ -82,6 +83,14 @@ h1:before, .anchor:before {
         transform: translateY(-4px) scale(1.01);
         box-shadow: 0 12px 36px rgba(91, 127, 213, 0.20);
       }
+    }
+
+    /* Video teasers: match the image slot, and never letterbox the poster. */
+    video {
+      display: block;
+      width: 100%;
+      height: auto;
+      background: #fff;
     }
   }
 
@@ -201,6 +210,218 @@ h1:before, .anchor:before {
   border-radius: 0 10px 10px 0;
   letter-spacing: 0.02em;
   box-shadow: 0 2px 8px rgba(91, 127, 213, 0.20);
+}
+
+
+/* ==========================================================================
+   PUBLICATION FILTER — research-direction pills
+   ========================================================================== */
+
+.pub-intro {
+  font-size: 0.92em;
+  color: #7F8C8D;
+  margin: 0.2em 0 1.1em 0;
+}
+
+.pub-intro__lead {
+  background: linear-gradient(180deg, transparent 62%, rgba(232, 146, 124, 0.30) 62%);
+  padding: 0 2px;
+  font-weight: 500;
+  color: #4A5568;
+}
+
+.pub-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 0 1.4em 0;
+}
+
+.pub-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(91, 127, 213, 0.18);
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #4A5568;
+  font-family: $sans-serif;
+  font-size: 0.84em;
+  font-weight: 500;
+  line-height: 1.3;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    border-color: rgba(91, 127, 213, 0.42);
+    color: #1a365d;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(91, 127, 213, 0.14);
+  }
+
+  &:focus-visible {
+    outline: 2px solid $primary-color;
+    outline-offset: 2px;
+  }
+
+  &.is-active {
+    background: linear-gradient(135deg, $primary-color, darken($primary-color, 10%));
+    border-color: transparent;
+    color: #fff;
+    box-shadow: 0 6px 20px rgba(91, 127, 213, 0.30);
+  }
+}
+
+.pub-pill__n {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: rgba(91, 127, 213, 0.12);
+  color: $primary-color;
+  font-size: 0.86em;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  transition: inherit;
+}
+
+.pub-pill.is-active .pub-pill__n {
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+}
+
+
+/* ==========================================================================
+   PUBLICATION GROUPS (Peer-Reviewed / Under Review / In Preparation)
+   ========================================================================== */
+
+.pub-group__title {
+  position: relative;
+  margin: 1.6em 0 0.2em 0;
+  padding-bottom: 0.35em;
+  font-family: $sans-serif;
+  font-size: 1.02em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #1a365d;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 48px;
+    height: 2px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, rgba(91, 127, 213, 0.5), rgba(123, 174, 165, 0.3), transparent);
+  }
+}
+
+.pub-group.is-hidden,
+.paper-box.is-hidden {
+  display: none;
+}
+
+.pub-empty {
+  padding: 2em 0;
+  color: #7F8C8D;
+  font-family: $serif-display;
+  font-style: italic;
+}
+
+@keyframes pubIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: none; }
+}
+
+.paper-box.pub-anim {
+  animation: pubIn 0.45s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+
+/* ==========================================================================
+   LEADING PAPERS — highlighted card
+   ========================================================================== */
+
+.paper-box--lead {
+  position: relative;
+  padding-left: 1.6em;
+  padding-right: 1.2em;
+  border-radius: 18px;
+  border-bottom-color: transparent;
+  background: linear-gradient(115deg, rgba(91, 127, 213, 0.06), rgba(123, 174, 165, 0.05) 55%, rgba(255, 255, 255, 0) 92%);
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1.8em;
+    bottom: 1.8em;
+    width: 3px;
+    border-radius: 0 3px 3px 0;
+    background: linear-gradient(180deg, $primary-color, $success-color);
+  }
+}
+
+
+/* ==========================================================================
+   FIGURE PLACEHOLDER — papers without a teaser image yet
+   ========================================================================== */
+
+/* The wrapper must span the column, otherwise the placeholder shrink-wraps
+   to its label instead of matching the width of a real teaser image. */
+.paper-figure-wrap {
+  width: 100%;
+
+  .paper-figure-ph {
+    margin: 0 auto;
+  }
+
+  @include breakpoint($medium) {
+    .paper-figure-ph { margin-left: 0; }
+  }
+}
+
+.paper-figure-ph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 8 / 5;
+  padding: 1.4em 1.2em;
+  border: 1px dashed rgba(91, 127, 213, 0.30);
+  border-radius: 14px;
+  background-color: #F6F9FE;
+  background-image:
+    radial-gradient(110% 110% at 12% 0%, rgba(91, 127, 213, 0.16), transparent 58%),
+    radial-gradient(110% 110% at 100% 100%, rgba(123, 174, 165, 0.16), transparent 58%),
+    radial-gradient(rgba(91, 127, 213, 0.16) 1px, transparent 1px);
+  background-size: auto, auto, 14px 14px;
+  box-shadow: 0 4px 20px rgba(91, 127, 213, 0.08);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s ease;
+
+  &:hover {
+    transform: translateY(-4px) scale(1.01);
+    box-shadow: 0 12px 36px rgba(91, 127, 213, 0.18);
+  }
+}
+
+.paper-figure-ph__label {
+  font-family: $serif-display;
+  font-size: 0.9em;
+  font-style: italic;
+  line-height: 1.4;
+  text-align: center;
+  color: #8A9BB8;
 }
 
 
@@ -459,6 +680,163 @@ h1:before, .anchor:before {
 @media (max-width: 600px) {
   .edu-logo { width: 52px; height: 52px; }
   .edu-item { gap: 14px; padding: 14px 16px; }
+}
+
+
+/* ==========================================================================
+   EXPERIENCE ITEMS — logo + advisor + one-line summary
+   ========================================================================== */
+
+.exp-item {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  margin: 18px 0;
+  padding: 20px 24px;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 18px;
+  border: 1px solid rgba(91, 127, 213, 0.06);
+  box-shadow: 0 2px 16px rgba(91, 127, 213, 0.06);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 20%;
+    bottom: 20%;
+    width: 3px;
+    border-radius: 0 3px 3px 0;
+    background: linear-gradient(180deg, $primary-color, $success-color);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 32px rgba(91, 127, 213, 0.12);
+    border-color: rgba(91, 127, 213, 0.12);
+
+    &::before { opacity: 1; }
+  }
+}
+
+.exp-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  border-radius: 16px;
+  flex: 0 0 auto;
+  background: #FAFBFD;
+  padding: 6px;
+  transition: transform 0.3s ease;
+}
+
+.exp-item:hover .exp-logo {
+  transform: scale(1.05);
+}
+
+/* Monogram fallback for institutions without a local logo file */
+.exp-logo--mono {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-family: $sans-serif;
+  font-size: 1.02rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: $primary-color;
+  background: linear-gradient(135deg, rgba(91, 127, 213, 0.13), rgba(123, 174, 165, 0.15));
+  border: 1px solid rgba(91, 127, 213, 0.14);
+}
+
+.exp-content {
+  min-width: 0;
+  flex: 1 1 auto;
+  line-height: 1.5;
+}
+
+.exp-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  align-items: baseline;
+  justify-content: space-between;
+
+  strong {
+    font-size: 16px;
+    color: #1a202c;
+  }
+
+  a {
+    color: inherit !important;
+    border-bottom: none !important;
+    transition: color 0.3s ease;
+
+    &:hover { color: $primary-color !important; }
+  }
+}
+
+.exp-date {
+  flex: 0 0 auto;
+  font-family: $monospace;
+  font-size: 0.82em;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: $primary-color;
+}
+
+.exp-role {
+  margin-top: 3px;
+  font-size: 13.5px;
+  color: #7F8C8D;
+}
+
+.exp-advisor {
+  margin-top: 6px;
+  font-size: 13.5px;
+  color: #4A5568;
+
+  a {
+    color: $primary-color !important;
+    border-bottom: 1px solid rgba(91, 127, 213, 0.22) !important;
+    transition: border-color 0.3s ease;
+
+    &:hover { border-bottom-color: $primary-color !important; }
+  }
+}
+
+.exp-advisor__label {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 1px 8px;
+  border-radius: 6px;
+  background: rgba(123, 174, 165, 0.14);
+  color: #5A8A82;
+  font-size: 0.84em;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  vertical-align: 1px;
+}
+
+.exp-desc {
+  margin-top: 8px;
+  font-size: 13.5px;
+  color: #4A5568;
+  line-height: 1.55;
+}
+
+@media (max-width: 600px) {
+  .exp-item { gap: 14px; padding: 16px; }
+  .exp-logo { width: 48px; height: 48px; }
+  .exp-logo--mono { font-size: 0.86rem; }
+  .exp-top { justify-content: flex-start; }
 }
 
 

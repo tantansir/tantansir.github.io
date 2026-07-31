@@ -10,6 +10,8 @@
     '.page__content > .research-container',
     '.paper-box',
     '.edu-item',
+    '.exp-item',
+    '.pub-filter',
     '.visitor-map-wrap',
     '.pres-list',
     '.news-scroll'
@@ -54,6 +56,113 @@
     });
   }
 
+  /* ======== Video Teasers ========
+     Load only when scrolled into view, pause when out of view, and leave the
+     poster frame in place for anyone who asked for reduced motion. */
+  function initPaperMedia() {
+    var media = Array.prototype.slice.call(document.querySelectorAll('.paper-media[data-src]'));
+    if (!media.length) return;
+
+    var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduced) {
+      media.forEach(function(v) {
+        v.src = v.getAttribute('data-src');
+        v.controls = true;
+      });
+      return;
+    }
+
+    function load(v) {
+      if (v.src) return;
+      v.src = v.getAttribute('data-src');
+    }
+
+    if (!('IntersectionObserver' in window)) {
+      media.forEach(function(v) { load(v); v.play().catch(function() {}); });
+      return;
+    }
+
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        var v = entry.target;
+        if (entry.isIntersecting) {
+          load(v);
+          v.play().catch(function() { v.controls = true; });
+        } else if (!v.paused) {
+          v.pause();
+        }
+      });
+    }, { threshold: 0.25 });
+
+    media.forEach(function(v) { observer.observe(v); });
+  }
+
+  /* ======== Publication Filter ======== */
+  function initPubFilter() {
+    var bar = document.getElementById('pubFilter');
+    if (!bar) return;
+
+    var toArray = function(nodes) { return Array.prototype.slice.call(nodes); };
+    var pills = toArray(bar.querySelectorAll('.pub-pill'));
+    var boxes = toArray(document.querySelectorAll('.paper-box[data-tags]'));
+    var groups = toArray(document.querySelectorAll('.pub-group'));
+    var empty = document.querySelector('.pub-empty');
+
+    function tagsOf(box) {
+      return (box.getAttribute('data-tags') || '').split(/\s+/);
+    }
+
+    function countFor(filter) {
+      if (filter === 'all') return boxes.length;
+      return boxes.filter(function(box) {
+        return tagsOf(box).indexOf(filter) !== -1;
+      }).length;
+    }
+
+    pills.forEach(function(pill) {
+      var badge = pill.querySelector('.pub-pill__n');
+      if (badge) badge.textContent = countFor(pill.getAttribute('data-filter'));
+    });
+
+    function apply(filter, animate) {
+      var shown = 0;
+
+      boxes.forEach(function(box) {
+        var match = filter === 'all' || tagsOf(box).indexOf(filter) !== -1;
+        box.classList.toggle('is-hidden', !match);
+        if (!match) return;
+        shown++;
+        /* Filtered-in boxes may never have crossed the reveal observer. */
+        box.classList.add('revealed');
+        if (animate) {
+          box.classList.remove('pub-anim');
+          void box.offsetWidth;
+          box.classList.add('pub-anim');
+        }
+      });
+
+      groups.forEach(function(group) {
+        group.classList.toggle('is-hidden', !group.querySelector('.paper-box:not(.is-hidden)'));
+      });
+
+      if (empty) empty.hidden = shown !== 0;
+
+      pills.forEach(function(pill) {
+        var on = pill.getAttribute('data-filter') === filter;
+        pill.classList.toggle('is-active', on);
+        pill.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
+    }
+
+    pills.forEach(function(pill) {
+      pill.addEventListener('click', function() {
+        apply(pill.getAttribute('data-filter'), true);
+      });
+    });
+
+    apply('all', false);
+  }
+
   /* ======== Back to Top Button ======== */
   function initBackToTop() {
     var btn = document.getElementById('backToTop');
@@ -77,6 +186,8 @@
     document.addEventListener('DOMContentLoaded', function() {
       addRevealClass();
       initReveal();
+      initPubFilter();
+      initPaperMedia();
       initBackToTop();
     });
   } else {
