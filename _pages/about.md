@@ -17,14 +17,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I am Kaizhen Tan (Chinese name: 谭楷蓁), an incoming Ph.D. student at **New York University**, currently pursuing my master’s degree in Artificial Intelligence at **Carnegie Mellon University**. I received my bachelor’s degree in Information Systems from **Tongji University**.
+Hi! I am Kaizhen Tan (Chinese name: 谭楷蓁), a Ph.D. student at **New York University**, supervised by [Prof. Chenghe Guan](https://wagner.nyu.edu/community/faculty/chenghe-guan) and [Prof. Zhan Guo](https://wagner.nyu.edu/community/faculty/zhan-guo). I received my master’s degree in Artificial Intelligence at **Carnegie Mellon University** and my bachelor’s degree in Information Systems from **Tongji University**.
 
 My research sits at the intersection of <b>Urban Science</b>, <b>Spatial Intelligence</b>, and <b>Embodied AI for Urban Environments</b>. Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, I aim to address the knowledge-to-action gap in digital cities: while urban digital systems are increasingly capable of monitoring conditions, modeling urban dynamics, and anticipating risks, they still struggle to support timely, place-based action. My work seeks to build spatially intelligent and socially aware urban AI systems that make cities more adaptive, inclusive, and governable.
 
 My research integrates:
 * **Paradigms:** Robotic Urbanization, Agentic Urban Digital Twins, Human-centered Urban Governance
 * **Methodologies:** Multimodal Learning, Geospatial & Spatiotemporal Data Analysis, Computational Social Science
-* **Technical Foundations:** LLMs, VLMs, AI Agents, World Models, 3D Vision, Wearable Devices
+* **Technical Foundations:** LLMs, VLMs, AI Agents, World Models
 
 Specifically, my research agenda is organized around four key topics:
 
@@ -141,7 +141,7 @@ Specifically, my research agenda is organized around four key topics:
 ## 🔭 Research
 - *2026.04 - Present*, Research Assistant, [Shanghai Key Laboratory of Urban Design and Urban Science (LOUD)](https://urban.shanghai.nyu.edu/), NYU Shanghai, China
 - *2025.10 - 2026.03*, Research Assistant, [Spatio-Temporal Social Sensing Lab (S3-Lab)](https://geos3.netlify.app/), Peking University, China
-- *2024.09 - 2024.12*, Research Officer Intern, [A*STAR Institute for Infocomm Research](https://www.a-star.edu.sg/i2r), Singapore
+- *2024.09 - 2024.12*, Research Intern, [A*STAR Institute for Infocomm Research](https://www.a-star.edu.sg/i2r), Singapore
 - *2024.04 - 2025.04*, Research Assistant, [College of Architecture and Urban Planning](https://caup.tongji.edu.cn/caupen/main.psp), Tongji University, China
 - *2024.04 - 2024.12*, Research Assistant, [College of Surveying and Geo-Informatics](https://celiang.tongji.edu.cn/english/Home.htm), Tongji University, China
 
@@ -403,9 +403,8 @@ Specifically, my research agenda is organized around four key topics:
 [//]: # (*New York, USA*)
 
 # 📫 Contact
-- Email(CMU): kaizhent@cmu.edu
 - Email(NYU): kt3275@nyu.edu
-- Email(personal): wflps20140311@gmail.com
+- Email(CMU): kaizhent@cmu.edu
 
 <p class="connect-text">
   Please feel free to reach out if any of these research directions resonate with you. I'd be happy to chat!
