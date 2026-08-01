@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I am Kaizhen Tan (Chinese name: 谭楷蓁), a Ph.D. student at **New York University**, supervised by [Prof. Chenghe Guan](https://wagner.nyu.edu/community/faculty/chenghe-guan) and [Prof. Zhan Guo](https://wagner.nyu.edu/community/faculty/zhan-guo). I received my master’s degree in Artificial Intelligence at **Carnegie Mellon University** and my bachelor’s degree in Information Systems from **Tongji University**.
+Hi! I am Kaizhen Tan, a Ph.D. student at **New York University**, supervised by [Prof. Chenghe Guan](https://wagner.nyu.edu/community/faculty/chenghe-guan) and [Prof. Zhan Guo](https://wagner.nyu.edu/community/faculty/zhan-guo). I received my master’s degree in Artificial Intelligence at **Carnegie Mellon University** and my bachelor’s degree in Information Systems from **Tongji University**.
 
 My research sits at the intersection of <b>Urban Science</b>, <b>Spatial Intelligence</b>, and <b>Embodied AI for Urban Environments</b>. Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, I aim to address the knowledge-to-action gap in digital cities: while urban digital systems are increasingly capable of monitoring conditions, modeling urban dynamics, and anticipating risks, they still struggle to support timely, place-based action. My work seeks to build spatially intelligent and socially aware urban AI systems that make cities more adaptive, inclusive, and governable.
 
@@ -98,39 +98,39 @@ Specifically, my research agenda is organized around four key topics:
 
 # 📖 Education
 
-<div class="edu-item">
-  <img class="edu-logo" src="/assets/nyu2.jpg" alt="NYU" />
-  <div class="edu-content">
-    <div class="edu-top">
+<div class="exp-item">
+  <img class="exp-logo" src="/assets/logo-nyu.png" alt="New York University" />
+  <div class="exp-content">
+    <div class="exp-top">
       <strong>New York University</strong>
+      <span class="exp-date">2026.09 – 2031.05</span>
     </div>
-    <div class="edu-sub"><em>2026.09 – 2031.05 (expected)</em></div>
-    <div class="edu-sub"><em>Ph.D. student in Urban Science</em></div>
+    <div class="exp-role">Ph.D. student in Urban Science · New York / Shanghai</div>
+    <div class="exp-advisor"><span class="exp-advisor__label">Advisors</span><a href="https://wagner.nyu.edu/community/faculty/chenghe-guan">Prof. Chenghe Guan</a>, <a href="https://wagner.nyu.edu/community/faculty/zhan-guo">Prof. Zhan Guo</a></div>
   </div>
 </div>
 
-<div class="edu-item">
-  <img class="edu-logo" src="/assets/cmu.png" alt="CMU" />
-  <div class="edu-content">
-    <div class="edu-top">
+<div class="exp-item">
+  <img class="exp-logo" src="/assets/logo-cmu.png" alt="Carnegie Mellon University" />
+  <div class="exp-content">
+    <div class="exp-top">
       <strong>Carnegie Mellon University</strong>
+      <span class="exp-date">2025.08 – 2026.08</span>
     </div>
-    <div class="edu-sub"><em>2025.08 – 2026.08</em></div>
-    <div class="edu-sub"><em>M.S. in Artificial Intelligence</em></div>
+    <div class="exp-role">M.S. in Artificial Intelligence · Pittsburgh</div>
   </div>
 </div>
 
-<div class="edu-item">
-  <img class="edu-logo" src="/assets/tongji.svg" alt="Tongji" />
-  <div class="edu-content">
-    <div class="edu-top">
+<div class="exp-item">
+  <img class="exp-logo" src="/assets/logo-tongji.png" alt="Tongji University" />
+  <div class="exp-content">
+    <div class="exp-top">
       <strong>Tongji University</strong>
+      <span class="exp-date">2021.09 – 2025.06</span>
     </div>
-    <div class="edu-sub"><em>2021.09 – 2025.06</em></div>
-    <div class="edu-sub"><em>B.Mgt. in Information Systems</em></div>
+    <div class="exp-role">B.Mgt. in Information Systems · Shanghai</div>
   </div>
 </div>
-
 
 # 💼 Experience
 
@@ -273,13 +273,13 @@ Specifically, my research agenda is organized around four key topics:
       <span class="author-self">Kaizhen Tan</span><span class="author-other">, Yang Feng, Heqing Du</span>
     </div>
     <div class="paper-venue">
-      9th Chinese Conference on Pattern Recognition and Computer Vision (PRCV), 2026.
+      PRCV 2026.
     </div>
     <div class="paper-links">
       <a class="paper-link" href="https://arxiv.org/abs/2603.20475">arXiv</a>
     </div>
     <div class="paper-desc">
-      A training-free diagnostic that maps vision-language model attributions into a compass-like relational graph, measuring whether the evidence a model attends to actually aligns with the queried spatial direction. Higher task accuracy turns out not to imply better directional organization.
+      A training-free diagnostic that maps vision-language model attributions onto a compass graph, measuring whether the evidence a model attends to aligns with the queried spatial direction. Higher accuracy does not imply better directional structure.
     </div>
   </div>
 </div>
@@ -344,7 +344,7 @@ Specifically, my research agenda is organized around four key topics:
       <a class="paper-link" href="/assets/ICUI2025.pptx">Slides</a>
     </div>
     <div class="paper-desc">
-      A multimodal framework for reading tourist perception in historic Shanghai quarters, combining image segmentation, color theme analysis, and sentiment mining into four-dimensional satisfaction scores for heritage-informed planning.
+      A multimodal framework for reading tourist perception in historic Shanghai quarters, combining image segmentation, color theme analysis, and sentiment mining into four-dimensional satisfaction scores.
     </div>
   </div>
 </div>
@@ -392,7 +392,7 @@ Specifically, my research agenda is organized around four key topics:
       <a class="paper-link" href="https://arxiv.org/abs/2606.23669">arXiv</a>
     </div>
     <div class="paper-desc">
-      A benchmark of 7,117 curated Mapillary images over 109 named OpenStreetMap road segments in 25 cities, asking whether text-to-image models can render <em>this</em> street rather than a plausible street. Naming the street and neighborhood helps; GPS coordinates alone do not.
+      A benchmark of 7,117 curated Mapillary images over 109 named road segments in 25 cities, asking whether text-to-image models render <em>this</em> street or merely a plausible one. Street and neighborhood names help; GPS coordinates alone do not.
     </div>
   </div>
 </div>
@@ -414,7 +414,7 @@ Specifically, my research agenda is organized around four key topics:
       <a class="paper-link" href="https://arxiv.org/abs/2607.27017">arXiv</a>
     </div>
     <div class="paper-desc">
-      Asks which physical parameters of an environment are actually recoverable from a latent world model's predictive representation, and which are structurally unidentifiable no matter how well the model predicts.
+      Asks which physical parameters a latent world model actually recovers in its predictive representation, and which stay structurally unidentifiable however well the model predicts.
     </div>
   </div>
 </div>
@@ -499,6 +499,24 @@ Specifically, my research agenda is organized around four key topics:
     </div>
   </div>
 </div>
+<div class='paper-box' data-tags="robotic">
+  <div class='paper-box-image'>
+    <div><img src='images/roboticurban.jpg' alt="Framework for reviewing robotic urbanization in urban ground transportation systems: agents, spaces, and mechanisms" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">Robotic Urbanization and the Transformation of Ground Transportation Systems: Impacts, Challenges, and Opportunities</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
+    </div>
+    <div class="paper-venue">
+      Manuscript in preparation.
+    </div>
+    <div class="paper-desc">
+      A synthesis of how embodied machines entering streets, sidewalks, and curbs reshape ground transportation, and what that demands of infrastructure design, regulation, and accountability.
+    </div>
+  </div>
+</div>
+
 </div>
 
 <div class="pub-group">

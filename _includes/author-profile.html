@@ -7,7 +7,7 @@
     <img src="{{ author.avatar }}" class="hero-profile__avatar" alt="{{ author.name }}">
   </div>
   <div class="hero-profile__content">
-    <h1 class="hero-profile__name">{{ author.name }}</h1>
+    <h1 class="hero-profile__name">{{ author.name }}<span class="hero-profile__name-cn" lang="zh-Hans">谭楷蓁</span></h1>
     {% if author.bio %}<p class="hero-profile__bio">{{ author.bio }}</p>{% endif %}
     <div class="hero-profile__meta">
       {% if author.location %}
