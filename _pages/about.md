@@ -228,8 +228,6 @@ Specifically, my research agenda is organized around four key topics:
 
 # 📝 Publications
 
-<p class="pub-intro">Filter by research direction to see one line of work at a time. The papers leading each direction are <span class="pub-intro__lead">highlighted</span>.</p>
-
 <div class="pub-filter" id="pubFilter" role="group" aria-label="Filter publications by research direction">
   <button type="button" class="pub-pill is-active" data-filter="all" aria-pressed="true">All<span class="pub-pill__n"></span></button>
   <button type="button" class="pub-pill" data-filter="robotic" aria-pressed="false">🤖 Robotic Urbanization<span class="pub-pill__n"></span></button>
@@ -252,7 +250,7 @@ Specifically, my research agenda is organized around four key topics:
       <span class="author-self">Kaizhen Tan</span><span class="author-other">, Fan Zhang</span>
     </div>
     <div class="paper-venue">
-      The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, XLIX-B2-2026, 559–567 (XXV ISPRS Congress), 2026.
+      XXV ISPRS Congress, 2026.
     </div>
     <div class="paper-links">
       <a class="paper-link" href="https://doi.org/10.5194/isprs-archives-XLIX-B2-2026-559-2026">DOI</a>
@@ -317,7 +315,7 @@ Specifically, my research agenda is organized around four key topics:
       <span class="author-other">Weihua Huan, </span><span class="author-self">Kaizhen Tan</span><span class="author-other">, Xintao Liu, Shoujun Jia, Shijun Lu, Jing Zhang, Wei Huang</span>
     </div>
     <div class="paper-venue">
-      GIScience &amp; Remote Sensing, 62(1), 2602215, 2025.
+      GIScience &amp; Remote Sensing, 2025.
     </div>
     <div class="paper-links">
       <a class="paper-link" href="https://doi.org/10.1080/15481603.2025.2602215">DOI</a>
@@ -361,7 +359,7 @@ Specifically, my research agenda is organized around four key topics:
       <span class="author-self">Kaizhen Tan</span>
     </div>
     <div class="paper-venue">
-      7th Asia Conference on Machine Learning and Computing (ACMLC), 2025.
+      7th Asia Conference on Machine Learning and Computing, 2025.
     </div>
     <div class="paper-links">
       <a class="paper-link" href="https://doi.org/10.1145/3772673.3772702">DOI</a>
@@ -409,7 +407,7 @@ Specifically, my research agenda is organized around four key topics:
       <span class="author-self">Kaizhen Tan</span><span class="author-other">, Xin Xu, Siru Tao, Yixiao Li, Hanzhe Hong, Yang Feng, Heqing Du</span>
     </div>
     <div class="paper-venue">
-      Preprint, 2026.
+      Preprint.
     </div>
     <div class="paper-links">
       <a class="paper-link" href="https://tantansir.github.io/latent-world-model-identifiability/">Project Page</a>
@@ -431,7 +429,7 @@ Specifically, my research agenda is organized around four key topics:
       <span class="author-self">Kaizhen Tan</span><span class="author-other">, Yang Feng, Heqing Du, Hanzhe Hong, Siru Tao, Xin Xu</span>
     </div>
     <div class="paper-venue">
-      Preprint, 2026.
+      Preprint.
     </div>
     <div class="paper-links">
       <a class="paper-link" href="https://arxiv.org/abs/2604.12035">arXiv</a>
@@ -452,7 +450,7 @@ Specifically, my research agenda is organized around four key topics:
       <span class="author-self">Kaizhen Tan</span><span class="author-other">, Heqing Du, Yang Feng</span>
     </div>
     <div class="paper-venue">
-      Preprint, 2026.
+      Preprint.
     </div>
     <div class="paper-links">
       <a class="paper-link" href="https://arxiv.org/abs/2607.21351">arXiv</a>
@@ -498,23 +496,6 @@ Specifically, my research agenda is organized around four key topics:
     </div>
     <div class="paper-desc">
       When should a city give sidewalk robots their own lane? An agent-based simulation that screens shared versus dedicated right-of-way policies against pedestrian delay, comfort, and accessibility.
-    </div>
-  </div>
-</div>
-<div class='paper-box' data-tags="robotic">
-  <div class='paper-box-image'>
-    <div class="paper-figure-wrap"><div class="paper-figure-ph" aria-hidden="true"><span class="paper-figure-ph__label">Robotic Urbanization</span></div></div>
-  </div>
-  <div class='paper-box-text'>
-    <div class="paper-title">Robotic Urbanization and the Transformation of Ground Transportation Systems: Impacts, Challenges, and Opportunities</div>
-    <div class="paper-authors">
-      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
-    </div>
-    <div class="paper-venue">
-      Manuscript in preparation.
-    </div>
-    <div class="paper-desc">
-      A synthesis of how embodied machines entering streets, sidewalks, and curbs reshape ground transportation systems, and what that demands of infrastructure design, regulation, and accountability.
     </div>
   </div>
 </div>
