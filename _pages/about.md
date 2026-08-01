@@ -137,33 +137,33 @@ Specifically, my research agenda is organized around four key topics:
 ## 🔭 Research
 
 <div class="exp-item">
-  <img class="exp-logo" src="/assets/nyu2.jpg" alt="NYU Shanghai" />
+  <img class="exp-logo" src="/assets/logo-nyush.png" alt="NYU Shanghai" />
   <div class="exp-content">
     <div class="exp-top">
       <strong><a href="https://urban.shanghai.nyu.edu/">Shanghai Key Laboratory of Urban Design and Urban Science (LOUD)</a></strong>
       <span class="exp-date">2026.05 – Present</span>
     </div>
     <div class="exp-role">Research Assistant · NYU Shanghai, China</div>
-    <div class="exp-advisor"><span class="exp-advisor__label">Advisors</span><a href="https://wagner.nyu.edu/community/faculty/chenghe-guan">Prof. Chenghe Guan</a>, Prof. Zhaonan Wang</div>
+    <div class="exp-advisor"><span class="exp-advisor__label">Advisors</span><a href="https://urban.shanghai.nyu.edu/team-member/chenghe-guan">Prof. Chenghe Guan</a>, <a href="https://urban.shanghai.nyu.edu/team-member/zhaonan">Prof. Zhaonan Wang</a></div>
     <div class="exp-desc">Designing embodied-intelligence-friendly urban spaces, and advancing collaborative governance through digital twins and urban agents that model complex city dynamics.</div>
   </div>
 </div>
 
 <div class="exp-item">
-  <span class="exp-logo exp-logo--mono" aria-hidden="true">PKU</span>
+  <img class="exp-logo" src="/assets/logo-pku.png" alt="Peking University" />
   <div class="exp-content">
     <div class="exp-top">
       <strong><a href="https://geos3.netlify.app/">Spatio-Temporal Social Sensing Lab (S3-Lab)</a></strong>
       <span class="exp-date">2025.10 – 2026.03</span>
     </div>
     <div class="exp-role">Research Assistant · Peking University, China</div>
-    <div class="exp-advisor"><span class="exp-advisor__label">Advisors</span><a href="https://scholar.google.com/citations?user=Xh_lRY4AAAAJ">Prof. Yu Liu</a>, <a href="https://scholar.google.com/citations?user=dc1TzLoAAAAJ">Prof. Fan Zhang</a></div>
+    <div class="exp-advisor"><span class="exp-advisor__label">Advisors</span><a href="https://irsgis.pku.edu.cn/english/facultystaff/gis/liuyu/index.htm">Prof. Yu Liu</a>, <a href="https://irsgis.pku.edu.cn/english/facultystaff/gis/zhangfan/index.htm">Prof. Fan Zhang</a></div>
     <div class="exp-desc">Automated urban element measurement from street view using VGGT and semantic segmentation, recovering metric scale via ground-plane fitting and camera-height calibration for large-scale data generation.</div>
   </div>
 </div>
 
 <div class="exp-item">
-  <span class="exp-logo exp-logo--mono" aria-hidden="true">A*</span>
+  <img class="exp-logo" src="/assets/logo-astar.png" alt="A*STAR" />
   <div class="exp-content">
     <div class="exp-top">
       <strong><a href="https://www.a-star.edu.sg/i2r">A*STAR, Institute for Infocomm Research</a></strong>
@@ -176,7 +176,7 @@ Specifically, my research agenda is organized around four key topics:
 </div>
 
 <div class="exp-item">
-  <img class="exp-logo" src="/assets/tongji.svg" alt="Tongji University" />
+  <img class="exp-logo" src="/assets/logo-tongji.png" alt="Tongji University" />
   <div class="exp-content">
     <div class="exp-top">
       <strong><a href="https://caup.tongji.edu.cn/caupen/main.psp">College of Architecture and Urban Planning</a></strong>
@@ -189,7 +189,7 @@ Specifically, my research agenda is organized around four key topics:
 </div>
 
 <div class="exp-item">
-  <img class="exp-logo" src="/assets/tongji.svg" alt="Tongji University" />
+  <img class="exp-logo" src="/assets/logo-tongji.png" alt="Tongji University" />
   <div class="exp-content">
     <div class="exp-top">
       <strong><a href="https://celiang.tongji.edu.cn/english/Home.htm">College of Surveying and Geo-Informatics</a></strong>
@@ -204,7 +204,7 @@ Specifically, my research agenda is organized around four key topics:
 ## 💻 Industry
 
 <div class="exp-item">
-  <span class="exp-logo exp-logo--mono" aria-hidden="true">AI</span>
+  <img class="exp-logo" src="/assets/logo-shlab.png" alt="Shanghai AI Laboratory" />
   <div class="exp-content">
     <div class="exp-top">
       <strong><a href="https://www.shlab.org.cn/">Shanghai Artificial Intelligence Laboratory</a></strong>
@@ -216,7 +216,7 @@ Specifically, my research agenda is organized around four key topics:
 </div>
 
 <div class="exp-item">
-  <span class="exp-logo exp-logo--mono" aria-hidden="true">QT</span>
+  <img class="exp-logo" src="/assets/logo-idss.png" alt="Shanghai Qiantan Emerging Industry Research Institute" />
   <div class="exp-content">
     <div class="exp-top">
       <strong><a href="https://www.idss.org.cn/">Shanghai Qiantan Emerging Industry Research Institute</a></strong>
@@ -244,7 +244,7 @@ Specifically, my research agenda is organized around four key topics:
 
 <div class='paper-box paper-box--lead' data-tags="twins">
   <div class='paper-box-image'>
-    <div><div class="badge">XXV ISPRS Congress</div><img src='images/5.jpg' alt="UrbanVGGT" width="100%"></div>
+    <div><img src='images/5.jpg' alt="UrbanVGGT" width="100%"></div>
   </div>
   <div class='paper-box-text'>
     <div class="paper-title">UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images</div>
@@ -267,7 +267,7 @@ Specifically, my research agenda is organized around four key topics:
 
 <div class='paper-box paper-box--lead' data-tags="spatial">
   <div class='paper-box-image'>
-    <div><div class="badge">PRCV 2026</div><img src='images/CREG.png' alt="CREG" width="100%"></div>
+    <div><img src='images/CREG.png' alt="CREG" width="100%"></div>
   </div>
   <div class='paper-box-text'>
     <div class="paper-title">CREG: Compass Relational Evidence Graph for Characterizing Directional Structure in VLM Spatial-Reasoning Attribution</div>
@@ -288,7 +288,7 @@ Specifically, my research agenda is organized around four key topics:
 
 <div class='paper-box' data-tags="others">
   <div class='paper-box-image'>
-    <div><div class="badge">EMNLP 2026 Workshop</div><img src='images/ragcache.png' alt="CacheWeaver" width="100%"></div>
+    <div><img src='images/ragcache.png' alt="CacheWeaver" width="100%"></div>
   </div>
   <div class='paper-box-text'>
     <div class="paper-title">CacheWeaver: Cache-Aware Evidence Ordering for Efficient Grounded RAG Inference</div>
@@ -296,7 +296,7 @@ Specifically, my research agenda is organized around four key topics:
       <span class="author-self">Kaizhen Tan</span><span class="author-other">, Rong Gu, Mingyuan Li</span>
     </div>
     <div class="paper-venue">
-      EMNLP 2026 Workshop on Grounding Language Models.
+      GroundLM @ EMNLP 2026.
     </div>
     <div class="paper-links">
       <a class="paper-link" href="https://arxiv.org/abs/2606.19667">arXiv</a>
@@ -309,7 +309,7 @@ Specifically, my research agenda is organized around four key topics:
 
 <div class='paper-box paper-box--lead' data-tags="sensing">
   <div class='paper-box-image'>
-    <div><div class="badge">GIScience &amp; Remote Sensing</div><img src='images/4.png' alt="STALS" width="100%"></div>
+    <div><img src='images/4.png' alt="STALS" width="100%"></div>
   </div>
   <div class='paper-box-text'>
     <div class="paper-title">A Spatiotemporal Adaptive Local Search Method for Tracking Congestion Propagation in Dynamic Networks</div>
@@ -331,7 +331,7 @@ Specifically, my research agenda is organized around four key topics:
 
 <div class='paper-box' data-tags="sensing">
   <div class='paper-box-image'>
-    <div><div class="badge">GSCS &amp; ICUI 2025</div><img src='images/2.png' alt="Tourist perception framework" width="100%"></div>
+    <div><img src='images/2.png' alt="Tourist perception framework" width="100%"></div>
   </div>
   <div class='paper-box-text'>
     <div class="paper-title">Decoding Tourist Perception in Historic Urban Quarters with Multimodal Social Media Data: An AI-Based Framework and Evidence from Shanghai</div>
@@ -353,7 +353,7 @@ Specifically, my research agenda is organized around four key topics:
 
 <div class='paper-box' data-tags="sensing">
   <div class='paper-box-image'>
-    <div><div class="badge">ACMLC 2025</div><img src='images/21.png' alt="ATCO command lifecycle" width="100%"></div>
+    <div><img src='images/21.png' alt="ATCO command lifecycle" width="100%"></div>
   </div>
   <div class='paper-box-text'>
     <div class="paper-title">Multimodal Deep Learning for ATCO Command Lifecycle Modeling and Workload Prediction</div>
@@ -376,11 +376,11 @@ Specifically, my research agenda is organized around four key topics:
 </div>
 
 <div class="pub-group">
-<h3 class="pub-group__title">Under Review</h3>
+<h3 class="pub-group__title">Preprints &amp; Under Review</h3>
 
 <div class='paper-box paper-box--lead' data-tags="twins">
   <div class='paper-box-image'>
-    <div><div class="badge">NeurIPS 2026</div><img src='images/geofidelity.jpg' alt="Real street views compared with six text-to-image generators across six cities" width="100%"></div>
+    <div><img src='images/geofidelity.jpg' alt="Real street views compared with six text-to-image generators across six cities" width="100%"></div>
   </div>
   <div class='paper-box-text'>
     <div class="paper-title">GeoFidelity-Bench: Evaluating Segment-Level Geographic Fidelity in Text-to-Image Street-View Generation</div>
@@ -388,7 +388,7 @@ Specifically, my research agenda is organized around four key topics:
       <span class="author-self">Kaizhen Tan</span><span class="author-other">, Hanzhe Hong, Siru Tao</span>
     </div>
     <div class="paper-venue">
-      Under Review at NeurIPS 2026.
+      Submitted to NeurIPS 2026.
     </div>
     <div class="paper-links">
       <a class="paper-link" href="https://arxiv.org/abs/2606.23669">arXiv</a>
@@ -401,7 +401,7 @@ Specifically, my research agenda is organized around four key topics:
 
 <div class='paper-box paper-box--lead' data-tags="spatial">
   <div class='paper-box-image'>
-    <div><div class="badge">ICLR 2027</div><video class="paper-media" data-src="images/worldmodel.mp4" poster="images/worldmodel.png" muted loop playsinline preload="none" aria-label="On a held-out KUKA episode, force read from the frozen latent tracks the wrist force-torque sensor"></video></div>
+    <div><video class="paper-media" data-src="images/worldmodel.mp4" poster="images/worldmodel.png" muted loop playsinline preload="none" aria-label="Six PokeWorld episodes spanning the observability spectrum: low and high drag, light and heavy mass, soft and stiff contact"></video></div>
   </div>
   <div class='paper-box-text'>
     <div class="paper-title">What Can Latent World Models Know? Physical Parameter Identifiability in Multimodal Predictive Representations</div>
@@ -409,7 +409,7 @@ Specifically, my research agenda is organized around four key topics:
       <span class="author-self">Kaizhen Tan</span><span class="author-other">, Xin Xu, Siru Tao, Yixiao Li, Hanzhe Hong, Yang Feng, Heqing Du</span>
     </div>
     <div class="paper-venue">
-      Under Review at ICLR 2027.
+      Preprint, 2026.
     </div>
     <div class="paper-links">
       <a class="paper-link" href="https://tantansir.github.io/latent-world-model-identifiability/">Project Page</a>
@@ -423,7 +423,7 @@ Specifically, my research agenda is organized around four key topics:
 
 <div class='paper-box' data-tags="others">
   <div class='paper-box-image'>
-    <div><div class="badge">AAAI 2027</div><img src='images/Pruning.png' alt="Token pruning calibration" width="100%"></div>
+    <div><img src='images/Pruning.png' alt="Token pruning calibration" width="100%"></div>
   </div>
   <div class='paper-box-text'>
     <div class="paper-title">When Does Visual Token Pruning Improve Calibration? The Role of Evidence Coverage in MLLMs</div>
@@ -431,7 +431,7 @@ Specifically, my research agenda is organized around four key topics:
       <span class="author-self">Kaizhen Tan</span><span class="author-other">, Yang Feng, Heqing Du, Hanzhe Hong, Siru Tao, Xin Xu</span>
     </div>
     <div class="paper-venue">
-      Under Review at AAAI 2027.
+      Preprint, 2026.
     </div>
     <div class="paper-links">
       <a class="paper-link" href="https://arxiv.org/abs/2604.12035">arXiv</a>
@@ -444,7 +444,7 @@ Specifically, my research agenda is organized around four key topics:
 
 <div class='paper-box' data-tags="others">
   <div class='paper-box-image'>
-    <div><div class="badge">AAAI 2027</div><img src='images/adapter.png' alt="Adapter capacity measurement framework" width="100%"></div>
+    <div><img src='images/adapter.png' alt="Adapter capacity measurement framework" width="100%"></div>
   </div>
   <div class='paper-box-text'>
     <div class="paper-title">How Many Bits Can an Adapter Write? Measuring the Capacity and Memorization of Parameter-Efficient Fine-Tuning</div>
@@ -452,7 +452,7 @@ Specifically, my research agenda is organized around four key topics:
       <span class="author-self">Kaizhen Tan</span><span class="author-other">, Heqing Du, Yang Feng</span>
     </div>
     <div class="paper-venue">
-      Under Review at AAAI 2027.
+      Preprint, 2026.
     </div>
     <div class="paper-links">
       <a class="paper-link" href="https://arxiv.org/abs/2607.21351">arXiv</a>
@@ -467,45 +467,9 @@ Specifically, my research agenda is organized around four key topics:
 <div class="pub-group">
 <h3 class="pub-group__title">In Preparation</h3>
 
-<div class='paper-box paper-box--lead' data-tags="robotic">
-  <div class='paper-box-image'>
-    <div><div class="badge">In Preparation</div><img src='images/robotlane.png' alt="RoboROW" width="100%"></div>
-  </div>
-  <div class='paper-box-text'>
-    <div class="paper-title">RoboROW: Simulating and Governing Right-of-Way for Urban Service Robots in Shared Urban Spaces</div>
-    <div class="paper-authors">
-      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
-    </div>
-    <div class="paper-venue">
-      Manuscript in preparation.
-    </div>
-    <div class="paper-desc">
-      When should a city give sidewalk robots their own lane? An agent-based simulation that screens shared versus dedicated right-of-way policies against pedestrian delay, comfort, and accessibility.
-    </div>
-  </div>
-</div>
-
-<div class='paper-box' data-tags="robotic">
-  <div class='paper-box-image'>
-    <div class="paper-figure-wrap"><div class="badge">In Preparation</div><div class="paper-figure-ph" aria-hidden="true"><span class="paper-figure-ph__label">Robotic Urbanization</span></div></div>
-  </div>
-  <div class='paper-box-text'>
-    <div class="paper-title">Robotic Urbanization and the Transformation of Ground Transportation Systems: Impacts, Challenges, and Opportunities</div>
-    <div class="paper-authors">
-      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
-    </div>
-    <div class="paper-venue">
-      Manuscript in preparation.
-    </div>
-    <div class="paper-desc">
-      A synthesis of how embodied machines entering streets, sidewalks, and curbs reshape ground transportation systems, and what that demands of infrastructure design, regulation, and accountability.
-    </div>
-  </div>
-</div>
-
 <div class='paper-box' data-tags="sensing">
   <div class='paper-box-image'>
-    <div><div class="badge">In Preparation</div><img src='images/metro.png' alt="Qingdao Metro lost-and-found" width="100%"></div>
+    <div><img src='images/metro.png' alt="Qingdao Metro lost-and-found" width="100%"></div>
   </div>
   <div class='paper-box-text'>
     <div class="paper-title">What We Lose, What We Gain: Spatio-temporal Patterns of Lost-and-Found Items in Qingdao Metro</div>
@@ -520,13 +484,46 @@ Specifically, my research agenda is organized around four key topics:
     </div>
   </div>
 </div>
+<div class='paper-box paper-box--lead' data-tags="robotic">
+  <div class='paper-box-image'>
+    <div><img src='images/robotlane.png' alt="RoboROW" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">RoboROW: Simulating and Governing Right-of-Way for Urban Service Robots in Shared Urban Spaces</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
+    </div>
+    <div class="paper-venue">
+      Manuscript in preparation.
+    </div>
+    <div class="paper-desc">
+      When should a city give sidewalk robots their own lane? An agent-based simulation that screens shared versus dedicated right-of-way policies against pedestrian delay, comfort, and accessibility.
+    </div>
+  </div>
+</div>
+<div class='paper-box' data-tags="robotic">
+  <div class='paper-box-image'>
+    <div class="paper-figure-wrap"><div class="paper-figure-ph" aria-hidden="true"><span class="paper-figure-ph__label">Robotic Urbanization</span></div></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">Robotic Urbanization and the Transformation of Ground Transportation Systems: Impacts, Challenges, and Opportunities</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
+    </div>
+    <div class="paper-venue">
+      Manuscript in preparation.
+    </div>
+    <div class="paper-desc">
+      A synthesis of how embodied machines entering streets, sidewalks, and curbs reshape ground transportation systems, and what that demands of infrastructure design, regulation, and accountability.
+    </div>
+  </div>
+</div>
 </div>
 
-<p class="pub-empty" hidden>No publications in this direction yet.</p>
+<div class="pub-group">
+<h3 class="pub-group__title">Technical Reports</h3>
 
-# 🔬 Projects
-
-<div class='paper-box'>
+<div class='paper-box' data-tags="sensing">
   <div class='paper-box-image'>
     <div><img src='images/blindnav.png' alt="sym" width="100%"></div>
   </div>
@@ -534,6 +531,9 @@ Specifically, my research agenda is organized around four key topics:
     <div class="paper-title">BlindNav: YOLO+LLM for Real-Time Navigation Assistance for Blind Users</div>
     <div class="paper-authors">
       <span class="author-self">Kaizhen Tan</span><span class="author-other">, Yufan Wang, Yixiao Li, Hanzhe Hong, Nicole Lyu</span>
+    </div>
+    <div class="paper-venue">
+      Technical report, 2025.
     </div>
     <div class="paper-links">
       <a class="paper-link" href="/assets/blindnav.pdf">Report</a>
@@ -544,6 +544,10 @@ Specifically, my research agenda is organized around four key topics:
     </div>
   </div>
 </div>
+</div>
+
+<p class="pub-empty" hidden>No publications in this direction yet.</p>
+
 
 
 # 💬 Presentations

@@ -148,10 +148,12 @@ h1:before, .anchor:before {
   }
 }
 
+/* Carries the venue on its own now that the overlay badge is gone. */
 .paper-venue {
   font-size: 0.98em;
   font-style: italic;
-  color: #7F8C8D;
+  font-weight: 500;
+  color: #64748B;
   margin-bottom: 10px;
   font-family: $serif-display;
 }
@@ -192,28 +194,6 @@ h1:before, .anchor:before {
 
 
 /* ==========================================================================
-   BADGE (conference/journal label)
-   ========================================================================== */
-
-.badge {
-  padding-left: 0.8rem;
-  padding-right: 0.8rem;
-  padding-top: 0.15rem;
-  padding-bottom: 0.15rem;
-  position: absolute;
-  margin-top: .5em;
-  margin-left: -.5em;
-  color: white;
-  background: linear-gradient(135deg, #5B7FD5, #7BAEA5);
-  font-size: .78em;
-  font-weight: 600;
-  border-radius: 0 10px 10px 0;
-  letter-spacing: 0.02em;
-  box-shadow: 0 2px 8px rgba(91, 127, 213, 0.20);
-}
-
-
-/* ==========================================================================
    PUBLICATION FILTER — research-direction pills
    ========================================================================== */
 
@@ -224,8 +204,9 @@ h1:before, .anchor:before {
 }
 
 .pub-intro__lead {
-  background: linear-gradient(180deg, transparent 62%, rgba(232, 146, 124, 0.30) 62%);
-  padding: 0 2px;
+  background: rgba(212, 160, 106, 0.20);
+  border-radius: 3px;
+  padding: 1px 5px;
   font-weight: 500;
   color: #4A5568;
 }
@@ -351,24 +332,14 @@ h1:before, .anchor:before {
    LEADING PAPERS — highlighted card
    ========================================================================== */
 
+/* A flat highlighter wash — no gradient, no accent bar. Reads the way a
+   marked-up page does rather than like a UI callout. */
 .paper-box--lead {
-  position: relative;
-  padding-left: 1.6em;
-  padding-right: 1.2em;
-  border-radius: 18px;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border-radius: 16px;
   border-bottom-color: transparent;
-  background: linear-gradient(115deg, rgba(91, 127, 213, 0.06), rgba(123, 174, 165, 0.05) 55%, rgba(255, 255, 255, 0) 92%);
-
-  &::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 1.8em;
-    bottom: 1.8em;
-    width: 3px;
-    border-radius: 0 3px 3px 0;
-    background: linear-gradient(180deg, $primary-color, $success-color);
-  }
+  background: rgba(226, 168, 88, 0.11);
 }
 
 
@@ -725,34 +696,19 @@ h1:before, .anchor:before {
   }
 }
 
+/* Wider than tall: institutional marks range from square seals to
+   horizontal wordmarks, and a square slot would squash the latter. */
 .exp-logo {
-  width: 64px;
-  height: 64px;
+  width: 92px;
+  height: 58px;
   object-fit: contain;
-  border-radius: 16px;
+  object-position: center;
   flex: 0 0 auto;
-  background: #FAFBFD;
-  padding: 6px;
   transition: transform 0.3s ease;
 }
 
 .exp-item:hover .exp-logo {
   transform: scale(1.05);
-}
-
-/* Monogram fallback for institutions without a local logo file */
-.exp-logo--mono {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  font-family: $sans-serif;
-  font-size: 1.02rem;
-  font-weight: 800;
-  letter-spacing: 0.02em;
-  color: $primary-color;
-  background: linear-gradient(135deg, rgba(91, 127, 213, 0.13), rgba(123, 174, 165, 0.15));
-  border: 1px solid rgba(91, 127, 213, 0.14);
 }
 
 .exp-content {
@@ -834,8 +790,7 @@ h1:before, .anchor:before {
 
 @media (max-width: 600px) {
   .exp-item { gap: 14px; padding: 16px; }
-  .exp-logo { width: 48px; height: 48px; }
-  .exp-logo--mono { font-size: 0.86rem; }
+  .exp-logo { width: 62px; height: 42px; }
   .exp-top { justify-content: flex-start; }
 }
 
