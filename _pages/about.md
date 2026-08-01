@@ -19,11 +19,11 @@ redirect_from:
 
 Hi! I am Kaizhen Tan, a Ph.D. student at **New York University**, supervised by [Prof. Chenghe Guan](https://wagner.nyu.edu/community/faculty/chenghe-guan) and [Prof. Zhan Guo](https://wagner.nyu.edu/community/faculty/zhan-guo). I received my master’s degree in Artificial Intelligence at **Carnegie Mellon University** and my bachelor’s degree in Information Systems from **Tongji University**.
 
-My research sits at the intersection of <b>Urban Science</b>, <b>Spatial Intelligence</b>, and <b>Embodied AI for Urban Environments</b>. Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, I aim to address the knowledge-to-action gap in digital cities: while urban digital systems are increasingly capable of monitoring conditions, modeling urban dynamics, and anticipating risks, they still struggle to support timely, place-based action. My work seeks to build spatially intelligent and socially aware urban AI systems that make cities more adaptive, inclusive, and governable.
+My research sits at the intersection of <b>Urban Science</b> and <b>Embodied AI</b>. Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, I aim to address the knowledge-to-action gap in digital cities: while urban digital systems are increasingly capable of monitoring conditions, modeling urban dynamics, and anticipating risks, they still struggle to support timely, place-based action. My work seeks to build spatially intelligent and socially aware urban AI systems that make cities more adaptive, inclusive, and governable.
 
 My research integrates:
-* **Paradigms:** Robotic Urbanization, Agentic Urban Digital Twins, Human-centered Urban Governance
-* **Methodologies:** Multimodal Learning, Geospatial & Spatiotemporal Data Analysis, Computational Social Science
+* **Paradigms:** Robotic Urbanization, Agentic Urban Digital Twins, Multimodal Social Sensing, Spatial Intelligence
+* **Methodologies:** Representation Learning, Geospatial & Spatiotemporal Data Analysis, Agent-Based Simulation
 * **Technical Foundations:** LLMs, VLMs, AI Agents, World Models
 
 Specifically, my research agenda is organized around four key topics:
@@ -106,7 +106,6 @@ Specifically, my research agenda is organized around four key topics:
       <span class="exp-date">2026.09 – 2031.05</span>
     </div>
     <div class="exp-role">Ph.D. student in Urban Science · New York / Shanghai</div>
-    <div class="exp-advisor"><span class="exp-advisor__label">Advisors</span><a href="https://wagner.nyu.edu/community/faculty/chenghe-guan">Prof. Chenghe Guan</a>, <a href="https://wagner.nyu.edu/community/faculty/zhan-guo">Prof. Zhan Guo</a></div>
   </div>
 </div>
 

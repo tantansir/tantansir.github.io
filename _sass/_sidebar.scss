@@ -257,28 +257,29 @@
   }
 }
 
-/* Chinese name sits beside the latin one, quieter and on the serif face.
-   The parent clips a gradient to its text, so both must be undone here. */
+/* Chinese name reads as an equal partner to the latin one: same size, same
+   gradient, separated by a hairline rule. It inherits the parent's clipped
+   gradient, so it deliberately sets no colour of its own. */
 .hero-profile__name-cn {
-  margin-left: 0.5em;
   font-family: $serif;
-  font-size: 0.55em;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  vertical-align: 0.06em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
   white-space: nowrap;
+}
+
+/* The rule itself must opt out of the gradient to stay a flat hairline. */
+.hero-profile__name-sep {
+  margin: 0 0.42em;
+  font-weight: 200;
   background: none;
   -webkit-background-clip: border-box;
   background-clip: border-box;
-  color: #93A0B5;
-  -webkit-text-fill-color: #93A0B5;
+  color: #C2CCDB;
+  -webkit-text-fill-color: #C2CCDB;
+}
 
-  @media (max-width: 480px) {
-    display: block;
-    margin-left: 0;
-    margin-top: 0.15em;
-    font-size: 0.62em;
-  }
+@media (max-width: 480px) {
+  .hero-profile__name-sep { margin: 0 0.3em; }
 }
 
 .hero-profile__bio {
