@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I am Kaizhen Tan, a Ph.D. student at **New York University**, supervised by [Prof. Chenghe Guan](https://wagner.nyu.edu/community/faculty/chenghe-guan) and [Prof. Zhan Guo](https://wagner.nyu.edu/community/faculty/zhan-guo). I received my master’s degree in Artificial Intelligence at **Carnegie Mellon University** and my bachelor’s degree in Information Systems from **Tongji University**.
+Hi! I am Kaizhen Tan, a Ph.D. student at **New York University**, supervised by [Prof. Chenghe Guan](https://wagner.nyu.edu/community/faculty/chenghe-guan) and [Prof. Zhan Guo](https://wagner.nyu.edu/community/faculty/zhan-guo). I received my master’s degree in Artificial Intelligence at **Carnegie Mellon University** and bachelor’s degree in Information Systems from **Tongji University**.
 
 My research sits at the intersection of <b>Urban Science</b> and <b>Embodied AI</b>. Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, I aim to address the knowledge-to-action gap in digital cities: while urban digital systems are increasingly capable of monitoring conditions, modeling urban dynamics, and anticipating risks, they still struggle to support timely, place-based action. My work seeks to build spatially intelligent and socially aware urban AI systems that make cities more adaptive, inclusive, and governable.
 
