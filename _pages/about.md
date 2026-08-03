@@ -231,9 +231,9 @@ Specifically, my research agenda is organized around four key topics:
   <button type="button" class="pub-pill is-active" data-filter="all" aria-pressed="true">All<span class="pub-pill__n"></span></button>
   <button type="button" class="pub-pill" data-filter="robotic" aria-pressed="false">🤖 Robotic Urbanization<span class="pub-pill__n"></span></button>
   <button type="button" class="pub-pill" data-filter="twins" aria-pressed="false">🏙️ Urban Digital Twins<span class="pub-pill__n"></span></button>
-  <button type="button" class="pub-pill" data-filter="sensing" aria-pressed="false">🎨 Geospatial &amp; Social Sensing<span class="pub-pill__n"></span></button>
+  <button type="button" class="pub-pill" data-filter="sensing" aria-pressed="false">🎨 Spatiotemporal Analysis &amp; Social Sensing<span class="pub-pill__n"></span></button>
   <button type="button" class="pub-pill" data-filter="spatial" aria-pressed="false">🚀 Spatial Intelligence &amp; World Models<span class="pub-pill__n"></span></button>
-  <button type="button" class="pub-pill" data-filter="others" aria-pressed="false">✦ Others<span class="pub-pill__n"></span></button>
+  <button type="button" class="pub-pill" data-filter="others" aria-pressed="false">✦ AI Systems &amp; Multimodal Learning<span class="pub-pill__n"></span></button>
 </div>
 
 <div class="pub-group">
@@ -375,7 +375,7 @@ Specifically, my research agenda is organized around four key topics:
 <div class="pub-group">
 <h3 class="pub-group__title">Preprints &amp; Under Review</h3>
 
-<div class='paper-box paper-box--lead' data-tags="twins">
+<div class='paper-box paper-box--lead' data-tags="spatial">
   <div class='paper-box-image'>
     <div><img src='images/geofidelity.jpg' alt="Real street views compared with six text-to-image generators across six cities" width="100%"></div>
   </div>
@@ -463,6 +463,42 @@ Specifically, my research agenda is organized around four key topics:
 
 <div class="pub-group">
 <h3 class="pub-group__title">In Preparation</h3>
+
+<div class='paper-box' data-tags="twins">
+  <div class='paper-box-image'>
+    <div><img src='images/what-photographs-add.png' alt="Information accounting for street-level building attribute prediction" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">What Photographs Add: Information Accounting for Street-Level Building Attribute Prediction</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
+    </div>
+    <div class="paper-venue">
+      Manuscript in preparation.
+    </div>
+    <div class="paper-desc">
+      An information-accounting audit that separates building-attribute accuracy into the global base rate, spatial prior, photograph, and supplied metadata. It finds that imagery adds the most where maps are sparse and can be eclipsed by location or annotation leakage.
+    </div>
+  </div>
+</div>
+
+<div class='paper-box' data-tags="robotic">
+  <div class='paper-box-image'>
+    <div><img src='images/there-is-no-shoulder.png' alt="Four sidewalk robot stopping outcomes based on clear width and protected features" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">There Is No Shoulder: Accessibility-Constrained Failure Siting for Sidewalk Delivery Robots</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
+    </div>
+    <div class="paper-venue">
+      Manuscript in preparation.
+    </div>
+    <div class="paper-desc">
+      Reframes sidewalk delivery-robot failure as a siting problem: the stopped robot must preserve accessible clear width and avoid kerb ramps and tactile paving. City-scale analyses show why safe failure depends on operating geography and retrieval time, not only the fallback controller.
+    </div>
+  </div>
+</div>
 
 <div class='paper-box' data-tags="sensing">
   <div class='paper-box-image'>
