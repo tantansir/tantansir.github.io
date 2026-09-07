@@ -416,24 +416,6 @@ Specifically, my research agenda is organized around four key topics:
 
 <div class='paper-box' data-tags="robotic">
   <div class='paper-box-image'>
-    <div><img src='images/hri-design-response.png' alt="Evidence needed to compare model-predicted and observed human responses to robot actions in public HRI releases" width="100%"></div>
-  </div>
-  <div class='paper-box-text'>
-    <div class="paper-title">From Robot Actions to Human Responses: What Can Public HRI Data Support?</div>
-    <div class="paper-authors">
-      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
-    </div>
-    <div class="paper-venue">
-      Submitted to HRI 2027.
-    </div>
-    <div class="paper-desc">
-      Introduces Design × Response, an evaluation method that compares the model-predicted response change between robot actions with the observed human-response change for the same action pair, response, and population. Applied to seven public HRI releases, it shows that temporal specificity, action comparability, and population alignment provide independent evidence about whether a release can support model–empirical agreement.
-    </div>
-  </div>
-</div>
-
-<div class='paper-box' data-tags="robotic">
-  <div class='paper-box-image'>
     <div><img src='images/popnavshift.png' alt="PopNavShift pipeline from persona records to pedestrian motion profiles, and matched replay of one encounter under three controllers" width="100%"></div>
   </div>
   <div class='paper-box-text'>
@@ -446,6 +428,24 @@ Specifically, my research agenda is organized around four key topics:
     </div>
     <div class="paper-desc">
       Replays identical physical episodes under different synthetic pedestrian-profile distributions to test whether robot navigation strategies keep their relative ranking. Across eight population conditions and 7,488 matched runs, changing pedestrian time pressure reverses 22.4% of mean pedestrian-delay orderings, compared with 8.6% of robot travel-time orderings.
+    </div>
+  </div>
+</div>
+
+<div class='paper-box' data-tags="robotic">
+  <div class='paper-box-image'>
+    <div><img src='images/hri-design-response.png' alt="Evidence needed to compare model-predicted and observed human responses to robot actions in public HRI releases" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">From Robot Actions to Human Responses: What Can Public HRI Data Support?</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
+    </div>
+    <div class="paper-venue">
+      Submitted to HRI 2027.
+    </div>
+    <div class="paper-desc">
+      Introduces Design × Response, an evaluation method that compares the model-predicted response change between robot actions with the observed human-response change for the same action pair, response, and population. Applied to seven public HRI releases, it shows that temporal specificity, action comparability, and population alignment provide independent evidence about whether a release can support model–empirical agreement.
     </div>
   </div>
 </div>
@@ -515,24 +515,6 @@ Specifically, my research agenda is organized around four key topics:
   </div>
 </div>
 
-<div class='paper-box' data-tags="twins sensing">
-  <div class='paper-box-image'>
-    <div><img src='images/seeing-the-city.png' alt="Study design comparing street-view imagery with existing urban data across paired source conditions" width="100%"></div>
-  </div>
-  <div class='paper-box-text'>
-    <div class="paper-title">Seeing the City or Recognizing the Place? What Street-View Imagery Adds Beyond Existing Urban Data in VLM Urban Sensing</div>
-    <div class="paper-authors">
-      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
-    </div>
-    <div class="paper-venue">
-      Submitted to Computers, Environment and Urban Systems.
-    </div>
-    <div class="paper-desc">
-      Compares image-based predictions with existing urban data across seven attributes, five public resources, and three VLMs, using paired source conditions, image replacements, and conflicting records. Existing data matched or exceeded image-only models for road damage, curb ramps, and house price, while images were more informative for building type, building function, and low-rise floor count, with the floor-count advantage rising 5.7 percentage points per doubling of distance to the nearest labelled building.
-    </div>
-  </div>
-</div>
-
 <div class='paper-box' data-tags="sensing">
   <div class='paper-box-image'>
     <div><img src='images/metro.png' alt="Study area with the eight Qingdao Metro services and 172 stations" width="100%"></div>
@@ -560,7 +542,7 @@ Specifically, my research agenda is organized around four key topics:
 
 <div class='paper-box paper-box--lead' data-tags="robotic">
   <div class='paper-box-image'>
-    <div><img src='images/robotlane.png' alt="RoboROW" width="100%"></div>
+    <div><img src='images/roborow-framework.png' alt="RoboROW research framework: urban worlds and road users, executable right of way, and experiments and policy evidence" width="100%"></div>
   </div>
   <div class='paper-box-text'>
     <div class="paper-title">RoboROW: A Right-of-Way Simulation and Policy Toolkit for Urban Service Robots</div>
@@ -590,6 +572,42 @@ Specifically, my research agenda is organized around four key topics:
     </div>
     <div class="paper-desc">
       A PRISMA-informed systematic mapping review of Scopus and Web of Science literature from 2017 to June 2026, with a final synthesis corpus of 347 full texts. Road automation accounts for 88.5% of primary agent codes and simulation or optimization studies for 42.4% of methods, and the Agent-Space-Mechanism-Outcome framework organises the evidence around the urban interfaces where robots move, stop, load, wait, yield, and interact with people.
+    </div>
+  </div>
+</div>
+
+<div class='paper-box' data-tags="robotic">
+  <div class='paper-box-image'>
+    <div><img src='images/legal-layer-assignment.png' alt="Twenty-one delivery-robot instruments from China and the United States grouped by the street layer they assign the device to: sidewalk, cycle lane, or carriageway" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">Legal Classification and the Morphological Selectivity of Delivery Robot Deployment: Comparing China and the United States</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span>
+    </div>
+    <div class="paper-venue">
+      Manuscript in preparation.
+    </div>
+    <div class="paper-desc">
+      Codes twenty-one delivery-robot instruments from China and the United States by the layer of the street cross-section each rule assigns the device to, and shows that this assignment decides which dimensions of urban form constrain deployment. In a rule-parameterised feasible network, the same 0.60 m device completes 83% of sampled trips in Beijing’s Yizhuang under a carriageway rule and 33% under Pennsylvania’s sidewalk rule, and across 7,891 grid cells in ten study areas sidewalk coverage predicts where American operators run and, with the opposite sign, which streets Chinese regulators authorise.
+    </div>
+  </div>
+</div>
+
+<div class='paper-box' data-tags="twins sensing">
+  <div class='paper-box-image'>
+    <div><img src='images/seeing-the-city.png' alt="Study design comparing street-view imagery with existing urban data across paired source conditions" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">Seeing the City or Recognizing the Place? What Street-View Imagery Adds Beyond Existing Urban Data in VLM Urban Sensing</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
+    </div>
+    <div class="paper-venue">
+      Manuscript in preparation.
+    </div>
+    <div class="paper-desc">
+      Compares image-based predictions with existing urban data across seven attributes, five public resources, and three VLMs, using paired source conditions, image replacements, and conflicting records. Existing data matched or exceeded image-only models for road damage, curb ramps, and house price, while images were more informative for building type, building function, and low-rise floor count, with the floor-count advantage rising 5.7 percentage points per doubling of distance to the nearest labelled building.
     </div>
   </div>
 </div>
@@ -677,8 +695,6 @@ Specifically, my research agenda is organized around four key topics:
 </div>
 
 <p class="pub-empty" hidden>No publications in this direction yet.</p>
-
-
 
 # 💬 Presentations
 
