@@ -409,7 +409,7 @@ Specifically, my research agenda is organized around four key topics:
       Submitted to HRI 2027.
     </div>
     <div class="paper-desc">
-      Defines the terminal footprint as the ground area a failed delivery robot occupies until retrieval and evaluates it against published clear-width thresholds and accessibility features. In 1,000 simulated failures on measured New York footways, stopping in place leaves 55.7% of failures below the ADA clear width, and an access-aware siting policy reduces the share to 18.8%. Across 17,136 km of New York footway, 28.0% of the network has no width-compliant pose under PROWAG.
+      Studies the sidewalk space occupied by failed delivery robots and its accessibility consequences. In 1,000 simulated failures on New York footways, an access-aware siting policy reduces failures below the ADA clear-width threshold from 55.7% to 18.8%.
     </div>
   </div>
 </div>
@@ -489,7 +489,7 @@ Specifically, my research agenda is organized around four key topics:
       <a class="paper-link" href="https://arxiv.org/abs/2608.19492">arXiv</a>
     </div>
     <div class="paper-desc">
-      Defines physical meaning through responses to registered interventions and introduces a certificate that compares independently trained sensor mappings on held-out entities. On Cluster Haptic the same-surface audio–acceleration response distance is 4.5 times smaller than the wrong-surface distance for all 19 test surfaces, and in a controlled elastoplastic system a step-factorized executor generalizes to an unseen action order while a program-level executor is 38.5 times worse than an entity-blind predictor.
+      Defines physical meaning through responses to controlled interventions and introduces a certificate for testing whether sensor mappings preserve that meaning across unseen entities. On Cluster Haptic, same-surface response distances are 4.5× smaller than wrong-surface distances across all 19 test surfaces.
     </div>
   </div>
 </div>
@@ -553,7 +553,7 @@ Specifically, my research agenda is organized around four key topics:
       Manuscript in preparation.
     </div>
     <div class="paper-desc">
-      A multi-agent co-simulation framework that translates robot right-of-way policies into spatial access masks, priority rules, motion parameters, and independent safety constraints, coupling JuPedSim pedestrians, SUMO traffic, and a ROS 2, Nav2, and Gazebo stack. The formal design compares nine spatial-allocation policies and 14 priority policies across three urban environments, seven sidewalk widths, and five pedestrian levels of service, with a 19-factor Sobol design estimating a joint deployment-feasibility boundary.
+      A multi-agent co-simulation toolkit that translates robot right-of-way policies into spatial access, priority, motion, and safety rules across pedestrian, traffic, and robot simulators. It evaluates alternative spatial-allocation and priority policies under varying street geometry and pedestrian demand to estimate deployment-feasibility boundaries.
     </div>
   </div>
 </div>
@@ -571,7 +571,7 @@ Specifically, my research agenda is organized around four key topics:
       Manuscript in preparation.
     </div>
     <div class="paper-desc">
-      A PRISMA-informed systematic mapping review of Scopus and Web of Science literature from 2017 to June 2026, with a final synthesis corpus of 347 full texts. Road automation accounts for 88.5% of primary agent codes and simulation or optimization studies for 42.4% of methods, and the Agent-Space-Mechanism-Outcome framework organises the evidence around the urban interfaces where robots move, stop, load, wait, yield, and interact with people.
+      A systematic mapping review of 347 studies on robotic urbanization from 2017 to 2026. Road automation accounts for 88.5% of primary agent codes, while the Agent-Space-Mechanism-Outcome framework synthesizes how robots move through and interact with urban spaces and people.
     </div>
   </div>
 </div>
@@ -589,7 +589,7 @@ Specifically, my research agenda is organized around four key topics:
       Manuscript in preparation.
     </div>
     <div class="paper-desc">
-      Codes twenty-one delivery-robot instruments from China and the United States by the layer of the street cross-section each rule assigns the device to, and shows that this assignment decides which dimensions of urban form constrain deployment. In a rule-parameterised feasible network, the same 0.60 m device completes 83% of sampled trips in Beijing’s Yizhuang under a carriageway rule and 33% under Pennsylvania’s sidewalk rule, and across 7,891 grid cells in ten study areas sidewalk coverage predicts where American operators run and, with the opposite sign, which streets Chinese regulators authorise.
+      Compares 21 delivery-robot regulations in China and the United States by whether robots are assigned to sidewalks, cycle lanes, or carriageways. Rule-based network analysis shows that the same 0.60 m robot completes 83% of sampled trips under Beijing’s carriageway rule but 33% under Pennsylvania’s sidewalk rule.
     </div>
   </div>
 </div>
@@ -607,7 +607,7 @@ Specifically, my research agenda is organized around four key topics:
       Manuscript in preparation.
     </div>
     <div class="paper-desc">
-      Compares image-based predictions with existing urban data across seven attributes, five public resources, and three VLMs, using paired source conditions, image replacements, and conflicting records. Existing data matched or exceeded image-only models for road damage, curb ramps, and house price, while images were more informative for building type, building function, and low-rise floor count, with the floor-count advantage rising 5.7 percentage points per doubling of distance to the nearest labelled building.
+      Compares street-view imagery with existing urban data across seven attributes and three VLMs. Existing data matched or outperformed image-only models for road damage, curb ramps, and house price, while imagery added more value for building type, function, and low-rise floor count.
     </div>
   </div>
 </div>
