@@ -267,9 +267,9 @@ Specifically, my research agenda is organized around four key topics:
     <div><img src='images/geofidelity.jpg' alt="Real street views compared with six text-to-image generators across six cities" width="100%"></div>
   </div>
   <div class='paper-box-text'>
-    <div class="paper-title">GeoFidelity-Bench: Evaluating Segment-Level Geographic Fidelity in Text-to-Image Street-View Generation</div>
+    <div class="paper-title">GeoFidelity-Bench: Evaluating Block-Conditioned Geographic Fidelity in Text-to-Image Street-View Generation</div>
     <div class="paper-authors">
-      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
+      <span class="author-self">Kaizhen Tan</span>
     </div>
     <div class="paper-venue">
       NeurIPS 2026 Evaluations and Datasets Track.
