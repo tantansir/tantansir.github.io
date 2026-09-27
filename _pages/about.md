@@ -278,7 +278,7 @@ Specifically, my research agenda is organized around four key topics:
       <a class="paper-link" href="https://arxiv.org/abs/2606.23669">arXiv</a>
     </div>
     <div class="paper-desc">
-      A benchmark of 7,117 curated Mapillary images over 109 named road segments in 25 cities, asking whether text-to-image models render <em>this</em> street or merely a plausible one. Street and neighborhood names help; GPS coordinates alone do not.
+      A benchmark spanning 112 street blocks in 25 cities across six continents evaluates how closely generated street views match their target locations. Across six open-weight models, street and neighborhood names improve geographic fidelity, while adding raw GPS coordinates yields small, uneven gains. CLIP text-image alignment provides little information about block-level geographic fidelity.
     </div>
   </div>
 </div>
@@ -538,6 +538,48 @@ Specifically, my research agenda is organized around four key topics:
     </div>
   </div>
 </div>
+
+<div class='paper-box' data-tags="sensing">
+  <div class='paper-box-image'>
+    <div><img src='images/urban-appraisal-eeg.png' alt="Stimuli, trial structure, and the structure of urban scene appraisal ratings" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">Vision Models Predict Urban Scene Appraisal with Limited Neural Alignment</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
+    </div>
+    <div class="paper-venue">
+      Preprint.
+    </div>
+    <div class="paper-links">
+      <a class="paper-link" href="https://arxiv.org/abs/2608.30964">arXiv</a>
+    </div>
+    <div class="paper-desc">
+      Tests predictive accuracy and neural alignment separately using EEG from 63 adults who rated 56 Berlin street scenes, across seventeen feature spaces. The best representation, DINOv2 ViT-B, reaches 29.6% of the noise-ceiling lower bound and a Gabor energy descriptor is indistinguishable from it, while the same embeddings predict held-out appraisal ratings at up to r = 0.87; the two measures do not track each other across models.
+    </div>
+  </div>
+</div>
+
+<div class='paper-box' data-tags="spatial">
+  <div class='paper-box-image'>
+    <div><img src='images/equisd.png' alt="Rescaling the supplied world reference, response slopes across eight vision-language models, and training on the scale symmetry" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">Teaching Vision-Language Models to Use the Scale They Are Given: Label-Free Equivariance Training for Metric Physical Reasoning</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
+    </div>
+    <div class="paper-venue">
+      Preprint.
+    </div>
+    <div class="paper-links">
+      <a class="paper-link" href="https://arxiv.org/abs/2609.00658">arXiv</a>
+    </div>
+    <div class="paper-desc">
+      When every world-space quantity in a prompt is rescaled by a common factor, the correct metric answer changes by that factor, but eight vision-language models move only part of the way over four orders of magnitude. EquiSD uses this exact scaling relation as label-free supervision and raises a 3B model’s median response slope from 0.66 to 0.94 with one query per training video.
+    </div>
+  </div>
+</div>
 </div>
 
 <div class="pub-group">
@@ -629,42 +671,6 @@ Specifically, my research agenda is organized around four key topics:
     </div>
     <div class="paper-desc">
       Uses 4,648 consecutive-epoch Google Street View pairs from 435 standpoints in five US cities to measure how much a VLM perception score changes when the street itself does not. Re-photographing the same street moves a score by 0.80 points on average, equal to 66.5% of the difference between two streets in the same city, while aggregation over hundreds of pairs still recovers a coherent redevelopment signal.
-    </div>
-  </div>
-</div>
-
-<div class='paper-box' data-tags="sensing">
-  <div class='paper-box-image'>
-    <div><img src='images/urban-appraisal-eeg.png' alt="Stimuli, trial structure, and the structure of urban scene appraisal ratings" width="100%"></div>
-  </div>
-  <div class='paper-box-text'>
-    <div class="paper-title">Vision Models Predict Urban Scene Appraisal with Limited Neural Alignment</div>
-    <div class="paper-authors">
-      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
-    </div>
-    <div class="paper-venue">
-      Manuscript in preparation.
-    </div>
-    <div class="paper-desc">
-      Tests predictive accuracy and neural alignment separately using EEG from 63 adults who rated 56 Berlin street scenes, across seventeen feature spaces. The best representation, DINOv2 ViT-B, reaches 29.6% of the noise-ceiling lower bound and a Gabor energy descriptor is indistinguishable from it, while the same embeddings predict held-out appraisal ratings at up to r = 0.87; the two measures do not track each other across models.
-    </div>
-  </div>
-</div>
-
-<div class='paper-box' data-tags="spatial">
-  <div class='paper-box-image'>
-    <div><img src='images/equisd.png' alt="Rescaling the supplied world reference, response slopes across eight vision-language models, and training on the scale symmetry" width="100%"></div>
-  </div>
-  <div class='paper-box-text'>
-    <div class="paper-title">Teaching Vision-Language Models to Use the Scale They Are Given: Label-Free Equivariance Training for Metric Physical Reasoning</div>
-    <div class="paper-authors">
-      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
-    </div>
-    <div class="paper-venue">
-      Manuscript in preparation.
-    </div>
-    <div class="paper-desc">
-      When every world-space quantity in a prompt is rescaled by a common factor, the correct metric answer changes by that factor, but eight vision-language models move only part of the way over four orders of magnitude. EquiSD uses this exact scaling relation as label-free supervision and raises a 3B model’s median response slope from 0.66 to 0.94 with one query per training video.
     </div>
   </div>
 </div>
