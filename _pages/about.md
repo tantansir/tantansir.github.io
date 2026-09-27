@@ -262,6 +262,27 @@ Specifically, my research agenda is organized around four key topics:
   </div>
 </div>
 
+<div class='paper-box paper-box--lead' data-tags="spatial">
+  <div class='paper-box-image'>
+    <div><img src='images/geofidelity.jpg' alt="Real street views compared with six text-to-image generators across six cities" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title">GeoFidelity-Bench: Evaluating Segment-Level Geographic Fidelity in Text-to-Image Street-View Generation</div>
+    <div class="paper-authors">
+      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
+    </div>
+    <div class="paper-venue">
+      NeurIPS 2026 Evaluations and Datasets Track.
+    </div>
+    <div class="paper-links">
+      <a class="paper-link" href="https://arxiv.org/abs/2606.23669">arXiv</a>
+    </div>
+    <div class="paper-desc">
+      A benchmark of 7,117 curated Mapillary images over 109 named road segments in 25 cities, asking whether text-to-image models render <em>this</em> street or merely a plausible one. Street and neighborhood names help; GPS coordinates alone do not.
+    </div>
+  </div>
+</div>
+
 <div class='paper-box paper-box--lead' data-tags="sensing">
   <div class='paper-box-image'>
     <div><img src='images/4.png' alt="STALS" width="100%"></div>
@@ -375,27 +396,6 @@ Specifically, my research agenda is organized around four key topics:
 <div class="pub-group">
 <h3 class="pub-group__title">Preprints &amp; Under Review</h3>
 
-<div class='paper-box paper-box--lead' data-tags="spatial">
-  <div class='paper-box-image'>
-    <div><img src='images/geofidelity.jpg' alt="Real street views compared with six text-to-image generators across six cities" width="100%"></div>
-  </div>
-  <div class='paper-box-text'>
-    <div class="paper-title">GeoFidelity-Bench: Evaluating Segment-Level Geographic Fidelity in Text-to-Image Street-View Generation</div>
-    <div class="paper-authors">
-      <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
-    </div>
-    <div class="paper-venue">
-      Submitted to NeurIPS 2026.
-    </div>
-    <div class="paper-links">
-      <a class="paper-link" href="https://arxiv.org/abs/2606.23669">arXiv</a>
-    </div>
-    <div class="paper-desc">
-      A benchmark of 7,117 curated Mapillary images over 109 named road segments in 25 cities, asking whether text-to-image models render <em>this</em> street or merely a plausible one. Street and neighborhood names help; GPS coordinates alone do not.
-    </div>
-  </div>
-</div>
-
 <div class='paper-box paper-box--lead' data-tags="robotic">
   <div class='paper-box-image'>
     <div><img src='images/failure-footprint.png' alt="Terminal pose of a failed sidewalk robot evaluated against clear-width and accessibility-feature criteria" width="100%"></div>
@@ -425,6 +425,9 @@ Specifically, my research agenda is organized around four key topics:
     </div>
     <div class="paper-venue">
       Submitted to ICRA 2027.
+    </div>
+    <div class="paper-links">
+      <a class="paper-link" href="https://arxiv.org/abs/2609.21838">arXiv</a>
     </div>
     <div class="paper-desc">
       Replays identical physical episodes under different synthetic pedestrian-profile distributions to test whether robot navigation strategies keep their relative ranking. Across eight population conditions and 7,488 matched runs, changing pedestrian time pressure reverses 22.4% of mean pedestrian-delay orderings, compared with 8.6% of robot travel-time orderings.
@@ -504,7 +507,7 @@ Specifically, my research agenda is organized around four key topics:
       <span class="author-self">Kaizhen Tan</span><span class="author-other">, et al.</span>
     </div>
     <div class="paper-venue">
-      Submitted to AAAI 2027.
+      Preprint.
     </div>
     <div class="paper-links">
       <a class="paper-link" href="https://arxiv.org/abs/2604.12035">arXiv</a>
@@ -525,7 +528,7 @@ Specifically, my research agenda is organized around four key topics:
       <span class="author-self">Kaizhen Tan</span>
     </div>
     <div class="paper-venue">
-      Submitted to Journal of Transport Geography.
+      Preprint.
     </div>
     <div class="paper-links">
       <a class="paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7382978">SSRN</a>
