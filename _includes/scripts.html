@@ -142,6 +142,7 @@
       });
 
       groups.forEach(function(group) {
+        group.classList.toggle('pub-group--highlight', filter === 'highlight');
         group.classList.toggle('is-hidden', !group.querySelector('.paper-box:not(.is-hidden)'));
       });
 

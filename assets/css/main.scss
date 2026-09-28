@@ -320,7 +320,7 @@ h1:before, .anchor:before {
 
 /* A flat highlighter wash — no gradient, no accent bar. Reads the way a
    marked-up page does rather than like a UI callout. */
-.paper-box--lead {
+.pub-group:not(.pub-group--highlight) .paper-box--lead {
   /* The margin keeps consecutive highlights from fusing into one block.
      Adjacent margins collapse, so this value is the gap you actually see. */
   margin: 24px 0;
