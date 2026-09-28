@@ -160,7 +160,7 @@
       });
     });
 
-    apply('all', false);
+    apply(bar.querySelector('.pub-pill.is-active').getAttribute('data-filter'), false);
   }
 
   /* ======== Back to Top Button ======== */
@@ -193,6 +193,7 @@
   } else {
     addRevealClass();
     initReveal();
+    initPubFilter();
     initBackToTop();
   }
 })();

@@ -228,19 +228,20 @@ Specifically, my research agenda is organized around four key topics:
 
 # 📝 Publications
 
-<div class="pub-filter" id="pubFilter" role="group" aria-label="Filter publications by research direction">
-  <button type="button" class="pub-pill is-active" data-filter="all" aria-pressed="true">All<span class="pub-pill__n"></span></button>
+<div class="pub-filter" id="pubFilter" role="group" aria-label="Filter publications">
+  <button type="button" class="pub-pill is-active" data-filter="highlight" aria-pressed="true">Highlight<span class="pub-pill__n"></span></button>
   <button type="button" class="pub-pill" data-filter="robotic" aria-pressed="false">🤖 Robotic Urbanization<span class="pub-pill__n"></span></button>
   <button type="button" class="pub-pill" data-filter="twins" aria-pressed="false">🏙️ Urban Digital Twins<span class="pub-pill__n"></span></button>
   <button type="button" class="pub-pill" data-filter="sensing" aria-pressed="false">🎨 Spatiotemporal Analysis &amp; Social Sensing<span class="pub-pill__n"></span></button>
   <button type="button" class="pub-pill" data-filter="spatial" aria-pressed="false">🚀 Spatial Intelligence &amp; World Models<span class="pub-pill__n"></span></button>
   <button type="button" class="pub-pill" data-filter="others" aria-pressed="false">✦ AI Systems &amp; Multimodal Learning<span class="pub-pill__n"></span></button>
+  <button type="button" class="pub-pill" data-filter="all" aria-pressed="false">All<span class="pub-pill__n"></span></button>
 </div>
 
 <div class="pub-group">
 <h3 class="pub-group__title">Peer-Reviewed</h3>
 
-<div class='paper-box paper-box--lead' data-tags="twins robotic">
+<div class='paper-box paper-box--lead' data-tags="twins robotic highlight">
   <div class='paper-box-image'>
     <div><img src='images/5.jpg' alt="UrbanVGGT" width="100%"></div>
   </div>
@@ -263,7 +264,7 @@ Specifically, my research agenda is organized around four key topics:
   </div>
 </div>
 
-<div class='paper-box paper-box--lead' data-tags="spatial">
+<div class='paper-box paper-box--lead' data-tags="spatial highlight">
   <div class='paper-box-image'>
     <div><img src='images/geofidelity.jpg' alt="Real street views compared with six text-to-image generators across six cities" width="100%"></div>
   </div>
@@ -351,7 +352,7 @@ Specifically, my research agenda is organized around four key topics:
   </div>
 </div>
 
-<div class='paper-box paper-box--lead' data-tags="spatial">
+<div class='paper-box paper-box--lead' data-tags="spatial highlight">
   <div class='paper-box-image'>
     <div><img src='images/CREG.png' alt="CREG" width="100%"></div>
   </div>
@@ -397,7 +398,7 @@ Specifically, my research agenda is organized around four key topics:
 <div class="pub-group">
 <h3 class="pub-group__title">Preprints &amp; Under Review</h3>
 
-<div class='paper-box paper-box--lead' data-tags="robotic">
+<div class='paper-box paper-box--lead' data-tags="robotic highlight">
   <div class='paper-box-image'>
     <div><img src='images/failure-footprint.png' alt="Terminal pose of a failed sidewalk robot evaluated against clear-width and accessibility-feature criteria" width="100%"></div>
   </div>
@@ -415,7 +416,7 @@ Specifically, my research agenda is organized around four key topics:
   </div>
 </div>
 
-<div class='paper-box' data-tags="robotic">
+<div class='paper-box' data-tags="robotic highlight">
   <div class='paper-box-image'>
     <div><img src='images/popnavshift.png' alt="PopNavShift pipeline from persona records to pedestrian motion profiles, and matched replay of one encounter under three controllers" width="100%"></div>
   </div>
@@ -454,7 +455,7 @@ Specifically, my research agenda is organized around four key topics:
   </div>
 </div>
 
-<div class='paper-box paper-box--lead' data-tags="spatial">
+<div class='paper-box paper-box--lead' data-tags="spatial highlight">
   <div class='paper-box-image'>
     <div><video class="paper-media" data-src="images/worldmodel.mp4" poster="images/worldmodel.png" muted loop playsinline preload="none" aria-label="Six PokeWorld episodes spanning the observability spectrum: low and high drag, light and heavy mass, soft and stiff contact"></video></div>
   </div>
@@ -586,7 +587,7 @@ Specifically, my research agenda is organized around four key topics:
 <div class="pub-group">
 <h3 class="pub-group__title">In Preparation</h3>
 
-<div class='paper-box paper-box--lead' data-tags="robotic">
+<div class='paper-box paper-box--lead' data-tags="robotic highlight">
   <div class='paper-box-image'>
     <div><img src='images/roborow-framework.png' alt="RoboROW research framework: urban worlds and road users, executable right of way, and experiments and policy evidence" width="100%"></div>
   </div>
@@ -725,6 +726,21 @@ Specifically, my research agenda is organized around four key topics:
     2025.07 - <strong>7th Asia Conference on Machine Learning and Computing <a href="https://www.acmlc.org/acmlc2025.html">(ACMLC 2025)</a></strong><br>
     Multimodal Deep Learning for ATCO Command Lifecycle Modeling and Workload Prediction<br>
     <em>Hong Kong SAR, China</em>
+  </li>
+</ul>
+
+<h1 id="community-services">🤝 Community Services</h1>
+
+## Conference Reviewing
+
+<ul class="service-list">
+  <li>
+    <span class="service-year">2027</span>
+    <span>AAAI Conference on Artificial Intelligence (AAAI)</span>
+  </li>
+  <li>
+    <span class="service-year">2026</span>
+    <span>Conference on Neural Information Processing Systems (NeurIPS)</span>
   </li>
 </ul>
 

@@ -21,6 +21,9 @@ main:
   - title: "Presentations"
     url: "/#-presentations"
 
+  - title: "Community Services"
+    url: "/#community-services"
+
   - title: "Contact"
     url: "/#-contact"
 

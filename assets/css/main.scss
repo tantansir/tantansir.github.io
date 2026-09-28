@@ -914,6 +914,27 @@ h1:before, .anchor:before {
 
 
 /* ==========================================================================
+   COMMUNITY SERVICES
+   ========================================================================== */
+
+.service-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.service-list li {
+  display: grid;
+  grid-template-columns: 4em minmax(0, 1fr);
+  gap: 1em;
+  padding: 0.35em 0;
+}
+
+.service-year {
+  color: #64748B;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ==========================================================================
    VISITOR MAP
    ========================================================================== */
 
