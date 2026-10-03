@@ -22,7 +22,7 @@ Hi! I am Kaizhen Tan, a Ph.D. student at **New York University**, supervised by 
 My research sits at the intersection of <b>Urban Science</b> and <b>Embodied AI</b>. Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, I aim to address the knowledge-to-action gap in digital cities: while urban digital systems are increasingly capable of monitoring conditions, modeling urban dynamics, and anticipating risks, they still struggle to support timely, place-based action. My work seeks to build spatially intelligent and socially aware urban AI systems that make cities more adaptive, inclusive, and governable.
 
 * **Topics:** Robotic Urbanization, Human–Robot Interaction, Embodied AI (Spatial & Physical Intelligence)
-* **Methods & Approaches:** Computational Social Science, Geospatial & Spatiotemporal Analysis, Agent-Based Simulation, Behavioral Modeling, Causal Inference, Multimodal Sensing, Representation Learning, World Models
+* **Methods:** Geospatial & Spatiotemporal Analysis, Computational Social Science, Causal Inference, Agent-Based Simulation, Digital Twins, Behavioral Modeling, Multimodal Perception, Representation Learning, World Models
 
 <div class="research-container research-grid">
 
