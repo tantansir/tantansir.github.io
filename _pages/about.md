@@ -24,8 +24,6 @@ My research sits at the intersection of <b>Urban Science</b> and <b>Embodied AI<
 * **Topics:** Robotic Urbanization, Human–Robot Interaction, Spatial Intelligence for Embodied Agents
 * **Methods:** Geospatial & Spatiotemporal Analysis, Agent-Based Simulation, Multimodal Sensing, Behavioral Modeling, Representation Learning, World Models
 
-Specifically, my research agenda is organized around four key topics:
-
 <div class="research-container research-grid">
 
   <div class="research-card">
@@ -39,7 +37,7 @@ Specifically, my research agenda is organized around four key topics:
   </div>
 
   <div class="research-card">
-    <h4>🏙️ 2. Urban Digital Twins <span class="amp">&amp;</span> Behavioral Simulation</h4>
+    <h4>🏙️ 2. Digital Twins <span class="amp">&amp;</span> Behavioral Simulation</h4>
     <p><i>How can digital twins and behavioral simulations support decisions about urban space?</i></p>
     <ul>
       <li><b>Pedestrian Behavior:</b> Model variation in pedestrian responses across populations and social contexts.</li>
