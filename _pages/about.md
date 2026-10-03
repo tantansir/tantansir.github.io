@@ -21,60 +21,50 @@ Hi! I am Kaizhen Tan, a Ph.D. student at **New York University**, supervised by 
 
 My research sits at the intersection of <b>Urban Science</b> and <b>Embodied AI</b>. Driven by the vision of **harmonizing artificial intelligence with urban ecosystems**, I aim to address the knowledge-to-action gap in digital cities: while urban digital systems are increasingly capable of monitoring conditions, modeling urban dynamics, and anticipating risks, they still struggle to support timely, place-based action. My work seeks to build spatially intelligent and socially aware urban AI systems that make cities more adaptive, inclusive, and governable.
 
-My research integrates:
-* **Paradigms:** Robotic Urbanization, Agentic Urban Digital Twins, Multimodal Social Sensing, Spatial Intelligence
-* **Methodologies:** Representation Learning, Geospatial & Spatiotemporal Data Analysis, Agent-Based Simulation
-* **Technical Foundations:** LLMs, VLMs, AI Agents, World Models
+* **Topics:** Robotic Urbanization, Human–Robot Interaction, Spatial Intelligence for Embodied Agents
+* **Methods:** Geospatial & Spatiotemporal Analysis, Agent-Based Simulation, Multimodal Sensing, Behavioral Modeling, Representation Learning, World Models
 
 Specifically, my research agenda is organized around four key topics:
 
 <div class="research-container research-grid">
 
   <div class="research-card">
-    <h4>🤖 1. Robotic Urbanization <span class="amp">&amp;</span> Governance</h4>
-    <p><i>How can dense cities integrate embodied intelligence while preserving safety, accessibility, and pedestrian experience?</i></p>
+    <h4>🤖 1. Urban Robots <span class="amp">&amp;</span> Public Space</h4>
+    <p><i>How can robots share urban public space while preserving pedestrian access and safety?</i></p>
     <ul>
-      <li><b>Urban Readiness for Robots:</b> Measure whether sidewalks, crossings, curbs, buildings, and public facilities can support safe robot operation.</li>
-      <li><b>Human-Robot Coexistence:</b> Study conflicts, comfort, right-of-way, and interaction norms between robots, pedestrians, cyclists, and vulnerable groups.</li>
-      <li><b>Accessibility-Aware Deployment:</b> Design routing and operation strategies that avoid reducing mobility for disabled people, older adults, and children.</li>
-      <li><b>Curbside and Low-Altitude Governance:</b> Develop spatial rules for delivery robots and drones, including lanes, parking, corridors, privacy, noise, and safety constraints.</li>
-      <li><b>Public Acceptance and Accountability:</b> Model public perception, responsibility boundaries, and governance mechanisms for city-scale deployment.</li>
+      <li><b>Human-Robot Coexistence:</b> Study how pedestrians respond to robot behavior in shared spaces.</li>
+      <li><b>Accessibility and Failure:</b> Assess how robot movement and stopping positions affect sidewalk access.</li>
+      <li><b>Deployment and Governance:</b> Examine how infrastructure, right-of-way rules, and retrieval responsibilities shape robot deployment.</li>
     </ul>
   </div>
 
   <div class="research-card">
-    <h4>🏙️ 2. Agentic Urban Digital Twins</h4>
-    <p><i>How can urban digital twins evolve from static city models into continuously updated systems for sensing, reasoning, and policy support?</i></p>
+    <h4>🏙️ 2. Urban Digital Twins <span class="amp">&amp;</span> Behavioral Simulation</h4>
+    <p><i>How can digital twins and behavioral simulations support decisions about urban space?</i></p>
     <ul>
-      <li><b>Urban Foundation Representations:</b> Fuse remote sensing, street-view imagery, trajectories, POI, IoT, text, and 3D data into unified urban representations.</li>
-      <li><b>Continuous Urban Sensing:</b> Use robots, drones, mobile devices, and wearables as emerging data sources to update urban conditions over time.</li>
-<li><b>3D City Understanding:</b> Support geo-localization, semantic mapping, and spatial querying across point clouds, meshes, and 3D Gaussians.</li>
-      <li><b>Urban Agents:</b> Build LLM and VLM agents for map reasoning, spatial RAG, policy QA, public service assistance, and planning workflows.</li>
-      <li><b>Policy Sandbox:</b> Enable what-if simulation, risk assessment, and implementation checks for urban management and public policy.</li>
+      <li><b>Pedestrian Behavior:</b> Model variation in pedestrian responses across populations and social contexts.</li>
+      <li><b>Multi-Agent Simulation:</b> Simulate interactions among pedestrians, vehicles, and robots under different street layouts.</li>
+      <li><b>Policy Evaluation:</b> Compare right-of-way and deployment policies through their effects on mobility and accessibility.</li>
     </ul>
   </div>
 
   <div class="research-card">
-    <h4>🎨 3. Multimodal Social Sensing</h4>
-    <p><i>How can multimodal human-centered data reveal urban experience, social needs, and governance priorities?</i></p>
+    <h4>🎨 3. Urban Visual Perception <span class="amp">&amp;</span> GeoAI</h4>
+    <p><i>How can visual and geospatial data measure urban environments and how they change?</i></p>
     <ul>
-      <li><b>AI-Enhanced Geospatial Analysis:</b> Link urban form, environment, mobility, and public services with human behavior and social outcomes.</li>
-      <li><b>Pedestrian Experience and Accessibility:</b> Detect walking barriers, sidewalk quality, perceived safety, and mobility challenges in everyday urban environments.</li>
-      <li><b>Urban Perception and Visual Aesthetics:</b> Quantify streetscape quality, neighborhood imagery, and place identity to support design and regeneration decisions.</li>
-      <li><b>Socio-Cultural Signals:</b> Extract place-based narratives from text, images, and online platforms to understand local identity and public concerns.</li>
-      <li><b>Participatory Governance:</b> Translate social sensing results into explainable tools for planners, communities, and decision-makers.</li>
+      <li><b>Street-View Perception:</b> Estimate streetscape attributes and study how people perceive urban scenes.</li>
+      <li><b>3D Reconstruction and Measurement:</b> Recover scene geometry and metric dimensions from images, including sidewalk width.</li>
+      <li><b>GeoAI and Urban Analysis:</b> Combine imagery with geographic data to analyze spatial patterns and change.</li>
     </ul>
   </div>
 
   <div class="research-card">
     <h4>🚀 4. Spatial Intelligence <span class="amp">&amp;</span> World Models</h4>
-    <p><i>How can spatial intelligence provide reliable reasoning, memory, and simulation capabilities for urban AI systems?</i></p>
+    <p><i>How can AI models learn and reason about the spatial and physical structure of the world?</i></p>
     <ul>
-      <li><b>Embodied Spatial Representations:</b> Unify geometry, semantics, physics, affordance, and action for robots, agents, and urban digital twins.</li>
-      <li><b>Urban World Models:</b> Learn predictive models of how urban spaces change and how agents interact with physical and social environments.</li>
-      <li><b>Spatial Reasoning with VLMs:</b> Improve map understanding, 3D reasoning, scene interpretation, and location-aware decision-making.</li>
-      <li><b>Lifelong Updating and Memory:</b> Develop mechanisms for continuous learning, forgetting control, uncertainty tracking, and safe model updates.</li>
-      <li><b>Interpretable and Robust Decision Support:</b> Make spatial AI systems transparent enough for planning, governance, and real-world deployment.</li>
+      <li><b>Spatial and Physical Reasoning:</b> Study directional relations, metric scale, and physical constraints in vision-language models.</li>
+      <li><b>World Models:</b> Examine which physical properties predictive representations recover and which remain unidentifiable.</li>
+      <li><b>Model Evaluation:</b> Test spatial reasoning and geographic fidelity with controlled benchmarks.</li>
     </ul>
   </div>
 </div>
