@@ -73,6 +73,7 @@ My research sits at the intersection of <b>Urban Science</b> and <b>Embodied AI<
 
 <div class="news-scroll" markdown="1">
 
+- *2026.10*: 🎉 Received the NeurIPS 2026 Financial Assistance Award.
 - *2026.09*: 🎉 My paper [GeoFidelity-Bench](https://arxiv.org/abs/2606.23669) was accepted to the NeurIPS 2026 Evaluations and Datasets Track.
 - *2026.07*: 🎉 Our paper [CREG](https://arxiv.org/abs/2603.20475) was accepted by the 9th Chinese Conference on Pattern Recognition and Computer Vision (PRCV 2026).
 - *2026.03*: 🎓 I am pleased to share that I will begin my PhD at New York University in Fall 2026 under the supervision of [Prof. Chenghe Guan](https://wagner.nyu.edu/community/faculty/chenghe-guan) and [Prof. Zhan Guo](https://wagner.nyu.edu/community/faculty/zhan-guo).
