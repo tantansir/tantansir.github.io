@@ -27,7 +27,7 @@ My research sits at the intersection of <b>Urban Science</b> and <b>Embodied AI<
 <div class="research-container research-grid">
 
   <div class="research-card">
-    <h4>🤖 1. Urban Robots <span class="amp">&amp;</span> Public Space</h4>
+    <h4>🤖 1. Urban Robotics <span class="amp">&amp;</span> Public Space</h4>
     <p><i>How can robots share urban public space while preserving pedestrian access and safety?</i></p>
     <ul>
       <li><b>Human-Robot Coexistence:</b> Study how pedestrians respond to robot behavior in shared spaces.</li>
@@ -37,17 +37,17 @@ My research sits at the intersection of <b>Urban Science</b> and <b>Embodied AI<
   </div>
 
   <div class="research-card">
-    <h4>🏙️ 2. Digital Twins <span class="amp">&amp;</span> Behavioral Simulation</h4>
-    <p><i>How can digital twins and behavioral simulations support decisions about urban space?</i></p>
+    <h4>🚀 2. Spatial Intelligence <span class="amp">&amp;</span> World Models</h4>
+    <p><i>How can AI models learn and reason about the spatial and physical structure of the world?</i></p>
     <ul>
-      <li><b>Pedestrian Behavior:</b> Model variation in pedestrian responses across populations and social contexts.</li>
-      <li><b>Multi-Agent Simulation:</b> Simulate interactions among pedestrians, vehicles, and robots under different street layouts.</li>
-      <li><b>Policy Evaluation:</b> Compare right-of-way and deployment policies through their effects on mobility and accessibility.</li>
+      <li><b>Spatial and Physical Reasoning:</b> Study directional relations, metric scale, and physical constraints in vision-language models.</li>
+      <li><b>World Models:</b> Examine which physical properties predictive representations recover and which remain unidentifiable.</li>
+      <li><b>Model Evaluation:</b> Test spatial reasoning and geographic fidelity with controlled benchmarks.</li>
     </ul>
   </div>
 
   <div class="research-card">
-    <h4>🎨 3. Urban Visual Perception <span class="amp">&amp;</span> GeoAI</h4>
+    <h4>🎨 3. Urban Perception <span class="amp">&amp;</span> Geospatial Computing</h4>
     <p><i>How can visual and geospatial data measure urban environments and how they change?</i></p>
     <ul>
       <li><b>Street-View Perception:</b> Estimate streetscape attributes and study how people perceive urban scenes.</li>
@@ -57,12 +57,12 @@ My research sits at the intersection of <b>Urban Science</b> and <b>Embodied AI<
   </div>
 
   <div class="research-card">
-    <h4>🚀 4. Spatial Intelligence <span class="amp">&amp;</span> World Models</h4>
-    <p><i>How can AI models learn and reason about the spatial and physical structure of the world?</i></p>
+    <h4>🏙️ 4. Digital Twins <span class="amp">&amp;</span> Behavioral Simulation</h4>
+    <p><i>How can digital twins and behavioral simulations support decisions about urban space?</i></p>
     <ul>
-      <li><b>Spatial and Physical Reasoning:</b> Study directional relations, metric scale, and physical constraints in vision-language models.</li>
-      <li><b>World Models:</b> Examine which physical properties predictive representations recover and which remain unidentifiable.</li>
-      <li><b>Model Evaluation:</b> Test spatial reasoning and geographic fidelity with controlled benchmarks.</li>
+      <li><b>Pedestrian Behavior:</b> Model variation in pedestrian responses across populations and social contexts.</li>
+      <li><b>Multi-Agent Simulation:</b> Simulate interactions among pedestrians, vehicles, and robots under different street layouts.</li>
+      <li><b>Policy Evaluation:</b> Compare right-of-way and deployment policies through their effects on mobility and accessibility.</li>
     </ul>
   </div>
 </div>
