@@ -50,9 +50,9 @@ My research sits at the intersection of <b>Urban Science</b> and <b>Embodied AI<
     <h4>🎨 3. Urban Perception <span class="amp">&amp;</span> Geospatial Computing</h4>
     <p><i>How can visual and geospatial data measure urban environments and how they change?</i></p>
     <ul>
-      <li><b>Street-View Perception:</b> Estimate streetscape attributes and study how people perceive urban scenes.</li>
+      <li><b>Street-View Perception:</b> Estimate streetscape attributes and study perceptions of urban scenes.</li>
       <li><b>3D Reconstruction and Measurement:</b> Recover scene geometry and metric dimensions from images, including sidewalk width.</li>
-      <li><b>GeoAI and Urban Analysis:</b> Combine imagery with geographic data to analyze spatial patterns and change.</li>
+      <li><b>GeoAI and Urban Analysis:</b> Combine imagery with geodata to analyze spatial patterns and change.</li>
     </ul>
   </div>
 
